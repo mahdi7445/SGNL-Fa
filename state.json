@@ -1,1 +1,11 @@
-{}
+{
+  "flow_signals_sent": {},
+  "performance_signals_sent": {
+    "PERF_PUMP_LONG": "2026-07-20T20:40:10.825467",
+    "PERF_JTO_LONG": "2026-07-20T20:40:18.290632",
+    "PERF_LDO_LONG": "2026-07-20T20:40:20.893231",
+    "PERF_币安人生_SHORT": "2026-07-20T20:40:23.317212",
+    "PERF_CC_SHORT": "2026-07-20T20:40:25.776596",
+    "PERF_AERO_SHORT": "2026-07-20T20:40:28.193934"
+  }
+}
