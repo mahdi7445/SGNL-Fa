@@ -699,7 +699,7 @@ def process_symbol_candles(session: requests.Session, symbol: str,
         return state, signals
 
 
-def format_candle_signal_message(symbol: str, sig: Dict[str, Any]) -> str:
+def format_candle_signal_message(symbol: str, sig: Dict[str, Any], display_name: Optional[str] = None) -> str:
     side = sig["side"]
     confirmed = sig["confirmed"]
     price = sig["price"]
@@ -709,7 +709,10 @@ def format_candle_signal_message(symbol: str, sig: Dict[str, Any]) -> str:
     else:
         emoji, title, action = "🔴", "سیگنال فروش (کندلی)", "📉"
     confirm_txt = "✅ تأییدشده (اینگولفینگ/پین‌بار)" if confirmed else "⚪ بدون تأیید اضافه"
-    clean_symbol = symbol[:-4] if symbol.endswith("USDT") else symbol
+    if display_name:
+        clean_symbol = display_name
+    else:
+        clean_symbol = symbol[:-4] if symbol.endswith("USDT") else symbol
 
     return f"""
 {emoji} <b>{title}</b> {action}
@@ -754,6 +757,115 @@ def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]):
             time.sleep(0.5)  # رعایت محدودیت نرخ درخواست بایننس
 
     logger.info(f"✅ اسکن کندلی کامل شد. {sent_count} سیگنال ارسال شد.")
+
+
+# ==================================================================
+# سیگنال کندلی برای طلا / نقره / مس (تایم‌فریم ۴ ساعته) - منبع: Twelve Data
+# (بیت‌کوین و اتریوم قبلاً از طریق اسکن Binance بالا پوشش داده می‌شوند)
+# ==================================================================
+TWELVEDATA_API_KEY = os.getenv('TWELVEDATA_API_KEY', '').strip()
+TWELVEDATA_BASE = "https://api.twelvedata.com"
+
+# اگر نماد مس با این کد روی حساب رایگان شما کار نکرد، آن را به "COPPER" یا
+# "XCU/USD" تغییر دهید (بسته به این‌که Twelve Data چه چیزی برای حساب شما فعال کرده).
+METAL_SYMBOLS = [
+    {"symbol": "XAU/USD", "name": "طلا (Gold)"},
+    {"symbol": "XAG/USD", "name": "نقره (Silver)"},
+    {"symbol": "XCU/USD", "name": "مس (Copper)"},
+]
+
+
+def fetch_twelvedata_closed_klines(session: requests.Session, symbol: str, outputsize: int) -> List[Dict[str, Any]]:
+    """کندل‌های ۴ساعته‌ی بسته‌شده از Twelve Data (به وقت UTC)"""
+    if not TWELVEDATA_API_KEY:
+        return []
+    url = f"{TWELVEDATA_BASE}/time_series"
+    params = {
+        "symbol": symbol,
+        "interval": "4h",
+        "outputsize": outputsize,
+        "timezone": "UTC",
+        "order": "ASC",
+        "apikey": TWELVEDATA_API_KEY,
+    }
+    data = retry_request("GET", url, params=params)
+    if not data or not isinstance(data, dict) or "values" not in data:
+        logger.warning(f"⚠️ داده‌ای برای {symbol} از Twelve Data دریافت نشد: {data}")
+        return []
+    now_ms = int(time.time() * 1000)
+    candles = []
+    for v in data["values"]:
+        try:
+            dt = datetime.strptime(v["datetime"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+            open_time = int(dt.timestamp() * 1000)
+            close_time = open_time + 4 * 3600 * 1000
+            if close_time > now_ms:
+                continue  # کندلی که هنوز بسته نشده را رد کن
+            candles.append({
+                "open_time": open_time,
+                "o": float(v["open"]), "h": float(v["high"]),
+                "l": float(v["low"]), "c": float(v["close"]),
+            })
+        except Exception:
+            continue
+    candles.sort(key=lambda x: x["open_time"])
+    return candles
+
+
+def process_metal_candles(session: requests.Session, symbol: str,
+                           sym_state: Optional[Dict[str, Any]]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
+    if sym_state is None:
+        candles = fetch_twelvedata_closed_klines(session, symbol, BOOTSTRAP_LIMIT)
+        if len(candles) < 30:
+            return None, []
+        state = new_candle_state()
+        signals = []
+        last_idx = len(candles) - 1
+        for idx, k in enumerate(candles):
+            state, sig = step_candle_state(state, k["o"], k["h"], k["l"], k["c"], k["open_time"])
+            if sig and idx == last_idx:
+                signals.append(sig)
+        return state, signals
+    else:
+        last_open_time = sym_state.get("last_open_time")
+        candles = fetch_twelvedata_closed_klines(session, symbol, 10)
+        new_candles = [k for k in candles if last_open_time is None or k["open_time"] > last_open_time]
+        state = sym_state
+        signals = []
+        for k in new_candles:
+            state, sig = step_candle_state(state, k["o"], k["h"], k["l"], k["c"], k["open_time"])
+            if sig:
+                signals.append(sig)
+        return state, signals
+
+
+def metals_candle_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]):
+    if not TWELVEDATA_API_KEY:
+        logger.warning("⚠️ TWELVEDATA_API_KEY تنظیم نشده - اسکن طلا/نقره/مس رد شد")
+        return
+    logger.info("🥇 شروع اسکن سیگنال‌های کندلی طلا/نقره/مس...")
+    session = bot.session
+    candle_states = state.setdefault("candle_signals", {})
+    sent_count = 0
+
+    for item in METAL_SYMBOLS:
+        symbol, name = item["symbol"], item["name"]
+        try:
+            sym_state = candle_states.get(symbol)
+            new_state, signals = process_metal_candles(session, symbol, sym_state)
+            if new_state is not None:
+                candle_states[symbol] = new_state
+            for sig in signals:
+                message = format_candle_signal_message(symbol, sig, display_name=name)
+                if bot.send_telegram_message(message):
+                    logger.info(f"📤 سیگنال کندلی {symbol} ({sig['side']}) ارسال شد")
+                    sent_count += 1
+                    time.sleep(1.2)
+        except Exception as e:
+            logger.warning(f"⚠️ خطا در پردازش {symbol}: {e}")
+        time.sleep(1)  # رعایت محدودیت نرخ درخواست رایگان Twelve Data
+
+    logger.info(f"✅ اسکن طلا/نقره/مس کامل شد. {sent_count} سیگنال ارسال شد.")
 
 
 # ==================================================================
@@ -1189,6 +1301,7 @@ def main():
 
     if run_candle:
         candle_signal_scan_job(bot, state)
+        metals_candle_scan_job(bot, state)
 
     if not run_flow_perf and not run_candle:
         logger.info("ℹ️ ساعت فعلی با هیچ‌کدام از زمان‌بندی‌ها مطابقت ندارد؛ خروج بدون اسکن")
