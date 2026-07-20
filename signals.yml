@@ -39,6 +39,7 @@ jobs:
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
           LIVECOINWATCH_API_KEY: ${{ secrets.LIVECOINWATCH_API_KEY }}
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           FORCE_RUN_ALL: ${{ (github.event.inputs.force_run_all == 'true') && '1' || '' }}
         run: python bot.py
 
