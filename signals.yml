@@ -2,8 +2,10 @@ name: Tradeiscool Signals
 
 on:
   schedule:
-    # هر ساعت، دقیقه ۵ ام (خودِ اسکریپت تصمیم می‌گیرد که در این ساعت چه اسکنی لازم است)
-    - cron: '5 * * * *'
+    # فقط ساعت‌هایی که واقعاً یکی از اسکن‌ها لازم است (به‌جای هر ساعت، برای صرفه‌جویی
+    # در دقایق رایگان Actions). این ساعت‌ها معادل SCAN_SCHEDULE_HOURS و CANDLE_SCAN_HOURS
+    # داخل bot.py هستند (به وقت UTC).
+    - cron: '5 0,3,4,6,8,9,12,15,16,18,20,21 * * *'
   workflow_dispatch:
     inputs:
       force_run_all:
@@ -40,6 +42,7 @@ jobs:
           COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
           LIVECOINWATCH_API_KEY: ${{ secrets.LIVECOINWATCH_API_KEY }}
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+          CRYPTO_WATCHLIST: ${{ secrets.CRYPTO_WATCHLIST }}
           FORCE_RUN_ALL: ${{ (github.event.inputs.force_run_all == 'true') && '1' || '' }}
         run: python bot.py
 
