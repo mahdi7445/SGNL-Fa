@@ -42,7 +42,6 @@ jobs:
           COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
           LIVECOINWATCH_API_KEY: ${{ secrets.LIVECOINWATCH_API_KEY }}
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
-          CRYPTO_WATCHLIST: ${{ secrets.CRYPTO_WATCHLIST }}
           FORCE_RUN_ALL: ${{ (github.event.inputs.force_run_all == 'true') && '1' || '' }}
         run: python bot.py
 
