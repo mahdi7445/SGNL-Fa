@@ -489,6 +489,7 @@ class AdvancedCryptometerFetcher:
 # منبع داده: Binance (رایگان، بدون نیاز به کلید API)
 # ==================================================================
 BINANCE_BASE = "https://api.binance.com"
+BINANCE_FUTURES_BASE = "https://fapi.binance.com"  # BTCUSDT.P / ETHUSDT.P در تریدینگ‌ویو یعنی فیوچرز دائمی، نه اسپات
 CANDLE_INTERVAL = "4h"
 BOOTSTRAP_LIMIT = 300     # تعداد کندل برای گرم‌کردن اولیه EMA/ATR هنگام اولین اجرا برای هر نماد
 COOLDOWN_BARS = 5         # cooldownBars در اسکریپت اصلی
@@ -525,6 +526,32 @@ def get_binance_usdt_symbols(session: requests.Session) -> List[str]:
             continue
         symbols.append(s["symbol"])
     return sorted(symbols)
+
+
+def fetch_closed_klines_futures(session: requests.Session, symbol: str, limit: int) -> List[Dict[str, Any]]:
+    """
+    کندل‌های ۴ساعته‌ی بسته‌شده از بازار فیوچرز دائمی بایننس (USDⓈ-M).
+    برای تطبیق با چارت‌هایی که در تریدینگ‌ویو با پسوند .P نمایش داده می‌شوند
+    (مثل BINANCE:BTCUSDT.P) - این‌ها اسپات نیستند، فیوچرز دائمی‌اند و قیمتشان
+    (به‌خاطر Funding Rate) کمی با اسپات فرق دارد.
+    """
+    url = f"{BINANCE_FUTURES_BASE}/fapi/v1/klines"
+    params = {"symbol": symbol, "interval": CANDLE_INTERVAL, "limit": limit}
+    data = retry_request("GET", url, params=params)
+    if not data or not isinstance(data, list):
+        return []
+    now_ms = int(time.time() * 1000)
+    candles = []
+    for k in data:
+        try:
+            open_time = int(k[0])
+            o, h, l, c = float(k[1]), float(k[2]), float(k[3]), float(k[4])
+            close_time = int(k[6])
+            if close_time <= now_ms:
+                candles.append({"open_time": open_time, "o": o, "h": h, "l": l, "c": c})
+        except Exception:
+            continue
+    return candles
 
 
 def fetch_closed_klines(session: requests.Session, symbol: str, limit: int) -> List[Dict[str, Any]]:
@@ -796,173 +823,109 @@ def format_candle_signal_message(symbol: str, sig: Dict[str, Any], display_name:
 """
 
 
-def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]):
+def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    اسکن سیگنال کندلی برای واچ‌لیست کریپتو + کالاها.
+    برخلاف نسخه‌ی قبلی، این نسخه برای هرکدام از نمادهای رصدشده یک گزارش وضعیت
+    برمی‌گرداند (موفق/ناموفق/سیگنال/دلیل سکوت) تا مشکلات به‌جای سکوت مبهم قابل دیدن باشند.
+    """
     logger.info("🕯️ شروع اسکن سیگنال‌های کندلی (تایم‌فریم ۴ ساعته)...")
     session = bot.session
     candle_states = state.setdefault("candle_signals", {})
     sent_count = 0
+    report: List[Dict[str, Any]] = []
 
-    # ---------- بخش ۱: ارزهای دیجیتال (Binance) ----------
-    try:
-        symbols = CRYPTO_WATCHLIST
-        if not symbols:
-            logger.warning("⚠️ CRYPTO_WATCHLIST خالی است - اسکن کریپتو رد شد")
-        else:
-            logger.info(f"🔎 در حال بررسی {len(symbols)} نماد کریپتو: {', '.join(symbols)}")
-            binance_fetch = lambda sym, lim: fetch_closed_klines(session, sym, lim)
-            for i, symbol in enumerate(symbols):
-                try:
-                    sym_state = candle_states.get(symbol)
-                    new_state, signals = process_symbol_candles(binance_fetch, symbol, sym_state)
-                    if new_state is not None:
-                        candle_states[symbol] = new_state
+    def _describe_silence(new_state: Dict[str, Any]) -> str:
+        """چرا الان سیگنالی نیامد - برای گزارش تشخیصی"""
+        if not new_state:
+            return "داده کافی نیست"
+        trend = new_state.get("trend_prev")
+        trend_fa = "صعودی" if trend == "up" else ("نزولی" if trend == "down" else "خنثی")
+        if trend == "up" and new_state.get("bull_used_this_trend"):
+            return f"روند {trend_fa} - سیگنال این روند قبلاً ارسال شده (تا تغییر روند، سیگنال جدید نمی‌آید)"
+        if trend == "down" and new_state.get("bear_used_this_trend"):
+            return f"روند {trend_fa} - سیگنال این روند قبلاً ارسال شده (تا تغییر روند، سیگنال جدید نمی‌آید)"
+        return f"روند فعلی: {trend_fa} - شکل کندل اخیر با شرایط ورود اندیکاتور مطابقت نداشت"
+
+    # ---------- بخش ۱: ارزهای دیجیتال (Binance Futures - چون چارت شما BTCUSDT.P فیوچرز است، نه اسپات) ----------
+    symbols = CRYPTO_WATCHLIST
+    if not symbols:
+        logger.warning("⚠️ CRYPTO_WATCHLIST خالی است - اسکن کریپتو رد شد")
+    else:
+        logger.info(f"🔎 در حال بررسی {len(symbols)} نماد کریپتو (فیوچرز دائمی): {', '.join(symbols)}")
+        futures_fetch = lambda sym, lim: fetch_closed_klines_futures(session, sym, lim)
+        for i, symbol in enumerate(symbols):
+            # کلید state جدا از حالت اسپات قبلی، تا تاریخچه‌ی اسپات با فیوچرز قاطی نشود
+            state_key = f"{symbol}_PERP"
+            entry = {"symbol": symbol, "display_name": symbol.replace("USDT", "") + "/USDT.P", "ok": False,
+                      "signal": None, "error": None, "note": None}
+            try:
+                sym_state = candle_states.get(state_key)
+                new_state, signals = process_symbol_candles(futures_fetch, symbol, sym_state)
+                if new_state is None:
+                    entry["error"] = "دریافت کندل از Binance Futures ناموفق بود (یا داده کافی نبود)"
+                else:
+                    candle_states[state_key] = new_state
+                    entry["ok"] = True
+                    entry["note"] = _describe_silence(new_state)
                     for sig in signals:
-                        message = format_candle_signal_message(symbol, sig)
+                        message = format_candle_signal_message(symbol, sig, display_name=entry["display_name"])
                         if bot.send_telegram_message(message):
                             logger.info(f"📤 سیگنال کندلی {symbol} ({sig['side']}) ارسال شد")
                             sent_count += 1
+                            entry["signal"] = sig["side"]
                             time.sleep(1.2)
-                except Exception as e:
-                    logger.warning(f"⚠️ خطا در پردازش {symbol}: {e}")
-                if i % 30 == 0:
-                    time.sleep(0.5)  # رعایت محدودیت نرخ درخواست بایننس
-    except Exception as e:
-        logger.error(f"❌ خطای کلی در اسکن کریپتو: {e}")
+            except Exception as e:
+                entry["error"] = str(e)
+                logger.warning(f"⚠️ خطا در پردازش {symbol}: {e}")
+            report.append(entry)
+            if i % 30 == 0:
+                time.sleep(0.5)  # رعایت محدودیت نرخ درخواست بایننس
 
     # ---------- بخش ۲: کالاها - طلا/نقره/مس (Twelve Data) ----------
     if not TWELVEDATA_API_KEY:
         logger.warning("⚠️ TWELVEDATA_API_KEY تنظیم نشده - اسکن طلا/نقره/مس رد شد")
+        for symbol, display_name in COMMODITY_SYMBOLS.items():
+            report.append({"symbol": symbol, "display_name": display_name, "ok": False,
+                            "signal": None, "error": "TWELVEDATA_API_KEY تنظیم نشده", "note": None})
     else:
         logger.info("🔎 در حال بررسی طلا/نقره/مس از Twelve Data...")
         commodity_fetch = lambda sym, lim: fetch_closed_klines_twelvedata(sym, lim)
         for symbol, display_name in COMMODITY_SYMBOLS.items():
+            entry = {"symbol": symbol, "display_name": display_name, "ok": False,
+                      "signal": None, "error": None, "note": None}
             try:
                 sym_state = candle_states.get(symbol)
                 new_state, signals = process_symbol_candles(commodity_fetch, symbol, sym_state)
-                if new_state is not None:
+                if new_state is None:
+                    entry["error"] = "دریافت داده از Twelve Data ناموفق بود (ممکن است این نماد نیاز به پلن پولی داشته باشد)"
+                else:
                     candle_states[symbol] = new_state
-                elif sym_state is None:
-                    logger.warning(f"⚠️ داده‌ای برای {symbol} ({display_name}) از Twelve Data دریافت نشد")
-                for sig in signals:
-                    message = format_candle_signal_message(symbol, sig, display_name=display_name)
-                    if bot.send_telegram_message(message):
-                        logger.info(f"📤 سیگنال کندلی {symbol} ({sig['side']}) ارسال شد")
-                        sent_count += 1
-                        time.sleep(1.2)
+                    entry["ok"] = True
+                    entry["note"] = _describe_silence(new_state)
+                    for sig in signals:
+                        message = format_candle_signal_message(symbol, sig, display_name=display_name)
+                        if bot.send_telegram_message(message):
+                            logger.info(f"📤 سیگنال کندلی {symbol} ({sig['side']}) ارسال شد")
+                            sent_count += 1
+                            entry["signal"] = sig["side"]
+                            time.sleep(1.2)
                 time.sleep(1)  # رعایت محدودیت نرخ درخواست Twelve Data (۸ درخواست در دقیقه در پلن رایگان)
             except Exception as e:
+                entry["error"] = str(e)
                 logger.warning(f"⚠️ خطا در پردازش {symbol}: {e}")
+            report.append(entry)
 
+    logger.info("——— گزارش تشخیصی اسکن کندلی ———")
+    for e in report:
+        if e["signal"]:
+            logger.info(f"  {e['symbol']} ({e['display_name']}): ✅ سیگنال {e['signal']} ارسال شد")
+        elif e["error"]:
+            logger.info(f"  {e['symbol']} ({e['display_name']}): ❌ خطا - {e['error']}")
+        elif e["ok"]:
+            logger.info(f"  {e['symbol']} ({e['display_name']}): ⚪ بدون سیگنال جدید - {e['note']}")
     logger.info(f"✅ اسکن کندلی کامل شد. {sent_count} سیگنال ارسال شد.")
-
-
-# ==================================================================
-# سیگنال کندلی برای طلا / نقره / مس (تایم‌فریم ۴ ساعته) - منبع: Twelve Data
-# (بیت‌کوین و اتریوم قبلاً از طریق اسکن Binance بالا پوشش داده می‌شوند)
-# ==================================================================
-TWELVEDATA_API_KEY = os.getenv('TWELVEDATA_API_KEY', '').strip()
-TWELVEDATA_BASE = "https://api.twelvedata.com"
-
-# اگر نماد مس با این کد روی حساب رایگان شما کار نکرد، آن را به "COPPER" یا
-# "XCU/USD" تغییر دهید (بسته به این‌که Twelve Data چه چیزی برای حساب شما فعال کرده).
-METAL_SYMBOLS = [
-    {"symbol": "XAU/USD", "name": "طلا (Gold)"},
-    {"symbol": "XAG/USD", "name": "نقره (Silver)"},
-    {"symbol": "XCU/USD", "name": "مس (Copper)"},
-]
-
-
-def fetch_twelvedata_closed_klines(session: requests.Session, symbol: str, outputsize: int) -> List[Dict[str, Any]]:
-    """کندل‌های ۴ساعته‌ی بسته‌شده از Twelve Data (به وقت UTC)"""
-    if not TWELVEDATA_API_KEY:
-        return []
-    url = f"{TWELVEDATA_BASE}/time_series"
-    params = {
-        "symbol": symbol,
-        "interval": "4h",
-        "outputsize": outputsize,
-        "timezone": "UTC",
-        "order": "ASC",
-        "apikey": TWELVEDATA_API_KEY,
-    }
-    data = retry_request("GET", url, params=params)
-    if not data or not isinstance(data, dict) or "values" not in data:
-        logger.warning(f"⚠️ داده‌ای برای {symbol} از Twelve Data دریافت نشد: {data}")
-        return []
-    now_ms = int(time.time() * 1000)
-    candles = []
-    for v in data["values"]:
-        try:
-            dt = datetime.strptime(v["datetime"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
-            open_time = int(dt.timestamp() * 1000)
-            close_time = open_time + 4 * 3600 * 1000
-            if close_time > now_ms:
-                continue  # کندلی که هنوز بسته نشده را رد کن
-            candles.append({
-                "open_time": open_time,
-                "o": float(v["open"]), "h": float(v["high"]),
-                "l": float(v["low"]), "c": float(v["close"]),
-            })
-        except Exception:
-            continue
-    candles.sort(key=lambda x: x["open_time"])
-    return candles
-
-
-def process_metal_candles(session: requests.Session, symbol: str,
-                           sym_state: Optional[Dict[str, Any]]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
-    if sym_state is None:
-        candles = fetch_twelvedata_closed_klines(session, symbol, BOOTSTRAP_LIMIT)
-        if len(candles) < 30:
-            return None, []
-        state = new_candle_state()
-        signals = []
-        last_idx = len(candles) - 1
-        for idx, k in enumerate(candles):
-            state, sig = step_candle_state(state, k["o"], k["h"], k["l"], k["c"], k["open_time"])
-            if sig and idx == last_idx:
-                signals.append(sig)
-        return state, signals
-    else:
-        last_open_time = sym_state.get("last_open_time")
-        candles = fetch_twelvedata_closed_klines(session, symbol, 10)
-        new_candles = [k for k in candles if last_open_time is None or k["open_time"] > last_open_time]
-        state = sym_state
-        signals = []
-        for k in new_candles:
-            state, sig = step_candle_state(state, k["o"], k["h"], k["l"], k["c"], k["open_time"])
-            if sig:
-                signals.append(sig)
-        return state, signals
-
-
-def metals_candle_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]):
-    if not TWELVEDATA_API_KEY:
-        logger.warning("⚠️ TWELVEDATA_API_KEY تنظیم نشده - اسکن طلا/نقره/مس رد شد")
-        return
-    logger.info("🥇 شروع اسکن سیگنال‌های کندلی طلا/نقره/مس...")
-    session = bot.session
-    candle_states = state.setdefault("candle_signals", {})
-    sent_count = 0
-
-    for item in METAL_SYMBOLS:
-        symbol, name = item["symbol"], item["name"]
-        try:
-            sym_state = candle_states.get(symbol)
-            new_state, signals = process_metal_candles(session, symbol, sym_state)
-            if new_state is not None:
-                candle_states[symbol] = new_state
-            for sig in signals:
-                message = format_candle_signal_message(symbol, sig, display_name=name)
-                if bot.send_telegram_message(message):
-                    logger.info(f"📤 سیگنال کندلی {symbol} ({sig['side']}) ارسال شد")
-                    sent_count += 1
-                    time.sleep(1.2)
-        except Exception as e:
-            logger.warning(f"⚠️ خطا در پردازش {symbol}: {e}")
-        time.sleep(1)  # رعایت محدودیت نرخ درخواست رایگان Twelve Data
-
-    logger.info(f"✅ اسکن طلا/نقره/مس کامل شد. {sent_count} سیگنال ارسال شد.")
+    return report
 
 
 # ==================================================================
