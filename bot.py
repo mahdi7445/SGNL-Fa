@@ -1361,7 +1361,6 @@ def main():
 
     if run_candle:
         candle_signal_scan_job(bot, state)
-        metals_candle_scan_job(bot, state)
 
     if not run_flow_perf and not run_candle:
         logger.info("ℹ️ ساعت فعلی با هیچ‌کدام از زمان‌بندی‌ها مطابقت ندارد؛ خروج بدون اسکن")
