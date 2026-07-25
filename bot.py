@@ -49,7 +49,7 @@ TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '').strip()
 COINMARKETCAP_API_KEY = os.getenv('COINMARKETCAP_API_KEY', '').strip()
 LIVECOINWATCH_API_KEY = os.getenv('LIVECOINWATCH_API_KEY', '').strip()
 CRYPTOMETER_API_URL = os.getenv('CRYPTOMETER_API_URL', 'https://cryptometer.io').strip()
-TWELVEDATA_API_KEY = os.getenv('TWELVEDATA_API_KEY', '').strip()
+TWELVEDATA_API_KEY = (os.getenv('TD_API_KEY', '').strip() or os.getenv('TWELVEDATA_API_KEY', '').strip())
 # برای تست دستی از طریق workflow_dispatch: همه‌ی اسکن‌ها را صرف‌نظر از ساعت اجرا کن
 FORCE_RUN_ALL = os.getenv('FORCE_RUN_ALL', '').strip() == '1'
  
@@ -1243,7 +1243,9 @@ def main():
     logger.info(f"🕐 ساعت فعلی UTC: {now_utc.strftime('%Y-%m-%d %H:%M')}")
     logger.info(f"🔍 طول کلیدها (برای عیب‌یابی، بدون فاش‌کردن مقدار): "
                 f"CMC={len(COINMARKETCAP_API_KEY)}, LCW={len(LIVECOINWATCH_API_KEY)}, "
-                f"TWELVEDATA={len(TWELVEDATA_API_KEY)}")
+                f"نهایی‌TWELVEDATA={len(TWELVEDATA_API_KEY)} "
+                f"(خام‌TD_API_KEY={len(os.getenv('TD_API_KEY', ''))}, "
+                f"خام‌TWELVEDATA_API_KEY={len(os.getenv('TWELVEDATA_API_KEY', ''))})")
  
     run_flow_perf = FORCE_RUN_ALL or hour in SCAN_SCHEDULE_HOURS
     run_candle = FORCE_RUN_ALL or hour in CANDLE_SCAN_HOURS
