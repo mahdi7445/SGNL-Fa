@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -9,24 +10,24 @@ Tradeiscool Bot - نسخه یکپارچه ۴.۰
   3) سیگنال کندلی تایم‌فریم ۴ ساعته (اندیکاتور Pine Script)  -> هر ۴ ساعت
      (ترجمه‌ی دقیق منطق اندیکاتور به پایتون + داده‌ی کندل از Binance،
       بدون نیاز به وبهوک تریدینگ‌ویو یا پلن پولی)
-
+ 
 طراحی‌شده برای اجرا از طریق GitHub Actions (کاملاً رایگان، بدون نیاز به هاست):
 هر بار که اجرا می‌شود، فقط کارهای متناسب با ساعت فعلی UTC را انجام می‌دهد و خارج
 می‌شود (بدون حلقه‌ی بی‌نهایت). وضعیت لازم برای جلوگیری از سیگنال تکراری در
 فایل state.json نگه‌داری و توسط خودِ ورک‌فلو به‌صورت خودکار در ریپازیتوری
 کامیت می‌شود.
-
+ 
 نکته مهم: قابلیت «فرستادن اسم ارز به ربات و گرفتن گزارش» (که در نسخه‌ی قبلی بود)
 در این نسخه حذف شده، چون نیاز به یک فرآیند همیشه-روشن دارد که با مدل اجرای
 دوره‌ای GitHub Actions سازگار نیست.
-
+ 
 نکته دیگر: در نسخه‌ی قبلی، وقتی دریافت داده از Cryptometer شکست می‌خورد، ربات
 داده‌های «نمونه»‌ی تصادفی (random.random) تولید و آن‌ها را عیناً مثل یک سیگنال
 واقعی ارسال می‌کرد. این رفتار در این نسخه حذف شده، چون فرستادن سیگنال ساختگی
 که ظاهرش با سیگنال واقعی فرقی ندارد می‌تواند تصمیم معاملاتی را گمراه کند. حالا
 اگر داده‌ی واقعی در دسترس نباشد، آن دور اسکن به‌سادگی رد می‌شود.
 """
-
+ 
 import os
 import re
 import time
@@ -35,14 +36,14 @@ import logging
 import requests
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Tuple, Optional
-
+ 
 # -------------------- تنظیمات محیطی --------------------
 try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:
     pass
-
+ 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '').strip()
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '').strip()
 COINMARKETCAP_API_KEY = os.getenv('COINMARKETCAP_API_KEY', '').strip()
@@ -51,19 +52,19 @@ CRYPTOMETER_API_URL = os.getenv('CRYPTOMETER_API_URL', 'https://cryptometer.io')
 TWELVEDATA_API_KEY = os.getenv('TWELVEDATA_API_KEY', '').strip()
 # برای تست دستی از طریق workflow_dispatch: همه‌ی اسکن‌ها را صرف‌نظر از ساعت اجرا کن
 FORCE_RUN_ALL = os.getenv('FORCE_RUN_ALL', '').strip() == '1'
-
+ 
 STABLECOINS = ['USDT', 'USDC', 'FDUSD', 'USD', 'BUSD', 'DAI', 'TUSD', 'USDP', 'USDD']
-
+ 
 # زمان‌بندی بر اساس ساعت UTC (هر بار GitHub Actions اجرا شود، این لیست‌ها چک می‌شوند)
 SCAN_SCHEDULE_HOURS = [0, 3, 6, 9, 12, 15, 18, 21]   # جریان استیبل‌کوین + عملکرد نسبی، هر ۳ ساعت
 CANDLE_SCAN_HOURS = [0, 4, 8, 12, 16, 20]            # سیگنال کندلی، هر ۴ ساعت (هم‌راستا با بسته‌شدن کندل ۴ساعته)
-
+ 
 HTTP_TIMEOUT = 30
 RETRY_ATTEMPTS = 3
 RETRY_BACKOFF = 1.5
-
+ 
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
-
+ 
 # -------------------- لاگ‌گیری --------------------
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -71,8 +72,8 @@ logging.basicConfig(
     handlers=[logging.StreamHandler()]
 )
 logger = logging.getLogger("TradeiscoolBot")
-
-
+ 
+ 
 # ==================================================================
 # توابع کمکی عمومی
 # ==================================================================
@@ -83,8 +84,8 @@ def safe_get(d: Dict, *keys, default=None):
         else:
             return default
     return d
-
-
+ 
+ 
 def retry_request(method: str, url: str, **kwargs):
     attempt = 0
     while attempt < RETRY_ATTEMPTS:
@@ -103,8 +104,8 @@ def retry_request(method: str, url: str, **kwargs):
         time.sleep(RETRY_BACKOFF * attempt)
     logger.error(f"تعداد تلاش‌ها برای {url} بیش از حد مجاز")
     return None
-
-
+ 
+ 
 def format_number(value: float) -> str:
     if value == 0:
         return "۰"
@@ -116,12 +117,12 @@ def format_number(value: float) -> str:
         return f"${value/1_000:.1f}K"
     else:
         return f"${value:.0f}"
-
-
+ 
+ 
 def format_percent(value: float) -> str:
     return f"{value:+.2f}%"
-
-
+ 
+ 
 def format_price(price: float) -> str:
     if price >= 1000:
         return f"${price:,.2f}"
@@ -131,8 +132,8 @@ def format_price(price: float) -> str:
         return f"${price:.6f}"
     else:
         return f"${price:.8f}"
-
-
+ 
+ 
 def clean_number_string(s: Any) -> Tuple[float, str]:
     if s is None:
         return 0.0, ''
@@ -155,14 +156,14 @@ def clean_number_string(s: Any) -> Tuple[float, str]:
         except Exception:
             return 0.0, ''
     return 0.0, ''
-
-
+ 
+ 
 def is_stable_unit(u: str) -> bool:
     if not u:
         return False
     return u.upper() in STABLECOINS
-
-
+ 
+ 
 def normalize_symbol(raw: Any) -> str:
     if raw is None:
         return ''
@@ -183,8 +184,8 @@ def normalize_symbol(raw: Any) -> str:
             return s.upper()
         return re.sub(r'USD$', '', s, flags=re.IGNORECASE).upper()
     return s.upper()
-
-
+ 
+ 
 # ==================================================================
 # ذخیره‌سازی وضعیت (برای جلوگیری از سیگنال تکراری بین اجراهای مجزا)
 # ==================================================================
@@ -196,8 +197,8 @@ def load_state() -> Dict[str, Any]:
         except Exception as e:
             logger.warning(f"⚠️ خطا در خواندن state.json، شروع با وضعیت خالی: {e}")
     return {}
-
-
+ 
+ 
 def save_state(state: Dict[str, Any]):
     try:
         with open(STATE_FILE, 'w', encoding='utf-8') as f:
@@ -205,8 +206,8 @@ def save_state(state: Dict[str, Any]):
         logger.info("💾 state.json ذخیره شد")
     except Exception as e:
         logger.error(f"❌ خطا در ذخیره state.json: {e}")
-
-
+ 
+ 
 # ==================================================================
 # ماژول جریان استیبل‌کوین (Cryptometer) - بدون تغییر منطقی نسبت به نسخه قبلی
 # ==================================================================
@@ -220,7 +221,7 @@ class AdvancedCryptometerFetcher:
         "/api/data/flow",
         "/api/stablecoin-flows"
     ]
-
+ 
     def __init__(self, session: requests.Session, base_url: str = ""):
         self.session = session
         self.base_url = base_url.rstrip('/')
@@ -230,7 +231,7 @@ class AdvancedCryptometerFetcher:
             'Accept-Language': 'en-US,en;q=0.9',
             'Referer': 'https://cryptometer.io/'
         })
-
+ 
     def fetch_raw_data(self) -> Optional[Any]:
         endpoints = []
         if CRYPTOMETER_API_URL:
@@ -242,14 +243,14 @@ class AdvancedCryptometerFetcher:
             endpoints.append(self.base_url)
         else:
             endpoints.append("https://cryptometer.io/")
-
+ 
         seen = set()
         unique_endpoints = []
         for e in endpoints:
             if e and e not in seen:
                 seen.add(e)
                 unique_endpoints.append(e)
-
+ 
         for url in unique_endpoints:
             try:
                 r = self.session.get(url, timeout=HTTP_TIMEOUT)
@@ -264,7 +265,7 @@ class AdvancedCryptometerFetcher:
                 continue
         logger.error("❌ تمام اندپوینت‌های Cryptometer امتحان شدند و نتیجه‌ای نیامد")
         return None
-
+ 
     def find_data_list(self, data: Any) -> List[Any]:
         possible_paths = [
             ['data'], ['coins'], ['result'], ['items'],
@@ -289,13 +290,13 @@ class AdvancedCryptometerFetcher:
                     if isinstance(value[0], (dict, str, int, float)):
                         return value
         return []
-
+ 
     def extract_flow_values(self, entry: Any) -> Tuple[float, float]:
         inflow = 0.0
         outflow = 0.0
         if not isinstance(entry, (dict, list)):
             return inflow, outflow
-
+ 
         inflow_keys = [
             'inflow_24h', 'inflow', 'inflow24h', 'inflowUsd', 'inflow_usd',
             'total_inflow', 'total_inflow_24h', 'buy_volume', 'buy_volume_24h',
@@ -308,19 +309,19 @@ class AdvancedCryptometerFetcher:
             'volume_outflow', 'volume_outflow_24h', 'outflow_amount', 'outflow_value',
             'outflow_USD', 'outflow_usd_24h', 'sell_outflow', 'sell_outflow_24h'
         ]
-
+ 
         for key in inflow_keys:
             if key in entry and entry[key] is not None:
                 value, unit = clean_number_string(entry[key])
                 if (unit and is_stable_unit(unit)) or not unit:
                     inflow += value
-
+ 
         for key in outflow_keys:
             if key in entry and entry[key] is not None:
                 value, unit = clean_number_string(entry[key])
                 if (unit and is_stable_unit(unit)) or not unit:
                     outflow += value
-
+ 
         if inflow == 0 and outflow == 0:
             net_flow_keys = [
                 'netFlow', 'net_flow', 'netflow', 'net_flow_24h',
@@ -336,7 +337,7 @@ class AdvancedCryptometerFetcher:
                         else:
                             outflow = abs(value)
                         break
-
+ 
         flow_list_keys = ['flows', 'stable_flows', 'flow_list', 'flowEntries', 'flow_items']
         for list_key in flow_list_keys:
             if list_key in entry and isinstance(entry[list_key], list):
@@ -382,9 +383,9 @@ class AdvancedCryptometerFetcher:
                                         outflow += abs(amount)
                     except Exception:
                         continue
-
+ 
         return float(inflow or 0.0), float(outflow or 0.0)
-
+ 
     def extract_embedded_json(self, html_text: str) -> List[Any]:
         json_blocks = []
         patterns = [
@@ -407,12 +408,12 @@ class AdvancedCryptometerFetcher:
                 except Exception:
                     continue
         return json_blocks
-
+ 
     def parse_data_payload(self, raw_data: Any, target_symbols: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         results = []
         if raw_data is None:
             return results
-
+ 
         def _process(data_list):
             for item in data_list:
                 try:
@@ -434,15 +435,15 @@ class AdvancedCryptometerFetcher:
                         })
                 except Exception:
                     continue
-
+ 
         if isinstance(raw_data, str):
             for json_block in self.extract_embedded_json(raw_data):
                 _process(self.find_data_list(json_block))
         else:
             _process(self.find_data_list(raw_data))
-
+ 
         return results
-
+ 
     def extract_symbol(self, entry: Any) -> str:
         if isinstance(entry, dict):
             for key in ['symbol', 'base', 'ticker', 'code', 'id', 'asset', 'coin']:
@@ -458,14 +459,14 @@ class AdvancedCryptometerFetcher:
         elif isinstance(entry, str):
             return normalize_symbol(entry)
         return ''
-
+ 
     def extract_name(self, entry: Any, symbol: str) -> str:
         if isinstance(entry, dict):
             for key in ['name', 'Name', 'full_name', 'fullname', 'asset_name', 'base_currency_name']:
                 if key in entry and entry[key]:
                     return str(entry[key]).strip()
         return symbol
-
+ 
     def fetch_flow_data(self, target_symbols: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         try:
             raw_data = self.fetch_raw_data()
@@ -482,8 +483,8 @@ class AdvancedCryptometerFetcher:
         except Exception as e:
             logger.error(f"❌ خطا در دریافت داده‌های جریان: {e}")
             return []
-
-
+ 
+ 
 # ==================================================================
 # موتور سیگنال کندلی تایم‌فریم ۴ ساعته (ترجمه اندیکاتور Pine Script)
 # منبع داده: Twelve Data (برای همه‌ی ۵ نماد - کریپتو و کالا)
@@ -502,7 +503,7 @@ WHIPSAW_ATR_MULT = 0.5    # minMoveATRMultiplier در اسکریپت اصلی
 EMA_SLOPE_ATR_MULT = 0.03  # جایگزینِ نسبی و مقیاس‌پذیرِ emaSlopeThreshold ثابتِ اسکریپت اصلی (توضیح در step_candle_state)
 CANDLE_BODY_MAX_RATIO = 0.5
 SHADOW_RATIO = 3.5
-
+ 
 # لیست کامل نمادهایی که سیگنال کندلی برایشان بررسی می‌شود (کلید رایگان لازم است:
 # https://twelvedata.com). برای اضافه/حذف نماد، همین دیکشنری را ویرایش کنید.
 WATCHLIST_SYMBOLS = {
@@ -513,8 +514,8 @@ WATCHLIST_SYMBOLS = {
     "XCU/USD": "مس (Copper)",
 }
 TWELVEDATA_BASE = "https://api.twelvedata.com"
-
-
+ 
+ 
 def fetch_closed_klines_twelvedata(symbol: str, limit: int) -> List[Dict[str, Any]]:
     """کندل‌های ۴ساعته‌ی بسته‌شده برای هر نماد (کریپتو یا کالا) از Twelve Data"""
     if not TWELVEDATA_API_KEY:
@@ -552,8 +553,8 @@ def fetch_closed_klines_twelvedata(symbol: str, limit: int) -> List[Dict[str, An
             continue
     candles.sort(key=lambda k: k["open_time"])  # از قدیم به جدید
     return candles
-
-
+ 
+ 
 def new_candle_state() -> Dict[str, Any]:
     return {
         "ema7": None, "ema25": None,
@@ -568,15 +569,15 @@ def new_candle_state() -> Dict[str, Any]:
         "bar_index": 0,
         "last_open_time": None,
     }
-
-
+ 
+ 
 def _ema_step(prev: Optional[float], price: float, length: int) -> float:
     if prev is None:
         return price
     alpha = 2.0 / (length + 1)
     return alpha * price + (1 - alpha) * prev
-
-
+ 
+ 
 def step_candle_state(state: Dict[str, Any], o: float, h: float, l: float, c: float,
                        open_time: int) -> Tuple[Dict[str, Any], Optional[Dict[str, Any]]]:
     """
@@ -587,17 +588,17 @@ def step_candle_state(state: Dict[str, Any], o: float, h: float, l: float, c: fl
     s = dict(state)
     s["hist"] = list(s["hist"])
     s["tr_buffer"] = list(s["tr_buffer"])
-
+ 
     ema7_prev = s["ema7"]
     ema25_prev = s["ema25"]
-
+ 
     ema7_i = _ema_step(ema7_prev, c, 7)
     ema25_i = _ema_step(ema25_prev, c, 25)
-
+ 
     hist = s["hist"]
     prev_bar = hist[-1] if len(hist) >= 1 else None
     prev2_bar = hist[-2] if len(hist) >= 2 else None
-
+ 
     # True Range / ATR(14) - Wilder
     tr_i = max(h - l, abs(h - prev_bar["c"]), abs(l - prev_bar["c"])) if prev_bar else (h - l)
     if s["atr"] is None:
@@ -605,21 +606,21 @@ def step_candle_state(state: Dict[str, Any], o: float, h: float, l: float, c: fl
         atr_i = sum(s["tr_buffer"][-14:]) / 14.0 if len(s["tr_buffer"]) >= 14 else None
     else:
         atr_i = (s["atr"] * 13 + tr_i) / 14.0
-
+ 
     body = abs(c - o)
     upper_shadow = h - max(c, o)
     lower_shadow = min(c, o) - l
     total_size = h - l
-
+ 
     is_uptrend = ema7_i > ema25_i
     is_downtrend = ema7_i < ema25_i
-
+ 
     is_valid_bull_candle = (body < CANDLE_BODY_MAX_RATIO * total_size) and (lower_shadow > SHADOW_RATIO * upper_shadow)
     is_valid_bear_candle = (body < CANDLE_BODY_MAX_RATIO * total_size) and (upper_shadow > SHADOW_RATIO * lower_shadow)
-
+ 
     next_invalidates_bull = (prev_bar is not None) and (prev_bar["l"] < l)
     next_invalidates_bear = (prev_bar is not None) and (prev_bar["h"] > h)
-
+ 
     ema7_slope = ema7_i - (ema7_prev if ema7_prev is not None else ema7_i)
     # نکته: در اسکریپت اصلی Pine، این آستانه یک عدد ثابت (0.001) بود که کاربر
     # به‌صورت دستی برای یک نماد خاص در تریدینگ‌ویو تنظیم می‌کرد. وقتی همین عدد
@@ -630,43 +631,43 @@ def step_candle_state(state: Dict[str, Any], o: float, h: float, l: float, c: fl
     # (که خودش با مقیاس هر نماد هماهنگ می‌شود) تعریف کردیم تا فیلتر برای همه‌ی
     # نمادها منصفانه عمل کند.
     is_ema7_flat = True if atr_i is None else abs(ema7_slope) < (EMA_SLOPE_ATR_MULT * atr_i)
-
+ 
     bullish_engulf = bearish_engulf = False
     if prev_bar is not None:
         po, pc = prev_bar["o"], prev_bar["c"]
         bullish_engulf = (c > o) and (pc < po) and (c > po) and (o < pc)
         bearish_engulf = (c < o) and (pc > po) and (c < po) and (o > pc)
-
+ 
     bullish_pin = (lower_shadow > 2 * body) and (upper_shadow < body)
     bearish_pin = (upper_shadow > 2 * body) and (lower_shadow < body)
-
+ 
     both_above = both_below = False
     if prev_bar is not None and prev2_bar is not None:
         both_above = (prev_bar["c"] > prev_bar["ema7"]) and (prev2_bar["c"] > prev2_bar["ema7"])
         both_below = (prev_bar["c"] < prev_bar["ema7"]) and (prev2_bar["c"] < prev2_bar["ema7"])
-
+ 
     raw_bull = is_uptrend and is_valid_bull_candle and (not next_invalidates_bull) and (not is_ema7_flat) and both_above
     raw_bear = is_downtrend and is_valid_bear_candle and (not next_invalidates_bear) and (not is_ema7_flat) and both_below
-
+ 
     if is_uptrend and s["trend_prev"] != "up":
         s["bull_used_this_trend"] = False
     if is_downtrend and s["trend_prev"] != "down":
         s["bear_used_this_trend"] = False
-
+ 
     state_ok_bull = not s["bull_used_this_trend"]
     state_ok_bear = not s["bear_used_this_trend"]
-
+ 
     cooldown_ok_bull = (s["last_bull_bar_index"] is None) or (s["bar_index"] - s["last_bull_bar_index"] >= COOLDOWN_BARS)
     cooldown_ok_bear = (s["last_bear_bar_index"] is None) or (s["bar_index"] - s["last_bear_bar_index"] >= COOLDOWN_BARS)
-
+ 
     if s["last_signal_price"] is None or atr_i is None:
         price_move_ok = True
     else:
         price_move_ok = abs(c - s["last_signal_price"]) >= atr_i * WHIPSAW_ATR_MULT
-
+ 
     final_bull = raw_bull and state_ok_bull and cooldown_ok_bull and price_move_ok
     final_bear = raw_bear and state_ok_bear and cooldown_ok_bear and price_move_ok
-
+ 
     signal = None
     if final_bull:
         s["bull_used_this_trend"] = True
@@ -678,7 +679,7 @@ def step_candle_state(state: Dict[str, Any], o: float, h: float, l: float, c: fl
         s["last_bear_bar_index"] = s["bar_index"]
         s["last_signal_price"] = c
         signal = {"side": "SELL", "confirmed": bool(bearish_engulf or bearish_pin), "price": c, "open_time": open_time}
-
+ 
     hist.append({"o": o, "h": h, "l": l, "c": c, "ema7": ema7_i})
     s["hist"] = hist[-2:]
     s["ema7"] = ema7_i
@@ -687,16 +688,16 @@ def step_candle_state(state: Dict[str, Any], o: float, h: float, l: float, c: fl
     s["trend_prev"] = "up" if is_uptrend else ("down" if is_downtrend else "flat")
     s["bar_index"] = s["bar_index"] + 1
     s["last_open_time"] = open_time
-
+ 
     return s, signal
-
-
+ 
+ 
 def process_symbol_candles(fetch_fn, symbol: str,
                             sym_state: Optional[Dict[str, Any]]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
     """
     fetch_fn(symbol, limit) -> List[candle dict] باید کندل‌های بسته‌شده را برگرداند
     (یک تابع مشترک برای هر دو منبع داده‌ی Binance و Twelve Data).
-
+ 
     اگر برای این نماد وضعیت قبلی وجود نداشته باشد (اولین اجرا) -> بوت‌استرپ با ۳۰۰ کندل
     اگر وضعیت قبلی وجود دارد -> فقط کندل‌های جدیدِ بسته‌شده از آخرین بار پردازش می‌شوند
     """
@@ -723,8 +724,8 @@ def process_symbol_candles(fetch_fn, symbol: str,
             if sig:
                 signals.append(sig)
         return state, signals
-
-
+ 
+ 
 def format_candle_signal_message(symbol: str, sig: Dict[str, Any], display_name: Optional[str] = None) -> str:
     side = sig["side"]
     confirmed = sig["confirmed"]
@@ -739,20 +740,20 @@ def format_candle_signal_message(symbol: str, sig: Dict[str, Any], display_name:
         clean_symbol = display_name
     else:
         clean_symbol = symbol[:-4] if symbol.endswith("USDT") else symbol
-
+ 
     return f"""
 {emoji} <b>{title}</b> {action}
 <b>مبتنی بر اندیکاتور کندلی - تایم‌فریم ۴ ساعته</b>
-
+ 
 <b>💰 ارز:</b> {clean_symbol} ({symbol})
 <b>💵 قیمت کندل سیگنال:</b> {format_price(price)}
 <b>🔎 وضعیت تأیید:</b> {confirm_txt}
 <b>⏰ زمان کندل:</b> {ts}
-
+ 
 ⚠️ <b>این یک سیگنال خام است؛ قبل از ورود حتماً بررسی و مدیریت ریسک را انجام دهید.</b>
 """
-
-
+ 
+ 
 def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     اسکن سیگنال کندلی برای واچ‌لیست کریپتو + کالاها.
@@ -763,7 +764,7 @@ def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]) -> List
     candle_states = state.setdefault("candle_signals", {})
     sent_count = 0
     report: List[Dict[str, Any]] = []
-
+ 
     def _describe_silence(new_state: Dict[str, Any]) -> str:
         """چرا الان سیگنالی نیامد - برای گزارش تشخیصی"""
         if not new_state:
@@ -775,7 +776,7 @@ def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]) -> List
         if trend == "down" and new_state.get("bear_used_this_trend"):
             return f"روند {trend_fa} - سیگنال این روند قبلاً ارسال شده (تا تغییر روند، سیگنال جدید نمی‌آید)"
         return f"روند فعلی: {trend_fa} - شکل کندل اخیر با شرایط ورود اندیکاتور مطابقت نداشت"
-
+ 
     if not TWELVEDATA_API_KEY:
         logger.warning("⚠️ TWELVEDATA_API_KEY تنظیم نشده - کل اسکن کندلی (هر ۵ نماد) رد شد")
         for symbol, display_name in WATCHLIST_SYMBOLS.items():
@@ -808,7 +809,7 @@ def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]) -> List
                 entry["error"] = str(e)
                 logger.warning(f"⚠️ خطا در پردازش {symbol}: {e}")
             report.append(entry)
-
+ 
     logger.info("——— گزارش تشخیصی اسکن کندلی ———")
     for e in report:
         if e["signal"]:
@@ -819,8 +820,8 @@ def candle_signal_scan_job(bot: "TradeiscoolBot", state: Dict[str, Any]) -> List
             logger.info(f"  {e['symbol']} ({e['display_name']}): ⚪ بدون سیگنال جدید - {e['note']}")
     logger.info(f"✅ اسکن کندلی کامل شد. {sent_count} سیگنال ارسال شد.")
     return report
-
-
+ 
+ 
 # ==================================================================
 # کلاس اصلی ربات: سیگنال‌های جریان استیبل‌کوین + عملکرد نسبی
 # ==================================================================
@@ -837,12 +838,12 @@ class TradeiscoolBot:
             k: datetime.fromisoformat(v) for k, v in state.get("performance_signals_sent", {}).items()
         }
         self.crypto_fetcher = AdvancedCryptometerFetcher(self.session, "https://cryptometer.io")
-
+ 
     def sync_state(self):
         """نتایج در حافظه را قبل از ذخیره‌ی نهایی به دیکشنری state برمی‌گرداند"""
         self._state_ref["flow_signals_sent"] = {k: v.isoformat() for k, v in self.flow_signals_sent.items()}
         self._state_ref["performance_signals_sent"] = {k: v.isoformat() for k, v in self.performance_signals_sent.items()}
-
+ 
     def send_telegram_message(self, message: str, chat_id: str = None) -> bool:
         if not TELEGRAM_BOT_TOKEN:
             logger.error("تنظیمات تلگرام وجود ندارد")
@@ -860,7 +861,7 @@ class TradeiscoolBot:
         except Exception as e:
             logger.error(f"❌ خطا در ارسال به تلگرام: {e}")
             return False
-
+ 
     # ---------------- CoinMarketCap ----------------
     def get_top_coins_from_cmc(self, limit: int = 50) -> List[Dict[str, Any]]:
         try:
@@ -881,7 +882,7 @@ class TradeiscoolBot:
         except Exception as e:
             logger.error(f"❌ خطا در دریافت لیست ارزهای برتر: {e}")
             return []
-
+ 
     # ---------------- LiveCoinWatch ----------------
     def get_coin_detailed_data(self, symbols: List[str]) -> Dict[str, Dict]:
         try:
@@ -912,7 +913,7 @@ class TradeiscoolBot:
         except Exception as e:
             logger.error(f"❌ خطا در دریافت داده از LiveCoinWatch: {e}")
             return {}
-
+ 
     # ---------------- سیگنال عملکرد نسبی ----------------
     def get_performance_based_signals(self) -> List[Dict[str, Any]]:
         try:
@@ -923,7 +924,7 @@ class TradeiscoolBot:
             if not btc_data:
                 return []
             btc_change = safe_get(btc_data, "quote", "USD", "percent_change_24h") or 0
-
+ 
             performance_data = []
             for coin in top_coins:
                 try:
@@ -943,12 +944,12 @@ class TradeiscoolBot:
                     })
                 except Exception:
                     continue
-
+ 
             gainers = [c for c in performance_data if c['relative_performance'] > 2 and c['volume_24h'] > 10_000_000]
             losers = [c for c in performance_data if c['relative_performance'] < -2 and c['volume_24h'] > 10_000_000]
             gainers.sort(key=lambda x: x['relative_performance'], reverse=True)
             losers.sort(key=lambda x: x['relative_performance'])
-
+ 
             signals = []
             now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             for coin in gainers[:3]:
@@ -959,7 +960,7 @@ class TradeiscoolBot:
         except Exception as e:
             logger.error(f"❌ خطا در دریافت سیگنال‌های عملکردی: {e}")
             return []
-
+ 
     def get_btc_relative_performance(self, symbols: List[str]) -> Dict[str, float]:
         try:
             top_coins = self.get_top_coins_from_cmc(200)
@@ -982,7 +983,7 @@ class TradeiscoolBot:
         except Exception as e:
             logger.error(f"❌ خطا در دریافت عملکرد نسبی: {e}")
             return {}
-
+ 
     # ---------------- امتیازدهی ----------------
     def calculate_flow_score(self, net_flow: float) -> int:
         abs_flow = abs(net_flow)
@@ -990,13 +991,13 @@ class TradeiscoolBot:
         if abs_flow >= 3_000_000: return 2
         if abs_flow >= 1_000_000: return 1
         return 0
-
+ 
     def calculate_volume_ratio_score(self, volume_ratio: float) -> int:
         if volume_ratio >= 15: return 3
         if volume_ratio >= 8: return 2
         if volume_ratio >= 3: return 1
         return 0
-
+ 
     def calculate_relative_performance_score(self, relative_change: float, side: str) -> int:
         if side == 'LONG':
             if relative_change >= 8: return 3
@@ -1008,19 +1009,19 @@ class TradeiscoolBot:
             if relative_change <= -4: return 2
             if relative_change <= -2: return 1
             return 0
-
+ 
     def calculate_performance_rank_score(self, rank: int) -> int:
         if rank <= 10: return 3
         if rank <= 30: return 2
         if rank <= 50: return 1
         return 0
-
+ 
     def calculate_market_cap_score(self, market_cap: float) -> int:
         if market_cap >= 10_000_000_000: return 3
         if market_cap >= 1_000_000_000: return 2
         if market_cap >= 100_000_000: return 1
         return 0
-
+ 
     def calculate_total_score(self, signal_data: Dict[str, Any]) -> int:
         if signal_data['type'] == 'FLOW':
             stage1 = self.calculate_flow_score(signal_data['net_flow'])
@@ -1036,7 +1037,7 @@ class TradeiscoolBot:
         signal_data.update({'stage1_score': stage1, 'stage2_score': stage2, 'stage3_score': stage3,
                              'stage4_score': stage4, 'total_score': total})
         return total
-
+ 
     # ---------------- جریان استیبل‌کوین ----------------
     def get_cryptometer_data(self, target_symbols: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         """
@@ -1056,7 +1057,7 @@ class TradeiscoolBot:
         except Exception as e:
             logger.error(f"❌ خطا در دریافت داده از Cryptometer: {e}")
             return []
-
+ 
     def scan_for_flow_signals(self) -> List[Dict[str, Any]]:
         try:
             flow_coins = self.get_cryptometer_data()
@@ -1065,7 +1066,7 @@ class TradeiscoolBot:
             symbols = [c['symbol'] for c in flow_coins]
             coin_details = self.get_coin_detailed_data(symbols)
             relative_performance = self.get_btc_relative_performance(symbols)
-
+ 
             valid_signals = []
             for coin in flow_coins:
                 symbol, side = coin['symbol'], coin['side']
@@ -1083,7 +1084,7 @@ class TradeiscoolBot:
                 total_score = self.calculate_total_score(signal_data)
                 if total_score >= 4:
                     valid_signals.append(signal_data)
-
+ 
             valid_signals.sort(key=lambda x: x['total_score'], reverse=True)
             for signal in valid_signals:
                 self.flow_signals_sent[f"FLOW_{signal['symbol']}_{signal['side']}"] = datetime.now()
@@ -1091,19 +1092,19 @@ class TradeiscoolBot:
         except Exception as e:
             logger.error(f"❌ خطا در اسکن سیگنال‌های جریانی: {e}")
             return []
-
+ 
     def is_duplicate_flow_signal(self, symbol: str, side: str, hours: int = 3) -> bool:
         key = f"FLOW_{symbol}_{side}"
         if key in self.flow_signals_sent:
             return (datetime.now() - self.flow_signals_sent[key]).total_seconds() < hours * 3600
         return False
-
+ 
     def is_duplicate_performance_signal(self, symbol: str, side: str, hours: int = 3) -> bool:
         key = f"PERF_{symbol}_{side}"
         if key in self.performance_signals_sent:
             return (datetime.now() - self.performance_signals_sent[key]).total_seconds() < hours * 3600
         return False
-
+ 
     def format_flow_signal_message(self, signal_data: Dict[str, Any]) -> Optional[str]:
         try:
             if signal_data['side'] == "LONG":
@@ -1117,35 +1118,35 @@ class TradeiscoolBot:
             return f"""
 {emoji} <b>{title}</b> {action_emoji}
 <b>مبتنی بر جریان استیبل کوین</b>
-
+ 
 <b>💰 ارز:</b> <b>{signal_data['name']}</b> ({signal_data['symbol']})
 <b>🎯 امتیاز کل:</b> {signal_data['total_score']}/12
 <b>📊 دلیل:</b> {reason}
-
+ 
 <b>📈 مراحل امتیازدهی:</b>
 1️⃣ جریان سرمایه: {s1} ({signal_data['stage1_score']}/3) - {format_number(signal_data['net_flow'])}
 2️⃣ نسبت حجم/مارکت‌کپ: {s2} ({signal_data['stage2_score']}/3) - {signal_data['volume_ratio']:.2f}%
 3️⃣ عملکرد نسبی به BTC: {s3} ({signal_data['stage3_score']}/3) - {format_percent(signal_data['relative_performance'])}
 4️⃣ اندازه بازار: {s4} ({signal_data['stage4_score']}/3) - {format_number(signal_data['market_cap'])}
-
+ 
 <b>🔍 جزئیات فنی:</b>
 • 💵 قیمت فعلی: {format_price(signal_data['price'])}
 • 💰 مارکت‌کپ: {format_number(signal_data['market_cap'])}
 • 📊 حجم 24h: {format_number(signal_data['volume_24h'])}
-
+ 
 <b>💸 جریان استیبل کوین:</b>
 • 📥 ورودی 24h: {format_number(signal_data['inflow'])}
 • 📤 خروجی 24h: {format_number(signal_data['outflow'])}
 • 🔄 خالص جریان: {format_number(signal_data['net_flow'])}
-
+ 
 <b>⏰ زمان شناسایی:</b> {signal_data['timestamp']}
-
+ 
 ⚠️ <b>مدیریت ریسک را فراموش نکنید</b>
 """
         except Exception as e:
             logger.error(f"❌ خطا در فرمت‌بندی پیام: {e}")
             return None
-
+ 
     def format_performance_signal_message(self, signal_data: Dict[str, Any]) -> Optional[str]:
         try:
             if signal_data.get('side') == "LONG":
@@ -1159,47 +1160,47 @@ class TradeiscoolBot:
             return f"""
 {emoji} <b>{title}</b> {action_emoji}
 <b>مبتنی بر عملکرد نسبی</b>
-
+ 
 <b>💰 ارز:</b> {signal_data.get('name')} ({signal_data.get('symbol')})
 <b>🎯 امتیاز کل:</b> {signal_data.get('total_score', 0)}/12
 <b>📊 دلیل:</b> {reason}
-
+ 
 <b>📈 مراحل امتیازدهی:</b>
 1️⃣ عملکرد نسبی به BTC: {s1} ({signal_data.get('stage1_score', 0)}/3)
 2️⃣ نسبت حجم/مارکت‌کپ: {s2} ({signal_data.get('stage2_score', 0)}/3)
 3️⃣ رتبه بازار: {s3} ({signal_data.get('stage3_score', 0)}/3)
 4️⃣ اندازه بازار: {s4} ({signal_data.get('stage4_score', 0)}/3)
-
+ 
 <b>🔍 جزئیات فنی:</b>
 • 💵 قیمت فعلی: {format_price(signal_data.get('price', 0))}
 • 💰 مارکت‌کپ: {format_number(signal_data.get('market_cap', 0))}
 • 📊 حجم 24h: {format_number(signal_data.get('volume_24h', 0))}
 • 🏆 رتبه بازار: #{signal_data.get('rank', 0)}
-
+ 
 <b>📈 عملکرد قیمت:</b>
 • 📊 تغییرات 24h: {format_percent(signal_data.get('change_24h', 0))}
 • ⚡ عملکرد نسبی به BTC: {format_percent(signal_data.get('relative_performance', 0))}
-
+ 
 <b>⏰ زمان شناسایی:</b> {signal_data.get('timestamp')}
-
+ 
 ⚠️ <b>مدیریت ریسک را فراموش نکنید</b>
 """
         except Exception as e:
             logger.error(f"❌ خطا در فرمت‌بندی پیام عملکردی: {e}")
             return None
-
+ 
     def flow_and_performance_scan_job(self):
         try:
             logger.info("🔄 اجرای اسکن جریان استیبل‌کوین + عملکرد نسبی...")
             sent_count = 0
-
+ 
             for signal in self.scan_for_flow_signals():
                 message = self.format_flow_signal_message(signal)
                 if message and self.send_telegram_message(message):
                     logger.info(f"📤 سیگنال جریانی {signal['symbol']} ({signal['side']}) ارسال شد")
                     sent_count += 1
                     time.sleep(2)
-
+ 
             performance_signals = self.get_performance_based_signals()
             for signal in performance_signals:
                 try:
@@ -1214,7 +1215,7 @@ class TradeiscoolBot:
                 except Exception as e:
                     logger.error(f"❌ خطا در پردازش سیگنال عملکردی {signal.get('symbol')}: {e}")
                     continue
-
+ 
                 if not self.is_duplicate_performance_signal(signal['symbol'], signal['side'], hours=3):
                     message = self.format_performance_signal_message(signal)
                     if message and self.send_telegram_message(message):
@@ -1222,12 +1223,12 @@ class TradeiscoolBot:
                         self.performance_signals_sent[f"PERF_{signal['symbol']}_{signal['side']}"] = datetime.now()
                         sent_count += 1
                         time.sleep(2)
-
+ 
             logger.info(f"✅ اسکن جریان/عملکرد کامل شد. {sent_count} سیگنال ارسال شد")
         except Exception as e:
             logger.error(f"❌ خطا در اسکن جریان/عملکرد: {e}")
-
-
+ 
+ 
 # ==================================================================
 # اجرای اصلی - یک بار اجرا می‌شود و خارج می‌شود (سازگار با GitHub Actions)
 # ==================================================================
@@ -1235,32 +1236,36 @@ def main():
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
         logger.error("❌ TELEGRAM_BOT_TOKEN یا TELEGRAM_CHANNEL_ID تنظیم نشده - خروج")
         return
-
+ 
     state = load_state()
     now_utc = datetime.now(timezone.utc)
     hour = now_utc.hour
     logger.info(f"🕐 ساعت فعلی UTC: {now_utc.strftime('%Y-%m-%d %H:%M')}")
-
+    logger.info(f"🔍 طول کلیدها (برای عیب‌یابی، بدون فاش‌کردن مقدار): "
+                f"CMC={len(COINMARKETCAP_API_KEY)}, LCW={len(LIVECOINWATCH_API_KEY)}, "
+                f"TWELVEDATA={len(TWELVEDATA_API_KEY)}")
+ 
     run_flow_perf = FORCE_RUN_ALL or hour in SCAN_SCHEDULE_HOURS
     run_candle = FORCE_RUN_ALL or hour in CANDLE_SCAN_HOURS
-
+ 
     bot = TradeiscoolBot(state)
-
+ 
     if run_flow_perf:
         if COINMARKETCAP_API_KEY and LIVECOINWATCH_API_KEY:
             bot.flow_and_performance_scan_job()
         else:
             logger.warning("⚠️ COINMARKETCAP_API_KEY یا LIVECOINWATCH_API_KEY تنظیم نشده - اسکن جریان/عملکرد رد شد")
-
+ 
     if run_candle:
         candle_signal_scan_job(bot, state)
-
+ 
     if not run_flow_perf and not run_candle:
         logger.info("ℹ️ ساعت فعلی با هیچ‌کدام از زمان‌بندی‌ها مطابقت ندارد؛ خروج بدون اسکن")
-
+ 
     bot.sync_state()
     save_state(state)
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
+ 
