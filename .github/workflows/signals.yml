@@ -1,0 +1,64 @@
+name: Tradeiscool Signals
+
+on:
+  schedule:
+    # فقط ساعت‌هایی که واقعاً یکی از اسکن‌ها لازم است (به‌جای هر ساعت، برای صرفه‌جویی
+    # در دقایق رایگان Actions). این ساعت‌ها معادل SCAN_SCHEDULE_HOURS و CANDLE_SCAN_HOURS
+    # داخل bot.py هستند (به وقت UTC).
+    - cron: '5 0,3,4,6,8,9,12,15,16,18,20,21 * * *'
+  workflow_dispatch:
+    inputs:
+      force_run_all:
+        description: 'اجرای فوری همه‌ی اسکن‌ها صرف‌نظر از ساعت (برای تست)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tradeiscool-signals
+  cancel-in-progress: true
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
+          LIVECOINWATCH_API_KEY: ${{ secrets.LIVECOINWATCH_API_KEY }}
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+          TD_API_KEY: ${{ secrets.TD_API_KEY }}
+          FORCE_RUN_ALL: ${{ (github.event.inputs.force_run_all == 'true') && '1' || '' }}
+        run: |
+          echo "🔍 طول TWELVEDATA_API_KEY: ${#TWELVEDATA_API_KEY}"
+          echo "🔍 طول TD_API_KEY: ${#TD_API_KEY}"
+          python bot.py
+
+      - name: Commit updated state.json
+        run: |
+          git config user.name "tradeiscool-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json
+          if git diff --quiet --cached; then
+            echo "ℹ️ هیچ تغییری در state.json نبود - چیزی برای کامیت نیست."
+          else
+            git commit -m "update state [skip ci]"
+            git pull --rebase origin "${{ github.ref_name }}" || true
+            git push
+            echo "✅ state.json با موفقیت کامیت و پوش شد."
+          fi
