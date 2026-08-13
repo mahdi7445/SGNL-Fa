@@ -1,1 +1,111 @@
-{}
+{
+  "hot_movers": {
+    "symbols": [
+      {
+        "symbol": "ETHFI",
+        "name": "ether.fi",
+        "relative_performance": 14.621808719999999,
+        "rank": 81,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos",
+        "relative_performance": 8.398563099999999,
+        "rank": 60,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 6.37462547,
+        "rank": 67,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "OKB",
+        "name": "OKB",
+        "relative_performance": 5.3856788600000005,
+        "rank": 34,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 5.02188857,
+        "rank": 51,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "relative_performance": 4.90620716,
+        "rank": 57,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "relative_performance": -20.47755148,
+        "rank": 92,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO Token",
+        "relative_performance": -4.24570322,
+        "rank": 83,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "relative_performance": -3.73089803,
+        "rank": 52,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": -3.39765288,
+        "rank": 90,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "relative_performance": -3.34840594,
+        "rank": 18,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "VIRTUAL",
+        "name": "Virtuals Protocol",
+        "relative_performance": -3.32916167,
+        "rank": 87,
+        "reason": "بازنده نسبت به BTC"
+      }
+    ],
+    "updated": "2026-08-13T21:21:14.031704+00:00"
+  },
+  "tf_windows": {
+    "flow_perf": "2026-08-13-21",
+    "1h": "2026-08-13-21",
+    "4h": "2026-08-13-20",
+    "results_report": "2026-08-13"
+  },
+  "candle_signals": {},
+  "trade_history": [],
+  "flow_signals_sent": {},
+  "td_unsupported": {
+    "BTC/USD|15min": 1786742474.0320272,
+    "ETH/USD|15min": 1786742546.6615086,
+    "XAU/USD|15min": 1786742619.2846987,
+    "BTC/USD|1h": 1786742691.8879595,
+    "ETH/USD|1h": 1786742764.4939396,
+    "XAU/USD|1h": 1786742837.193839,
+    "BTC/USD|4h": 1786742909.804405,
+    "ETH/USD|4h": 1786742982.4596035,
+    "XAU/USD|4h": 1786743055.0627363
+  }
+}
