@@ -4,93 +4,93 @@
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": 31.81957826,
-        "rank": 82,
+        "relative_performance": 31.25729817,
+        "rank": 83,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": 22.81394719,
-        "rank": 108,
+        "relative_performance": 24.98303944,
+        "rank": 107,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "2Z",
         "name": "DoubleZero",
-        "relative_performance": 18.430498540000002,
-        "rank": 121,
+        "relative_performance": 11.61603603,
+        "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETHFI",
         "name": "ether.fi",
-        "relative_performance": 13.64419947,
-        "rank": 81,
+        "relative_performance": 9.806639279999999,
+        "rank": 80,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "ATOM",
-        "name": "Cosmos",
-        "relative_performance": 3.99681509,
-        "rank": 60,
+        "symbol": "OKB",
+        "name": "OKB",
+        "relative_performance": 3.8429948099999995,
+        "rank": 33,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "relative_performance": 3.31887489,
-        "rank": 49,
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "relative_performance": 3.5173508399999998,
+        "rank": 29,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "BEAT",
         "name": "Audiera",
-        "relative_performance": -21.47411656,
+        "relative_performance": -23.08011115,
         "rank": 109,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "relative_performance": -5.13211066,
-        "rank": 35,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "relative_performance": -4.841909319999999,
-        "rank": 98,
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": -8.032661260000001,
+        "rank": 81,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": -4.63151012,
-        "rank": 69,
+        "relative_performance": -6.882082520000001,
+        "rank": 70,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "relative_performance": -6.02675551,
+        "rank": 35,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "relative_performance": -4.49044728,
+        "relative_performance": -5.64571166,
         "rank": 125,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "relative_performance": -3.6318085200000003,
-        "rank": 18,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": -3.82649285,
+        "rank": 98,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-14T13:33:22.749875+00:00"
+    "updated": "2026-08-14T15:37:23.333198+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-14-12",
-    "1h": "2026-08-14-14",
+    "flow_perf": "2026-08-14-15",
+    "1h": "2026-08-14-15",
     "4h": "2026-08-14-12",
     "results_report": "2026-08-14",
     "1d": "2026-08-14",
