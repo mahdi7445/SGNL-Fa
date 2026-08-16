@@ -5,89 +5,89 @@
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": 18.84443434,
+        "relative_performance": 19.49483301,
         "rank": 81,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "relative_performance": 7.52678875,
+        "rank": 145,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETHFI",
         "name": "ether.fi",
-        "relative_performance": 5.89969546,
+        "relative_performance": 5.8010253899999995,
         "rank": 74,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": 5.57227683,
+        "relative_performance": 5.44666997,
         "rank": 37,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO Token",
-        "relative_performance": 4.8361247800000005,
+        "relative_performance": 4.75828547,
         "rank": 84,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "relative_performance": 4.62542312,
+        "relative_performance": 4.52651319,
         "rank": 43,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "relative_performance": 3.59565877,
-        "rank": 48,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -13.411398720000001,
+        "relative_performance": -13.766284729999999,
         "rank": 106,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "relative_performance": -5.60230496,
+        "relative_performance": -5.36675798,
         "rank": 132,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -4.18740505,
+        "relative_performance": -4.09882412,
         "rank": 60,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "FET",
         "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -4.12309733,
+        "relative_performance": -3.80865356,
         "rank": 101,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PENDLE",
         "name": "Pendle",
-        "relative_performance": -4.02867586,
+        "relative_performance": -3.62105706,
         "rank": 111,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "relative_performance": -3.07445812,
-        "rank": 52,
+        "symbol": "CC",
+        "name": "Canton",
+        "relative_performance": -2.9898992,
+        "rank": 21,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-16T21:25:45.755530+00:00"
+    "updated": "2026-08-16T21:34:51.820962+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-16-21",
@@ -99,9 +99,9 @@
   },
   "candle_signals": {
     "BTC/USD|15m": {
-      "ema7": 63095.18572662951,
-      "ema25": 63125.87254248468,
-      "atr": 43.63799445546794,
+      "ema7": 63079.389294972134,
+      "ema25": 63118.65157767817,
+      "atr": 44.359566280077225,
       "tr_buffer": [
         636.0200000000041,
         306.26000000000204,
@@ -118,8 +118,8 @@
         54.0,
         73.06999999999971
       ],
-      "plus_dm": 9.276387902112118,
-      "minus_dm": 13.704614644647284,
+      "plus_dm": 9.853074480532579,
+      "minus_dm": 12.725713598601049,
       "dm_buffer": [
         [
           0.0,
@@ -178,7 +178,7 @@
           0.0
         ]
       ],
-      "adx": 21.69289403837316,
+      "adx": 21.05216831196241,
       "dx_buffer": [
         85.33129863034335,
         76.40844827562405,
@@ -196,14 +196,6 @@
         39.208238590714195
       ],
       "hist": [
-        {
-          "o": 63052.26,
-          "h": 63078.75,
-          "l": 63052.25,
-          "c": 63059.68,
-          "ema7": 63074.72779449942,
-          "dt_ms": 1786842900000
-        },
         {
           "o": 63059.67,
           "h": 63066.94,
@@ -835,17 +827,39 @@
           "c": 63057.99,
           "ema7": 63095.18572662951,
           "dt_ms": 1786914000000
+        },
+        {
+          "o": 63058.0,
+          "h": 63085.15,
+          "l": 63031.41,
+          "c": 63032.0,
+          "ema7": 63079.389294972134,
+          "dt_ms": 1786914900000
         }
       ],
       "trend_prev": "down",
       "bull_used_this_trend": true,
-      "bear_used_this_trend": false,
+      "bear_used_this_trend": true,
       "last_bull_bar_index": 289,
-      "last_bear_bar_index": 69,
-      "last_signal_price": 63260.01,
-      "bar_index": 307,
-      "last_open_time": 1786914000000,
-      "open_trade": null
+      "last_bear_bar_index": 307,
+      "last_signal_price": 63032.0,
+      "bar_index": 308,
+      "last_open_time": 1786914900000,
+      "open_trade": {
+        "side": "SELL",
+        "entry": 63032.0,
+        "sl": 63263.269674710056,
+        "r": 231.26967471005628,
+        "hit": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false
+        },
+        "trailing": false,
+        "closed": false,
+        "signal_message_id": 4202
+      }
     },
     "ETH/USD|15m": {
       "ema7": 1884.067657696828,
@@ -15835,6 +15849,10 @@
     "LEO/USD|4h": 1786994460.0908062,
     "USD1/USD|4h": 1786994513.8985817,
     "CC/USD|4h": 1786994529.2576368,
-    "GRAM/USD|4h": 1786994536.8670237
+    "GRAM/USD|4h": 1786994536.8670237,
+    "ETH/USD|15min": 1787002502.2695956,
+    "XAU/USD|15min": 1787002574.9731984,
+    "BTC/USD|1h": 1787002647.684909,
+    "ETH/USD|1h": 1787002720.4084907
   }
 }
