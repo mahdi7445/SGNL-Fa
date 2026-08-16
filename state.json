@@ -5,89 +5,89 @@
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": 22.211539069999997,
+        "relative_performance": 27.610586089999998,
         "rank": 81,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETHFI",
         "name": "ether.fi",
-        "relative_performance": 6.85311462,
+        "relative_performance": 6.4490205199999995,
         "rank": 73,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": 5.3022327,
+        "relative_performance": 5.18356589,
         "rank": 37,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO Token",
-        "relative_performance": 3.9185624,
+        "relative_performance": 3.99830062,
         "rank": 85,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "relative_performance": 3.11576876,
-        "rank": 48,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "relative_performance": 2.83752504,
+        "relative_performance": 3.1967637499999997,
         "rank": 45,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "relative_performance": 3.09689173,
+        "rank": 48,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -8.25992962,
+        "relative_performance": -7.01015485,
         "rank": 104,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "relative_performance": -6.45812444,
+        "relative_performance": -6.51902041,
         "rank": 133,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "币安人生",
+        "name": "币安人生",
+        "relative_performance": -3.70854651,
+        "rank": 76,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PENDLE",
         "name": "Pendle",
-        "relative_performance": -3.3763264399999997,
+        "relative_performance": -3.40582776,
         "rank": 111,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "relative_performance": -3.29052113,
+        "relative_performance": -3.3604625400000003,
         "rank": 21,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "FET",
         "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -3.2279310999999997,
+        "relative_performance": -3.25469312,
         "rank": 101,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "OKB",
-        "name": "OKB",
-        "relative_performance": -2.98444485,
-        "rank": 33,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-16T19:18:18.602194+00:00"
+    "updated": "2026-08-16T19:27:26.707923+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-16-18",
