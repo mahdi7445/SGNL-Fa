@@ -5,89 +5,89 @@
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": 17.46784159,
+        "relative_performance": 20.20383315,
         "rank": 81,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETHFI",
         "name": "ether.fi",
-        "relative_performance": 6.6195979,
+        "relative_performance": 6.91409947,
         "rank": 73,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": 5.03495688,
+        "relative_performance": 5.2292312999999995,
         "rank": 37,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO Token",
-        "relative_performance": 4.20964202,
-        "rank": 85,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "relative_performance": 3.41022534,
-        "rank": 45,
+        "relative_performance": 4.77333445,
+        "rank": 84,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "relative_performance": 2.9190261,
+        "relative_performance": 3.07912573,
         "rank": 48,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "relative_performance": 3.0446782,
+        "rank": 45,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -9.308794010000002,
+        "relative_performance": -7.80012839,
         "rank": 104,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "relative_performance": -6.75924064,
-        "rank": 133,
+        "relative_performance": -7.10104482,
+        "rank": 134,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -4.0106805,
+        "relative_performance": -4.74615091,
         "rank": 76,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "STABLE",
+        "name": "Stable",
+        "relative_performance": -4.44654538,
+        "rank": 61,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PENDLE",
         "name": "Pendle",
-        "relative_performance": -3.17370024,
+        "relative_performance": -3.26401296,
         "rank": 111,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "relative_performance": -2.9675578799999998,
+        "relative_performance": -2.81992864,
         "rank": 33,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "FET",
-        "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -2.79029434,
-        "rank": 100,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-16T19:36:32.881396+00:00"
+    "updated": "2026-08-16T19:45:38.909319+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-16-18",
@@ -99,9 +99,9 @@
   },
   "candle_signals": {
     "BTC/USD|15m": {
-      "ema7": 63177.54624375754,
-      "ema25": 63149.66933930606,
-      "atr": 38.98133258804262,
+      "ema7": 63172.63718281816,
+      "ema25": 63150.303236282525,
+      "atr": 41.492665974610965,
       "tr_buffer": [
         636.0200000000041,
         306.26000000000204,
@@ -118,8 +118,8 @@
         54.0,
         73.06999999999971
       ],
-      "plus_dm": 15.583739663916635,
-      "minus_dm": 8.015633746084443,
+      "plus_dm": 14.470615402208304,
+      "minus_dm": 9.3102313356498,
       "dm_buffer": [
         [
           0.0,
@@ -178,7 +178,7 @@
           0.0
         ]
       ],
-      "adx": 28.10606083335075,
+      "adx": 27.64846713528433,
       "dx_buffer": [
         85.33129863034335,
         76.40844827562405,
@@ -196,14 +196,6 @@
         39.208238590714195
       ],
       "hist": [
-        {
-          "o": 63112.01,
-          "h": 63112.01,
-          "l": 63100.0,
-          "c": 63102.75,
-          "ema7": 63125.866051704856,
-          "dt_ms": 1786836600000
-        },
         {
           "o": 63102.76,
           "h": 63104.0,
@@ -835,6 +827,14 @@
           "c": 63219.99,
           "ema7": 63177.54624375754,
           "dt_ms": 1786907700000
+        },
+        {
+          "o": 63219.99,
+          "h": 63230.0,
+          "l": 63155.86,
+          "c": 63157.91,
+          "ema7": 63172.63718281816,
+          "dt_ms": 1786908600000
         }
       ],
       "trend_prev": "up",
@@ -843,14 +843,14 @@
       "last_bull_bar_index": 289,
       "last_bear_bar_index": 69,
       "last_signal_price": 63260.01,
-      "bar_index": 300,
-      "last_open_time": 1786907700000,
+      "bar_index": 301,
+      "last_open_time": 1786908600000,
       "open_trade": null
     },
     "ETH/USD|15m": {
-      "ema7": 1886.3427817580387,
-      "ema25": 1885.0583986224453,
-      "atr": 1.8062630960197346,
+      "ema7": 1886.117086318529,
+      "ema25": 1885.087752574565,
+      "atr": 1.9265300177326112,
       "tr_buffer": [
         17.86999999999989,
         8.120000000000118,
@@ -867,8 +867,8 @@
         3.119999999999891,
         2.759999999999991
       ],
-      "plus_dm": 0.4670782420532052,
-      "minus_dm": 0.35175559808629586,
+      "plus_dm": 0.5044297961922626,
+      "minus_dm": 0.326630198222989,
       "dm_buffer": [
         [
           0.0,
@@ -927,7 +927,7 @@
           0.0
         ]
       ],
-      "adx": 21.386417590085138,
+      "adx": 21.386981733123896,
       "dx_buffer": [
         83.49900596421607,
         78.15887156644574,
@@ -945,14 +945,6 @@
         35.89703001088116
       ],
       "hist": [
-        {
-          "o": 1883.18,
-          "h": 1883.88,
-          "l": 1882.89,
-          "c": 1883.24,
-          "ema7": 1883.9598148443415,
-          "dt_ms": 1786836600000
-        },
         {
           "o": 1883.24,
           "h": 1883.3,
@@ -1584,6 +1576,14 @@
           "c": 1887.76,
           "ema7": 1886.3427817580387,
           "dt_ms": 1786907700000
+        },
+        {
+          "o": 1887.76,
+          "h": 1888.75,
+          "l": 1885.26,
+          "c": 1885.44,
+          "ema7": 1886.117086318529,
+          "dt_ms": 1786908600000
         }
       ],
       "trend_prev": "up",
@@ -1592,14 +1592,14 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": 256,
       "last_signal_price": 1880.48,
-      "bar_index": 300,
-      "last_open_time": 1786907700000,
+      "bar_index": 301,
+      "last_open_time": 1786908600000,
       "open_trade": null
     },
     "XAU/USD|15m": {
-      "ema7": 4375.661814782231,
-      "ema25": 4375.649781139261,
-      "atr": 0.2612523701294073,
+      "ema7": 4375.639598586673,
+      "ema25": 4375.643871051626,
+      "atr": 0.26120077226305477,
       "tr_buffer": [
         10.275430000000597,
         4.2890299999999115,
@@ -1616,8 +1616,8 @@
         3.9771800000007715,
         4.664539999999761
       ],
-      "plus_dm": 0.0016376987058223831,
-      "minus_dm": 0.001817080849269456,
+      "plus_dm": 0.00152072022683507,
+      "minus_dm": 0.0017994322172042256,
       "dm_buffer": [
         [
           0.0,
@@ -1676,7 +1676,7 @@
           2.2203099999996994
         ]
       ],
-      "adx": 33.66582125852154,
+      "adx": 31.860730741286204,
       "dx_buffer": [
         36.8437076030465,
         38.70033661426776,
@@ -1694,14 +1694,6 @@
         12.540306858664685
       ],
       "hist": [
-        {
-          "o": 4375.59782,
-          "h": 4375.7936,
-          "l": 4375.53428,
-          "c": 4375.63539,
-          "ema7": 4375.646587621808,
-          "dt_ms": 1786836600000
-        },
         {
           "o": 4375.59782,
           "h": 4375.79353,
@@ -2333,16 +2325,24 @@
           "c": 4375.65772,
           "ema7": 4375.661814782231,
           "dt_ms": 1786907700000
+        },
+        {
+          "o": 4375.60151,
+          "h": 4375.79691,
+          "l": 4375.53638,
+          "c": 4375.57295,
+          "ema7": 4375.639598586673,
+          "dt_ms": 1786908600000
         }
       ],
-      "trend_prev": "up",
+      "trend_prev": "down",
       "bull_used_this_trend": false,
       "bear_used_this_trend": false,
       "last_bull_bar_index": null,
       "last_bear_bar_index": 109,
       "last_signal_price": 4375.04209,
-      "bar_index": 300,
-      "last_open_time": 1786907700000,
+      "bar_index": 301,
+      "last_open_time": 1786908600000,
       "open_trade": null
     },
     "BTC/USD|1h": {
