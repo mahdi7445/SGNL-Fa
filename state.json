@@ -857,8 +857,9 @@
           "4": false
         },
         "trailing": false,
-        "closed": false,
-        "signal_message_id": 4202
+        "closed": true,
+        "signal_message_id": 4202,
+        "close_type": "stop"
       }
     },
     "ETH/USD|15m": {
@@ -15842,7 +15843,20 @@
       "open_trade": null
     }
   },
-  "trade_history": [],
+  "trade_history": [
+    {
+      "symbol": "BTC/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 63032.0,
+      "sl": 63263.269674710056,
+      "final_r": 0.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit (full loss)",
+      "closed_at": "2026-08-17T06:03:52.224091+00:00"
+    }
+  ],
   "live_last_checked": {},
   "td_unsupported": {
     "HYPE/USD|4h": 1786994444.7853456,
