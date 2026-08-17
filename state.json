@@ -3,96 +3,96 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "relative_performance": 4.66687291,
-        "rank": 52,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "ether.fi",
-        "relative_performance": 3.9768471400000003,
-        "rank": 74,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 5.3732621599999995,
+        "rank": 51,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "relative_performance": 3.9442171100000003,
+        "relative_performance": 4.4225365199999995,
         "rank": 12,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "relative_performance": 3.71629013,
-        "rank": 36,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "relative_performance": 3.58460279,
+        "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "relative_performance": 3.47257087,
-        "rank": 45,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": 3.0977795099999996,
+        "rank": 52,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 3.43545792,
-        "rank": 51,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "relative_performance": 2.71894191,
+        "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "H",
-        "name": "Humanity",
-        "relative_performance": -37.28529101,
-        "rank": 115,
-        "reason": "بازنده نسبت به BTC"
+        "symbol": "MNT",
+        "name": "Mantle",
+        "relative_performance": 2.3934939,
+        "rank": 43,
+        "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -23.6430581,
-        "rank": 88,
+        "relative_performance": -29.698423379999998,
+        "rank": 94,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "relative_performance": -29.06520041,
+        "rank": 108,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -6.17787574,
+        "relative_performance": -5.56189789,
         "rank": 78,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "FET",
-        "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -4.82113997,
-        "rank": 102,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "MON",
         "name": "Monad",
-        "relative_performance": -4.56243412,
-        "rank": 107,
+        "relative_performance": -4.78276307,
+        "rank": 106,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos",
-        "relative_performance": -4.01665752,
-        "rank": 60,
+        "relative_performance": -4.73386864,
+        "rank": 61,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "ENS",
+        "name": "Ethereum Name Service",
+        "relative_performance": -4.27234043,
+        "rank": 127,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-17T09:07:08.207956+00:00"
+    "updated": "2026-08-17T12:04:43.510200+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-17-09",
-    "1h": "2026-08-17-11",
-    "4h": "2026-08-17-08",
+    "flow_perf": "2026-08-17-12",
+    "1h": "2026-08-17-12",
+    "4h": "2026-08-17-12",
     "1d": "2026-08-17",
     "1w": "2026-W34",
     "results_report": "2026-08-17"
