@@ -3,95 +3,95 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "ETHFI",
-        "name": "ether.fi",
-        "relative_performance": 7.174229530000001,
-        "rank": 72,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": 5.678486,
-        "rank": 82,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "relative_performance": 3.4832660699999995,
-        "rank": 53,
+        "relative_performance": 4.66687291,
+        "rank": 52,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "relative_performance": 3.2374663599999995,
-        "rank": 49,
+        "symbol": "ETHFI",
+        "name": "ether.fi",
+        "relative_performance": 3.9768471400000003,
+        "rank": 74,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "relative_performance": 3.07397702,
-        "rank": 39,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 3.9442171100000003,
+        "rank": 12,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "relative_performance": 3.71629013,
+        "rank": 36,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "relative_performance": 2.86845269,
+        "relative_performance": 3.47257087,
         "rank": 45,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 3.43545792,
+        "rank": 51,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -30.68504228,
-        "rank": 108,
+        "relative_performance": -37.28529101,
+        "rank": 115,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "MON",
-        "name": "Monad",
-        "relative_performance": -4.9482845499999994,
-        "rank": 106,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "relative_performance": -3.33226354,
-        "rank": 65,
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -23.6430581,
+        "rank": 88,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -2.85886315,
-        "rank": 76,
+        "relative_performance": -6.17787574,
+        "rank": 78,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "STABLE",
-        "name": "Stable",
-        "relative_performance": -2.50841569,
-        "rank": 61,
+        "symbol": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "relative_performance": -4.82113997,
+        "rank": 102,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "relative_performance": -2.48953167,
-        "rank": 80,
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": -4.56243412,
+        "rank": 107,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos",
+        "relative_performance": -4.01665752,
+        "rank": 60,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-17T06:08:49.288825+00:00"
+    "updated": "2026-08-17T09:07:08.207956+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-17-06",
-    "1h": "2026-08-17-08",
+    "flow_perf": "2026-08-17-09",
+    "1h": "2026-08-17-09",
     "4h": "2026-08-17-08",
     "1d": "2026-08-17",
     "1w": "2026-W34",
