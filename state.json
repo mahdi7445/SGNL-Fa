@@ -5,94 +5,94 @@
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": 21.497408150000002,
-        "rank": 81,
+        "relative_performance": 8.27499191,
+        "rank": 82,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETHFI",
         "name": "ether.fi",
-        "relative_performance": 5.83220215,
-        "rank": 73,
+        "relative_performance": 7.577121529999999,
+        "rank": 72,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "CRV",
-        "name": "Curve DAO Token",
-        "relative_performance": 4.7525777,
-        "rank": 84,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": 3.6530564500000002,
+        "rank": 53,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "relative_performance": 3.62356251,
+        "rank": 36,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "relative_performance": 4.16538481,
+        "relative_performance": 3.4849226400000006,
         "rank": 49,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "relative_performance": 3.99449167,
-        "rank": 45,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "relative_performance": 3.66627395,
-        "rank": 43,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "relative_performance": 3.3168773400000005,
+        "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -7.022980700000001,
-        "rank": 98,
+        "relative_performance": -29.65947738,
+        "rank": 108,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "DEXE",
-        "name": "DeXe",
-        "relative_performance": -6.53192474,
-        "rank": 132,
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": -5.14725692,
+        "rank": 106,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "FET",
-        "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -3.56773621,
-        "rank": 103,
+        "symbol": "QNT",
+        "name": "Quant",
+        "relative_performance": -3.1595037799999997,
+        "rank": 65,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "STABLE",
-        "name": "Stable",
-        "relative_performance": -3.40813079,
-        "rank": 61,
+        "symbol": "币安人生",
+        "name": "币安人生",
+        "relative_performance": -2.7047066500000003,
+        "rank": 76,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "relative_performance": -3.19776792,
-        "rank": 21,
+        "symbol": "APT",
+        "name": "Aptos",
+        "relative_performance": -2.39235954,
+        "rank": 80,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PENDLE",
-        "name": "Pendle",
-        "relative_performance": -3.16964007,
-        "rank": 111,
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "relative_performance": -2.38528714,
+        "rank": 30,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-17T00:33:43.328657+00:00"
+    "updated": "2026-08-17T05:59:17.275019+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-17-00",
-    "1h": "2026-08-17-00",
-    "4h": "2026-08-17-00",
+    "flow_perf": "2026-08-17-03",
+    "1h": "2026-08-17-05",
+    "4h": "2026-08-17-04",
     "1d": "2026-08-17",
     "1w": "2026-W34",
     "results_report": "2026-08-17"
@@ -15876,6 +15876,7 @@
     "ADA/USD|4h": 1787008395.2950847,
     "XLM/USD|4h": 1787008965.3783138,
     "BCH/USD|4h": 1787009543.1336384,
-    "USDe/USD|4h": 1787010135.7081976
+    "USDe/USD|4h": 1787010135.7081976,
+    "USDG/USD|4h": 1787032952.2802603
   }
 }
