@@ -3,95 +3,95 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 6.0022747899999995,
-        "rank": 51,
+        "symbol": "COMP",
+        "name": "Compound",
+        "relative_performance": 5.31367404,
+        "rank": 122,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 4.4494902100000004,
+        "rank": 67,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "relative_performance": 3.73484908,
+        "relative_performance": 3.9085574900000006,
         "rank": 52,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "DEXE",
-        "name": "DeXe",
-        "relative_performance": 3.5677754100000003,
-        "rank": 128,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 2.75334783,
-        "rank": 12,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "relative_performance": 2.6716080600000005,
-        "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": 2.2209895500000005,
+        "relative_performance": 3.28232224,
         "rank": 58,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "relative_performance": 2.7479446100000002,
+        "rank": 129,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 2.2005085300000005,
+        "rank": 51,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -33.40047914,
-        "rank": 96,
+        "relative_performance": -44.27745798,
+        "rank": 106,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "relative_performance": -13.4764014,
+        "rank": 109,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos",
-        "relative_performance": -5.65010598,
+        "relative_performance": -5.96292365,
         "rank": 61,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "relative_performance": -5.30094488,
+        "relative_performance": -5.79686198,
         "rank": 22,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "relative_performance": -4.9924574999999995,
-        "rank": 37,
+        "symbol": "OKB",
+        "name": "OKB",
+        "relative_performance": -5.74963441,
+        "rank": 33,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "AXS",
-        "name": "Axie Infinity",
-        "relative_performance": -4.75440575,
-        "rank": 138,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "ENS",
-        "name": "Ethereum Name Service",
-        "relative_performance": -4.45158512,
-        "rank": 127,
+        "symbol": "ETHFI",
+        "name": "ether.fi",
+        "relative_performance": -5.16817319,
+        "rank": 73,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-17T15:04:55.797719+00:00"
+    "updated": "2026-08-17T18:01:09.050148+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-17-15",
-    "1h": "2026-08-17-17",
+    "flow_perf": "2026-08-17-18",
+    "1h": "2026-08-17-18",
     "4h": "2026-08-17-16",
     "1d": "2026-08-17",
     "1w": "2026-W34",
