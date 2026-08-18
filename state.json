@@ -5,93 +5,93 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": 18.98606362,
-        "rank": 65,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PIEVERSE",
-        "name": "Pieverse",
-        "relative_performance": 6.2385366300000005,
-        "rank": 102,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "MON",
-        "name": "Monad",
-        "relative_performance": 4.43493486,
-        "rank": 107,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "COMP",
-        "name": "Compound",
-        "relative_performance": 3.5265952600000006,
-        "rank": 122,
+        "relative_performance": 13.41665364,
+        "rank": 66,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": 3.28347472,
+        "relative_performance": 3.76421559,
         "rank": 58,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "relative_performance": 3.7512843599999997,
+        "rank": 103,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compound",
+        "relative_performance": 3.46883025,
+        "rank": 122,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": 2.9894691800000004,
+        "rank": 107,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "relative_performance": 2.3930290999999997,
+        "relative_performance": 1.9352474800000001,
         "rank": 51,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -15.36265633,
-        "rank": 103,
+        "symbol": "H",
+        "name": "Humanity",
+        "relative_performance": -12.67881366,
+        "rank": 112,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "H",
-        "name": "Humanity",
-        "relative_performance": -10.633831240000001,
-        "rank": 111,
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -10.23460868,
+        "rank": 102,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "relative_performance": -10.182882130000001,
+        "relative_performance": -10.17667195,
         "rank": 49,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": -8.09339224,
+        "rank": 96,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "IMX",
         "name": "Immutable",
-        "relative_performance": -8.82302687,
+        "relative_performance": -8.003668300000001,
         "rank": 115,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "relative_performance": -8.2436098,
+        "relative_performance": -7.9979944,
         "rank": 72,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "JTO",
-        "name": "Jito",
-        "relative_performance": -7.5663847099999995,
-        "rank": 95,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-18T14:04:43.325653+00:00"
+    "updated": "2026-08-18T15:00:50.220875+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-18-12",
-    "1h": "2026-08-18-14",
+    "flow_perf": "2026-08-18-15",
+    "1h": "2026-08-18-15",
     "4h": "2026-08-18-12",
     "1d": "2026-08-18",
     "1w": "2026-W34",
@@ -24151,6 +24151,7 @@
     "LINK/USD|4h": 1787150648.964015,
     "ADA/USD|4h": 1787150721.6823947,
     "XLM/USD|4h": 1787151202.6211545,
-    "BCH/USD|4h": 1787151275.244813
+    "BCH/USD|4h": 1787151275.244813,
+    "USDe/USD|4h": 1787151792.7240608
   }
 }
