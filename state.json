@@ -5,93 +5,93 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": 13.41665364,
+        "relative_performance": 11.07492187,
         "rank": 66,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": 8.12995439,
+        "rank": 99,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": 3.76421559,
-        "rank": 58,
+        "relative_performance": 4.15553513,
+        "rank": 57,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "PIEVERSE",
-        "name": "Pieverse",
-        "relative_performance": 3.7512843599999997,
-        "rank": 103,
+        "symbol": "SKY",
+        "name": "Sky",
+        "relative_performance": 2.74779068,
+        "rank": 45,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "COMP",
-        "name": "Compound",
-        "relative_performance": 3.46883025,
-        "rank": 122,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 2.13842499,
+        "rank": 68,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "MON",
-        "name": "Monad",
-        "relative_performance": 2.9894691800000004,
-        "rank": 107,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "relative_performance": 1.71793218,
+        "rank": 85,
         "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "relative_performance": 1.9352474800000001,
-        "rank": 51,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "H",
-        "name": "Humanity",
-        "relative_performance": -12.67881366,
-        "rank": 112,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -10.23460868,
-        "rank": 102,
-        "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "relative_performance": -10.17667195,
+        "relative_performance": -8.62437829,
         "rank": 49,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "JTO",
-        "name": "Jito",
-        "relative_performance": -8.09339224,
-        "rank": 96,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "IMX",
         "name": "Immutable",
-        "relative_performance": -8.003668300000001,
+        "relative_performance": -8.16656448,
         "rank": 115,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "relative_performance": -7.61531699,
+        "rank": 112,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "relative_performance": -7.9979944,
-        "rank": 72,
+        "relative_performance": -6.46114264,
+        "rank": 71,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": -6.0383444299999995,
+        "rank": 95,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "relative_performance": -3.84033044,
+        "rank": 28,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-18T15:00:50.220875+00:00"
+    "updated": "2026-08-18T18:07:38.608577+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-18-15",
-    "1h": "2026-08-18-17",
+    "flow_perf": "2026-08-18-18",
+    "1h": "2026-08-18-18",
     "4h": "2026-08-18-16",
     "1d": "2026-08-18",
     "1w": "2026-W34",
