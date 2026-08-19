@@ -5,117 +5,117 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 19.92903451,
+        "relative_performance": 21.04927949,
         "rank": 81,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 13.06082624,
+        "relative_performance": 12.50043059,
         "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "relative_performance": 12.58522077,
-        "rank": 69,
+        "relative_performance": 12.28494507,
+        "rank": 70,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "relative_performance": 10.34209165,
+        "relative_performance": 10.29552396,
         "rank": 2,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": 7.31231026,
+        "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 7.114353,
+        "relative_performance": 7.125741939999999,
         "rank": 90,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 7.06657445,
+        "relative_performance": 6.95386066,
         "rank": 57,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZBCN",
-        "name": "Zebec Network",
-        "relative_performance": 6.94417618,
-        "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "relative_performance": 6.175558380000001,
+        "relative_performance": 6.0115460800000005,
         "rank": 47,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -31.34690531,
+        "relative_performance": -31.37681795,
         "rank": 128,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -16.74549546,
+        "relative_performance": -16.296522369999998,
         "rank": 82,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -11.83588856,
+        "relative_performance": -11.84953169,
         "rank": 61,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": -9.41929736,
+        "relative_performance": -11.16587584,
         "rank": 52,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -9.39226158,
-        "rank": 104,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -9.04698949,
+        "relative_performance": -8.80532043,
         "rank": 59,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": -7.335145809999999,
+        "relative_performance": -7.34493866,
         "rank": 58,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDe",
         "name": "Ethena USDe",
-        "relative_performance": -7.0684641599999996,
+        "relative_performance": -6.89660691,
         "rank": 19,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "U",
+        "name": "United Stables",
+        "relative_performance": -6.89423166,
+        "rank": 49,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-19T23:42:44.883845+00:00"
+    "updated": "2026-08-19T23:52:22.779275+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-19-21",
@@ -24345,6 +24345,7 @@
     "XLM/USD|4h": 1787268369.202683,
     "BCH/USD|4h": 1787268441.8020713,
     "USDe/USD|4h": 1787268989.6468322,
-    "LTC/USD|4h": 1787269567.3888702
+    "LTC/USD|4h": 1787269567.3888702,
+    "HBAR/USD|4h": 1787270160.284439
   }
 }
