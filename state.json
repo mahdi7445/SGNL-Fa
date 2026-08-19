@@ -2383,8 +2383,9 @@
           "4": false
         },
         "trailing": false,
-        "closed": false,
-        "signal_message_id": 4214
+        "closed": true,
+        "signal_message_id": 4214,
+        "close_type": "stop"
       }
     },
     "BTC/USD|1h": {
@@ -24148,10 +24149,22 @@
       "close_type": "stop",
       "close_reason": "Stop hit (full loss)",
       "closed_at": "2026-08-18T03:25:53.976062+00:00"
+    },
+    {
+      "symbol": "XAU/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 4333.91834,
+      "sl": 4378.358700971899,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit (full loss)",
+      "closed_at": "2026-08-19T12:48:27.350461+00:00"
     }
   ],
   "live_last_checked": {
-    "XAU/USD|15m": 1787142615.4682636
+    "XAU/USD|15m": 1787143706.4199784
   },
   "td_unsupported": {
     "LEO/USD|4h": 1787186879.82664,
