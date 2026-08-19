@@ -5,117 +5,117 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 16.555286470000002,
+        "relative_performance": 17.36121943,
         "rank": 81,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 14.61720167,
+        "relative_performance": 14.556307519999999,
         "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "relative_performance": 12.27621448,
-        "rank": 70,
+        "relative_performance": 12.16470183,
+        "rank": 69,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "relative_performance": 10.84971491,
+        "relative_performance": 10.86599792,
         "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 7.81283093,
-        "rank": 123,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "GNO",
-        "name": "Gnosis",
-        "relative_performance": 6.537259159999999,
-        "rank": 93,
+        "relative_performance": 7.29091786,
+        "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 6.36038953,
+        "relative_performance": 6.629112489999999,
         "rank": 57,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "relative_performance": 5.517152179999999,
-        "rank": 13,
+        "symbol": "GNO",
+        "name": "Gnosis",
+        "relative_performance": 5.68092781,
+        "rank": 93,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": 4.957930319999999,
+        "rank": 80,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -25.43497255,
+        "relative_performance": -25.958066440000003,
         "rank": 128,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -16.19965443,
+        "relative_performance": -16.51685363,
         "rank": 82,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -12.611968050000002,
-        "rank": 105,
+        "relative_performance": -11.785225350000001,
+        "rank": 104,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -10.78008862,
+        "relative_performance": -11.73994038,
         "rank": 61,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -9.6719317,
+        "relative_performance": -10.33513503,
         "rank": 59,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "POL",
-        "name": "Polygon (prev. MATIC)",
-        "relative_performance": -6.908642230000001,
-        "rank": 58,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDe",
         "name": "Ethena USDe",
-        "relative_performance": -6.87844866,
+        "relative_performance": -7.431596880000001,
         "rank": 19,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "U",
         "name": "United Stables",
-        "relative_performance": -6.86835738,
+        "relative_performance": -7.42242056,
         "rank": 49,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "RLUSD",
+        "name": "Ripple USD",
+        "relative_performance": -7.40748724,
+        "rank": 38,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-19T22:35:23.002033+00:00"
+    "updated": "2026-08-19T22:44:56.084038+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-19-21",
@@ -24332,6 +24332,9 @@
     "BTC/USD|1day": 1787264946.8263345,
     "ETH/USD|1day": 1787265375.503443,
     "BTC/USD|1week": 1787265448.103565,
-    "ETH/USD|1week": 1787265520.6944308
+    "ETH/USD|1week": 1787265520.6944308,
+    "BNB/USD|4h": 1787265971.0860243,
+    "XRP/USD|4h": 1787266043.7596467,
+    "SOL/USD|4h": 1787266116.3494499
   }
 }
