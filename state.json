@@ -1617,10 +1617,10 @@
         "hit": {
           "1": true,
           "2": true,
-          "3": false,
+          "3": true,
           "4": false
         },
-        "trailing": false,
+        "trailing": true,
         "closed": false,
         "signal_message_id": 4213
       }
