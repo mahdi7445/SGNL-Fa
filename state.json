@@ -5,117 +5,117 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 20.534347500000003,
+        "relative_performance": 18.34640119,
         "rank": 81,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 13.07640304,
+        "relative_performance": 13.078466729999999,
         "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "relative_performance": 11.9649138,
-        "rank": 70,
+        "relative_performance": 12.41739493,
+        "rank": 69,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "relative_performance": 10.10752452,
+        "relative_performance": 10.19539817,
         "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 8.02199919,
+        "relative_performance": 7.75558206,
         "rank": 90,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 7.154247380000001,
+        "relative_performance": 7.139876600000001,
         "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 7.099007390000001,
+        "relative_performance": 6.898092070000001,
         "rank": 57,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "relative_performance": 6.13825166,
+        "relative_performance": 6.0078397,
         "rank": 80,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -27.17064928,
-        "rank": 128,
+        "relative_performance": -30.0737884,
+        "rank": 129,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -16.63386183,
+        "relative_performance": -16.51263505,
         "rank": 82,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -12.190366659999999,
+        "relative_performance": -11.95450628,
         "rank": 61,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -11.679965939999999,
+        "relative_performance": -10.35718921,
         "rank": 104,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -9.54048079,
+        "relative_performance": -9.40415107,
         "rank": 59,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": -7.9616193,
+        "relative_performance": -8.76613835,
         "rank": 52,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": -7.26227967,
+        "relative_performance": -7.38000128,
         "rank": 58,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDe",
         "name": "Ethena USDe",
-        "relative_performance": -7.210517609999999,
+        "relative_performance": -7.21559644,
         "rank": 19,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-19T23:23:31.698926+00:00"
+    "updated": "2026-08-19T23:33:37.142862+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-19-21",
@@ -24343,6 +24343,7 @@
     "LINK/USD|4h": 1787267763.6305697,
     "ADA/USD|4h": 1787267836.3007274,
     "XLM/USD|4h": 1787268369.202683,
-    "BCH/USD|4h": 1787268441.8020713
+    "BCH/USD|4h": 1787268441.8020713,
+    "USDe/USD|4h": 1787268989.6468322
   }
 }
