@@ -3,95 +3,123 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "relative_performance": 8.06251958,
-        "rank": 91,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "relative_performance": 14.744438489999999,
+        "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "GNO",
-        "name": "Gnosis",
-        "relative_performance": 7.0963467,
-        "rank": 95,
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 14.021609109999998,
+        "rank": 83,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 6.04900763,
-        "rank": 49,
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "relative_performance": 11.24804852,
+        "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "relative_performance": 5.28704804,
-        "rank": 94,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 10.522964889999999,
+        "rank": 70,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": 5.20205623,
-        "rank": 98,
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": 7.57967118,
+        "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "relative_performance": 4.56722347,
-        "rank": 75,
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": 5.670409399999999,
+        "rank": 80,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 5.62729058,
+        "rank": 57,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "relative_performance": 5.409141929999999,
+        "rank": 13,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -14.01581143,
-        "rank": 120,
+        "relative_performance": -25.640105159999997,
+        "rank": 128,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "币安人生",
+        "name": "币安人生",
+        "relative_performance": -16.67687882,
+        "rank": 81,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -13.74778401,
+        "rank": 106,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -10.4647639,
+        "relative_performance": -12.14527179,
         "rank": 62,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PIEVERSE",
-        "name": "Pieverse",
-        "relative_performance": -7.330624309999999,
-        "rank": 107,
+        "symbol": "JST",
+        "name": "JUST",
+        "relative_performance": -10.27270248,
+        "rank": 59,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "IMX",
-        "name": "Immutable",
-        "relative_performance": -5.66594966,
-        "rank": 116,
+        "symbol": "U",
+        "name": "United Stables",
+        "relative_performance": -7.42422363,
+        "rank": 49,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "DEXE",
-        "name": "DeXe",
-        "relative_performance": -5.06068464,
-        "rank": 132,
+        "symbol": "USDe",
+        "name": "Ethena USDe",
+        "relative_performance": -7.4180182100000005,
+        "rank": 19,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "relative_performance": -4.86279067,
-        "rank": 53,
+        "symbol": "RLUSD",
+        "name": "Ripple USD",
+        "relative_performance": -7.40335515,
+        "rank": 38,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-19T15:00:46.377950+00:00"
+    "updated": "2026-08-19T22:16:18.316918+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-19-15",
-    "1h": "2026-08-19-16",
+    "flow_perf": "2026-08-19-21",
+    "1h": "2026-08-19-22",
     "4h": "2026-08-19-16",
     "1d": "2026-08-19",
     "1w": "2026-W34",
@@ -24294,6 +24322,10 @@
     "GRAM/USD|4h": 1787186947.5296152,
     "CC/USD|4h": 1787186955.127374,
     "HYPE/USD|4h": 1787186864.7109063,
-    "USDG/USD|4h": 1787225705.3325953
+    "USDG/USD|4h": 1787225705.3325953,
+    "BTC/USD|15min": 1787264178.3171718,
+    "ETH/USD|15min": 1787264250.9935088,
+    "BTC/USD|1h": 1787264323.6271942,
+    "ETH/USD|1h": 1787264396.2297907
   }
 }
