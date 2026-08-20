@@ -3,123 +3,123 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": 12.54624677,
-        "rank": 67,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 12.31169844,
+        "relative_performance": 14.468273539999998,
         "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 11.497311629999999,
-        "rank": 48,
+        "relative_performance": 12.44200945,
+        "rank": 47,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": 8.23343105,
-        "rank": 89,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 12.026202080000001,
+        "rank": 67,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 7.983320840000001,
-        "rank": 86,
+        "relative_performance": 8.898980989999998,
+        "rank": 85,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 8.373715619999999,
+        "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "relative_performance": 7.213696120000002,
+        "relative_performance": 7.42056672,
         "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETHFI",
         "name": "ether.fi",
-        "relative_performance": 6.117522019999999,
+        "relative_performance": 6.21891742,
         "rank": 71,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "relative_performance": 5.406429760000002,
-        "rank": 80,
+        "relative_performance": 5.3385845,
+        "rank": 81,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -31.09234623,
-        "rank": 138,
+        "relative_performance": -28.4810069,
+        "rank": 134,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -16.18689016,
+        "relative_performance": -15.134783689999999,
         "rank": 82,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "STABLE",
-        "name": "Stable",
-        "relative_performance": -13.26059605,
-        "rank": 63,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": -13.227744659999999,
+        "relative_performance": -12.9166639,
         "rank": 37,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -12.8072219,
+        "rank": 104,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "STABLE",
+        "name": "Stable",
+        "relative_performance": -12.67791965,
+        "rank": 63,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -12.62375468,
+        "relative_performance": -11.97683967,
         "rank": 59,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "USDG",
+        "name": "Global Dollar",
+        "relative_performance": -11.13971658,
+        "rank": 24,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USD1",
         "name": "World Liberty Financial USD",
-        "relative_performance": -11.359821029999999,
+        "relative_performance": -11.12171609,
         "rank": 21,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "U",
-        "name": "United Stables",
-        "relative_performance": -11.35920766,
-        "rank": 51,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "PYUSD",
-        "name": "PayPal USD",
-        "relative_performance": -11.34613379,
-        "rank": 29,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T08:57:06.696534+00:00"
+    "updated": "2026-08-20T09:06:16.478500+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-20-06",
-    "1h": "2026-08-20-08",
+    "flow_perf": "2026-08-20-09",
+    "1h": "2026-08-20-09",
     "4h": "2026-08-20-08",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -17459,9 +17459,9 @@
       "open_trade": null
     },
     "UNI/USD|4h": {
-      "ema7": 3.4687295394699977,
-      "ema25": 3.375086273415488,
-      "atr": 0.08060747331201674,
+      "ema7": 3.5312853659518737,
+      "ema25": 3.4099078306025463,
+      "atr": 0.08454930096801445,
       "tr_buffer": [
         0.05899999999999972,
         0.07600000000000007,
@@ -17478,8 +17478,8 @@
         0.04899999999999993,
         0.10999999999999988
       ],
-      "plus_dm": 0.03387610249397297,
-      "minus_dm": 0.007599443450045966,
+      "plus_dm": 0.029209496538170572,
+      "minus_dm": 0.00655258134213147,
       "dm_buffer": [
         [
           0.0,
@@ -17538,7 +17538,7 @@
           0.0
         ]
       ],
-      "adx": 32.268208682456375,
+      "adx": 36.55051530351814,
       "dx_buffer": [
         21.44702842377253,
         21.447028423772537,
@@ -17556,22 +17556,6 @@
         64.11495685772971
       ],
       "hist": [
-        {
-          "o": 4.072,
-          "h": 4.093,
-          "l": 3.99,
-          "c": 4.017,
-          "ema7": 4.035424922652723,
-          "dt_ms": 1786032000000
-        },
-        {
-          "o": 4.018,
-          "h": 4.035,
-          "l": 3.999,
-          "c": 4.017,
-          "ema7": 4.030818691989542,
-          "dt_ms": 1786046400000
-        },
         {
           "o": 4.016,
           "h": 4.097,
@@ -18195,6 +18179,22 @@
           "c": 3.635,
           "ema7": 3.4687295394699977,
           "dt_ms": 1787169600000
+        },
+        {
+          "o": 3.636,
+          "h": 3.719,
+          "l": 3.56,
+          "c": 3.598,
+          "ema7": 3.5010471546024986,
+          "dt_ms": 1787184000000
+        },
+        {
+          "o": 3.598,
+          "h": 3.64,
+          "l": 3.577,
+          "c": 3.622,
+          "ema7": 3.5312853659518737,
+          "dt_ms": 1787198400000
         }
       ],
       "trend_prev": "up",
@@ -18203,8 +18203,8 @@
       "last_bull_bar_index": 145,
       "last_bear_bar_index": 274,
       "last_signal_price": 3.436,
-      "bar_index": 310,
-      "last_open_time": 1787169600000,
+      "bar_index": 312,
+      "last_open_time": 1787198400000,
       "open_trade": null
     },
     "SUI/USD|4h": {
@@ -21982,9 +21982,9 @@
       "open_trade": null
     },
     "TAO/USD|4h": {
-      "ema7": 197.42994841098198,
-      "ema25": 195.92148473570455,
-      "atr": 3.5347284214224155,
+      "ema7": 200.36059598117737,
+      "ema25": 197.13250770379562,
+      "atr": 3.6365770572468783,
       "tr_buffer": [
         2.4000000000000057,
         7.700000000000017,
@@ -22001,8 +22001,8 @@
         3.3000000000000114,
         10.600000000000023
       ],
-      "plus_dm": 1.2819271492718138,
-      "minus_dm": 0.5629109497601787,
+      "plus_dm": 1.1053351440149823,
+      "minus_dm": 0.48536709443607245,
       "dm_buffer": [
         [
           0.0,
@@ -22061,7 +22061,7 @@
           0.0
         ]
       ],
-      "adx": 35.6320824126416,
+      "adx": 36.0925158054096,
       "dx_buffer": [
         23.01886792452826,
         22.52095981497541,
@@ -22079,22 +22079,6 @@
         34.36448012483396
       ],
       "hist": [
-        {
-          "o": 193.3,
-          "h": 194.0,
-          "l": 191.7,
-          "c": 191.7,
-          "ema7": 194.3967128696105,
-          "dt_ms": 1786032000000
-        },
-        {
-          "o": 191.8,
-          "h": 193.3,
-          "l": 191.5,
-          "c": 192.3,
-          "ema7": 193.8725346522079,
-          "dt_ms": 1786046400000
-        },
         {
           "o": 192.2,
           "h": 193.0,
@@ -22718,6 +22702,22 @@
           "c": 205.6,
           "ema7": 197.42994841098198,
           "dt_ms": 1787169600000
+        },
+        {
+          "o": 205.7,
+          "h": 207.9,
+          "l": 202.9,
+          "c": 203.9,
+          "ema7": 199.04746130823648,
+          "dt_ms": 1787184000000
+        },
+        {
+          "o": 203.9,
+          "h": 206.9,
+          "l": 203.3,
+          "c": 204.3,
+          "ema7": 200.36059598117737,
+          "dt_ms": 1787198400000
         }
       ],
       "trend_prev": "up",
@@ -22726,8 +22726,8 @@
       "last_bull_bar_index": 246,
       "last_bear_bar_index": 173,
       "last_signal_price": 206.9,
-      "bar_index": 310,
-      "last_open_time": 1787169600000,
+      "bar_index": 312,
+      "last_open_time": 1787198400000,
       "open_trade": null
     },
     "OKB/USD|4h": {
