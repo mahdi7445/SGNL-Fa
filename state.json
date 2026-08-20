@@ -3,119 +3,119 @@
   "hot_movers": {
     "symbols": [
       {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 14.744532290000002,
+        "rank": 45,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 14.088225219999998,
+        "relative_performance": 14.708764210000002,
         "rank": 55,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 13.911639219999998,
+        "relative_performance": 13.19247692,
         "rank": 5,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 13.092174589999999,
-        "rank": 45,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "relative_performance": 10.334600729999998,
-        "rank": 69,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 10.331644909999998,
+        "relative_performance": 9.629095380000003,
         "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 9.816457059999998,
+        "relative_performance": 9.406983790000002,
         "rank": 50,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "WIF",
-        "name": "dogwifhat",
-        "relative_performance": 9.47959887,
-        "rank": 136,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MON",
         "name": "Monad",
-        "relative_performance": 9.005730159999999,
-        "rank": 100,
+        "relative_performance": 8.815877619999998,
+        "rank": 101,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "WIF",
+        "name": "dogwifhat",
+        "relative_performance": 8.408201470000002,
+        "rank": 138,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 7.9340228900000005,
+        "rank": 88,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -14.200411410000001,
-        "rank": 140,
+        "relative_performance": -12.64843432,
+        "rank": 139,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -9.85583117,
+        "relative_performance": -9.69755031,
         "rank": 66,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "FF",
-        "name": "Falcon Finance",
-        "relative_performance": -7.4851336,
-        "rank": 119,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "relative_performance": -7.4154231,
-        "rank": 138,
+        "relative_performance": -8.848293,
+        "rank": 140,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "relative_performance": -7.61062876,
+        "rank": 119,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": -7.30142265,
+        "relative_performance": -7.5159534,
         "rank": 37,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDG",
         "name": "Global Dollar",
-        "relative_performance": -6.58638118,
+        "relative_performance": -6.39751499,
         "rank": 24,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PYUSD",
         "name": "PayPal USD",
-        "relative_performance": -6.57572604,
+        "relative_performance": -6.39514113,
         "rank": 29,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "RLUSD",
         "name": "Ripple USD",
-        "relative_performance": -6.56925792,
+        "relative_performance": -6.38792694,
         "rank": 38,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T18:13:15.174013+00:00"
+    "updated": "2026-08-20T18:22:18.265017+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-20-18",
