@@ -5,117 +5,117 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 15.999185409999999,
+        "relative_performance": 16.105247679999998,
         "rank": 55,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 14.82391788,
+        "relative_performance": 13.774979369999999,
         "rank": 45,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MON",
         "name": "Monad",
-        "relative_performance": 10.082911800000002,
+        "relative_performance": 10.40193701,
         "rank": 100,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 9.099250219999998,
+        "relative_performance": 9.07051506,
         "rank": 50,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 8.84081866,
+        "relative_performance": 8.85181212,
         "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "WIF",
         "name": "dogwifhat",
-        "relative_performance": 8.313122960000001,
-        "rank": 137,
+        "relative_performance": 7.94764823,
+        "rank": 138,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "relative_performance": 7.44497362,
-        "rank": 40,
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 7.15651941,
+        "rank": 108,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 7.32180382,
+        "relative_performance": 7.06547456,
         "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -9.66235498,
-        "rank": 138,
+        "relative_performance": -9.65745763,
+        "rank": 137,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -9.56008156,
+        "relative_performance": -9.51193334,
         "rank": 66,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": -8.096992290000001,
+        "relative_performance": -8.14353565,
         "rank": 37,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": -6.915479550000001,
+        "relative_performance": -6.94481496,
         "rank": 68,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "FF",
         "name": "Falcon Finance",
-        "relative_performance": -6.91293276,
+        "relative_performance": -6.90822901,
         "rank": 119,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "relative_performance": -6.89503903,
+        "relative_performance": -6.6728056,
         "rank": 136,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "relative_performance": -6.673486240000001,
+        "relative_performance": -6.60541695,
         "rank": 14,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "EURC",
         "name": "EURC",
-        "relative_performance": -6.452906400000001,
+        "relative_performance": -6.4751112200000005,
         "rank": 81,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T19:34:52.285134+00:00"
+    "updated": "2026-08-20T19:39:24.376331+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-20-18",
@@ -18972,8 +18972,8 @@
       }
     },
     "AVAX/USD|4h": {
-      "ema7": 6.7905581097651115,
-      "ema25": 6.552193021609422,
+      "ema7": 6.790308109765111,
+      "ema25": 6.552116098532499,
       "atr": 0.14710730005897182,
       "tr_buffer": [
         0.1299999999999999,
@@ -19705,8 +19705,8 @@
           "o": 6.889,
           "h": 7.137,
           "l": 6.73,
-          "c": 7.057,
-          "ema7": 6.7905581097651115,
+          "c": 7.056,
+          "ema7": 6.790308109765111,
           "dt_ms": 1787227200000
         }
       ],
@@ -21247,7 +21247,7 @@
         "peak_price": null,
         "fills": [],
         "closed": false,
-        "signal_message_id": 4289
+        "signal_message_id": 4290
       }
     },
     "CRO/USD|4h": {
