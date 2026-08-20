@@ -3,119 +3,119 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 15.010095290000002,
-        "rank": 46,
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": 14.30560501,
+        "rank": 98,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "MON",
-        "name": "Monad",
-        "relative_performance": 14.967985980000002,
-        "rank": 98,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 14.083283040000001,
+        "rank": 45,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 12.610365820000002,
+        "relative_performance": 12.988411079999999,
         "rank": 9,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "relative_performance": 12.29698539,
-        "rank": 49,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 12.220082530000003,
+        "relative_performance": 12.91972873,
         "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": 10.008926240000001,
-        "rank": 57,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "relative_performance": 12.037702410000001,
+        "rank": 48,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "relative_performance": 9.84455982,
+        "relative_performance": 10.21594557,
         "rank": 31,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 9.108712270000002,
+        "relative_performance": 9.07536979,
         "rank": 88,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 9.0649588,
+        "rank": 57,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -14.86607927,
-        "rank": 135,
+        "relative_performance": -15.69553111,
+        "rank": 139,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "relative_performance": -7.30853195,
+        "relative_performance": -6.57964875,
         "rank": 72,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -5.64288535,
+        "relative_performance": -6.0358182,
         "rank": 66,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "USDG",
-        "name": "Global Dollar",
-        "relative_performance": -5.62546687,
-        "rank": 24,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "FF",
         "name": "Falcon Finance",
-        "relative_performance": -5.62532001,
+        "relative_performance": -5.5019696499999995,
         "rank": 119,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "EURC",
-        "name": "EURC",
-        "relative_performance": -5.62120102,
-        "rank": 82,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": -5.38732696,
+        "rank": 97,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PYUSD",
-        "name": "PayPal USD",
-        "relative_performance": -5.56174382,
-        "rank": 29,
+        "symbol": "USDG",
+        "name": "Global Dollar",
+        "relative_performance": -5.32553512,
+        "rank": 24,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "RLUSD",
+        "name": "Ripple USD",
+        "relative_performance": -5.31377551,
+        "rank": 38,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDe",
         "name": "Ethena USDe",
-        "relative_performance": -5.55218703,
+        "relative_performance": -5.30002979,
         "rank": 19,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T16:15:27.777002+00:00"
+    "updated": "2026-08-20T16:24:31.419237+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-20-15",
