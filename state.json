@@ -5,117 +5,117 @@
       {
         "symbol": "MON",
         "name": "Monad",
-        "relative_performance": 14.152894609999999,
+        "relative_performance": 15.07614087,
         "rank": 98,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 13.94918304,
+        "relative_performance": 13.102511400000001,
         "rank": 9,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 13.09696411,
-        "rank": 46,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 11.192314529999999,
-        "rank": 49,
+        "relative_performance": 12.28224488,
+        "rank": 48,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 11.845553029999998,
+        "rank": 46,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 11.164418750000001,
+        "relative_performance": 10.99648526,
         "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 9.47122592,
+        "relative_performance": 10.807779829999998,
         "rank": 57,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 9.35961074,
+        "rank": 87,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "relative_performance": 9.00815875,
+        "relative_performance": 8.83690984,
         "rank": 31,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": 8.73585534,
-        "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -18.985459069999997,
+        "relative_performance": -17.8382966,
         "rank": 139,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -7.80285173,
-        "rank": 104,
+        "relative_performance": -8.59149209,
+        "rank": 105,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "relative_performance": -7.44123091,
+        "relative_performance": -7.97611513,
         "rank": 72,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "FF",
-        "name": "Falcon Finance",
-        "relative_performance": -6.27898157,
-        "rank": 119,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDG",
         "name": "Global Dollar",
-        "relative_performance": -5.526115369999999,
+        "relative_performance": -6.17545216,
         "rank": 24,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "U",
         "name": "United Stables",
-        "relative_performance": -5.50844424,
+        "relative_performance": -6.1461255999999995,
         "rank": 51,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PYUSD",
         "name": "PayPal USD",
-        "relative_performance": -5.48084653,
+        "relative_performance": -6.1428099199999995,
         "rank": 29,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "USD1",
-        "name": "World Liberty Financial USD",
-        "relative_performance": -5.48062583,
-        "rank": 21,
+        "symbol": "USDe",
+        "name": "Ethena USDe",
+        "relative_performance": -6.1245227,
+        "rank": 19,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "RLUSD",
+        "name": "Ripple USD",
+        "relative_performance": -6.11672516,
+        "rank": 38,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T15:48:15.506577+00:00"
+    "updated": "2026-08-20T15:57:18.411500+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-20-15",
@@ -18208,9 +18208,9 @@
       "open_trade": null
     },
     "SUI/USD|4h": {
-      "ema7": 0.698813601978238,
-      "ema25": 0.6805566909263747,
-      "atr": 0.01512385367481421,
+      "ema7": 0.7089602014836784,
+      "ema25": 0.6850830993166536,
+      "atr": 0.015907864126613196,
       "tr_buffer": [
         0.011700000000000044,
         0.018299999999999983,
@@ -18227,8 +18227,8 @@
         0.01430000000000009,
         0.028099999999999903
       ],
-      "plus_dm": 0.006448704663605978,
-      "minus_dm": 0.0018365543445813606,
+      "plus_dm": 0.00648094004477698,
+      "minus_dm": 0.0017053718913969777,
       "dm_buffer": [
         [
           0.0,
@@ -18287,7 +18287,7 @@
           0.0
         ]
       ],
-      "adx": 36.32734727714541,
+      "adx": 37.89939496670237,
       "dx_buffer": [
         26.760563380281372,
         26.760563380281372,
@@ -18305,14 +18305,6 @@
         67.03452621927335
       ],
       "hist": [
-        {
-          "o": 0.6741,
-          "h": 0.6761,
-          "l": 0.6696,
-          "c": 0.6737,
-          "ema7": 0.6765004437936366,
-          "dt_ms": 1786075200000
-        },
         {
           "o": 0.6737,
           "h": 0.678,
@@ -18944,6 +18936,14 @@
           "c": 0.728,
           "ema7": 0.698813601978238,
           "dt_ms": 1787212800000
+        },
+        {
+          "o": 0.7281,
+          "h": 0.7419,
+          "l": 0.7158,
+          "c": 0.7394,
+          "ema7": 0.7089602014836784,
+          "dt_ms": 1787227200000
         }
       ],
       "trend_prev": "up",
@@ -18952,8 +18952,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": 301,
       "last_signal_price": 0.6552,
-      "bar_index": 313,
-      "last_open_time": 1787212800000,
+      "bar_index": 314,
+      "last_open_time": 1787227200000,
       "open_trade": {
         "side": "SELL",
         "entry": 0.6552,
@@ -18972,9 +18972,9 @@
       }
     },
     "AVAX/USD|4h": {
-      "ema7": 6.701744146353481,
-      "ema25": 6.5101257734102065,
-      "atr": 0.12711555390966203,
+      "ema7": 6.7905581097651115,
+      "ema25": 6.552193021609422,
+      "atr": 0.14710730005897182,
       "tr_buffer": [
         0.1299999999999999,
         0.266,
@@ -18991,8 +18991,8 @@
         0.08000000000000007,
         0.18700000000000028
       ],
-      "plus_dm": 0.051411940465726357,
-      "minus_dm": 0.009449174798264884,
+      "plus_dm": 0.06009680186103156,
+      "minus_dm": 0.008774233741245963,
       "dm_buffer": [
         [
           0.0,
@@ -19051,7 +19051,7 @@
           0.05600000000000005
         ]
       ],
-      "adx": 29.073815097376574,
+      "adx": 32.31995792686111,
       "dx_buffer": [
         7.905686546463291,
         9.261011247766234,
@@ -19069,14 +19069,6 @@
         28.888846139486585
       ],
       "hist": [
-        {
-          "o": 6.407,
-          "h": 6.435,
-          "l": 6.372,
-          "c": 6.415,
-          "ema7": 6.472879846003106,
-          "dt_ms": 1786075200000
-        },
         {
           "o": 6.414,
           "h": 6.48,
@@ -19708,6 +19700,14 @@
           "c": 6.889,
           "ema7": 6.701744146353481,
           "dt_ms": 1787212800000
+        },
+        {
+          "o": 6.889,
+          "h": 7.137,
+          "l": 6.73,
+          "c": 7.057,
+          "ema7": 6.7905581097651115,
+          "dt_ms": 1787227200000
         }
       ],
       "trend_prev": "up",
@@ -19716,8 +19716,8 @@
       "last_bull_bar_index": 217,
       "last_bear_bar_index": 182,
       "last_signal_price": 6.757,
-      "bar_index": 313,
-      "last_open_time": 1787212800000,
+      "bar_index": 314,
+      "last_open_time": 1787227200000,
       "open_trade": null
     },
     "XAUt/USD|4h": {
@@ -20484,9 +20484,9 @@
       }
     },
     "SHIB/USD|4h": {
-      "ema7": 4.718751855523946e-06,
-      "ema25": 4.565465187722416e-06,
-      "atr": 9.200723487435176e-08,
+      "ema7": 4.77156389164296e-06,
+      "ema25": 4.593506327128384e-06,
+      "atr": 9.472100381189809e-08,
       "tr_buffer": [
         8.000000000000008e-08,
         9.999999999999989e-08,
@@ -20503,8 +20503,8 @@
         5.000000000000037e-08,
         1.5000000000000026e-07
       ],
-      "plus_dm": 4.0439657775332584e-08,
-      "minus_dm": 8.20281248934997e-09,
+      "plus_dm": 3.7551110791380254e-08,
+      "minus_dm": 7.616897311539259e-09,
       "dm_buffer": [
         [
           0.0,
@@ -20563,7 +20563,7 @@
           0.0
         ]
       ],
-      "adx": 27.468785459163907,
+      "adx": 30.240518148171695,
       "dx_buffer": [
         19.04761904761913,
         21.071428571428644,
@@ -20581,14 +20581,6 @@
         36.45945271850968
       ],
       "hist": [
-        {
-          "o": 4.66e-06,
-          "h": 4.66e-06,
-          "l": 4.56e-06,
-          "c": 4.61e-06,
-          "ema7": 4.692696290894866e-06,
-          "dt_ms": 1786075200000
-        },
         {
           "o": 4.6e-06,
           "h": 4.65e-06,
@@ -21220,17 +21212,43 @@
           "c": 4.92e-06,
           "ema7": 4.718751855523946e-06,
           "dt_ms": 1787212800000
+        },
+        {
+          "o": 4.93e-06,
+          "h": 4.94e-06,
+          "l": 4.81e-06,
+          "c": 4.93e-06,
+          "ema7": 4.77156389164296e-06,
+          "dt_ms": 1787227200000
         }
       ],
       "trend_prev": "up",
-      "bull_used_this_trend": false,
+      "bull_used_this_trend": true,
       "bear_used_this_trend": false,
-      "last_bull_bar_index": 28,
+      "last_bull_bar_index": 313,
       "last_bear_bar_index": 231,
-      "last_signal_price": 4.67e-06,
-      "bar_index": 313,
-      "last_open_time": 1787212800000,
-      "open_trade": null
+      "last_signal_price": 4.93e-06,
+      "bar_index": 314,
+      "last_open_time": 1787227200000,
+      "open_trade": {
+        "side": "BUY",
+        "entry": 4.93e-06,
+        "sl": 4.3089592471410765e-06,
+        "r": 6.210407528589237e-07,
+        "working_sl": 4.3089592471410765e-06,
+        "hit": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false
+        },
+        "closed_frac": 0.0,
+        "trailing_activated": false,
+        "peak_price": null,
+        "fills": [],
+        "closed": false,
+        "signal_message_id": 4289
+      }
     },
     "CRO/USD|4h": {
       "ema7": 0.048321615990976625,
