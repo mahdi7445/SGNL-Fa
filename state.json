@@ -3,119 +3,119 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "relative_performance": 13.04379305,
-        "rank": 9,
+        "symbol": "XRP",
+        "name": "XRP",
+        "relative_performance": 11.88506117,
+        "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "XRP",
-        "name": "XRP",
-        "relative_performance": 12.39628757,
-        "rank": 5,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "relative_performance": 11.87384338,
+        "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 10.09243542,
-        "rank": 50,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 8.934418200000001,
-        "rank": 47,
+        "relative_performance": 10.12569315,
+        "rank": 49,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MON",
         "name": "Monad",
-        "relative_performance": 8.62628563,
+        "relative_performance": 9.070829759999999,
         "rank": 99,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "relative_performance": 8.20860761,
-        "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 7.964864610000001,
+        "relative_performance": 8.48364162,
         "rank": 89,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "relative_performance": 8.15409936,
+        "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": 7.44748042,
+        "relative_performance": 8.049809450000001,
         "rank": 68,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 8.011350409999999,
+        "rank": 47,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -24.473422499999998,
-        "rank": 140,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "relative_performance": -10.46538333,
-        "rank": 59,
+        "relative_performance": -24.97856891,
+        "rank": 141,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "relative_performance": -10.35431749,
+        "relative_performance": -10.56375217,
         "rank": 71,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -10.07463331,
-        "rank": 102,
+        "symbol": "JST",
+        "name": "JUST",
+        "relative_performance": -9.80429561,
+        "rank": 59,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "U",
         "name": "United Stables",
-        "relative_performance": -9.56042063,
+        "relative_performance": -9.28666842,
         "rank": 51,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "PYUSD",
-        "name": "PayPal USD",
-        "relative_performance": -9.54645792,
-        "rank": 29,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "RLUSD",
         "name": "Ripple USD",
-        "relative_performance": -9.54568106,
+        "relative_performance": -9.2720065,
         "rank": 38,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "PYUSD",
+        "name": "PayPal USD",
+        "relative_performance": -9.26370137,
+        "rank": 29,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDe",
         "name": "Ethena USDe",
-        "relative_performance": -9.53892627,
+        "relative_performance": -9.26250729,
         "rank": 19,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "USD1",
+        "name": "World Liberty Financial USD",
+        "relative_performance": -9.25237775,
+        "rank": 21,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T14:35:48.238177+00:00"
+    "updated": "2026-08-20T14:44:51.239305+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-20-12",
