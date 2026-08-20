@@ -3,119 +3,119 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "relative_performance": 11.133301170000001,
-        "rank": 9,
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 12.483165280000001,
+        "rank": 84,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": 11.08420334,
-        "rank": 84,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "relative_performance": 10.977870080000002,
+        "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "relative_performance": 9.49901871,
+        "relative_performance": 9.71045991,
         "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "relative_performance": 8.387586129999999,
+        "relative_performance": 7.944771460000001,
         "rank": 70,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 7.594520310000001,
+        "rank": 68,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "relative_performance": 6.97723665,
+        "relative_performance": 7.05101036,
         "rank": 41,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PENDLE",
         "name": "Pendle",
-        "relative_performance": 6.946477939999999,
+        "relative_performance": 6.5672548100000006,
         "rank": 108,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XEC",
         "name": "eCash",
-        "relative_performance": 6.59078382,
+        "relative_performance": 6.201106420000001,
         "rank": 145,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": 6.55044165,
-        "rank": 68,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -29.31191628,
+        "relative_performance": -29.19625434,
         "rank": 129,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -15.71636475,
+        "relative_performance": -15.871076769999998,
         "rank": 82,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -11.86488654,
+        "relative_performance": -11.73477055,
         "rank": 63,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -9.137484390000001,
+        "relative_performance": -9.00857454,
         "rank": 59,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": -8.38708416,
+        "relative_performance": -8.19370267,
         "rank": 58,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "SUN",
         "name": "Sun [New]",
-        "relative_performance": -7.35173652,
+        "relative_performance": -7.28790699,
         "rank": 92,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "U",
         "name": "United Stables",
-        "relative_performance": -7.30895035,
+        "relative_performance": -7.2295446299999995,
         "rank": 50,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USD1",
         "name": "World Liberty Financial USD",
-        "relative_performance": -7.29975391,
+        "relative_performance": -7.22933153,
         "rank": 20,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T03:21:20.482196+00:00"
+    "updated": "2026-08-20T03:30:23.474511+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-20-03",
