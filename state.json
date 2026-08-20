@@ -17,6 +17,27 @@
         "reason": "برنده نسبت به BTC"
       },
       {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "relative_performance": 11.497311629999999,
+        "rank": 48,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 8.23343105,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 7.983320840000001,
+        "rank": 86,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
         "symbol": "ETH",
         "name": "Ethereum",
         "relative_performance": 9.538149480000001,
@@ -77,6 +98,13 @@
         "name": "Stable",
         "relative_performance": -12.05545549,
         "rank": 64,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "relative_performance": -13.227744659999999,
+        "rank": 37,
         "reason": "بازنده نسبت به BTC"
       },
       {
@@ -20460,18 +20488,18 @@
         }
       ],
       "trend_prev": "up",
-      "bull_used_this_trend": false,
+      "bull_used_this_trend": true,
       "bear_used_this_trend": true,
-      "last_bull_bar_index": 227,
+      "last_bull_bar_index": 311,
       "last_bear_bar_index": 306,
       "last_signal_price": 4354.9,
       "bar_index": 311,
       "last_open_time": 1787184000000,
       "open_trade": {
-        "side": "SELL",
-        "entry": 4354.9,
-        "sl": 4431.995856164283,
-        "r": 77.09585616428376,
+        "side": "BUY",
+        "entry": 4468.9,
+        "sl": 4293.536676175095,
+        "r": 175.3633238249049,
         "hit": {
           "1": false,
           "2": false,
@@ -20479,9 +20507,8 @@
           "4": false
         },
         "trailing": false,
-        "closed": true,
-        "signal_message_id": 4234,
-        "close_type": "stop"
+        "closed": false,
+        "signal_message_id": 4288
       }
     },
     "SHIB/USD|4h": {
