@@ -5,121 +5,121 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 12.809968939999997,
+        "relative_performance": 12.12543612,
         "rank": 84,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "relative_performance": 11.434024049999998,
+        "relative_performance": 11.58296167,
         "rank": 9,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "relative_performance": 10.27012972,
+        "relative_performance": 10.14987911,
         "rank": 2,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "relative_performance": 8.240525439999999,
+        "relative_performance": 8.93749528,
         "rank": 70,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PENDLE",
         "name": "Pendle",
-        "relative_performance": 7.62784395,
+        "relative_performance": 7.66676126,
         "rank": 108,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": 7.61783396,
+        "relative_performance": 7.37719662,
         "rank": 68,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 7.59931844,
+        "relative_performance": 6.416284999999999,
         "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "XEC",
-        "name": "eCash",
-        "relative_performance": 6.75748403,
-        "rank": 145,
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 6.17591626,
+        "rank": 90,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -29.42656028,
-        "rank": 130,
+        "relative_performance": -29.24729356,
+        "rank": 129,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "币安人生",
         "name": "币安人生",
-        "relative_performance": -16.17992637,
+        "relative_performance": -15.898367409999999,
         "rank": 82,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -11.39582426,
+        "relative_performance": -11.20019488,
         "rank": 63,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -9.3853912,
+        "relative_performance": -9.37464666,
         "rank": 59,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": -8.53562679,
+        "relative_performance": -8.48414324,
         "rank": 58,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "U",
         "name": "United Stables",
-        "relative_performance": -7.75992684,
+        "relative_performance": -7.62203794,
         "rank": 50,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDe",
         "name": "Ethena USDe",
-        "relative_performance": -7.75860603,
+        "relative_performance": -7.61073252,
         "rank": 19,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USD1",
         "name": "World Liberty Financial USD",
-        "relative_performance": -7.74779215,
+        "relative_performance": -7.6095208,
         "rank": 20,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-20T02:54:11.622052+00:00"
+    "updated": "2026-08-20T03:03:14.406318+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-20-00",
-    "1h": "2026-08-20-02",
+    "flow_perf": "2026-08-20-03",
+    "1h": "2026-08-20-03",
     "4h": "2026-08-20-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
