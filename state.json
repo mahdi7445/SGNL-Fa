@@ -5,89 +5,89 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 22.66512392,
+        "relative_performance": 21.88834199,
         "rank": 53,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 13.057993119999999,
+        "relative_performance": 12.780760489999999,
         "rank": 45,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO Token",
+        "relative_performance": 9.53990796,
+        "rank": 83,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 8.728683740000001,
+        "relative_performance": 9.372932299999999,
         "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 8.551396190000002,
+        "relative_performance": 8.02192181,
         "rank": 107,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO Token",
-        "relative_performance": 7.72504874,
-        "rank": 84,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "relative_performance": 7.0506440900000005,
-        "rank": 83,
+        "relative_performance": 7.35271998,
+        "rank": 84,
         "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "H",
-        "name": "Humanity",
-        "relative_performance": -14.050905369999999,
-        "rank": 141,
-        "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": -14.04629851,
+        "relative_performance": -14.284175900000001,
         "rank": 88,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "relative_performance": -13.451750050000001,
+        "rank": 141,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "relative_performance": -11.45561148,
+        "relative_performance": -11.52073764,
         "rank": 14,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XEC",
         "name": "eCash",
-        "relative_performance": -11.042769,
+        "relative_performance": -10.970396860000001,
         "rank": 149,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": -8.89555526,
+        "rank": 68,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": -8.770799519999999,
+        "relative_performance": -8.8703705,
         "rank": 37,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -8.4958298,
-        "rank": 103,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T02:31:20.091759+00:00"
+    "updated": "2026-08-21T02:40:24.625463+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-21-00",
