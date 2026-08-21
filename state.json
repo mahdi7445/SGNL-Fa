@@ -5,94 +5,94 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 38.23692322,
+        "relative_performance": 33.20553889,
         "rank": 50,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "币安人生",
-        "name": "币安人生",
-        "relative_performance": 14.77386892,
-        "rank": 75,
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": 18.031633850000002,
+        "rank": 98,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": 13.388654260000001,
+        "relative_performance": 15.309784800000003,
         "rank": 17,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "FET",
-        "name": "Artificial Superintelligence Alliance",
-        "relative_performance": 11.731961020000002,
-        "rank": 91,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "relative_performance": 10.548919920000001,
-        "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XPL",
         "name": "Plasma",
-        "relative_performance": 9.80894213,
-        "rank": 110,
+        "relative_performance": 15.155131750000002,
+        "rank": 109,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 12.671016700000003,
+        "rank": 106,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 12.01960029,
+        "rank": 43,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -16.107786169999997,
-        "rank": 144,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": -12.62476688,
-        "rank": 68,
+        "relative_performance": -14.29052509,
+        "rank": 146,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "relative_performance": -10.6481731,
-        "rank": 15,
+        "relative_performance": -8.1839836,
+        "rank": 14,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": -8.16030747,
+        "rank": 69,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "relative_performance": -6.80766799,
+        "rank": 38,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": -6.77145231,
+        "rank": 81,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDG",
         "name": "Global Dollar",
-        "relative_performance": -10.246549389999998,
+        "relative_performance": -6.65935306,
         "rank": 24,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "RLUSD",
-        "name": "Ripple USD",
-        "relative_performance": -10.243505019999999,
-        "rank": 39,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "PYUSD",
-        "name": "PayPal USD",
-        "relative_performance": -10.20641854,
-        "rank": 29,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T09:00:32.193826+00:00"
+    "updated": "2026-08-21T12:04:33.451841+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-21-09",
-    "1h": "2026-08-21-11",
-    "4h": "2026-08-21-08",
+    "flow_perf": "2026-08-21-12",
+    "1h": "2026-08-21-12",
+    "4h": "2026-08-21-12",
     "1d": "2026-08-20",
     "1w": "2026-W34",
     "results_report": "2026-08-21",
@@ -100,7 +100,7 @@
     "hotmovers_4h": "2026-08-21-08",
     "hotmovers_1h": "2026-08-20-22",
     "hotmovers_15m": "2026-08-20-22",
-    "15m": "2026-08-21-11-45"
+    "15m": "2026-08-21-12-00"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -53659,7 +53659,9 @@
     "FET/USD|1h": 1787399031.2576525,
     "XRP/USD|1h": 1787399452.0016806,
     "XPL/USD|1h": 1787399524.8361893,
-    "H/USD|1h": 1787399597.5764446
+    "H/USD|1h": 1787399597.5764446,
+    "VELVET/USD|4h": 1787400325.9536307,
+    "STX/USD|4h": 1787400413.7331233
   },
   "target_events": []
 }
