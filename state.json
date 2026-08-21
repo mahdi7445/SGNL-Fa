@@ -5,89 +5,89 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 30.81821991,
-        "rank": 53,
+        "relative_performance": 31.67777952,
+        "rank": 52,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 13.302210460000001,
+        "relative_performance": 12.20451914,
         "rank": 46,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 10.70972492,
+        "relative_performance": 10.67647061,
         "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 9.155723180000003,
+        "relative_performance": 9.54014289,
         "rank": 48,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": 9.01640166,
-        "rank": 89,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "relative_performance": 8.437146199999999,
+        "rank": 17,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "relative_performance": 8.939644470000001,
-        "rank": 105,
+        "symbol": "CRV",
+        "name": "Curve DAO Token",
+        "relative_performance": 8.31026105,
+        "rank": 80,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -21.004070319999997,
+        "relative_performance": -20.86246992,
         "rank": 145,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": -11.34425255,
+        "relative_performance": -11.861512059999999,
         "rank": 68,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": -10.70647953,
+        "relative_performance": -11.37530877,
         "rank": 100,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "relative_performance": -10.312900879999999,
+        "relative_performance": -10.20666932,
         "rank": 37,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -10.06358807,
-        "rank": 107,
+        "relative_performance": -8.89129541,
+        "rank": 105,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "USDG",
-        "name": "Global Dollar",
-        "relative_performance": -8.49269745,
-        "rank": 24,
+        "symbol": "COMP",
+        "name": "Compound",
+        "relative_performance": -8.816183129999999,
+        "rank": 125,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T06:14:07.670995+00:00"
+    "updated": "2026-08-21T06:20:22.387206+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-21-06",
@@ -100,7 +100,7 @@
     "hotmovers_4h": "2026-08-20-20",
     "hotmovers_1h": "2026-08-20-22",
     "hotmovers_15m": "2026-08-20-22",
-    "15m": "2026-08-21-06-00"
+    "15m": "2026-08-21-06-15"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -53635,19 +53635,9 @@
     "ETH/USD|15min": 1787375837.0087771,
     "BTC/USD|1h": 1787375909.6128263,
     "ETH/USD|1h": 1787375982.227072,
-    "BTC/USD|4h": 1787376390.9042127,
-    "ETH/USD|4h": 1787376463.5483837,
-    "BTC/USD|1week": 1787376536.1431298,
-    "ETH/USD|1week": 1787376965.3230078,
-    "BNB/USD|4h": 1787377038.0213666,
-    "DOGE/USD|4h": 1787377140.6224847,
-    "ZEC/USD|4h": 1787377622.259504,
-    "LINK/USD|4h": 1787377702.4077942,
-    "XMR/USD|4h": 1787378206.356801,
-    "ADA/USD|4h": 1787378279.0580525,
-    "XLM/USD|4h": 1787378798.2757113,
-    "BCH/USD|4h": 1787378870.9048488,
-    "USDe/USD|4h": 1787379412.674871
+    "BNB/USD|4h": 1787379652.3883126,
+    "DOGE/USD|4h": 1787379755.1750677,
+    "ZEC/USD|4h": 1787379827.8954406
   },
   "target_events": []
 }
