@@ -3,104 +3,104 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": 32.07518556,
-        "rank": 49,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": 23.72822867,
+        "relative_performance": 23.36570486,
         "rank": 17,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "relative_performance": 19.067801,
-        "rank": 43,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 15.335858720000001,
-        "rank": 105,
+        "relative_performance": 21.79174074,
+        "rank": 100,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 19.705148209999997,
+        "rank": 51,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 16.297060280000004,
+        "rank": 11,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ENS",
         "name": "Ethereum Name Service",
-        "relative_performance": 12.953839340000002,
+        "relative_performance": 15.646345770000002,
         "rank": 118,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "THETA",
-        "name": "Theta Network",
-        "relative_performance": 12.92468091,
-        "rank": 130,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "relative_performance": 12.934375390000001,
+        "rank": 44,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -9.46236111,
-        "rank": 144,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "relative_performance": -8.84025025,
-        "rank": 15,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "relative_performance": -8.71225568,
-        "rank": 85,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "OKB",
-        "name": "OKB",
-        "relative_performance": -8.39492302,
-        "rank": 35,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "relative_performance": -7.23368251,
-        "rank": 59,
+        "relative_performance": -9.46273189,
+        "rank": 146,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "relative_performance": -6.89680706,
+        "relative_performance": -9.00806364,
         "rank": 42,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "OKB",
+        "name": "OKB",
+        "relative_performance": -8.71506215,
+        "rank": 35,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "relative_performance": -7.931481529999999,
+        "rank": 85,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "relative_performance": -7.691589479999999,
+        "rank": 59,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": -7.00014531,
+        "rank": 55,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T18:03:16.847372+00:00"
+    "updated": "2026-08-21T21:02:31.296226+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-21-18",
-    "1h": "2026-08-21-20",
+    "flow_perf": "2026-08-21-21",
+    "1h": "2026-08-21-21",
     "4h": "2026-08-21-20",
     "1d": "2026-08-20",
     "1w": "2026-W34",
     "results_report": "2026-08-21",
     "top30": "2026-08-21-16",
     "hotmovers_4h": "2026-08-21-20",
-    "hotmovers_1h": "2026-08-21-20",
+    "hotmovers_1h": "2026-08-21-21",
     "hotmovers_15m": "2026-08-21-20",
-    "15m": "2026-08-21-20-45"
+    "15m": "2026-08-21-21-00"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -53694,7 +53694,9 @@
     "AERO/USD|15min": 1787426363.1353104,
     "OKB/USD|15min": 1787426435.72454,
     "JST/USD|15min": 1787427200.2995343,
-    "MNT/USD|15min": 1787427272.90813
+    "MNT/USD|15min": 1787427272.90813,
+    "ZEC/USD|1h": 1787432603.7977898,
+    "MORPHO/USD|1h": 1787432728.9068956
   },
   "target_events": []
 }
