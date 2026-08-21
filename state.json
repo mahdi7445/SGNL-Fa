@@ -5,89 +5,89 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 22.90556101,
+        "relative_performance": 22.52709169,
         "rank": 53,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 13.81142855,
+        "relative_performance": 14.75521436,
         "rank": 45,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 8.887146260000002,
+        "rank": 107,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 8.58526585,
+        "relative_performance": 8.38642872,
         "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MON",
         "name": "Monad",
-        "relative_performance": 7.7895886999999995,
+        "relative_performance": 7.513109680000001,
         "rank": 100,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "relative_performance": 7.60633582,
-        "rank": 108,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "relative_performance": 6.62943237,
+        "rank": 83,
         "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "WIF",
-        "name": "dogwifhat",
-        "relative_performance": 5.02427745,
-        "rank": 137,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "H",
-        "name": "Humanity",
-        "relative_performance": -16.71935361,
-        "rank": 143,
-        "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": -13.57290245,
+        "relative_performance": -13.82099403,
         "rank": 88,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "relative_performance": -10.68011972,
-        "rank": 14,
+        "symbol": "H",
+        "name": "Humanity",
+        "relative_performance": -13.16808517,
+        "rank": 141,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XEC",
         "name": "eCash",
-        "relative_performance": -10.302889180000001,
-        "rank": 148,
+        "relative_performance": -10.95675087,
+        "rank": 149,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "relative_performance": -8.27932431,
-        "rank": 98,
+        "symbol": "XMR",
+        "name": "Monero",
+        "relative_performance": -10.75719125,
+        "rank": 14,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -8.65758042,
+        "rank": 103,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": -8.15678119,
+        "relative_performance": -7.996474839999999,
         "rank": 59,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T02:13:10.345106+00:00"
+    "updated": "2026-08-21T02:22:15.562825+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-21-00",
@@ -100,13 +100,13 @@
     "hotmovers_4h": "2026-08-20-20",
     "hotmovers_1h": "2026-08-20-22",
     "hotmovers_15m": "2026-08-20-22",
-    "15m": "2026-08-21-02-00"
+    "15m": "2026-08-21-02-15"
   },
   "candle_signals": {
     "BTC/USD|15m": {
-      "ema7": 74342.78447028306,
-      "ema25": 72563.21676253427,
-      "atr": 488.74033447637265,
+      "ema7": 74476.10085271229,
+      "ema25": 72741.12701157009,
+      "atr": 490.63031058520295,
       "tr_buffer": [
         636.0200000000041,
         306.26000000000204,
@@ -123,8 +123,8 @@
         54.0,
         73.06999999999971
       ],
-      "plus_dm": 285.17608418589407,
-      "minus_dm": 11.846068679131713,
+      "plus_dm": 264.80636388690164,
+      "minus_dm": 12.43349234490748,
       "dm_buffer": [
         [
           0.0,
@@ -183,7 +183,7 @@
           0.0
         ]
       ],
-      "adx": 85.47526523469581,
+      "adx": 85.87206885709233,
       "dx_buffer": [
         85.33129863034335,
         76.40844827562405,
@@ -201,14 +201,6 @@
         39.208238590714195
       ],
       "hist": [
-        {
-          "o": 64722.81,
-          "h": 64775.43,
-          "l": 64722.8,
-          "c": 64773.35,
-          "ema7": 64415.363873543625,
-          "dt_ms": 1787095800000
-        },
         {
           "o": 64773.34,
           "h": 64780.0,
@@ -840,6 +832,14 @@
           "c": 75129.23,
           "ema7": 74342.78447028306,
           "dt_ms": 1787276700000
+        },
+        {
+          "o": 75129.23,
+          "h": 75197.08,
+          "l": 74681.88,
+          "c": 74876.05,
+          "ema7": 74476.10085271229,
+          "dt_ms": 1787277600000
         }
       ],
       "trend_prev": "up",
@@ -848,8 +848,8 @@
       "last_bull_bar_index": 343,
       "last_bear_bar_index": 307,
       "last_signal_price": 64397.02,
-      "bar_index": 393,
-      "last_open_time": 1787276700000,
+      "bar_index": 394,
+      "last_open_time": 1787277600000,
       "open_trade": {
         "side": "BUY",
         "entry": 64397.02,
