@@ -5,93 +5,93 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 33.20553889,
-        "rank": 50,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": 18.031633850000002,
-        "rank": 98,
+        "relative_performance": 41.281269710000004,
+        "rank": 49,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": 15.309784800000003,
+        "relative_performance": 18.56339852,
         "rank": 17,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "relative_performance": 17.3923562,
+        "rank": 98,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XPL",
         "name": "Plasma",
-        "relative_performance": 15.155131750000002,
-        "rank": 109,
+        "relative_performance": 15.45470598,
+        "rank": 108,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "relative_performance": 12.671016700000003,
-        "rank": 106,
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": 15.01122166,
+        "rank": 122,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 12.01960029,
-        "rank": 43,
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": 13.640419099999999,
+        "rank": 129,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -14.29052509,
-        "rank": 146,
+        "relative_performance": -12.42751324,
+        "rank": 150,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "relative_performance": -8.1839836,
-        "rank": 14,
+        "relative_performance": -9.30078002,
+        "rank": 15,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": -8.16030747,
-        "rank": 69,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "relative_performance": -6.80766799,
-        "rank": 38,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "relative_performance": -6.77145231,
-        "rank": 81,
+        "symbol": "EURC",
+        "name": "EURC",
+        "relative_performance": -8.07812081,
+        "rank": 88,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDG",
         "name": "Global Dollar",
-        "relative_performance": -6.65935306,
+        "relative_performance": -7.96137476,
         "rank": 24,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "relative_performance": -7.93525273,
+        "rank": 59,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "PYUSD",
+        "name": "PayPal USD",
+        "relative_performance": -7.922037619999999,
+        "rank": 29,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T12:04:33.451841+00:00"
+    "updated": "2026-08-21T15:00:39.535072+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-21-12",
-    "1h": "2026-08-21-14",
+    "flow_perf": "2026-08-21-15",
+    "1h": "2026-08-21-15",
     "4h": "2026-08-21-12",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -100,7 +100,7 @@
     "hotmovers_4h": "2026-08-21-12",
     "hotmovers_1h": "2026-08-21-14",
     "hotmovers_15m": "2026-08-21-14",
-    "15m": "2026-08-21-14-45"
+    "15m": "2026-08-21-15-00"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -53679,7 +53679,10 @@
     "LIT/USD|15min": 1787406385.181215,
     "WLFI/USD|15min": 1787406458.5608592,
     "INJ/USD|15min": 1787406531.2732284,
-    "USDG/USD|15min": 1787407408.726279
+    "USDG/USD|15min": 1787407408.726279,
+    "PIEVERSE/USD|1h": 1787410884.536536,
+    "ZBCN/USD|1h": 1787410965.0539558,
+    "FARTCOIN/USD|1h": 1787411038.0581365
   },
   "target_events": []
 }
