@@ -5,89 +5,89 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 21.05531335,
-        "rank": 54,
+        "relative_performance": 22.90556101,
+        "rank": 53,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 13.09275867,
+        "relative_performance": 13.81142855,
         "rank": 45,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "relative_performance": 8.80077857,
+        "relative_performance": 8.58526585,
         "rank": 5,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "MON",
         "name": "Monad",
-        "relative_performance": 8.12699536,
+        "relative_performance": 7.7895886999999995,
         "rank": 100,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 6.68348735,
+        "relative_performance": 7.60633582,
         "rank": 108,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "币安人生",
-        "name": "币安人生",
-        "relative_performance": 5.182935280000001,
-        "rank": 79,
+        "symbol": "WIF",
+        "name": "dogwifhat",
+        "relative_performance": 5.02427745,
+        "rank": 137,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -16.89753417,
-        "rank": 144,
+        "relative_performance": -16.71935361,
+        "rank": 143,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": -13.27865453,
+        "relative_performance": -13.57290245,
         "rank": 88,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "relative_performance": -11.30210243,
+        "relative_performance": -10.68011972,
         "rank": 14,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "relative_performance": -8.6646779,
-        "rank": 98,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XEC",
         "name": "eCash",
-        "relative_performance": -8.560107689999999,
-        "rank": 150,
+        "relative_performance": -10.302889180000001,
+        "rank": 148,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "JTO",
-        "name": "Jito",
-        "relative_performance": -8.39058273,
-        "rank": 102,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": -8.27932431,
+        "rank": 98,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "POL",
+        "name": "Polygon (prev. MATIC)",
+        "relative_performance": -8.15678119,
+        "rank": 59,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T02:03:57.236816+00:00"
+    "updated": "2026-08-21T02:13:10.345106+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-21-00",
