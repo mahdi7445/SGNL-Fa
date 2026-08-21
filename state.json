@@ -5,93 +5,93 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 41.281269710000004,
+        "relative_performance": 32.07518556,
         "rank": 49,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": 18.56339852,
+        "relative_performance": 23.72822867,
         "rank": 17,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "PIEVERSE",
-        "name": "Pieverse",
-        "relative_performance": 17.3923562,
-        "rank": 98,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "relative_performance": 19.067801,
+        "rank": 43,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "XPL",
-        "name": "Plasma",
-        "relative_performance": 15.45470598,
-        "rank": 108,
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 15.335858720000001,
+        "rank": 105,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "ZBCN",
-        "name": "Zebec Network",
-        "relative_performance": 15.01122166,
-        "rank": 122,
+        "symbol": "ENS",
+        "name": "Ethereum Name Service",
+        "relative_performance": 12.953839340000002,
+        "rank": 118,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": 13.640419099999999,
-        "rank": 129,
+        "symbol": "THETA",
+        "name": "Theta Network",
+        "relative_performance": 12.92468091,
+        "rank": 130,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "H",
         "name": "Humanity",
-        "relative_performance": -12.42751324,
-        "rank": 150,
+        "relative_performance": -9.46236111,
+        "rank": 144,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "relative_performance": -9.30078002,
+        "relative_performance": -8.84025025,
         "rank": 15,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "EURC",
-        "name": "EURC",
-        "relative_performance": -8.07812081,
-        "rank": 88,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "relative_performance": -8.71225568,
+        "rank": 85,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "USDG",
-        "name": "Global Dollar",
-        "relative_performance": -7.96137476,
-        "rank": 24,
+        "symbol": "OKB",
+        "name": "OKB",
+        "relative_performance": -8.39492302,
+        "rank": 35,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -7.93525273,
+        "relative_performance": -7.23368251,
         "rank": 59,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PYUSD",
-        "name": "PayPal USD",
-        "relative_performance": -7.922037619999999,
-        "rank": 29,
+        "symbol": "MNT",
+        "name": "Mantle",
+        "relative_performance": -6.89680706,
+        "rank": 42,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T15:00:39.535072+00:00"
+    "updated": "2026-08-21T18:03:16.847372+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-21-15",
-    "1h": "2026-08-21-17",
+    "flow_perf": "2026-08-21-18",
+    "1h": "2026-08-21-18",
     "4h": "2026-08-21-16",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -100,7 +100,7 @@
     "hotmovers_4h": "2026-08-21-12",
     "hotmovers_1h": "2026-08-21-15",
     "hotmovers_15m": "2026-08-21-14",
-    "15m": "2026-08-21-17-45"
+    "15m": "2026-08-21-18-00"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -53690,7 +53690,10 @@
     "PYUSD/USD|4h": 1787419121.4155388,
     "PIEVERSE/USD|4h": 1787420968.5543988,
     "ZBCN/USD|4h": 1787421048.8297741,
-    "FARTCOIN/USD|4h": 1787421121.4264686
+    "FARTCOIN/USD|4h": 1787421121.4264686,
+    "PEPE/USD|4h": 1787421841.8489082,
+    "ENS/USD|4h": 1787421922.7346437,
+    "THETA/USD|4h": 1787421995.7166083
   },
   "target_events": []
 }
