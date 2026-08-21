@@ -5,89 +5,89 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": 23.36570486,
+        "relative_performance": 23.62257115,
         "rank": 17,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 21.79174074,
+        "relative_performance": 23.51209608,
         "rank": 100,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": 19.705148209999997,
-        "rank": 51,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 16.297060280000004,
-        "rank": 11,
+        "symbol": "FLOKI",
+        "name": "FLOKI",
+        "relative_performance": 20.42912242,
+        "rank": 109,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ENS",
         "name": "Ethereum Name Service",
-        "relative_performance": 15.646345770000002,
+        "relative_performance": 20.01318275,
         "rank": 118,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 19.99476205,
+        "rank": 11,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 12.934375390000001,
-        "rank": 44,
+        "relative_performance": 17.47917209,
+        "rank": 43,
         "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "H",
-        "name": "Humanity",
-        "relative_performance": -9.46273189,
-        "rank": 146,
-        "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "relative_performance": -9.00806364,
+        "relative_performance": -9.168493609999999,
         "rank": 42,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "OKB",
-        "name": "OKB",
-        "relative_performance": -8.71506215,
-        "rank": 35,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "relative_performance": -7.931481529999999,
-        "rank": 85,
+        "symbol": "XMR",
+        "name": "Monero",
+        "relative_performance": -9.00707389,
+        "rank": 15,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -7.691589479999999,
-        "rank": 59,
+        "relative_performance": -8.98012745,
+        "rank": 60,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "relative_performance": -7.00014531,
-        "rank": 55,
+        "symbol": "USDG",
+        "name": "Global Dollar",
+        "relative_performance": -8.31018348,
+        "rank": 26,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "U",
+        "name": "United Stables",
+        "relative_performance": -8.29225536,
+        "rank": 53,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "PYUSD",
+        "name": "PayPal USD",
+        "relative_performance": -8.282787169999999,
+        "rank": 29,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T21:02:31.296226+00:00"
+    "updated": "2026-08-21T22:21:38.885678+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-21-21",
@@ -98,8 +98,8 @@
     "results_report": "2026-08-21",
     "top30": "2026-08-21-16",
     "hotmovers_4h": "2026-08-21-20",
-    "hotmovers_1h": "2026-08-21-22",
-    "hotmovers_15m": "2026-08-21-22",
+    "hotmovers_1h": "2026-08-21-20",
+    "hotmovers_15m": "2026-08-21-20",
     "15m": "2026-08-21-22-15"
   },
   "candle_signals": {
@@ -53693,10 +53693,9 @@
     "OKB/USD|15min": 1787426435.72454,
     "JST/USD|15min": 1787427200.2995343,
     "MNT/USD|15min": 1787427272.90813,
-    "ZEC/USD|1h": 1787432603.7977898,
-    "MORPHO/USD|1h": 1787432728.9068956,
-    "ZEC/USD|15min": 1787436298.8291934,
-    "MORPHO/USD|15min": 1787437100.9965112
+    "FLOKI/USD|1h": 1787437343.887394,
+    "ZEC/USD|1h": 1787437424.1652305,
+    "U/USD|1h": 1787437534.3888159
   },
   "target_events": []
 }
