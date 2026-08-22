@@ -56572,14 +56572,14 @@
         "entry": 1.5758,
         "sl": 1.603847594269686,
         "r": 0.028047594269685838,
-        "working_sl": 1.5758,
+        "working_sl": 1.5477524057303143,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -56587,6 +56587,11 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
           }
         ],
         "closed": false,
@@ -57345,17 +57350,23 @@
         "entry": 0.2321,
         "sl": 0.23426229473726526,
         "r": 0.002162294737265258,
-        "working_sl": 0.23426229473726526,
+        "working_sl": 0.2321,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "signal_message_id": 4340
       }
@@ -85041,6 +85052,26 @@
       "r": -0.2894558452563556,
       "frac": 1.0,
       "at": "2026-08-22T08:05:53.477890+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_2",
+      "r": 2,
+      "frac": 0.3,
+      "at": "2026-08-22T08:27:58.917931+00:00"
+    },
+    {
+      "symbol": "ADA/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-08-22T08:27:59.089979+00:00"
     }
   ]
 }
