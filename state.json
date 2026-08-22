@@ -49771,12 +49771,19 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
-        "signal_message_id": 4317
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
+        "signal_message_id": 4317,
+        "close_type": "stop"
       }
     },
     "STX/USD|15m": {
@@ -63360,12 +63367,19 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
-        "signal_message_id": 4318
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
+        "signal_message_id": 4318,
+        "close_type": "stop"
       }
     },
     "SOL/USD|30m": {
@@ -74020,6 +74034,36 @@
       "runner_closed": false,
       "runner_r": null,
       "closed_at": "2026-08-22T05:07:58.377017+00:00"
+    },
+    {
+      "symbol": "DOGE/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 0.09089,
+      "sl": 0.09055752405788933,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "closed_at": "2026-08-22T05:20:17.373531+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 1.5286,
+      "sl": 1.4757485670318806,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "closed_at": "2026-08-22T05:21:37.813876+00:00"
     }
   ],
   "live_last_checked": {
@@ -74231,6 +74275,26 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-08-22T05:07:58.376982+00:00"
+    },
+    {
+      "symbol": "DOGE/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-08-22T05:20:17.373498+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-08-22T05:21:37.813836+00:00"
     }
   ]
 }
