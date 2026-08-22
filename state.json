@@ -45,6 +45,20 @@
         "reason": "برنده نسبت به BTC"
       },
       {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 24.2693981,
+        "rank": 11,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "POL",
+        "name": "Polygon (prev. MATIC)",
+        "relative_performance": 20.4450852,
+        "rank": 56,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
         "relative_performance": -12.814367619999999,
