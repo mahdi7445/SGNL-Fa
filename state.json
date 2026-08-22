@@ -5,93 +5,93 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 50.16076103,
-        "rank": 70,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 23.81242217,
-        "rank": 11,
+        "relative_performance": 27.978709270000003,
+        "rank": 74,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": 21.87153001,
+        "relative_performance": 22.341565520000003,
         "rank": 55,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 22.31384517,
+        "rank": 11,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 19.44652356,
+        "relative_performance": 20.22985192,
         "rank": 93,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "relative_performance": 15.1972004,
-        "rank": 82,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "CVX",
         "name": "Convex Finance",
-        "relative_performance": 14.84224761,
-        "rank": 123,
+        "relative_performance": 14.90177756,
+        "rank": 122,
         "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 13.88775895,
+        "rank": 40,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "relative_performance": -19.84373496,
+        "rank": 109,
+        "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -13.41982202,
-        "rank": 100,
+        "relative_performance": -9.29985497,
+        "rank": 101,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "relative_performance": -10.85990673,
+        "relative_performance": -9.16683345,
         "rank": 42,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "NEXO",
-        "name": "Nexo",
-        "relative_performance": -9.15447806,
-        "rank": 81,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "B",
-        "name": "BUILDon",
-        "relative_performance": -8.32053658,
-        "rank": 148,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XPL",
         "name": "Plasma",
-        "relative_performance": -7.88726409,
-        "rank": 114,
+        "relative_performance": -8.78266563,
+        "rank": 113,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "relative_performance": -6.285191360000001,
-        "rank": 44,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": -8.50037851,
+        "rank": 56,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "relative_performance": -7.11716938,
+        "rank": 141,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-22T12:03:33.940010+00:00"
+    "updated": "2026-08-22T14:25:15.080898+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-22-12",
-    "1h": "2026-08-22-14",
+    "1h": "2026-08-22-09",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -100,10 +100,10 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-22-14-15",
-    "1m": "2026-08-22-14-15",
-    "5m": "2026-08-22-14-15",
-    "30m": "2026-08-22-14-00",
+    "15m": "2026-08-22-09-45",
+    "1m": "2026-08-22-14-25",
+    "5m": "2026-08-22-14-25",
+    "30m": "2026-08-22-09-30",
     "hotmovers_5m": "2026-08-22-03"
   },
   "candle_signals": {
@@ -81633,8 +81633,6 @@
     "XAU/USD|15m": 1787158476.2696366
   },
   "td_unsupported": {
-    "BCH/USD|1h": 1787485601.7033954,
-    "XRP/USD|1h": 1787486155.7894547,
     "PIEVERSE/USD|1h": 1787410884.536536,
     "ZBCN/USD|1h": 1787410965.0539558,
     "FARTCOIN/USD|1h": 1787411038.0581365,
@@ -81702,31 +81700,9 @@
     "XRP/USD|1min": 1787479805.5707462,
     "ADA/USD|1min": 1787479878.2393165,
     "DOGE/USD|1min": 1787479950.9159324,
-    "SOL/USD|5min": 1787480355.4815109,
-    "XRP/USD|5min": 1787480428.2712502,
-    "SOL/USD|15min": 1787480515.9439232,
-    "XRP/USD|15min": 1787480957.9199204,
-    "ADA/USD|15min": 1787481030.6697648,
-    "DOGE/USD|15min": 1787481103.3519614,
-    "SOL/USD|30min": 1787481567.9758341,
-    "XRP/USD|30min": 1787481640.7761455,
-    "ADA/USD|30min": 1787481713.4771395,
-    "DOGE/USD|30min": 1787482200.3993635,
-    "SOL/USD|1h": 1787482273.201536,
-    "ADA/USD|1h": 1787482722.6830475,
-    "DOGE/USD|1h": 1787482795.4774182,
-    "TRX/USD|1h": 1787482875.9179242,
-    "LINK/USD|1h": 1787483438.148425,
-    "XLM/USD|1h": 1787483985.6452544,
-    "USDe/USD|1h": 1787484527.183452,
-    "LTC/USD|1h": 1787485689.415212,
-    "HBAR/USD|1h": 1787487351.2349832,
-    "SUI/USD|1h": 1787487958.7931201,
-    "XMR/USD|1h": 1787489012.6545055,
-    "AVAX/USD|1h": 1787490185.1841333,
-    "USDG/USD|1h": 1787491335.205195,
-    "SHIB/USD|1h": 1787491935.3883536,
-    "CRO/USD|1h": 1787493632.1278698
+    "SOL/USD|5min": 1787495145.0817733,
+    "XRP/USD|5min": 1787495217.8795745,
+    "SOL/USD|15min": 1787495305.637486
   },
   "target_events": [
     {
