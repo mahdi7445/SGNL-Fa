@@ -5,92 +5,92 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 27.978709270000003,
-        "rank": 74,
+        "relative_performance": 24.154773730000002,
+        "rank": 75,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": 22.341565520000003,
+        "relative_performance": 20.53617171,
         "rank": 55,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "relative_performance": 22.31384517,
+        "relative_performance": 20.52332519,
         "rank": 11,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 20.22985192,
+        "relative_performance": 19.96569883,
         "rank": 93,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "CVX",
         "name": "Convex Finance",
-        "relative_performance": 14.90177756,
-        "rank": 122,
+        "relative_performance": 13.23698035,
+        "rank": 123,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 13.88775895,
+        "relative_performance": 12.162862409999999,
         "rank": 40,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -19.84373496,
-        "rank": 109,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -9.29985497,
-        "rank": 101,
+        "relative_performance": -18.86086362,
+        "rank": 108,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "relative_performance": -9.16683345,
+        "relative_performance": -10.259888360000001,
         "rank": 42,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "XPL",
-        "name": "Plasma",
-        "relative_performance": -8.78266563,
-        "rank": 113,
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -10.00295094,
+        "rank": 101,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "relative_performance": -8.50037851,
+        "relative_performance": -9.924901160000001,
         "rank": 56,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "DEXE",
-        "name": "DeXe",
-        "relative_performance": -7.11716938,
-        "rank": 141,
+        "symbol": "XPL",
+        "name": "Plasma",
+        "relative_performance": -8.1553498,
+        "rank": 112,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": -5.876407749999999,
+        "rank": 128,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-22T14:25:15.080898+00:00"
+    "updated": "2026-08-22T15:03:32.572432+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-22-12",
+    "flow_perf": "2026-08-22-15",
     "1h": "2026-08-22-09",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
@@ -100,10 +100,10 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-22-14-45",
-    "1m": "2026-08-22-14-50",
-    "5m": "2026-08-22-14-50",
-    "30m": "2026-08-22-14-30",
+    "15m": "2026-08-22-15-00",
+    "1m": "2026-08-22-15-00",
+    "5m": "2026-08-22-15-00",
+    "30m": "2026-08-22-15-00",
     "hotmovers_5m": "2026-08-22-03"
   },
   "candle_signals": {
@@ -81633,9 +81633,6 @@
     "XAU/USD|15m": 1787158476.2696366
   },
   "td_unsupported": {
-    "PIEVERSE/USD|1h": 1787410884.536536,
-    "ZBCN/USD|1h": 1787410965.0539558,
-    "FARTCOIN/USD|1h": 1787411038.0581365,
     "EURC/USD|1h": 1787411789.0439591,
     "JST/USD|1h": 1787411870.457654,
     "PYUSD/USD|1h": 1787411943.2386808,
@@ -81710,7 +81707,9 @@
     "XRP/USD|30min": 1787496403.8047395,
     "ADA/USD|30min": 1787496476.5666504,
     "DOGE/USD|30min": 1787496963.7564886,
-    "SOL/USD|1h": 1787497036.5756853
+    "SOL/USD|1h": 1787497036.5756853,
+    "XRP/USD|1h": 1787497540.0756428,
+    "ADA/USD|1h": 1787497612.898009
   },
   "target_events": [
     {
