@@ -3,96 +3,96 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "relative_performance": 23.62257115,
-        "rank": 17,
+        "symbol": "ENS",
+        "name": "Ethereum Name Service",
+        "relative_performance": 23.955592069999998,
+        "rank": 115,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 23.51209608,
-        "rank": 100,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "FLOKI",
-        "name": "FLOKI",
-        "relative_performance": 20.42912242,
-        "rank": 109,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ENS",
-        "name": "Ethereum Name Service",
-        "relative_performance": 20.01318275,
-        "rank": 118,
+        "relative_performance": 22.229244129999998,
+        "rank": 99,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "relative_performance": 19.99476205,
+        "relative_performance": 22.1532007,
         "rank": 11,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "relative_performance": 21.84798807,
+        "rank": 17,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "relative_performance": 17.47917209,
-        "rank": 43,
+        "relative_performance": 21.67258703,
+        "rank": 42,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "relative_performance": -9.168493609999999,
-        "rank": 42,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "relative_performance": -9.00707389,
-        "rank": 15,
-        "reason": "بازنده نسبت به BTC"
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "relative_performance": 17.20604997,
+        "rank": 76,
+        "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "relative_performance": -8.98012745,
+        "relative_performance": -7.63999061,
         "rank": 60,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "USDG",
         "name": "Global Dollar",
-        "relative_performance": -8.31018348,
-        "rank": 26,
+        "relative_performance": -7.22969406,
+        "rank": 27,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "U",
         "name": "United Stables",
-        "relative_performance": -8.29225536,
-        "rank": 53,
+        "relative_performance": -7.1740816800000005,
+        "rank": 54,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "USDe",
+        "name": "Ethena USDe",
+        "relative_performance": -7.1728353700000005,
+        "rank": 22,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PYUSD",
         "name": "PayPal USD",
-        "relative_performance": -8.282787169999999,
+        "relative_performance": -7.16587273,
         "rank": 29,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "USD1",
+        "name": "World Liberty Financial USD",
+        "relative_performance": -7.16007833,
+        "rank": 23,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-21T22:21:38.885678+00:00"
+    "updated": "2026-08-22T00:03:19.422330+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-21-21",
-    "1h": "2026-08-21-23",
-    "4h": "2026-08-21-20",
+    "flow_perf": "2026-08-22-00",
+    "1h": "2026-08-22-00",
+    "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
     "results_report": "2026-08-21",
@@ -100,7 +100,7 @@
     "hotmovers_4h": "2026-08-21-20",
     "hotmovers_1h": "2026-08-21-23",
     "hotmovers_15m": "2026-08-21-22",
-    "15m": "2026-08-21-23-45"
+    "15m": "2026-08-22-00-00"
   },
   "candle_signals": {
     "BTC/USD|15m": {
