@@ -5,93 +5,93 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 24.154773730000002,
-        "rank": 75,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "POL",
-        "name": "Polygon (prev. MATIC)",
-        "relative_performance": 20.53617171,
-        "rank": 55,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 20.52332519,
-        "rank": 11,
+        "relative_performance": 39.64221347,
+        "rank": 72,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 19.96569883,
-        "rank": 93,
+        "relative_performance": 27.12386692,
+        "rank": 91,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "CVX",
-        "name": "Convex Finance",
-        "relative_performance": 13.23698035,
-        "rank": 123,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 23.59924747,
+        "rank": 11,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "POL",
+        "name": "Polygon (prev. MATIC)",
+        "relative_performance": 23.32178331,
+        "rank": 55,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "relative_performance": 20.464428740000002,
+        "rank": 80,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 12.162862409999999,
+        "relative_performance": 18.89363925,
         "rank": 40,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -18.86086362,
-        "rank": 108,
+        "relative_performance": -12.814367619999999,
+        "rank": 110,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "relative_performance": -10.259888360000001,
-        "rank": 42,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -10.00295094,
-        "rank": 101,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "relative_performance": -9.924901160000001,
-        "rank": 56,
+        "symbol": "B",
+        "name": "BUILDon",
+        "relative_performance": -10.1274921,
+        "rank": 150,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "XPL",
         "name": "Plasma",
-        "relative_performance": -8.1553498,
-        "rank": 112,
+        "relative_performance": -9.54072104,
+        "rank": 115,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "ZBCN",
-        "name": "Zebec Network",
-        "relative_performance": -5.876407749999999,
-        "rank": 128,
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -6.95001843,
+        "rank": 102,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": -6.91123381,
+        "rank": 56,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "BSV",
+        "name": "Bitcoin SV",
+        "relative_performance": -6.16365884,
+        "rank": 99,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-22T15:03:32.572432+00:00"
+    "updated": "2026-08-22T18:04:14.234028+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-22-15",
-    "1h": "2026-08-22-17",
+    "flow_perf": "2026-08-22-18",
+    "1h": "2026-08-22-18",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -100,10 +100,10 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-22-17-45",
-    "1m": "2026-08-22-17-50",
-    "5m": "2026-08-22-17-50",
-    "30m": "2026-08-22-17-30",
+    "15m": "2026-08-22-18-00",
+    "1m": "2026-08-22-18-00",
+    "5m": "2026-08-22-18-00",
+    "30m": "2026-08-22-18-00",
     "hotmovers_5m": "2026-08-22-03"
   },
   "candle_signals": {
@@ -81633,9 +81633,6 @@
     "XAU/USD|15m": 1787158476.2696366
   },
   "td_unsupported": {
-    "PEPE/USD|4h": 1787421841.8489082,
-    "ENS/USD|4h": 1787421922.7346437,
-    "THETA/USD|4h": 1787421995.7166083,
     "AERO/USD|4h": 1787422745.4373655,
     "JST/USD|4h": 1787422825.621851,
     "MNT/USD|4h": 1787422898.2541409,
