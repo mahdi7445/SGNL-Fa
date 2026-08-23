@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 31.62218022,
-        "rank": 125,
+        "relative_performance": 36.73657491,
+        "rank": 121,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 17.05207086,
+        "rank": 38,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": 16.94240369,
+        "relative_performance": 16.02674574,
         "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": 16.14879364,
-        "rank": 75,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PIEVERSE",
-        "name": "Pieverse",
-        "relative_performance": -14.0690272,
-        "rank": 110,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
         "symbol": "FARTCOIN",
         "name": "Fartcoin",
-        "relative_performance": -13.32444077,
+        "relative_performance": -13.74871155,
         "rank": 137,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "SHIB",
-        "name": "Shiba Inu",
-        "relative_performance": -10.20720191,
-        "rank": 28,
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "relative_performance": -13.57040979,
+        "rank": 110,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "relative_performance": -10.61251569,
+        "rank": 42,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T02:21:22.577537+00:00"
+    "updated": "2026-08-23T02:30:26.792052+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-00",
@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-23-02-15",
+    "15m": "2026-08-23-02-30",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-23-02-15",
+    "5m": "2026-08-23-02-30",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03"
   },
