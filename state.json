@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 29.57285597,
+        "relative_performance": 27.83748952,
         "rank": 126,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 22.15911254,
+        "relative_performance": 21.315178919999997,
         "rank": 75,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 19.5418935,
+        "relative_performance": 18.62532091,
         "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -10.76124315,
+        "relative_performance": -11.65556462,
         "rank": 110,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -10.58269195,
+        "relative_performance": -11.25645093,
         "rank": 102,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "relative_performance": -10.1224017,
+        "relative_performance": -10.683565719999999,
         "rank": 54,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T01:35:57.169420+00:00"
+    "updated": "2026-08-23T01:45:02.933537+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-00",
@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-23-01-30",
+    "15m": "2026-08-23-01-45",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-23-01-30",
+    "5m": "2026-08-23-01-45",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03"
   },
