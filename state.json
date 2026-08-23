@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 27.83748952,
+        "relative_performance": 26.336608960000003,
         "rank": 126,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 21.315178919999997,
-        "rank": 75,
+        "relative_performance": 21.99768685,
+        "rank": 74,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 18.62532091,
+        "relative_performance": 18.64086696,
         "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -11.65556462,
+        "relative_performance": -12.35537401,
         "rank": 110,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -11.25645093,
+        "relative_performance": -11.45913659,
         "rank": 102,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "relative_performance": -10.683565719999999,
-        "rank": 54,
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": -9.62999887,
+        "rank": 135,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T01:45:02.933537+00:00"
+    "updated": "2026-08-23T01:54:07.692935+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-00",
