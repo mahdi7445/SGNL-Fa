@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 31.6853994,
-        "rank": 124,
+        "relative_performance": 30.82675608,
+        "rank": 123,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 18.1340422,
+        "relative_performance": 14.93348574,
         "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": 13.171213649999999,
+        "relative_performance": 13.02754083,
         "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "relative_performance": -14.862496349999999,
-        "rank": 42,
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": -14.4341626,
+        "rank": 136,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": -13.94505015,
-        "rank": 137,
+        "symbol": "ASTER",
+        "name": "Aster",
+        "relative_performance": -13.583740879999999,
+        "rank": 42,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -12.6464365,
+        "relative_performance": -12.84661811,
         "rank": 110,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T03:15:51.807667+00:00"
+    "updated": "2026-08-23T03:24:56.181732+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-03",
