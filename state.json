@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 27.70927682,
+        "relative_performance": 25.150629799999997,
         "rank": 126,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 14.39346345,
+        "relative_performance": 13.94420252,
         "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "FF",
         "name": "Falcon Finance",
-        "relative_performance": 12.052270120000001,
+        "relative_performance": 11.06611737,
         "rank": 111,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "FARTCOIN",
         "name": "Fartcoin",
-        "relative_performance": -14.24110777,
-        "rank": 136,
+        "relative_performance": -15.037351249999999,
+        "rank": 137,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "relative_performance": -14.01628162,
+        "relative_performance": -13.88027373,
         "rank": 42,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PI",
-        "name": "Pi",
-        "relative_performance": -12.76064533,
-        "rank": 58,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "relative_performance": -13.41625855,
+        "rank": 41,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T03:34:00.782597+00:00"
+    "updated": "2026-08-23T03:43:05.128195+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-03",
