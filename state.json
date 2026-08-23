@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 17.58232991,
+        "relative_performance": 16.413307019999998,
         "rank": 130,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 13.45053939,
+        "relative_performance": 12.89743684,
         "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": 7.56955688,
+        "relative_performance": 8.93687868,
         "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "FARTCOIN",
         "name": "Fartcoin",
-        "relative_performance": -15.32278055,
+        "relative_performance": -14.570874550000001,
         "rank": 137,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "LUNC",
-        "name": "Terra Classic",
-        "relative_performance": -13.9377511,
-        "rank": 106,
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": -13.79342684,
+        "rank": 75,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "relative_performance": -13.79563486,
-        "rank": 41,
+        "symbol": "PI",
+        "name": "Pi",
+        "relative_performance": -13.75804587,
+        "rank": 58,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T04:19:29.366544+00:00"
+    "updated": "2026-08-23T04:28:33.922910+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-03",
