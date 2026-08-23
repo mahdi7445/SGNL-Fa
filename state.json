@@ -3,49 +3,49 @@
   "hot_movers": {
     "symbols": [
       {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": 18.39876974,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
         "symbol": "FF",
         "name": "Falcon Finance",
-        "relative_performance": 16.2123899,
+        "relative_performance": 15.68216204,
         "rank": 111,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 15.297961820000001,
-        "rank": 133,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "relative_performance": 13.893523600000002,
-        "rank": 89,
+        "relative_performance": 14.05792528,
+        "rank": 135,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": -11.968380669999998,
-        "rank": 73,
+        "relative_performance": -14.55729561,
+        "rank": 71,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "relative_performance": -9.583274459999998,
+        "relative_performance": -9.87054114,
         "rank": 31,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PIEVERSE",
-        "name": "Pieverse",
-        "relative_performance": -8.60671976,
-        "rank": 109,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "relative_performance": -8.54952891,
+        "rank": 50,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T06:17:31.027411+00:00"
+    "updated": "2026-08-23T06:26:36.864703+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-06",
