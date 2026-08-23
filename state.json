@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 26.15366873,
-        "rank": 128,
+        "relative_performance": 31.27798345,
+        "rank": 125,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 20.99291444,
-        "rank": 74,
+        "relative_performance": 19.43066046,
+        "rank": 75,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 17.5913736,
-        "rank": 39,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": 16.97230204,
+        "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -14.173679660000001,
+        "relative_performance": -13.50537881,
         "rank": 110,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "VELVET",
-        "name": "Velvet",
-        "relative_performance": -11.72386292,
-        "rank": 102,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "FARTCOIN",
         "name": "Fartcoin",
-        "relative_performance": -10.71421949,
-        "rank": 135,
+        "relative_performance": -12.083740670000001,
+        "rank": 136,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "relative_performance": -10.462206479999999,
+        "rank": 102,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T02:03:12.032675+00:00"
+    "updated": "2026-08-23T02:12:18.015457+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-00",
