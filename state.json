@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 18.06805322,
+        "relative_performance": 18.239556020000002,
         "rank": 130,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 10.29601254,
-        "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "FF",
         "name": "Falcon Finance",
-        "relative_performance": 10.12849505,
+        "relative_performance": 9.71165834,
         "rank": 111,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": 7.592283480000001,
+        "rank": 40,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": -20.48968299,
-        "rank": 75,
-        "reason": "بازنده نسبت به BTC"
-      },
-      {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": -15.966746539999999,
-        "rank": 137,
+        "relative_performance": -28.057156749999997,
+        "rank": 74,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PI",
         "name": "Pi",
-        "relative_performance": -15.73898637,
+        "relative_performance": -17.802456359999997,
         "rank": 58,
+        "reason": "بازنده نسبت به BTC"
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": -17.13360448,
+        "rank": 136,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T04:46:43.124977+00:00"
+    "updated": "2026-08-23T04:55:49.113098+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-03",
