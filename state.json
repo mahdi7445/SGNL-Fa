@@ -5,93 +5,93 @@
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 36.70992707,
+        "relative_performance": 28.69075638,
         "rank": 74,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "relative_performance": 26.31314956,
-        "rank": 92,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 25.261632549999998,
+        "relative_performance": 24.52900949,
         "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "relative_performance": 19.06450808,
-        "rank": 78,
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 18.309761249999998,
+        "rank": 92,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": 15.191030999999999,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 13.84805939,
+        "rank": 46,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": 18.93039837,
+        "relative_performance": 12.8747468,
         "rank": 56,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 17.91516325,
-        "rank": 11,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -15.451093179999999,
-        "rank": 110,
+        "relative_performance": -13.340089429999999,
+        "rank": 109,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "relative_performance": -9.04956103,
+        "relative_performance": -11.620545839999998,
         "rank": 102,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "B",
-        "name": "BUILDon",
-        "relative_performance": -8.5777255,
-        "rank": 150,
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": -9.0890861,
+        "rank": 132,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "XPL",
-        "name": "Plasma",
-        "relative_performance": -6.24826469,
-        "rank": 115,
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": -7.8872221,
+        "rank": 104,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "DEXE",
-        "name": "DeXe",
-        "relative_performance": -4.84750896,
-        "rank": 141,
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": -7.58854699,
+        "rank": 135,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "relative_performance": -4.839494269999999,
-        "rank": 42,
+        "symbol": "FLOKI",
+        "name": "FLOKI",
+        "relative_performance": -7.16602882,
+        "rank": 111,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-22T21:04:12.916226+00:00"
+    "updated": "2026-08-23T00:08:46.110196+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-22-21",
-    "1h": "2026-08-22-23",
+    "flow_perf": "2026-08-23-00",
+    "1h": "2026-08-23-00",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -100,10 +100,10 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-22-23-45",
-    "1m": "2026-08-22-23-55",
-    "5m": "2026-08-22-23-55",
-    "30m": "2026-08-22-23-30",
+    "15m": "2026-08-23-00-00",
+    "1m": "2026-08-23-00-05",
+    "5m": "2026-08-23-00-05",
+    "30m": "2026-08-23-00-00",
     "hotmovers_5m": "2026-08-22-03"
   },
   "candle_signals": {
