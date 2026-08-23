@@ -3,49 +3,49 @@
   "hot_movers": {
     "symbols": [
       {
-        "symbol": "TRAC",
-        "name": "OriginTrail",
-        "relative_performance": 18.4784955,
-        "rank": 128,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
-        "symbol": "FF",
-        "name": "Falcon Finance",
-        "relative_performance": 12.16028234,
-        "rank": 111,
-        "reason": "برنده نسبت به BTC"
-      },
-      {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 11.97115459,
-        "rank": 39,
+        "relative_performance": 25.394393140000002,
+        "rank": 38,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": 19.361832330000002,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC"
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "relative_performance": 18.01696827,
+        "rank": 130,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": -29.70369248,
+        "relative_performance": -26.52667298,
         "rank": 74,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "PI",
-        "name": "Pi",
-        "relative_performance": -18.14492266,
-        "rank": 58,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "relative_performance": -14.59996093,
+        "rank": 41,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": -16.926635769999997,
-        "rank": 136,
+        "symbol": "FLOKI",
+        "name": "FLOKI",
+        "relative_performance": -12.9880003,
+        "rank": 113,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T05:04:53.477332+00:00"
+    "updated": "2026-08-23T05:13:57.903307+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-03",
