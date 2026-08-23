@@ -5,47 +5,47 @@
       {
         "symbol": "TRAC",
         "name": "OriginTrail",
-        "relative_performance": 29.78119223,
-        "rank": 126,
+        "relative_performance": 31.6853994,
+        "rank": 124,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 17.34184725,
+        "relative_performance": 18.1340422,
         "rank": 39,
         "reason": "برنده نسبت به BTC"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": 15.21758317,
+        "relative_performance": 13.171213649999999,
         "rank": 89,
         "reason": "برنده نسبت به BTC"
       },
       {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": -13.20151407,
-        "rank": 136,
+        "symbol": "ASTER",
+        "name": "Aster",
+        "relative_performance": -14.862496349999999,
+        "rank": 42,
         "reason": "بازنده نسبت به BTC"
       },
       {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "relative_performance": -12.64015026,
-        "rank": 42,
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": -13.94505015,
+        "rank": 137,
         "reason": "بازنده نسبت به BTC"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": -12.41194088,
+        "relative_performance": -12.6464365,
         "rank": 110,
         "reason": "بازنده نسبت به BTC"
       }
     ],
-    "updated": "2026-08-23T03:06:46.155258+00:00"
+    "updated": "2026-08-23T03:15:51.807667+00:00"
   },
   "tf_windows": {
     "flow_perf": "2026-08-23-03",
@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-23-03-00",
+    "15m": "2026-08-23-03-15",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-23-03-00",
+    "5m": "2026-08-23-03-15",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03"
   },
