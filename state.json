@@ -88265,30 +88265,30 @@
   "live_check_cursor": 0,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 0.80272471,
+    "btc_change": 0.841961,
     "symbols": [
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "relative_performance": 24.91371317,
-        "rank": 48,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "TRAC",
-        "name": "OriginTrail",
-        "relative_performance": 23.829547090000002,
-        "rank": 133,
+        "relative_performance": 17.63790249,
+        "rank": 50,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "relative_performance": 16.84937011,
-        "rank": 75,
+        "relative_performance": 14.663785930000001,
+        "rank": 76,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "relative_performance": 12.71481453,
+        "rank": 36,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-24T00:03:09.844245+00:00"
+    "updated": "2026-08-24T09:14:10.840981+00:00"
   }
 }
