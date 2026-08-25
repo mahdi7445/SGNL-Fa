@@ -94313,81 +94313,10 @@
   ],
   "live_check_cursor": 8,
   "trend_alts": {
-    "regime": "bear",
-    "btc_change": -0.54364552,
-    "candidates": [
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "relative_performance": -8.18669313,
-        "rank": 53,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": -8.13388737,
-        "rank": 49,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "EIGEN",
-        "name": "EigenCloud",
-        "relative_performance": -7.881202719999999,
-        "rank": 133,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": -7.28892835,
-        "rank": 76,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "XPL",
-        "name": "Plasma",
-        "relative_performance": -6.74112146,
-        "rank": 112,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "relative_performance": -6.08094529,
-        "rank": 18,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "relative_performance": -5.70720001,
-        "rank": 67,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": -5.57603156,
-        "rank": 42,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "relative_performance": -4.83035516,
-        "rank": 39,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "ether.fi",
-        "relative_performance": -4.62015015,
-        "rank": 72,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      }
-    ],
-    "updated": "2026-08-25T14:47:59.564376+00:00"
+    "regime": "neutral",
+    "btc_change": -0.0701554,
+    "candidates": [],
+    "updated": "2026-08-25T14:57:07.089526+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
