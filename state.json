@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-25-15-00",
+    "15m": "2026-08-25-15-15",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-25-15-00",
+    "5m": "2026-08-25-15-15",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-25"
@@ -94313,10 +94313,81 @@
   ],
   "live_check_cursor": 9,
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.47996946,
-    "candidates": [],
-    "updated": "2026-08-25T15:06:13.652238+00:00"
+    "regime": "bear",
+    "btc_change": -0.6091592,
+    "candidates": [
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": -8.592445119999999,
+        "rank": 49,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": -8.14223972,
+        "rank": 53,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud",
+        "relative_performance": -8.07189797,
+        "rank": 133,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": -7.9266801,
+        "rank": 76,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "relative_performance": -6.714287700000001,
+        "rank": 18,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "VIRTUAL",
+        "name": "Virtuals Protocol",
+        "relative_performance": -6.49847427,
+        "rank": 84,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "relative_performance": -5.76449759,
+        "rank": 112,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "ether.fi",
+        "relative_performance": -5.724508780000001,
+        "rank": 73,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": -5.48026028,
+        "rank": 42,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "OP",
+        "name": "Optimism",
+        "relative_performance": -5.30199506,
+        "rank": 119,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      }
+    ],
+    "updated": "2026-08-25T15:15:22.886067+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
