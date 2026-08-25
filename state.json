@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-25-16-00",
+    "15m": "2026-08-25-16-15",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-25-16-00",
+    "5m": "2026-08-25-16-15",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-25"
@@ -94996,12 +94996,83 @@
       "at": "2026-08-25T12:13:37.457484+00:00"
     }
   ],
-  "live_check_cursor": 10,
+  "live_check_cursor": 11,
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.048383,
-    "candidates": [],
-    "updated": "2026-08-25T16:09:52.184462+00:00"
+    "regime": "bear",
+    "btc_change": -0.54060874,
+    "candidates": [
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": -8.49337717,
+        "rank": 77,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "ether.fi",
+        "relative_performance": -7.92794293,
+        "rank": 74,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud",
+        "relative_performance": -7.382562210000001,
+        "rank": 133,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": -6.9558348500000005,
+        "rank": 109,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "VIRTUAL",
+        "name": "Virtuals Protocol",
+        "relative_performance": -6.39032802,
+        "rank": 84,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": -6.32919595,
+        "rank": 54,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": -6.20472907,
+        "rank": 43,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "relative_performance": -6.15536189,
+        "rank": 113,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": -5.51097148,
+        "rank": 47,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "relative_performance": -5.4238365,
+        "rank": 18,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      }
+    ],
+    "updated": "2026-08-25T16:19:04.391268+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
