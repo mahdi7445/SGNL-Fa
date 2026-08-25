@@ -60,7 +60,7 @@
     "hotmovers_15m": "2026-08-22-04",
     "15m": "2026-08-25-12-00",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-25-12-00",
+    "5m": "2026-08-25-12-15",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-25"
@@ -91582,9 +91582,9 @@
       }
     },
     "STX/USD|1m": {
-      "ema7": 0.2584001183483804,
-      "ema25": 0.25929103036474194,
-      "atr": 0.0008580203318747768,
+      "ema7": 0.2585250887612853,
+      "ema25": 0.2592609511059157,
+      "atr": 0.0008538760224551476,
       "tr_buffer": [
         0.0007000000000000339,
         0.0005999999999999894,
@@ -91601,8 +91601,8 @@
         0.0005000000000000004,
         0.0006000000000000449
       ],
-      "plus_dm": 0.000153765813867897,
-      "minus_dm": 0.0002993644042144145,
+      "plus_dm": 0.0001856396843059036,
+      "minus_dm": 0.00027798123248481347,
       "dm_buffer": [
         [
           0.0,
@@ -91661,7 +91661,7 @@
           0.0
         ]
       ],
-      "adx": 54.15892400589628,
+      "adx": 51.71310572647525,
       "dx_buffer": [
         41.93548387096681,
         44.8113207547158,
@@ -92389,6 +92389,15 @@
           "ema7": 0.2584001183483804,
           "dt_ms": 1787660400000,
           "v": 12399.41
+        },
+        {
+          "o": 0.2585,
+          "h": 0.2592,
+          "l": 0.2585,
+          "c": 0.2589,
+          "ema7": 0.2585250887612853,
+          "dt_ms": 1787660460000,
+          "v": 10424.619999999999
         }
       ],
       "trend_prev": "down",
@@ -92397,14 +92406,14 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": 56,
       "last_signal_price": 0.2607,
-      "bar_index": 79,
-      "last_open_time": 1787660400000,
+      "bar_index": 80,
+      "last_open_time": 1787660460000,
       "open_trade": null
     },
     "JASMY/USD|1m": {
-      "ema7": 0.004835777908153653,
-      "ema25": 0.004864657828713111,
-      "atr": 1.5355169201275215e-05,
+      "ema7": 0.00483933343111524,
+      "ema25": 0.004863530303427487,
+      "atr": 1.4258371401184128e-05,
       "tr_buffer": [
         1.000000000000046e-05,
         1.000000000000046e-05,
@@ -92421,8 +92430,8 @@
         1.000000000000046e-05,
         2.0000000000000052e-05
       ],
-      "plus_dm": 4.269492432020367e-06,
-      "minus_dm": 6.7328099316655255e-06,
+      "plus_dm": 3.964528686876055e-06,
+      "minus_dm": 6.2518949365465595e-06,
       "dm_buffer": [
         [
           0.0,
@@ -92481,7 +92490,7 @@
           0.0
         ]
       ],
-      "adx": 36.216902249454115,
+      "adx": 35.229202751716144,
       "dx_buffer": [
         33.33333333333312,
         33.33333333333313,
@@ -93137,6 +93146,15 @@
           "ema7": 0.004835777908153653,
           "dt_ms": 1787660400000,
           "v": 351922.0
+        },
+        {
+          "o": 0.00485,
+          "h": 0.00485,
+          "l": 0.00485,
+          "c": 0.00485,
+          "ema7": 0.00483933343111524,
+          "dt_ms": 1787660460000,
+          "v": 407.0
         }
       ],
       "trend_prev": "down",
@@ -93145,8 +93163,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": null,
       "last_signal_price": null,
-      "bar_index": 71,
-      "last_open_time": 1787660400000,
+      "bar_index": 72,
+      "last_open_time": 1787660460000,
       "open_trade": null
     }
   },
@@ -94201,80 +94219,80 @@
   "live_check_cursor": 3,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 0.8278403,
+    "btc_change": 0.8541662,
     "candidates": [
       {
         "symbol": "INJ",
         "name": "Injective",
-        "relative_performance": 7.242863140000001,
-        "rank": 77,
+        "relative_performance": 8.03264931,
+        "rank": 76,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "JASMY",
         "name": "JasmyCoin",
-        "relative_performance": 6.23073936,
+        "relative_performance": 6.2182577000000006,
         "rank": 118,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": 5.78366422,
+        "relative_performance": 5.72384948,
         "rank": 88,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "relative_performance": 4.66185483,
-        "rank": 14,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "POL",
         "name": "Polygon (prev. MATIC)",
-        "relative_performance": 3.9080020299999996,
+        "relative_performance": 4.58525071,
         "rank": 54,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "GRT",
-        "name": "The Graph",
-        "relative_performance": 3.2030102099999995,
-        "rank": 127,
+        "symbol": "XMR",
+        "name": "Monero",
+        "relative_performance": 4.16419446,
+        "rank": 14,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RAY",
         "name": "Raydium",
-        "relative_performance": 3.10669642,
+        "relative_performance": 3.6042482099999997,
         "rank": 121,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "GRT",
+        "name": "The Graph",
+        "relative_performance": 3.5433837400000003,
+        "rank": 127,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "relative_performance": 2.96665741,
+        "relative_performance": 3.1046972200000003,
         "rank": 69,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "relative_performance": 2.66780045,
-        "rank": 81,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "FF",
         "name": "Falcon Finance",
-        "relative_performance": 1.91212895,
-        "rank": 110,
+        "relative_performance": 2.91956851,
+        "rank": 109,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "relative_performance": 2.86385223,
+        "rank": 148,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-25T12:13:21.670411+00:00"
+    "updated": "2026-08-25T12:22:52.774417+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
