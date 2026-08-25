@@ -94313,81 +94313,10 @@
   ],
   "live_check_cursor": 9,
   "trend_alts": {
-    "regime": "bear",
-    "btc_change": -0.72464264,
-    "candidates": [
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": -9.179558259999999,
-        "rank": 49,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": -9.063430949999999,
-        "rank": 76,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "relative_performance": -8.550589279999999,
-        "rank": 53,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "EIGEN",
-        "name": "EigenCloud",
-        "relative_performance": -8.36414293,
-        "rank": 132,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "VIRTUAL",
-        "name": "Virtuals Protocol",
-        "relative_performance": -7.7078616900000005,
-        "rank": 84,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "XPL",
-        "name": "Plasma",
-        "relative_performance": -7.27312907,
-        "rank": 113,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "JTO",
-        "name": "Jito",
-        "relative_performance": -7.16366738,
-        "rank": 108,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": -6.65000675,
-        "rank": 43,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "ether.fi",
-        "relative_performance": -6.57474338,
-        "rank": 73,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "relative_performance": -6.44930392,
-        "rank": 18,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      }
-    ],
-    "updated": "2026-08-25T15:33:32.378297+00:00"
+    "regime": "neutral",
+    "btc_change": -0.18430191,
+    "candidates": [],
+    "updated": "2026-08-25T15:42:39.247996+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
