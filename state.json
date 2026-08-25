@@ -90229,30 +90229,30 @@
   "live_check_cursor": 12,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 1.69601728,
+    "btc_change": 1.59106647,
     "symbols": [
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "relative_performance": 12.03611495,
-        "rank": 80,
+        "relative_performance": 11.64073806,
+        "rank": 81,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "VIRTUAL",
         "name": "Virtuals Protocol",
-        "relative_performance": 7.089366680000001,
+        "relative_performance": 7.57799859,
         "rank": 83,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": 5.61059148,
-        "rank": 105,
+        "relative_performance": 7.1146188200000005,
+        "rank": 104,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-25T00:05:58.411590+00:00"
+    "updated": "2026-08-25T00:20:39.594320+00:00"
   }
 }
