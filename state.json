@@ -94309,10 +94309,81 @@
   ],
   "live_check_cursor": 6,
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.49469296,
-    "candidates": [],
-    "updated": "2026-08-25T13:31:31.080349+00:00"
+    "regime": "bull",
+    "btc_change": 0.66598936,
+    "candidates": [
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 10.13711342,
+        "rank": 88,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "relative_performance": 9.65708081,
+        "rank": 149,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "relative_performance": 9.04525641,
+        "rank": 118,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": 9.043824800000001,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": 6.98618369,
+        "rank": 75,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "POL",
+        "name": "Polygon (prev. MATIC)",
+        "relative_performance": 4.46061294,
+        "rank": 54,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TWT",
+        "name": "Trust Wallet Token",
+        "relative_performance": 3.86108929,
+        "rank": 131,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "relative_performance": 3.8394249799999995,
+        "rank": 81,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "relative_performance": 3.5159579999999995,
+        "rank": 145,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": 3.4844034099999996,
+        "rank": 121,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-08-25T13:41:07.292280+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
