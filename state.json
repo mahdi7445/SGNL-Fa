@@ -92274,30 +92274,83 @@
   "live_check_cursor": 0,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 1.59106647,
-    "symbols": [
+    "btc_change": 2.3457086,
+    "candidates": [
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "relative_performance": 10.02612452,
+        "rank": 116,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 9.81723787,
+        "rank": 88,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 8.25783792,
+        "rank": 90,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": 6.823893269999999,
+        "rank": 77,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "relative_performance": 11.64073806,
-        "rank": 81,
+        "relative_performance": 6.093959140000001,
+        "rank": 80,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "VIRTUAL",
-        "name": "Virtuals Protocol",
-        "relative_performance": 7.57799859,
-        "rank": 83,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "relative_performance": 4.71301918,
+        "rank": 68,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "PIEVERSE",
-        "name": "Pieverse",
-        "relative_performance": 7.1146188200000005,
-        "rank": 104,
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": 4.59937954,
+        "rank": 121,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "relative_performance": 4.11110916,
+        "rank": 14,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "GRT",
+        "name": "The Graph",
+        "relative_performance": 3.6366005599999998,
+        "rank": 127,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "WIF",
+        "name": "dogwifhat",
+        "relative_performance": 3.1460328200000003,
+        "rank": 123,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-25T00:20:39.594320+00:00"
+    "updated": "2026-08-25T11:00:03.240760+00:00"
+  },
+  "daily_stop_counts": {
+    "date": "2026-08-25",
+    "counts": {}
   }
 }
