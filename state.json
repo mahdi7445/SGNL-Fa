@@ -94314,9 +94314,9 @@
   "live_check_cursor": 7,
   "trend_alts": {
     "regime": "neutral",
-    "btc_change": -0.39731037,
+    "btc_change": 0.12415693,
     "candidates": [],
-    "updated": "2026-08-25T14:20:38.431443+00:00"
+    "updated": "2026-08-25T14:29:42.827297+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
