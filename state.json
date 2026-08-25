@@ -49,7 +49,7 @@
   },
   "tf_windows": {
     "flow_perf": "2026-08-25-15",
-    "1h": "2026-08-25-15",
+    "1h": "2026-08-25-16",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-25-15-45",
+    "15m": "2026-08-25-16-00",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-25-15-45",
+    "5m": "2026-08-25-16-00",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-25"
@@ -94313,10 +94313,81 @@
   ],
   "live_check_cursor": 10,
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.06829721,
-    "candidates": [],
-    "updated": "2026-08-25T15:51:45.164589+00:00"
+    "regime": "bull",
+    "btc_change": 0.69138067,
+    "candidates": [
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "relative_performance": 14.723447279999998,
+        "rank": 102,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "relative_performance": 12.79514193,
+        "rank": 114,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 11.36928731,
+        "rank": 88,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": 11.05957102,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "relative_performance": 9.89900897,
+        "rank": 147,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": 8.070365840000001,
+        "rank": 91,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 6.4306357,
+        "rank": 60,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TWT",
+        "name": "Trust Wallet Token",
+        "relative_performance": 5.80273556,
+        "rank": 129,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "relative_performance": 5.67321235,
+        "rank": 14,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 5.64386168,
+        "rank": 59,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-08-25T16:00:49.209137+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-25",
