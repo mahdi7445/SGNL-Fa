@@ -101862,80 +101862,80 @@
   "live_check_cursor": 6,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 3.27471425,
+    "btc_change": 2.89947252,
     "candidates": [
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": 25.75939881,
+        "relative_performance": 24.14102011,
         "rank": 71,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": 20.14477376,
-        "rank": 70,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 20.09046485,
+        "relative_performance": 21.79916022,
         "rank": 45,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 19.43588493,
-        "rank": 142,
+        "relative_performance": 21.57416804,
+        "rank": 141,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 18.36369221,
+        "rank": 70,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RUNE",
         "name": "THORChain",
-        "relative_performance": 13.76607728,
+        "relative_performance": 13.741022959999999,
         "rank": 134,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "WIF",
-        "name": "dogwifhat",
-        "relative_performance": 11.850664369999999,
-        "rank": 121,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 11.7934998,
+        "relative_performance": 11.62804599,
         "rank": 78,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "WIF",
+        "name": "dogwifhat",
+        "relative_performance": 10.59684656,
+        "rank": 121,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 10.80735908,
+        "relative_performance": 10.2712743,
         "rank": 125,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "relative_performance": 10.2205955,
+        "relative_performance": 9.9035191,
         "rank": 120,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": 8.1223604,
+        "relative_performance": 7.997585669999999,
         "rank": 59,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-27T17:19:57.636878+00:00"
+    "updated": "2026-08-27T17:29:04.721198+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
