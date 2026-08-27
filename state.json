@@ -99994,10 +99994,81 @@
   ],
   "live_check_cursor": 15,
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.37592545,
-    "candidates": [],
-    "updated": "2026-08-27T00:29:32.458956+00:00"
+    "regime": "bull",
+    "btc_change": 1.54434677,
+    "candidates": [
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "relative_performance": 26.09094351,
+        "rank": 70,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "relative_performance": 19.17446514,
+        "rank": 144,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "relative_performance": 14.88910696,
+        "rank": 133,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "relative_performance": 13.381552919999999,
+        "rank": 120,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 10.87918485,
+        "rank": 77,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "relative_performance": 8.786267469999999,
+        "rank": 30,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 6.62561525,
+        "rank": 59,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "CVX",
+        "name": "Convex Finance",
+        "relative_performance": 5.81126853,
+        "rank": 117,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 4.2444792300000005,
+        "rank": 73,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": 4.16828947,
+        "rank": 51,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-08-27T13:12:14.068880+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
