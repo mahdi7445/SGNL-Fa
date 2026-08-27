@@ -98369,9 +98369,9 @@
       "open_trade": null
     },
     "VET/USD|1m": {
-      "ema7": 0.007414948967929418,
-      "ema25": 0.007385971368526466,
-      "atr": 2.5650645147114784e-05,
+      "ema7": 0.007413961725947064,
+      "ema25": 0.007387896647870585,
+      "atr": 2.4818456208035164e-05,
       "tr_buffer": [
         2.1000000000000185e-05,
         4.2999999999999636e-05,
@@ -98388,8 +98388,8 @@
         1.899999999999992e-05,
         2.0000000000002655e-06
       ],
-      "plus_dm": 7.232534719333738e-06,
-      "minus_dm": 6.013984109859792e-06,
+      "plus_dm": 6.715925096524185e-06,
+      "minus_dm": 5.584413816298379e-06,
       "dm_buffer": [
         [
           0.0,
@@ -98448,7 +98448,7 @@
           0.0
         ]
       ],
-      "adx": 19.495340327467243,
+      "adx": 18.759889249227566,
       "dx_buffer": [
         28.571428571429053,
         20.958646616541532,
@@ -98466,15 +98466,6 @@
         14.825998876805729
       ],
       "hist": [
-        {
-          "o": 0.007453,
-          "h": 0.007454,
-          "l": 0.007441,
-          "c": 0.00745,
-          "ema7": 0.007446217329442445,
-          "dt_ms": 1787849580000,
-          "v": 507229.0
-        },
         {
           "o": 0.007452,
           "h": 0.007471,
@@ -99185,6 +99176,15 @@
           "ema7": 0.007414948967929418,
           "dt_ms": 1787854320000,
           "v": 22111.0
+        },
+        {
+          "o": 0.007411,
+          "h": 0.007411,
+          "l": 0.007411,
+          "c": 0.007411,
+          "ema7": 0.007413961725947064,
+          "dt_ms": 1787854380000,
+          "v": 195.0
         }
       ],
       "trend_prev": "up",
@@ -99193,8 +99193,8 @@
       "last_bull_bar_index": 291,
       "last_bear_bar_index": 60,
       "last_signal_price": 0.007412,
-      "bar_index": 299,
-      "last_open_time": 1787854320000,
+      "bar_index": 300,
+      "last_open_time": 1787854380000,
       "open_trade": {
         "side": "BUY",
         "entry": 0.007303,
@@ -99233,9 +99233,9 @@
       }
     },
     "KMNO/USD|1m": {
-      "ema7": 0.030722607421383472,
-      "ema25": 0.030783759931573857,
-      "atr": 0.00011124128834309764,
+      "ema7": 0.030719455566037605,
+      "ema25": 0.03077808609068356,
+      "atr": 0.0001068669106043048,
       "tr_buffer": [
         0.0,
         1.0000000000003062e-05,
@@ -99252,8 +99252,8 @@
         5.9999999999997555e-05,
         0.00020000000000000226
       ],
-      "plus_dm": 3.891921303598214e-05,
-      "minus_dm": 3.416599751618773e-05,
+      "plus_dm": 3.61392692476977e-05,
+      "minus_dm": 3.5296997693602744e-05,
       "dm_buffer": [
         [
           0.0,
@@ -99312,7 +99312,7 @@
           0.00020000000000000226
         ]
       ],
-      "adx": 25.37869211997952,
+      "adx": 23.650146479114827,
       "dx_buffer": [
         15.384615384614772,
         6.024096385543069,
@@ -99330,15 +99330,6 @@
         23.66084926753376
       ],
       "hist": [
-        {
-          "o": 0.02966,
-          "h": 0.02979,
-          "l": 0.02964,
-          "c": 0.02978,
-          "ema7": 0.029786125953185263,
-          "dt_ms": 1787848320000,
-          "v": 3308.1
-        },
         {
           "o": 0.0298,
           "h": 0.02987,
@@ -100049,6 +100040,15 @@
           "ema7": 0.030722607421383472,
           "dt_ms": 1787854260000,
           "v": 35.8
+        },
+        {
+          "o": 0.03071,
+          "h": 0.03072,
+          "l": 0.03071,
+          "c": 0.03071,
+          "ema7": 0.030719455566037605,
+          "dt_ms": 1787854320000,
+          "v": 133.89999999999998
         }
       ],
       "trend_prev": "down",
@@ -100057,8 +100057,8 @@
       "last_bull_bar_index": 204,
       "last_bear_bar_index": null,
       "last_signal_price": 0.031,
-      "bar_index": 225,
-      "last_open_time": 1787854260000,
+      "bar_index": 226,
+      "last_open_time": 1787854320000,
       "open_trade": {
         "side": "BUY",
         "entry": 0.02934,
@@ -101896,80 +101896,80 @@
   "live_check_cursor": 7,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 2.42150078,
+    "btc_change": 1.82462938,
     "candidates": [
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": 22.617985620000002,
-        "rank": 45,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": 22.56251332,
+        "relative_performance": 23.88617777,
         "rank": 71,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 21.88941628,
+        "rank": 45,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 21.777139610000003,
-        "rank": 139,
+        "relative_performance": 21.00963419,
+        "rank": 140,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 16.404907220000002,
+        "relative_performance": 15.8163131,
         "rank": 70,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RUNE",
         "name": "THORChain",
-        "relative_performance": 14.050514009999999,
+        "relative_performance": 14.2461167,
         "rank": 135,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "WIF",
         "name": "dogwifhat",
-        "relative_performance": 11.44240893,
+        "relative_performance": 11.911518130000001,
         "rank": 121,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 10.605015929999999,
+        "relative_performance": 10.41723996,
         "rank": 126,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 9.51005138,
+        "relative_performance": 9.23609319,
         "rank": 78,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": 9.13500311,
-        "rank": 125,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": 8.9126785,
+        "relative_performance": 8.95372223,
         "rank": 59,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": 8.6796603,
+        "rank": 125,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-27T18:05:48.308621+00:00"
+    "updated": "2026-08-27T18:14:59.061556+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
