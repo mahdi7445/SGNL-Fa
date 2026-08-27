@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-27-13-00",
+    "15m": "2026-08-27-13-15",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-27-13-00",
+    "5m": "2026-08-27-13-15",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-27"
@@ -83724,9 +83724,9 @@
       "open_trade": null
     },
     "UNI/USD|1h": {
-      "ema7": 4.430916992796453,
-      "ema25": 4.368236179996397,
-      "atr": 0.0693460296211431,
+      "ema7": 4.44093774459734,
+      "ema25": 4.376141089227444,
+      "atr": 0.0672498846482043,
       "tr_buffer": [
         0.04800000000000004,
         0.016999999999999904,
@@ -83743,8 +83743,8 @@
         0.029999999999999805,
         0.03200000000000003
       ],
-      "plus_dm": 0.01689972983559369,
-      "minus_dm": 0.009917148915534838,
+      "plus_dm": 0.015692606275908426,
+      "minus_dm": 0.009208781135853777,
       "dm_buffer": [
         [
           0.0,
@@ -83803,7 +83803,7 @@
           0.0
         ]
       ],
-      "adx": 18.61935504847371,
+      "adx": 19.149258800224995,
       "dx_buffer": [
         4.651162790697687,
         11.314475873544113,
@@ -83821,14 +83821,6 @@
         40.66667128162873
       ],
       "hist": [
-        {
-          "o": 4.415,
-          "h": 4.538,
-          "l": 4.415,
-          "c": 4.473,
-          "ema7": 4.475532856545698,
-          "dt_ms": 1787544000000
-        },
         {
           "o": 4.472,
           "h": 4.51,
@@ -84536,6 +84528,15 @@
           "ema7": 4.430916992796453,
           "dt_ms": 1787828400000,
           "v": null
+        },
+        {
+          "o": 4.458,
+          "h": 4.483,
+          "l": 4.443,
+          "c": 4.471,
+          "ema7": 4.44093774459734,
+          "dt_ms": 1787832000000,
+          "v": null
         }
       ],
       "trend_prev": "up",
@@ -84544,8 +84545,8 @@
       "last_bull_bar_index": 233,
       "last_bear_bar_index": 56,
       "last_signal_price": 3.696,
-      "bar_index": 401,
-      "last_open_time": 1787828400000,
+      "bar_index": 402,
+      "last_open_time": 1787832000000,
       "open_trade": null
     },
     "TAO/USD|1h": {
@@ -100015,80 +100016,80 @@
   "live_check_cursor": 16,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 1.54434677,
+    "btc_change": 1.53075425,
     "candidates": [
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": 26.09094351,
+        "relative_performance": 26.2489657,
         "rank": 70,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 19.17446514,
+        "relative_performance": 20.537609059999998,
         "rank": 144,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RUNE",
         "name": "THORChain",
-        "relative_performance": 14.88910696,
-        "rank": 133,
+        "relative_performance": 14.95099762,
+        "rank": 134,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "relative_performance": 13.381552919999999,
+        "relative_performance": 13.536873960000001,
         "rank": 120,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 10.87918485,
+        "relative_performance": 12.4782794,
         "rank": 77,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "relative_performance": 8.786267469999999,
+        "relative_performance": 9.00426144,
         "rank": 30,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": 6.62561525,
+        "relative_performance": 6.748498389999999,
         "rank": 59,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "CVX",
         "name": "Convex Finance",
-        "relative_performance": 5.81126853,
+        "relative_performance": 6.5977839000000005,
         "rank": 117,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": 4.2444792300000005,
-        "rank": 73,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "relative_performance": 4.16828947,
+        "relative_performance": 5.6192208599999995,
         "rank": 51,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "relative_performance": 4.23947214,
+        "rank": 31,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-27T13:12:15.475073+00:00"
+    "updated": "2026-08-27T13:21:25.517845+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
