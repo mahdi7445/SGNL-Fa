@@ -94940,7 +94940,8 @@
           }
         ],
         "closed": false,
-        "signal_message_id": 4565
+        "signal_message_id": 4565,
+        "_stop_pending_since": 1787820853.436526
       }
     },
     "TRUMP/USD|1m": {
@@ -99940,7 +99941,7 @@
       "at": "2026-08-27T03:08:10.945764+00:00"
     }
   ],
-  "live_check_cursor": 7,
+  "live_check_cursor": 8,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": 0.37592545,
