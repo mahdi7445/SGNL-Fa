@@ -99862,81 +99862,10 @@
   ],
   "live_check_cursor": 16,
   "trend_alts": {
-    "regime": "bull",
-    "btc_change": 0.61930977,
-    "candidates": [
-      {
-        "symbol": "CVX",
-        "name": "Convex Finance",
-        "relative_performance": 21.22299317,
-        "rank": 116,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": 17.65331535,
-        "rank": 77,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "VET",
-        "name": "VeChain",
-        "relative_performance": 17.065426419999998,
-        "rank": 76,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": 15.924391770000002,
-        "rank": 123,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "KITE",
-        "name": "Kite",
-        "relative_performance": 13.27273922,
-        "rank": 121,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "KMNO",
-        "name": "Kamino",
-        "relative_performance": 10.07013654,
-        "rank": 148,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "WIF",
-        "name": "dogwifhat",
-        "relative_performance": 8.03891931,
-        "rank": 125,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 7.84199754,
-        "rank": 41,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "relative_performance": 7.45924777,
-        "rank": 48,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": 6.5720522,
-        "rank": 74,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      }
-    ],
-    "updated": "2026-08-27T00:04:35.176927+00:00"
+    "regime": "neutral",
+    "btc_change": 0.37592545,
+    "candidates": [],
+    "updated": "2026-08-27T00:29:32.458956+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
