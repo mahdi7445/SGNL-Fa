@@ -87790,13 +87790,19 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "signal_message_id": 4566,
-        "_stop_pending_since": 1787717292.7680027
+        "close_type": "stop"
       }
     },
     "PENGU/USD|1m": {
@@ -99172,6 +99178,21 @@
       "runner_closed": false,
       "runner_r": null,
       "closed_at": "2026-08-27T03:08:10.945807+00:00"
+    },
+    {
+      "symbol": "MORPHO/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 2.4944,
+      "sl": 2.5061457641243776,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "closed_at": "2026-08-27T10:24:21.767759+00:00"
     }
   ],
   "live_last_checked": {
@@ -99949,9 +99970,19 @@
       "r": -0.1556986810519873,
       "frac": 1.0,
       "at": "2026-08-27T03:08:10.945764+00:00"
+    },
+    {
+      "symbol": "MORPHO/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-08-27T10:24:21.767726+00:00"
     }
   ],
-  "live_check_cursor": 10,
+  "live_check_cursor": 11,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": 0.37592545,
@@ -99960,6 +99991,8 @@
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
-    "counts": {}
+    "counts": {
+      "MORPHO": 1
+    }
   }
 }
