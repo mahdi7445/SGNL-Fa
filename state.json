@@ -100016,80 +100016,80 @@
   "live_check_cursor": 16,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 1.74133842,
+    "btc_change": 1.01539816,
     "candidates": [
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": 26.22557293,
+        "relative_performance": 27.13495383,
         "rank": 70,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 20.92020443,
+        "relative_performance": 21.59556538,
         "rank": 144,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "RUNE",
-        "name": "THORChain",
-        "relative_performance": 15.251207370000001,
-        "rank": 134,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "relative_performance": 13.79294028,
+        "relative_performance": 14.63575771,
         "rank": 120,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "relative_performance": 14.3771428,
+        "rank": 134,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 12.96144271,
+        "relative_performance": 12.81755824,
         "rank": 77,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "relative_performance": 9.63218659,
-        "rank": 30,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 9.42240211,
+        "relative_performance": 10.01301189,
         "rank": 126,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "relative_performance": 7.1126565799999995,
-        "rank": 59,
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "relative_performance": 9.49214833,
+        "rank": 30,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "relative_performance": 6.39987977,
+        "relative_performance": 6.73996523,
         "rank": 51,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 6.61199404,
+        "rank": 59,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "CVX",
         "name": "Convex Finance",
-        "relative_performance": 6.3902847000000005,
+        "relative_performance": 5.86471949,
         "rank": 117,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-27T13:30:32.693307+00:00"
+    "updated": "2026-08-27T13:39:39.710264+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
