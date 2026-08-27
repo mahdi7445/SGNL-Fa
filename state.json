@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-27-15-00",
+    "15m": "2026-08-27-15-15",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-27-15-00",
+    "5m": "2026-08-27-15-15",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-27"
@@ -98361,9 +98361,9 @@
       "open_trade": null
     },
     "VET/USD|1m": {
-      "ema7": 0.0071365219903637474,
-      "ema25": 0.007143063263448496,
-      "atr": 2.5063148690083497e-05,
+      "ema7": 0.00714139149277281,
+      "ema25": 0.007144058397029382,
+      "atr": 2.4630066640791812e-05,
       "tr_buffer": [
         2.1000000000000185e-05,
         4.2999999999999636e-05,
@@ -98380,8 +98380,8 @@
         1.899999999999992e-05,
         2.0000000000002655e-06
       ],
-      "plus_dm": 7.20371892985487e-06,
-      "minus_dm": 6.2571891572467165e-06,
+      "plus_dm": 6.689167577722379e-06,
+      "minus_dm": 7.095961360300508e-06,
       "dm_buffer": [
         [
           0.0,
@@ -98440,7 +98440,7 @@
           0.0
         ]
       ],
-      "adx": 16.40806238317598,
+      "adx": 15.446840857784256,
       "dx_buffer": [
         28.571428571429053,
         20.958646616541532,
@@ -98458,15 +98458,6 @@
         14.825998876805729
       ],
       "hist": [
-        {
-          "o": 0.007075,
-          "h": 0.007089,
-          "l": 0.007075,
-          "c": 0.007081,
-          "ema7": 0.007086585896029804,
-          "dt_ms": 1787839020000,
-          "v": 193422.0
-        },
         {
           "o": 0.007088,
           "h": 0.007088,
@@ -99177,6 +99168,15 @@
           "ema7": 0.0071365219903637474,
           "dt_ms": 1787843880000,
           "v": 167030.0
+        },
+        {
+          "o": 0.007147,
+          "h": 0.007157,
+          "l": 0.007138,
+          "c": 0.007156,
+          "ema7": 0.00714139149277281,
+          "dt_ms": 1787843940000,
+          "v": 150220.0
         }
       ],
       "trend_prev": "down",
@@ -99185,8 +99185,8 @@
       "last_bull_bar_index": 69,
       "last_bear_bar_index": 60,
       "last_signal_price": 0.007106,
-      "bar_index": 125,
-      "last_open_time": 1787843880000,
+      "bar_index": 126,
+      "last_open_time": 1787843940000,
       "open_trade": {
         "side": "BUY",
         "entry": 0.007106,
@@ -101725,80 +101725,80 @@
   "live_check_cursor": 2,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 3.0490162,
+    "btc_change": 3.65835157,
     "candidates": [
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": 24.671525719999998,
-        "rank": 72,
+        "relative_performance": 24.085633259999998,
+        "rank": 73,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 18.29789452,
-        "rank": 144,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": 15.501560009999999,
-        "rank": 77,
+        "relative_performance": 17.75960268,
+        "rank": 143,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 15.351490949999999,
+        "relative_performance": 16.70403098,
         "rank": 70,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 14.48729733,
+        "rank": 77,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RUNE",
         "name": "THORChain",
-        "relative_performance": 13.94911672,
+        "relative_performance": 13.608013369999998,
         "rank": 134,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ZBCN",
-        "name": "Zebec Network",
-        "relative_performance": 11.14285143,
-        "rank": 124,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": 10.30330274,
+        "relative_performance": 10.13541304,
         "rank": 59,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "relative_performance": 9.93746904,
+        "relative_performance": 9.750690279999999,
         "rank": 120,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "relative_performance": 9.57835186,
-        "rank": 30,
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": 9.58105103,
+        "rank": 124,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "relative_performance": 8.63000327,
+        "relative_performance": 9.10554867,
         "rank": 47,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "relative_performance": 8.85357694,
+        "rank": 30,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-27T15:11:08.680352+00:00"
+    "updated": "2026-08-27T15:20:18.536910+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
