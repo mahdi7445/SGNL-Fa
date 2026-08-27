@@ -98361,9 +98361,9 @@
       "open_trade": null
     },
     "VET/USD|1m": {
-      "ema7": 0.007150097301692789,
-      "ema25": 0.007158731916160083,
-      "atr": 2.787526384199421e-05,
+      "ema7": 0.007141117232202194,
+      "ema25": 0.00715451713566303,
+      "atr": 2.762714076171951e-05,
       "tr_buffer": [
         2.1000000000000185e-05,
         4.2999999999999636e-05,
@@ -98380,8 +98380,8 @@
         1.899999999999992e-05,
         2.0000000000002655e-06
       ],
-      "plus_dm": 7.489430219693287e-06,
-      "minus_dm": 8.322675140793743e-06,
+      "plus_dm": 6.457722995551865e-06,
+      "minus_dm": 7.604755606092559e-06,
       "dm_buffer": [
         [
           0.0,
@@ -98440,7 +98440,7 @@
           0.0
         ]
       ],
-      "adx": 20.539627058607177,
+      "adx": 18.642327833923392,
       "dx_buffer": [
         28.571428571429053,
         20.958646616541532,
@@ -98458,24 +98458,6 @@
         14.825998876805729
       ],
       "hist": [
-        {
-          "o": 0.007108,
-          "h": 0.007108,
-          "l": 0.007098,
-          "c": 0.0071,
-          "ema7": 0.007135598697951662,
-          "dt_ms": 1787838420000,
-          "v": 138204.0
-        },
-        {
-          "o": 0.007115,
-          "h": 0.007117,
-          "l": 0.007099,
-          "c": 0.007099,
-          "ema7": 0.0071264490234637465,
-          "dt_ms": 1787838480000,
-          "v": 212762.0
-        },
         {
           "o": 0.007102,
           "h": 0.007109,
@@ -99177,6 +99159,24 @@
           "ema7": 0.007150097301692789,
           "dt_ms": 1787843280000,
           "v": 1980419.0
+        },
+        {
+          "o": 0.007155,
+          "h": 0.007155,
+          "l": 0.007128,
+          "c": 0.007137,
+          "ema7": 0.007146822976269592,
+          "dt_ms": 1787843340000,
+          "v": 1171513.0
+        },
+        {
+          "o": 0.00713,
+          "h": 0.00713,
+          "l": 0.007122,
+          "c": 0.007124,
+          "ema7": 0.007141117232202194,
+          "dt_ms": 1787843400000,
+          "v": 122011.0
         }
       ],
       "trend_prev": "down",
@@ -99185,8 +99185,8 @@
       "last_bull_bar_index": 69,
       "last_bear_bar_index": 60,
       "last_signal_price": 0.007106,
-      "bar_index": 115,
-      "last_open_time": 1787843280000,
+      "bar_index": 117,
+      "last_open_time": 1787843400000,
       "open_trade": {
         "side": "BUY",
         "entry": 0.007106,
@@ -99208,9 +99208,9 @@
       }
     },
     "KMNO/USD|1m": {
-      "ema7": 0.028928711632008254,
-      "ema25": 0.02861381286216109,
-      "atr": 9.547097357613814e-05,
+      "ema7": 0.02893903372400619,
+      "ema25": 0.028641211872764083,
+      "atr": 9.008018974927107e-05,
       "tr_buffer": [
         0.0,
         1.0000000000003062e-05,
@@ -99227,8 +99227,8 @@
         5.9999999999997555e-05,
         0.00020000000000000226
       ],
-      "plus_dm": 5.669298025192875e-05,
-      "minus_dm": 1.4833938957237154e-05,
+      "plus_dm": 5.264348166250526e-05,
+      "minus_dm": 1.3774371888863072e-05,
       "dm_buffer": [
         [
           0.0,
@@ -99287,7 +99287,7 @@
           0.00020000000000000226
         ]
       ],
-      "adx": 40.06917538042126,
+      "adx": 41.3872400374054,
       "dx_buffer": [
         15.384615384614772,
         6.024096385543069,
@@ -99988,6 +99988,15 @@
           "ema7": 0.028928711632008254,
           "dt_ms": 1787843340000,
           "v": 2543.7999999999997
+        },
+        {
+          "o": 0.02899,
+          "h": 0.02899,
+          "l": 0.02897,
+          "c": 0.02897,
+          "ema7": 0.02893903372400619,
+          "dt_ms": 1787843400000,
+          "v": 2811.8
         }
       ],
       "trend_prev": "up",
@@ -99996,8 +100005,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": null,
       "last_signal_price": null,
-      "bar_index": 76,
-      "last_open_time": 1787843340000,
+      "bar_index": 77,
+      "last_open_time": 1787843400000,
       "open_trade": null
     }
   },
@@ -101689,80 +101698,80 @@
   "live_check_cursor": 1,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 3.03069193,
+    "btc_change": 3.0490162,
     "candidates": [
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": 26.2360398,
-        "rank": 71,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": 15.67977557,
-        "rank": 77,
+        "relative_performance": 24.671525719999998,
+        "rank": 72,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 15.668050650000001,
+        "relative_performance": 18.29789452,
         "rank": 144,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 15.501560009999999,
+        "rank": 77,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "TRUMP",
         "name": "OFFICIAL TRUMP",
-        "relative_performance": 13.581118270000001,
+        "relative_performance": 15.351490949999999,
         "rank": 70,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RUNE",
         "name": "THORChain",
-        "relative_performance": 13.430677540000001,
+        "relative_performance": 13.94911672,
         "rank": 134,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 12.237274150000001,
+        "relative_performance": 11.14285143,
         "rank": 124,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 10.30330274,
+        "rank": 59,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "relative_performance": 10.42194348,
+        "relative_performance": 9.93746904,
         "rank": 120,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "relative_performance": 10.093634660000001,
+        "relative_performance": 9.57835186,
         "rank": 30,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": 8.97885045,
-        "rank": 59,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "RAY",
-        "name": "Raydium",
-        "relative_performance": 7.67023822,
-        "rank": 121,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 8.63000327,
+        "rank": 47,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-27T15:01:55.206717+00:00"
+    "updated": "2026-08-27T15:11:08.680352+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
