@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-27-14-00",
+    "15m": "2026-08-27-14-15",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-27-14-00",
+    "5m": "2026-08-27-14-15",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-27"
@@ -101129,80 +101129,80 @@
   "live_check_cursor": 0,
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 1.57883776,
+    "btc_change": 1.24212577,
     "candidates": [
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": 23.96306201,
-        "rank": 71,
+        "relative_performance": 23.31922191,
+        "rank": 73,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 18.51110637,
+        "relative_performance": 19.17625211,
         "rank": 144,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "RUNE",
-        "name": "THORChain",
-        "relative_performance": 14.15172393,
-        "rank": 134,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": 14.004210089999999,
+        "relative_performance": 14.97028613,
         "rank": 77,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "relative_performance": 14.78584474,
+        "rank": 134,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "relative_performance": 11.510352659999999,
+        "relative_performance": 12.043270470000001,
         "rank": 120,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": 10.09785548,
-        "rank": 47,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "relative_performance": 10.067853009999999,
+        "relative_performance": 10.83417109,
         "rank": 30,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ZBCN",
         "name": "Zebec Network",
-        "relative_performance": 10.03919013,
-        "rank": 126,
+        "relative_performance": 10.586210150000001,
+        "rank": 124,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "RAY",
-        "name": "Raydium",
-        "relative_performance": 5.5440911900000005,
-        "rank": 122,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 10.0224999,
+        "rank": 47,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "relative_performance": 5.52758287,
-        "rank": 59,
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": 7.43591187,
+        "rank": 71,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "relative_performance": 6.22724524,
+        "rank": 51,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-08-27T14:07:06.226135+00:00"
+    "updated": "2026-08-27T14:16:14.507006+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-27",
