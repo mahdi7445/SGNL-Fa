@@ -100581,9 +100581,9 @@
       }
     },
     "ZRO/USD|1m": {
-      "ema7": 1.1008527198602054,
-      "ema25": 1.0991332134988014,
-      "atr": 0.00241673771534021,
+      "ema7": 1.100714539895154,
+      "ema25": 1.099222966306586,
+      "atr": 0.0024512564499587753,
       "tr_buffer": [
         0.0,
         0.009700000000000042,
@@ -100600,8 +100600,8 @@
         0.0028000000000001357,
         0.0018000000000000238
       ],
-      "plus_dm": 0.0007978445399960289,
-      "minus_dm": 0.0008208562619311515,
+      "plus_dm": 0.0007979985014248935,
+      "minus_dm": 0.0007622236717932121,
       "dm_buffer": [
         [
           0.0,
@@ -100660,7 +100660,7 @@
           0.0
         ]
       ],
-      "adx": 20.711481756128812,
+      "adx": 19.39587104164075,
       "dx_buffer": [
         75.73221757322237,
         66.00790513833988,
@@ -100678,15 +100678,6 @@
         22.86832484962891
       ],
       "hist": [
-        {
-          "o": 1.1237,
-          "h": 1.1272,
-          "l": 1.1234,
-          "c": 1.1272,
-          "ema7": 1.12495543531737,
-          "dt_ms": 1787933220000,
-          "v": 1003.95
-        },
         {
           "o": 1.1252,
           "h": 1.1252,
@@ -101397,6 +101388,15 @@
           "ema7": 1.1008527198602054,
           "dt_ms": 1787937960000,
           "v": 10749.179999999998
+        },
+        {
+          "o": 1.0981,
+          "h": 1.1003,
+          "l": 1.0974,
+          "c": 1.1003,
+          "ema7": 1.100714539895154,
+          "dt_ms": 1787938020000,
+          "v": 758.06
         }
       ],
       "trend_prev": "up",
@@ -101405,8 +101405,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": 49,
       "last_signal_price": 1.0963,
-      "bar_index": 120,
-      "last_open_time": 1787937960000,
+      "bar_index": 121,
+      "last_open_time": 1787938020000,
       "open_trade": {
         "side": "SELL",
         "entry": 1.0963,
@@ -104278,80 +104278,80 @@
   "live_check_cursor": 0,
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -3.31202313,
+    "btc_change": -3.62050087,
     "candidates": [
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": -9.16360714,
+        "relative_performance": -10.104913920000001,
         "rank": 148,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": -8.20151535,
+        "relative_performance": -7.47819317,
         "rank": 74,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "WIF",
         "name": "dogwifhat",
-        "relative_performance": -7.23825972,
+        "relative_performance": -7.434364960000001,
         "rank": 124,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": -6.50402337,
+        "rank": 128,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": -5.942009479999999,
+        "relative_performance": -6.119615370000001,
         "rank": 81,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": -5.78387442,
+        "relative_performance": -5.58104113,
         "rank": 17,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "GRT",
         "name": "The Graph",
-        "relative_performance": -5.607967840000001,
+        "relative_performance": -5.46618759,
         "rank": 132,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": -5.4267977599999995,
+        "relative_performance": -5.00082346,
         "rank": 91,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "FARTCOIN",
-        "name": "Fartcoin",
-        "relative_performance": -5.41991803,
-        "rank": 128,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "relative_performance": -5.35637715,
+        "relative_performance": -4.904974480000001,
         "rank": 134,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "OP",
         "name": "Optimism",
-        "relative_performance": -4.902279760000001,
+        "relative_performance": -4.8179004999999995,
         "rank": 123,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-08-28T17:18:55.453262+00:00"
+    "updated": "2026-08-28T17:28:20.442266+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-28",
