@@ -102832,81 +102832,81 @@
   ],
   "live_check_cursor": 13,
   "trend_alts": {
-    "regime": "bull",
-    "btc_change": 1.56290576,
+    "regime": "bear",
+    "btc_change": -1.48376653,
     "candidates": [
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": 13.62408296,
-        "rank": 45,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "OFFICIAL TRUMP",
-        "relative_performance": 7.99450931,
-        "rank": 70,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": 7.474161950000001,
-        "rank": 143,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "relative_performance": -6.409011509999999,
+        "rank": 148,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "relative_performance": 7.200813950000001,
-        "rank": 67,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": -6.18748712,
+        "rank": 81,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "relative_performance": 6.661881360000001,
-        "rank": 31,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": -5.874720269999999,
+        "rank": 91,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "ZBCN",
-        "name": "Zebec Network",
-        "relative_performance": 5.351917329999999,
-        "rank": 126,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "relative_performance": -5.00647292,
+        "rank": 17,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "relative_performance": 5.3170553300000005,
-        "rank": 72,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": -4.379493849999999,
+        "rank": 111,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "relative_performance": 5.176408670000001,
-        "rank": 30,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "OP",
+        "name": "Optimism",
+        "relative_performance": -4.13434071,
+        "rank": 125,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": 5.03870678,
-        "rank": 59,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "GRT",
+        "name": "The Graph",
+        "relative_performance": -4.102660889999999,
+        "rank": 132,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "RUNE",
-        "name": "THORChain",
-        "relative_performance": 3.55648042,
-        "rank": 138,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": -3.5005279799999998,
+        "rank": 61,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO Token",
+        "relative_performance": -3.0709359399999996,
+        "rank": 86,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "relative_performance": -2.9820596299999997,
+        "rank": 47,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-08-28T00:00:56.653811+00:00"
+    "updated": "2026-08-28T15:25:40.073942+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-28",
