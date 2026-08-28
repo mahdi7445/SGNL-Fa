@@ -60,7 +60,7 @@
     "hotmovers_15m": "2026-08-22-04",
     "15m": "2026-08-28-15-45",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-28-15-45",
+    "5m": "2026-08-28-16-00",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-28"
@@ -100581,9 +100581,9 @@
       }
     },
     "ZRO/USD|1m": {
-      "ema7": 1.1348194568997672,
-      "ema25": 1.1411239820833015,
-      "atr": 0.002935116997402825,
+      "ema7": 1.1318395926748255,
+      "ema25": 1.139722137307663,
+      "atr": 0.003282608640445483,
       "tr_buffer": [
         0.0,
         0.009700000000000042,
@@ -100600,8 +100600,8 @@
         0.0028000000000001357,
         0.0018000000000000238
       ],
-      "plus_dm": 0.0006154021777996961,
-      "minus_dm": 0.0012612475849879468,
+      "plus_dm": 0.0005714448793854321,
+      "minus_dm": 0.0017211584717745248,
       "dm_buffer": [
         [
           0.0,
@@ -100660,7 +100660,7 @@
           0.0
         ]
       ],
-      "adx": 25.466912387832256,
+      "adx": 27.22990598966418,
       "dx_buffer": [
         75.73221757322237,
         66.00790513833988,
@@ -100983,6 +100983,15 @@
           "ema7": 1.1348194568997672,
           "dt_ms": 1787932800000,
           "v": 1062.5300000000004
+        },
+        {
+          "o": 1.1304,
+          "h": 1.1304,
+          "l": 1.1226,
+          "c": 1.1229,
+          "ema7": 1.1318395926748255,
+          "dt_ms": 1787932860000,
+          "v": 1121.27
         }
       ],
       "trend_prev": "down",
@@ -100991,8 +101000,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": null,
       "last_signal_price": null,
-      "bar_index": 34,
-      "last_open_time": 1787932800000,
+      "bar_index": 35,
+      "last_open_time": 1787932860000,
       "open_trade": null
     }
   },
@@ -103330,80 +103339,80 @@
   "live_check_cursor": 15,
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -2.16373187,
+    "btc_change": -2.40284615,
     "candidates": [
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": -6.011102920000001,
+        "relative_performance": -6.653911989999999,
         "rank": 148,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": -5.3383774200000005,
-        "rank": 81,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": -5.30604993,
+        "relative_performance": -5.83845603,
         "rank": 91,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": -5.59914015,
+        "rank": 81,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": -5.079505210000001,
+        "relative_performance": -5.369836640000001,
         "rank": 17,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "GRT",
-        "name": "The Graph",
-        "relative_performance": -3.8482261,
+        "symbol": "COMP",
+        "name": "Compound",
+        "relative_performance": -5.31100303,
         "rank": 132,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "OP",
         "name": "Optimism",
-        "relative_performance": -3.81352626,
-        "rank": 123,
+        "relative_performance": -4.479838320000001,
+        "rank": 124,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "WIF",
         "name": "dogwifhat",
-        "relative_performance": -3.6823855800000005,
-        "rank": 125,
+        "relative_performance": -4.298797050000001,
+        "rank": 123,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "CRV",
-        "name": "Curve DAO Token",
-        "relative_performance": -3.39507641,
-        "rank": 86,
+        "symbol": "GRT",
+        "name": "The Graph",
+        "relative_performance": -4.2893284099999995,
+        "rank": 133,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "JTO",
         "name": "Jito",
-        "relative_performance": -3.3267240499999997,
+        "relative_performance": -3.7587841,
         "rank": 111,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "relative_performance": -3.1664527000000002,
+        "relative_performance": -3.72481118,
         "rank": 134,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-08-28T15:53:21.251002+00:00"
+    "updated": "2026-08-28T16:02:27.633560+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-28",
