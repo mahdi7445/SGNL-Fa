@@ -99733,9 +99733,9 @@
       }
     },
     "KMNO/USD|1m": {
-      "ema7": 0.02585031631169797,
-      "ema25": 0.025951563195462428,
-      "atr": 3.3310858342379227e-05,
+      "ema7": 0.02584523723377348,
+      "ema25": 0.025942212180426857,
+      "atr": 3.3788654175066557e-05,
       "tr_buffer": [
         0.0,
         1.0000000000003062e-05,
@@ -99752,8 +99752,8 @@
         5.9999999999997555e-05,
         0.00020000000000000226
       ],
-      "plus_dm": 1.0200625899008056e-05,
-      "minus_dm": 1.817227479989745e-05,
+      "plus_dm": 9.472009763364625e-06,
+      "minus_dm": 1.901711231419065e-05,
       "dm_buffer": [
         [
           0.0,
@@ -99812,7 +99812,7 @@
           0.00020000000000000226
         ]
       ],
-      "adx": 42.96005848986456,
+      "adx": 42.28465259042605,
       "dx_buffer": [
         15.384615384614772,
         6.024096385543069,
@@ -99830,15 +99830,6 @@
         23.66084926753376
       ],
       "hist": [
-        {
-          "o": 0.02694,
-          "h": 0.02694,
-          "l": 0.02694,
-          "c": 0.02694,
-          "ema7": 0.02698105690320099,
-          "dt_ms": 1787931180000,
-          "v": 3717.4
-        },
         {
           "o": 0.02691,
           "h": 0.02691,
@@ -100549,6 +100540,15 @@
           "ema7": 0.02585031631169797,
           "dt_ms": 1787943720000,
           "v": 3800.0
+        },
+        {
+          "o": 0.02584,
+          "h": 0.02584,
+          "l": 0.02583,
+          "c": 0.02583,
+          "ema7": 0.02584523723377348,
+          "dt_ms": 1787943840000,
+          "v": 5808.700000000001
         }
       ],
       "trend_prev": "down",
@@ -100557,8 +100557,8 @@
       "last_bull_bar_index": 401,
       "last_bear_bar_index": 325,
       "last_signal_price": 0.02779,
-      "bar_index": 582,
-      "last_open_time": 1787943720000,
+      "bar_index": 583,
+      "last_open_time": 1787943840000,
       "open_trade": {
         "side": "BUY",
         "entry": 0.02779,
@@ -104300,80 +104300,80 @@
   "live_check_cursor": 4,
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -3.14849254,
+    "btc_change": -3.14850868,
     "candidates": [
       {
         "symbol": "KMNO",
         "name": "Kamino",
-        "relative_performance": -10.5971616,
+        "relative_performance": -11.23548546,
         "rank": 148,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "relative_performance": -9.03710862,
+        "relative_performance": -8.74800419,
         "rank": 74,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "FARTCOIN",
         "name": "Fartcoin",
-        "relative_performance": -7.7380774,
-        "rank": 128,
+        "relative_performance": -8.364490329999999,
+        "rank": 127,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": -7.323144110000001,
+        "relative_performance": -7.14336828,
         "rank": 62,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": -6.445933200000001,
+        "relative_performance": -6.2348231400000005,
         "rank": 81,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "FET",
-        "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -6.0720992,
-        "rank": 93,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "WIF",
         "name": "dogwifhat",
-        "relative_performance": -5.57741837,
+        "relative_performance": -6.1243099800000005,
         "rank": 124,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "relative_performance": -5.476462320000001,
-        "rank": 17,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "relative_performance": -5.081803690000001,
-        "rank": 68,
+        "symbol": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "relative_performance": -6.04279639,
+        "rank": 94,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "relative_performance": -5.0524059900000005,
+        "relative_performance": -5.212088110000001,
         "rank": 135,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "relative_performance": -5.1750698900000005,
+        "rank": 17,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "relative_performance": -4.910747489999999,
+        "rank": 50,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-08-28T19:04:24.346527+00:00"
+    "updated": "2026-08-28T19:13:31.723199+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-28",
