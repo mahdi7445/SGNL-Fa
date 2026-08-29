@@ -94657,9 +94657,9 @@
       "open_trade": null
     },
     "ENA/USD|1m": {
-      "ema7": 0.1600170345196132,
-      "ema25": 0.15987494881267897,
-      "atr": 0.0002971561258016872,
+      "ema7": 0.1601452758897099,
+      "ema25": 0.1599253373655498,
+      "atr": 0.0003023592596729939,
       "tr_buffer": [
         0.00017000000000000348,
         0.0006899999999999962,
@@ -94676,8 +94676,8 @@
         0.0004899999999999904,
         0.0005000000000000004
       ],
-      "plus_dm": 9.468722595050044e-05,
-      "minus_dm": 8.45519553677735e-05,
+      "plus_dm": 0.00010935242409689289,
+      "minus_dm": 7.85125299843611e-05,
       "dm_buffer": [
         [
           0.0,
@@ -94736,7 +94736,7 @@
           0.0002999999999999947
         ]
       ],
-      "adx": 19.796972880792875,
+      "adx": 19.55547418104448,
       "dx_buffer": [
         61.17216117216112,
         61.17216117216112,
@@ -94754,15 +94754,6 @@
         36.88345559121371
       ],
       "hist": [
-        {
-          "o": 0.1652,
-          "h": 0.1652,
-          "l": 0.1649,
-          "c": 0.16502,
-          "ema7": 0.16485146832619313,
-          "dt_ms": 1787913300000,
-          "v": 2930.5
-        },
         {
           "o": 0.16504,
           "h": 0.16521,
@@ -95473,6 +95464,15 @@
           "ema7": 0.1600170345196132,
           "dt_ms": 1787971980000,
           "v": 9790.600000000002
+        },
+        {
+          "o": 0.16035,
+          "h": 0.1606,
+          "l": 0.16035,
+          "c": 0.16053,
+          "ema7": 0.1601452758897099,
+          "dt_ms": 1787972040000,
+          "v": 7518.1
         }
       ],
       "trend_prev": "up",
@@ -95481,8 +95481,8 @@
       "last_bull_bar_index": 1007,
       "last_bear_bar_index": 922,
       "last_signal_price": 0.16868,
-      "bar_index": 1057,
-      "last_open_time": 1787971980000,
+      "bar_index": 1058,
+      "last_open_time": 1787972040000,
       "open_trade": {
         "side": "SELL",
         "entry": 0.16414,
@@ -102675,9 +102675,9 @@
       "open_trade": null
     },
     "VVV/USD|1m": {
-      "ema7": 15.854365811541147,
-      "ema25": 15.869686217200602,
-      "atr": 0.011505408766202329,
+      "ema7": 15.85324935865586,
+      "ema25": 15.868164200492865,
+      "atr": 0.011533593854330657,
       "tr_buffer": [
         0.0,
         0.019999999999999574,
@@ -102694,8 +102694,8 @@
         0.03850000000000087,
         0.012900000000000134
       ],
-      "plus_dm": 0.0023944665695103994,
-      "minus_dm": 0.004190561516363522,
+      "plus_dm": 0.002559147528831064,
+      "minus_dm": 0.0038912356937661277,
       "dm_buffer": [
         [
           0.0,
@@ -102754,7 +102754,7 @@
           0.0
         ]
       ],
-      "adx": 26.581766363732186,
+      "adx": 26.1581618166843,
       "dx_buffer": [
         31.63636363636186,
         31.63636363636186,
@@ -103149,6 +103149,15 @@
           "ema7": 15.854365811541147,
           "dt_ms": 1787971980000,
           "v": 496.9660000000001
+        },
+        {
+          "o": 15.8528,
+          "h": 15.86,
+          "l": 15.8481,
+          "c": 15.8499,
+          "ema7": 15.85324935865586,
+          "dt_ms": 1787972040000,
+          "v": 308.71700000000004
         }
       ],
       "trend_prev": "down",
@@ -103157,8 +103166,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": null,
       "last_signal_price": null,
-      "bar_index": 42,
-      "last_open_time": 1787971980000,
+      "bar_index": 43,
+      "last_open_time": 1787972040000,
       "open_trade": null
     }
   },
@@ -105543,80 +105552,80 @@
   "live_check_cursor": 7,
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -2.97830638,
+    "btc_change": -2.78438955,
     "candidates": [
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": -7.654728520000001,
+        "relative_performance": -7.8970033399999995,
         "rank": 65,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": -6.608924810000001,
+        "relative_performance": -7.02319449,
         "rank": 83,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": -5.3125648000000005,
-        "rank": 46,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "FET",
         "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -4.9264296000000005,
+        "relative_performance": -4.5192261,
         "rank": 94,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "XPL",
-        "name": "Plasma",
-        "relative_performance": -4.66196266,
-        "rank": 118,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "FARTCOIN",
         "name": "Fartcoin",
-        "relative_performance": -4.362340980000001,
-        "rank": 128,
+        "relative_performance": -4.030574779999999,
+        "rank": 129,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "relative_performance": -4.07033575,
-        "rank": 73,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "relative_performance": -3.9459752900000002,
-        "rank": 50,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": -3.9603377999999996,
+        "rank": 45,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": -3.8264557500000005,
+        "relative_performance": -3.7725007799999997,
         "rank": 17,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "relative_performance": -3.66996345,
+        "rank": 50,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "relative_performance": -3.4575834299999997,
+        "rank": 72,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "relative_performance": -3.20864596,
+        "rank": 85,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "WIF",
         "name": "dogwifhat",
-        "relative_performance": -3.6690266,
+        "relative_performance": -3.1708020799999996,
         "rank": 125,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-08-29T02:46:14.972076+00:00"
+    "updated": "2026-08-29T02:55:21.973482+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-29",
