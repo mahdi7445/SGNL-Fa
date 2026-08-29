@@ -104642,14 +104642,14 @@
         "entry": 0.14752,
         "sl": 0.1461828218829986,
         "r": 0.001337178117001403,
-        "working_sl": 0.14885717811700142,
+        "working_sl": 0.15019435623400282,
         "hit": {
           "1": true,
           "2": true,
-          "3": false,
+          "3": true,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 0.65,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -104662,6 +104662,11 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": 3,
+            "frac": 0.15,
+            "r": 4
           }
         ],
         "closed": false,
@@ -107325,6 +107330,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-08-29T14:42:00.329635+00:00"
+    },
+    {
+      "symbol": "FET/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "BUY",
+      "type": "target_3",
+      "r": 4,
+      "frac": 0.15,
+      "at": "2026-08-29T14:51:44.175245+00:00"
     }
   ],
   "live_check_cursor": 14,
