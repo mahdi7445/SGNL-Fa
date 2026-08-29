@@ -95488,17 +95488,23 @@
         "entry": 0.16414,
         "sl": 0.169725831108151,
         "r": 0.0055858311081510015,
-        "working_sl": 0.169725831108151,
+        "working_sl": 0.16414,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "signal_message_id": 4711
       }
@@ -104981,6 +104987,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-08-28T18:23:25.947901+00:00"
+    },
+    {
+      "symbol": "ENA/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-08-29T02:23:03.319420+00:00"
     }
   ],
   "live_check_cursor": 6,
