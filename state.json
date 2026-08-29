@@ -104642,14 +104642,14 @@
         "entry": 0.14752,
         "sl": 0.1461828218829986,
         "r": 0.001337178117001403,
-        "working_sl": 0.14752,
+        "working_sl": 0.14885717811700142,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -104657,6 +104657,11 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
           }
         ],
         "closed": false,
@@ -107310,6 +107315,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-08-29T14:09:41.980881+00:00"
+    },
+    {
+      "symbol": "FET/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_2",
+      "r": 2,
+      "frac": 0.3,
+      "at": "2026-08-29T14:42:00.329635+00:00"
     }
   ],
   "live_check_cursor": 14,
