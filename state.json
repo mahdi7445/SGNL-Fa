@@ -49,7 +49,7 @@
   },
   "tf_windows": {
     "flow_perf": "2026-08-29-06",
-    "1h": "2026-08-29-06",
+    "1h": "2026-08-29-07",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -58,9 +58,9 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-29-06-45",
+    "15m": "2026-08-29-07-00",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-29-06-45",
+    "5m": "2026-08-29-07-00",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
     "trendalts_refresh": "2026-08-29"
@@ -106230,80 +106230,80 @@
   "live_check_cursor": 15,
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -3.15405219,
+    "btc_change": -3.06996803,
     "candidates": [
       {
         "symbol": "SPX",
         "name": "SPX6900",
-        "relative_performance": -7.982227030000001,
+        "relative_performance": -8.24861567,
         "rank": 81,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "relative_performance": -6.47029182,
+        "relative_performance": -6.58835247,
         "rank": 91,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "FET",
         "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -5.807122100000001,
+        "relative_performance": -6.1755898600000005,
         "rank": 95,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": -5.18572747,
+        "relative_performance": -5.142808949999999,
         "rank": 64,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "FARTCOIN",
         "name": "Fartcoin",
-        "relative_performance": -5.039739450000001,
+        "relative_performance": -5.05513238,
         "rank": 129,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "WIF",
         "name": "dogwifhat",
-        "relative_performance": -4.38567297,
+        "relative_performance": -4.69633637,
         "rank": 125,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "JASMY",
-        "name": "JasmyCoin",
-        "relative_performance": -4.29239865,
-        "rank": 119,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": -4.04495086,
+        "relative_performance": -4.33278932,
         "rank": 17,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "relative_performance": -3.5055293,
-        "rank": 50,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "relative_performance": -3.48090937,
+        "relative_performance": -4.31654847,
         "rank": 68,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "relative_performance": -4.29785305,
+        "rank": 119,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "relative_performance": -3.6192684999999996,
+        "rank": 50,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-08-29T06:52:13.546480+00:00"
+    "updated": "2026-08-29T07:01:20.584554+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-08-29",
