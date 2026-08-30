@@ -59275,8 +59275,7 @@
         "peak_price": null,
         "fills": [],
         "closed": false,
-        "signal_message_id": 4836,
-        "_stop_pending_since": 1788053448.8797696
+        "signal_message_id": 4836
       }
     },
     "XRP/USD|5m": {
