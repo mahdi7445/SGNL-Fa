@@ -106446,11 +106446,11 @@
           "1": true,
           "2": true,
           "3": true,
-          "4": false
+          "4": true
         },
-        "closed_frac": 0.65,
-        "trailing_activated": false,
-        "peak_price": null,
+        "closed_frac": 0.75,
+        "trailing_activated": true,
+        "peak_price": 0.004353,
         "fills": [
           {
             "target": 1,
@@ -106466,6 +106466,11 @@
             "target": 3,
             "frac": 0.15,
             "r": 4
+          },
+          {
+            "target": 4,
+            "frac": 0.1,
+            "r": 6
           }
         ],
         "closed": false,
@@ -109575,6 +109580,16 @@
       "r": 4,
       "frac": 0.15,
       "at": "2026-08-30T23:39:19.737668+00:00"
+    },
+    {
+      "symbol": "PUMP/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "SELL",
+      "type": "target_4",
+      "r": 6,
+      "frac": 0.1,
+      "at": "2026-08-30T23:50:09.093139+00:00"
     }
   ],
   "live_check_cursor": 9,
