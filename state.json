@@ -90504,7 +90504,7 @@
           "3": true,
           "4": true
         },
-        "closed_frac": 0.75,
+        "closed_frac": 1.0,
         "trailing_activated": true,
         "peak_price": 121.64,
         "fills": [
@@ -90527,10 +90527,16 @@
             "target": 4,
             "frac": 0.1,
             "r": 6
+          },
+          {
+            "target": "runner",
+            "frac": 0.25,
+            "r": 5.603851305543595
           }
         ],
-        "closed": false,
-        "signal_message_id": 4415
+        "closed": true,
+        "signal_message_id": 4415,
+        "close_type": "runner_stop"
       }
     },
     "ZEC/USD|1h": {
@@ -107042,6 +107048,26 @@
       "runner_closed": false,
       "runner_r": null,
       "closed_at": "2026-08-30T00:18:29.150524+00:00"
+    },
+    {
+      "symbol": "AAVE/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 138.09,
+      "sl": 140.4056453158251,
+      "final_r": 3.401,
+      "close_type": "runner_stop",
+      "close_reason": "Runner closed by trailing stop after Target 4 (75% banked)",
+      "targets_hit": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runner_closed": true,
+      "runner_r": 5.6039,
+      "closed_at": "2026-08-30T01:08:24.253063+00:00"
     }
   ],
   "live_last_checked": {
@@ -108407,9 +108433,19 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-08-30T00:18:29.150483+00:00"
+    },
+    {
+      "symbol": "AAVE/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "runner_stop",
+      "r": 5.603851305543595,
+      "frac": 0.25,
+      "at": "2026-08-30T01:08:24.253024+00:00"
     }
   ],
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "trend_alts": {
     "regime": "bull",
     "btc_change": 0.53434484,
