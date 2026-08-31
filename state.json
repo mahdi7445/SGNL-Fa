@@ -106441,17 +106441,23 @@
         "entry": 0.004455,
         "sl": 0.004490134027547592,
         "r": 3.5134027547591845e-05,
-        "working_sl": 0.004490134027547592,
+        "working_sl": 0.004455,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "signal_message_id": 4861
       }
@@ -109599,6 +109605,16 @@
       "r": 4.647096088863883,
       "frac": 0.25,
       "at": "2026-08-30T23:55:23.444544+00:00"
+    },
+    {
+      "symbol": "PUMP/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-08-31T01:47:18.630160+00:00"
     }
   ],
   "live_check_cursor": 13,
