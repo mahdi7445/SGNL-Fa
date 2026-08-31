@@ -107330,17 +107330,23 @@
         "entry": 0.17424,
         "sl": 0.17282778451097516,
         "r": 0.0014122154890248428,
-        "working_sl": 0.17282778451097516,
+        "working_sl": 0.17424,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1788156063218,
         "events": [
@@ -107348,6 +107354,12 @@
             "type": "opened",
             "ts": "2026-08-31T06:01:03.218020+00:00",
             "price": 0.17424
+          },
+          {
+            "type": "rr",
+            "ts": "2026-08-31T07:18:56.723104+00:00",
+            "price": 0.17565221548902485,
+            "level": 1
           }
         ],
         "signal_message_id": 4874
@@ -110781,6 +110793,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-08-31T07:17:52.874966+00:00"
+    },
+    {
+      "symbol": "FARTCOIN/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-08-31T07:18:57.308017+00:00"
     }
   ],
   "live_check_cursor": 6,
