@@ -107390,7 +107390,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -107398,9 +107398,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": 0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1788156063218,
         "events": [
           {
@@ -107413,10 +107418,22 @@
             "ts": "2026-08-31T07:18:56.723104+00:00",
             "price": 0.17565221548902485,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-08-31T09:51:18.950038+00:00",
+            "price": 0.17424,
+            "r": 0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-08-31T09:51:19.582395+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 4874,
-        "_stop_pending_since": 1788169867.089536
+        "close_type": "breakeven"
       }
     }
   },
@@ -109369,6 +109386,50 @@
       "runner_r": null,
       "opened_at": "2026-08-31T08:46:09.420000+00:00",
       "closed_at": "2026-08-31T08:52:38.073562+00:00"
+    },
+    {
+      "signal_id": "ALT-000005",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-08-31T06:01:03.218020+00:00",
+          "price": 0.17424
+        },
+        {
+          "type": "rr",
+          "ts": "2026-08-31T07:18:56.723104+00:00",
+          "price": 0.17565221548902485,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-08-31T09:51:18.950038+00:00",
+          "price": 0.17424,
+          "r": 0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-08-31T09:51:19.582395+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "FARTCOIN/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 0.17424,
+      "sl": 0.17282778451097516,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-08-31T06:01:03.218000+00:00",
+      "closed_at": "2026-08-31T09:51:19.582395+00:00"
     }
   ],
   "live_last_checked": {
@@ -111111,6 +111172,16 @@
       "r": 0.0,
       "frac": 0.8,
       "at": "2026-08-31T08:52:38.073522+00:00"
+    },
+    {
+      "symbol": "FARTCOIN/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "breakeven",
+      "r": 0.0,
+      "frac": 0.8,
+      "at": "2026-08-31T09:51:19.582361+00:00"
     }
   ],
   "live_check_cursor": 12,
