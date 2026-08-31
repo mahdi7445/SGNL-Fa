@@ -106559,20 +106559,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "opposite_signal",
+            "frac": 1.0,
+            "r": -0.4067432237144708
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1788190261037,
         "events": [
           {
             "type": "opened",
             "ts": "2026-08-31T15:31:01.037790+00:00",
             "price": 0.004337
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-08-31T16:40:03.049656+00:00",
+            "price": 0.00432,
+            "r": -0.4067432237144708
+          },
+          {
+            "type": "closed",
+            "ts": "2026-08-31T16:40:03.744222+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -0.4067
           }
         ],
-        "signal_message_id": 4902
+        "signal_message_id": 4902,
+        "close_type": "opposite_signal"
       }
     },
     "FARTCOIN/USD|1m": {
@@ -109624,6 +109643,42 @@
       "runner_r": null,
       "opened_at": "2026-08-31T14:16:03.882000+00:00",
       "closed_at": "2026-08-31T14:22:33.786205+00:00"
+    },
+    {
+      "signal_id": "ALT-000014",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-08-31T15:31:01.037790+00:00",
+          "price": 0.004337
+        },
+        {
+          "type": "opposite_signal",
+          "ts": "2026-08-31T16:40:03.049656+00:00",
+          "price": 0.00432,
+          "r": -0.4067432237144708
+        },
+        {
+          "type": "closed",
+          "ts": "2026-08-31T16:40:03.744222+00:00",
+          "close_type": "opposite_signal",
+          "final_r": -0.4067
+        }
+      ],
+      "symbol": "PUMP/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "BUY",
+      "entry": 0.004337,
+      "sl": 0.004295204589507965,
+      "final_r": -0.4067,
+      "close_type": "opposite_signal",
+      "close_reason": "Closed early - opposite signal fired",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-08-31T15:31:01.037000+00:00",
+      "closed_at": "2026-08-31T16:40:03.744222+00:00"
     }
   ],
   "live_last_checked": {
@@ -111429,6 +111484,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-08-31T16:25:00.627434+00:00"
+    },
+    {
+      "symbol": "PUMP/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "BUY",
+      "type": "opposite_signal",
+      "r": -0.4067432237144708,
+      "frac": 1.0,
+      "at": "2026-08-31T16:40:03.744189+00:00"
     }
   ],
   "live_check_cursor": 9,
