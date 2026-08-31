@@ -48,8 +48,8 @@
     "updated": "2026-08-23T18:04:10.170332+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-08-30-21",
-    "1h": "2026-08-30-23",
+    "flow_perf": "2026-08-31-00",
+    "1h": "2026-08-31-00",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -58,12 +58,12 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-08-30-23-45",
+    "15m": "2026-08-31-00-00",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-08-30-23-45",
+    "5m": "2026-08-31-00-00",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
-    "trendalts_refresh": "2026-08-30"
+    "trendalts_refresh": "2026-08-31"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -105610,9 +105610,9 @@
       }
     },
     "PUMP/USD|1m": {
-      "ema7": 0.004420389461687284,
-      "ema25": 0.004438602620931196,
-      "atr": 2.3429125592452405e-05,
+      "ema7": 0.004441969072199097,
+      "ema25": 0.004443128860438416,
+      "atr": 2.3446541964920705e-05,
       "tr_buffer": [
         3.9999999999996635e-06,
         8.99999999999946e-06,
@@ -105629,8 +105629,8 @@
         2.999999999999531e-06,
         3.000000000000398e-06
       ],
-      "plus_dm": 6.2007802990805924e-06,
-      "minus_dm": 6.618831983417014e-06,
+      "plus_dm": 6.632305461962332e-06,
+      "minus_dm": 5.707054108150385e-06,
       "dm_buffer": [
         [
           0.0,
@@ -105689,7 +105689,7 @@
           3.000000000000398e-06
         ]
       ],
-      "adx": 47.4378030132715,
+      "adx": 41.65489472734272,
       "dx_buffer": [
         45.454545454547365,
         25.05010020040273,
@@ -105707,24 +105707,6 @@
         12.523786973453538
       ],
       "hist": [
-        {
-          "o": 0.004613,
-          "h": 0.004622,
-          "l": 0.004613,
-          "c": 0.004622,
-          "ema7": 0.004614704673247574,
-          "dt_ms": 1788129480000,
-          "v": 572804.0
-        },
-        {
-          "o": 0.004621,
-          "h": 0.004622,
-          "l": 0.00462,
-          "c": 0.00462,
-          "ema7": 0.00461602850493568,
-          "dt_ms": 1788129540000,
-          "v": 147620.0
-        },
         {
           "o": 0.00462,
           "h": 0.004629,
@@ -106426,6 +106408,24 @@
           "ema7": 0.004420389461687284,
           "dt_ms": 1788134220000,
           "v": 7374330.0
+        },
+        {
+          "o": 0.004447,
+          "h": 0.004465,
+          "l": 0.004447,
+          "c": 0.004464,
+          "ema7": 0.004431292096265463,
+          "dt_ms": 1788134280000,
+          "v": 1271929.0
+        },
+        {
+          "o": 0.004458,
+          "h": 0.004483,
+          "l": 0.004458,
+          "c": 0.004474,
+          "ema7": 0.004441969072199097,
+          "dt_ms": 1788134340000,
+          "v": 4323971.0
         }
       ],
       "trend_prev": "down",
@@ -106434,8 +106434,8 @@
       "last_bull_bar_index": 666,
       "last_bear_bar_index": 1026,
       "last_signal_price": 0.004618,
-      "bar_index": 1112,
-      "last_open_time": 1788134220000,
+      "bar_index": 1114,
+      "last_open_time": 1788134340000,
       "open_trade": {
         "side": "SELL",
         "entry": 0.004618,
@@ -109630,89 +109630,84 @@
   ],
   "live_check_cursor": 9,
   "trend_alts": {
-    "regime": "bull",
-    "btc_change": 0.53434484,
+    "regime": "bear",
+    "btc_change": -0.73162482,
     "candidates": [
+      {
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "relative_performance": -11.75024374,
+        "rank": 70,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": 8.7031358,
-        "rank": 38,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "relative_performance": -11.36484634,
+        "rank": 43,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "TWT",
-        "name": "Trust Wallet Token",
-        "relative_performance": 8.23457443,
-        "rank": 122,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": -10.44457623,
+        "rank": 133,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "POL",
+        "name": "Polygon (prev. MATIC)",
+        "relative_performance": -8.260916029999999,
+        "rank": 56,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "PIEVERSE",
         "name": "Pieverse",
-        "relative_performance": 7.05496108,
-        "rank": 98,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "relative_performance": -7.75126114,
+        "rank": 104,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "relative_performance": 6.8563554,
-        "rank": 79,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "KITE",
+        "name": "Kite",
+        "relative_performance": -7.42882799,
+        "rank": 105,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "relative_performance": 5.10900588,
-        "rank": 18,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": -6.78792866,
+        "rank": 91,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "relative_performance": 4.97817006,
-        "rank": 29,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": -6.72543814,
+        "rank": 113,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 4.63375146,
-        "rank": 11,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": -6.40917095,
+        "rank": 47,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "relative_performance": 3.3678430099999996,
-        "rank": 50,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "relative_performance": 3.25460488,
-        "rank": 39,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "relative_performance": 3.23937126,
-        "rank": 83,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "relative_performance": -6.255333050000001,
+        "rank": 132,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-08-30T00:00:50.352815+00:00"
+    "updated": "2026-08-31T00:00:07.939871+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-08-30",
-    "counts": {
-      "XRP": 1,
-      "SOL": 1,
-      "PUMP": 1,
-      "ADA": 1
-    }
+    "date": "2026-08-31",
+    "counts": {}
   }
 }
