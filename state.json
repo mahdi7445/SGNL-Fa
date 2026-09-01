@@ -111011,17 +111011,23 @@
         "entry": 0.006663,
         "sl": 0.006644643521734436,
         "r": 1.835647826556406e-05,
-        "working_sl": 0.006644643521734436,
+        "working_sl": 0.006663,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1788290767526,
         "events": [
@@ -111029,6 +111035,12 @@
             "type": "opened",
             "ts": "2026-09-01T19:26:07.526807+00:00",
             "price": 0.006663
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-01T19:45:02.737695+00:00",
+            "price": 0.006681356478265564,
+            "level": 1
           }
         ],
         "signal_message_id": 4971
@@ -116368,6 +116380,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-01T19:34:13.664920+00:00"
+    },
+    {
+      "symbol": "FLR/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-01T19:45:03.352616+00:00"
     }
   ],
   "live_check_cursor": 10,
