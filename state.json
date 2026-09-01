@@ -111036,7 +111036,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -111044,9 +111044,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": 0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1788290767526,
         "events": [
           {
@@ -111059,9 +111064,22 @@
             "ts": "2026-09-01T19:45:02.737695+00:00",
             "price": 0.006681356478265564,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-09-01T19:57:51.078157+00:00",
+            "price": 0.006663,
+            "r": 0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-01T19:57:51.715442+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
-        "signal_message_id": 4971
+        "signal_message_id": 4971,
+        "close_type": "breakeven"
       }
     }
   },
@@ -114225,6 +114243,50 @@
       "runner_r": null,
       "opened_at": "2026-08-31T16:20:25.677000+00:00",
       "closed_at": "2026-09-01T19:53:01.390582+00:00"
+    },
+    {
+      "signal_id": "ALT-000041",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-01T19:26:07.526807+00:00",
+          "price": 0.006663
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-01T19:45:02.737695+00:00",
+          "price": 0.006681356478265564,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-09-01T19:57:51.078157+00:00",
+          "price": 0.006663,
+          "r": 0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-01T19:57:51.715442+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "FLR/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 0.006663,
+      "sl": 0.006644643521734436,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-01T19:26:07.526000+00:00",
+      "closed_at": "2026-09-01T19:57:51.715442+00:00"
     }
   ],
   "live_last_checked": {
@@ -116461,6 +116523,16 @@
       "r": -0.0,
       "frac": 0.8,
       "at": "2026-09-01T19:53:01.390550+00:00"
+    },
+    {
+      "symbol": "FLR/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "breakeven",
+      "r": 0.0,
+      "frac": 0.8,
+      "at": "2026-09-01T19:57:51.715416+00:00"
     }
   ],
   "live_check_cursor": 11,
