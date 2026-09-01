@@ -110051,20 +110051,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "opposite_signal",
+            "frac": 1.0,
+            "r": -0.6233010011760292
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1788258667411,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-01T10:31:07.411791+00:00",
             "price": 0.026074
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-09-01T10:59:04.463356+00:00",
+            "price": 0.026961,
+            "r": -0.6233010011760292
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-01T10:59:05.045191+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -0.6233
           }
         ],
-        "signal_message_id": 4937
+        "signal_message_id": 4937,
+        "close_type": "opposite_signal"
       }
     }
   },
@@ -112770,6 +112789,42 @@
       "runner_r": null,
       "opened_at": "2026-09-01T08:26:06.133000+00:00",
       "closed_at": "2026-09-01T09:28:22.156584+00:00"
+    },
+    {
+      "signal_id": "ALT-000027",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-01T10:31:07.411791+00:00",
+          "price": 0.026074
+        },
+        {
+          "type": "opposite_signal",
+          "ts": "2026-09-01T10:59:04.463356+00:00",
+          "price": 0.026961,
+          "r": -0.6233010011760292
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-01T10:59:05.045191+00:00",
+          "close_type": "opposite_signal",
+          "final_r": -0.6233
+        }
+      ],
+      "symbol": "SKR/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "SELL",
+      "entry": 0.026074,
+      "sl": 0.027497068466642006,
+      "final_r": -0.6233,
+      "close_type": "opposite_signal",
+      "close_reason": "Closed early - opposite signal fired",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-01T10:31:07.411000+00:00",
+      "closed_at": "2026-09-01T10:59:05.045191+00:00"
     }
   ],
   "live_last_checked": {
@@ -114812,6 +114867,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-01T10:51:19.130164+00:00"
+    },
+    {
+      "symbol": "SKR/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "SELL",
+      "type": "opposite_signal",
+      "r": -0.6233010011760292,
+      "frac": 1.0,
+      "at": "2026-09-01T10:59:05.045146+00:00"
     }
   ],
   "live_check_cursor": 11,
