@@ -61781,20 +61781,33 @@
         "entry": 0.09129,
         "sl": 0.10073649738869707,
         "r": 0.009446497388697073,
-        "working_sl": 0.10073649738869707,
+        "working_sl": 0.09129,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "signal_message_id": 4353,
-        "events": []
+        "events": [
+          {
+            "type": "rr",
+            "ts": "2026-09-02T02:08:45.653383+00:00",
+            "price": 0.08184350261130292,
+            "level": 1
+          }
+        ]
       }
     },
     "SOL/USD|15m": {
@@ -116724,9 +116737,19 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-02T01:52:02.444715+00:00"
+    },
+    {
+      "symbol": "DOGE/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-02T02:08:46.093084+00:00"
     }
   ],
-  "live_check_cursor": 4,
+  "live_check_cursor": 5,
   "trend_alts": {
     "regime": "bear",
     "btc_change": -1.50291387,
