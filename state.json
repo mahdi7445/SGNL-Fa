@@ -61060,7 +61060,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -61073,9 +61073,14 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": "stop",
+            "frac": 0.5,
+            "r": 1.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1788330648685,
         "events": [
           {
@@ -61094,9 +61099,22 @@
             "ts": "2026-09-02T10:10:15.574607+00:00",
             "price": 0.19320542644553892,
             "level": 2
+          },
+          {
+            "type": "stop_at_t1",
+            "ts": "2026-09-02T12:22:40.879822+00:00",
+            "price": 0.19530271322276946,
+            "r": 1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-02T12:22:41.352881+00:00",
+            "close_type": "stop_at_t1",
+            "final_r": 1.3
           }
         ],
-        "signal_message_id": 5001
+        "signal_message_id": 5001,
+        "close_type": "stop_at_t1"
       }
     },
     "DOGE/USD|5m": {
@@ -114818,6 +114836,57 @@
       "runner_r": null,
       "opened_at": "2026-09-02T06:59:57.296000+00:00",
       "closed_at": "2026-09-02T09:06:39.438555+00:00"
+    },
+    {
+      "signal_id": "ALT-000054",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-02T06:30:48.685746+00:00",
+          "price": 0.1974
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-02T08:38:54.375172+00:00",
+          "price": 0.19530271322276946,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-02T10:10:15.574607+00:00",
+          "price": 0.19320542644553892,
+          "level": 2
+        },
+        {
+          "type": "stop_at_t1",
+          "ts": "2026-09-02T12:22:40.879822+00:00",
+          "price": 0.19530271322276946,
+          "r": 1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-02T12:22:41.352881+00:00",
+          "close_type": "stop_at_t1",
+          "final_r": 1.3
+        }
+      ],
+      "symbol": "ADA/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 0.1974,
+      "sl": 0.19949728677723053,
+      "final_r": 1.3,
+      "close_type": "stop_at_t1",
+      "close_reason": "Stopped at Target 1 level after Target 2 (50% banked)",
+      "targets_hit": [
+        1,
+        2
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-02T06:30:48.685000+00:00",
+      "closed_at": "2026-09-02T12:22:41.352881+00:00"
     }
   ],
   "live_last_checked": {
@@ -117280,6 +117349,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-02T10:49:27.765103+00:00"
+    },
+    {
+      "symbol": "ADA/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop_at_t1",
+      "r": 1.0,
+      "frac": 0.5,
+      "at": "2026-09-02T12:22:41.352844+00:00"
     }
   ],
   "live_check_cursor": 3,
