@@ -96802,20 +96802,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1788370062203,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-02T17:27:42.203800+00:00",
             "price": 2.1627
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-02T17:58:47.328189+00:00",
+            "price": 2.1792268829028623,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-02T17:58:47.746877+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5013
+        "signal_message_id": 5013,
+        "close_type": "stop"
       }
     },
     "MON/USD|1m": {
@@ -114951,6 +114970,42 @@
       "runner_r": null,
       "opened_at": "2026-09-02T13:55:10.159000+00:00",
       "closed_at": "2026-09-02T14:07:15.379128+00:00"
+    },
+    {
+      "signal_id": "ALT-000057",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-02T17:27:42.203800+00:00",
+          "price": 2.1627
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-02T17:58:47.328189+00:00",
+          "price": 2.1792268829028623,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-02T17:58:47.746877+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "TRUMP/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 2.1627,
+      "sl": 2.1792268829028623,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-02T17:27:42.203000+00:00",
+      "closed_at": "2026-09-02T17:58:47.746877+00:00"
     }
   ],
   "live_last_checked": {
@@ -117444,9 +117499,19 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-02T14:07:15.379092+00:00"
+    },
+    {
+      "symbol": "TRUMP/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-02T17:58:47.746849+00:00"
     }
   ],
-  "live_check_cursor": 14,
+  "live_check_cursor": 15,
   "trend_alts": {
     "regime": "bear",
     "btc_change": -1.50291387,
@@ -117528,7 +117593,7 @@
     "date": "2026-09-02",
     "counts": {
       "ADA": 1,
-      "TRUMP": 2
+      "TRUMP": 3
     }
   }
 }
