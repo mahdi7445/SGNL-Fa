@@ -86139,9 +86139,9 @@
       "open_trade": null
     },
     "NEAR/USD|1h": {
-      "ema7": 1.8797936325577334,
-      "ema25": 1.9132439109836363,
-      "atr": 0.03529853687321764,
+      "ema7": 1.8780952244183,
+      "ema25": 1.9101482255233566,
+      "atr": 0.03434864138227351,
       "tr_buffer": [
         0.016000000000000014,
         0.009000000000000119,
@@ -86158,8 +86158,8 @@
         0.007000000000000117,
         0.008999999999999897
       ],
-      "plus_dm": 0.0056676398518768125,
-      "minus_dm": 0.009356493344889746,
+      "plus_dm": 0.0065485227195998825,
+      "minus_dm": 0.008688172391683336,
       "dm_buffer": [
         [
           0.0,
@@ -86218,7 +86218,7 @@
           0.0
         ]
       ],
-      "adx": 24.27189573358578,
+      "adx": 23.54124184309864,
       "dx_buffer": [
         4.545454545454042,
         16.76829268292639,
@@ -86236,15 +86236,6 @@
         2.60059486855474
       ],
       "hist": [
-        {
-          "o": 1.851,
-          "h": 1.868,
-          "l": 1.849,
-          "c": 1.857,
-          "ema7": 1.8408087168458218,
-          "dt_ms": 1788030000000,
-          "v": null
-        },
         {
           "o": 1.858,
           "h": 1.886,
@@ -86955,41 +86946,52 @@
           "ema7": 1.8797936325577334,
           "dt_ms": 1788314400000,
           "v": null
+        },
+        {
+          "o": 1.868,
+          "h": 1.888,
+          "l": 1.866,
+          "c": 1.873,
+          "ema7": 1.8780952244183,
+          "dt_ms": 1788318000000,
+          "v": null
         }
       ],
       "trend_prev": "down",
       "bull_used_this_trend": true,
-      "bear_used_this_trend": false,
+      "bear_used_this_trend": true,
       "last_bull_bar_index": 511,
-      "last_bear_bar_index": 432,
-      "last_signal_price": 1.96,
-      "bar_index": 536,
-      "last_open_time": 1788314400000,
+      "last_bear_bar_index": 536,
+      "last_signal_price": 1.873,
+      "bar_index": 537,
+      "last_open_time": 1788318000000,
       "open_trade": {
+        "signal_id": "ALT-000053",
         "side": "SELL",
-        "entry": 1.813,
-        "sl": 2.0101768613966655,
-        "r": 0.19717686139666557,
-        "working_sl": 2.0101768613966655,
+        "entry": 1.873,
+        "sl": 1.9947614810367051,
+        "r": 0.12176148103670514,
+        "working_sl": 1.9947614810367051,
         "hit": {
           "1": false,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 1.0,
+        "closed_frac": 0.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1788322914629,
+        "events": [
           {
-            "target": "stop",
-            "frac": 1.0,
-            "r": -1.0
+            "type": "opened",
+            "ts": "2026-09-02T04:21:54.629923+00:00",
+            "price": 1.873
           }
         ],
-        "closed": true,
-        "signal_message_id": 4358,
-        "close_type": "stop"
+        "signal_message_id": 5000
       }
     },
     "BCH/USD|1h": {
