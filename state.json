@@ -82833,7 +82833,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -82841,9 +82841,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": -0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1788322045998,
         "events": [
           {
@@ -82856,9 +82861,22 @@
             "ts": "2026-09-03T09:35:41.746253+00:00",
             "price": 7.0546245623832,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-09-03T09:35:45.704274+00:00",
+            "price": 7.202,
+            "r": -0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-03T09:35:45.845806+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
-        "signal_message_id": 4999
+        "signal_message_id": 4999,
+        "close_type": "breakeven"
       }
     },
     "CRO/USD|1h": {
@@ -115249,6 +115267,50 @@
       "runner_r": null,
       "opened_at": "2026-09-02T04:05:58.530000+00:00",
       "closed_at": "2026-09-03T07:50:44.166552+00:00"
+    },
+    {
+      "signal_id": "ALT-000052",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-02T04:07:25.998882+00:00",
+          "price": 7.202
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-03T09:35:41.746253+00:00",
+          "price": 7.0546245623832,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-09-03T09:35:45.704274+00:00",
+          "price": 7.202,
+          "r": -0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-03T09:35:45.845806+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "AVAX/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "SELL",
+      "entry": 7.202,
+      "sl": 7.3493754376168,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-02T04:07:25.998000+00:00",
+      "closed_at": "2026-09-03T09:35:45.845806+00:00"
     }
   ],
   "live_last_checked": {
@@ -117831,6 +117893,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-03T09:35:42.126687+00:00"
+    },
+    {
+      "symbol": "AVAX/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "SELL",
+      "type": "breakeven",
+      "r": -0.0,
+      "frac": 0.8,
+      "at": "2026-09-03T09:35:45.845762+00:00"
     }
   ],
   "live_check_cursor": 2,
