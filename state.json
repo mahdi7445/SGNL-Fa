@@ -108608,17 +108608,38 @@
         "entry": 0.11034,
         "sl": 0.10884416483920345,
         "r": 0.0014958351607965437,
-        "working_sl": 0.10884416483920345,
+        "working_sl": 0.11333167032159308,
         "hit": {
-          "1": false,
-          "2": false,
-          "3": false,
-          "4": false
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true
         },
-        "closed_frac": 0.0,
-        "trailing_activated": false,
-        "peak_price": null,
-        "fills": [],
+        "closed_frac": 0.75,
+        "trailing_activated": true,
+        "peak_price": 0.1353,
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
+          },
+          {
+            "target": 3,
+            "frac": 0.15,
+            "r": 4
+          },
+          {
+            "target": 4,
+            "frac": 0.1,
+            "r": 6
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1788306004434,
         "events": [
@@ -108626,6 +108647,30 @@
             "type": "opened",
             "ts": "2026-09-01T23:40:04.434789+00:00",
             "price": 0.11034
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-03T08:53:52.115534+00:00",
+            "price": 0.11183583516079654,
+            "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-03T08:53:52.115552+00:00",
+            "price": 0.11333167032159308,
+            "level": 2
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-03T08:53:52.115556+00:00",
+            "price": 0.11632334064318617,
+            "level": 3
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-03T08:53:52.115559+00:00",
+            "price": 0.11931501096477926,
+            "level": 4
           }
         ],
         "signal_message_id": 4987
@@ -117706,9 +117751,19 @@
       "r": -0.0,
       "frac": 0.8,
       "at": "2026-09-03T07:50:44.166516+00:00"
+    },
+    {
+      "symbol": "ARB/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-03T08:53:52.618080+00:00"
     }
   ],
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": -0.13708999,
