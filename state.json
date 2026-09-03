@@ -106039,14 +106039,33 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "signal_message_id": 4839,
-        "events": [],
-        "_stop_pending_since": 1788411570.0551953
+        "events": [
+          {
+            "type": "stop",
+            "ts": "2026-09-03T14:09:21.320373+00:00",
+            "price": 109.90918090219834,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-03T14:09:22.152869+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
+          }
+        ],
+        "close_type": "stop"
       }
     },
     "PUMP/USD|1m": {
@@ -115329,6 +115348,37 @@
       "runner_r": null,
       "opened_at": "2026-09-03T10:34:44.652000+00:00",
       "closed_at": "2026-09-03T12:19:30.374653+00:00"
+    },
+    {
+      "signal_id": null,
+      "events": [
+        {
+          "type": "stop",
+          "ts": "2026-09-03T14:09:21.320373+00:00",
+          "price": 109.90918090219834,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-03T14:09:22.152869+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "OKB/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 113.029999,
+      "sl": 109.90918090219834,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": null,
+      "closed_at": "2026-09-03T14:09:22.152869+00:00"
     }
   ],
   "live_last_checked": {
@@ -117934,9 +117984,19 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-03T13:12:36.576876+00:00"
+    },
+    {
+      "symbol": "OKB/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-03T14:09:22.152828+00:00"
     }
   ],
-  "live_check_cursor": 11,
+  "live_check_cursor": 12,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": -0.13708999,
@@ -117945,6 +118005,8 @@
   },
   "daily_stop_counts": {
     "date": "2026-09-03",
-    "counts": {}
+    "counts": {
+      "OKB": 1
+    }
   }
 }
