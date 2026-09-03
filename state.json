@@ -117714,7 +117714,7 @@
       "at": "2026-09-03T07:50:44.166516+00:00"
     }
   ],
-  "live_check_cursor": 20,
+  "live_check_cursor": 0,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": -0.13708999,
