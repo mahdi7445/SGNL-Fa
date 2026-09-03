@@ -105991,7 +105991,8 @@
         "fills": [],
         "closed": false,
         "signal_message_id": 4839,
-        "events": []
+        "events": [],
+        "_stop_pending_since": 1788411570.0551953
       }
     },
     "PUMP/USD|1m": {
@@ -117630,7 +117631,7 @@
       "at": "2026-09-02T20:23:13.128235+00:00"
     }
   ],
-  "live_check_cursor": 13,
+  "live_check_cursor": 14,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": -0.13708999,
