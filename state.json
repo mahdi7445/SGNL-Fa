@@ -48,8 +48,8 @@
     "updated": "2026-08-23T18:04:10.170332+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-09-03-21",
-    "1h": "2026-09-03-23",
+    "flow_perf": "2026-09-04-00",
+    "1h": "2026-09-04-00",
     "4h": "2026-08-22-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
@@ -58,12 +58,12 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-09-03-23-45",
+    "15m": "2026-09-04-00-00",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-09-03-23-45",
+    "5m": "2026-09-04-00-00",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
-    "trendalts_refresh": "2026-09-03"
+    "trendalts_refresh": "2026-09-04"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -118177,16 +118177,84 @@
   ],
   "live_check_cursor": 14,
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.13708999,
-    "candidates": [],
-    "updated": "2026-09-03T00:07:58.262142+00:00"
+    "regime": "bull",
+    "btc_change": 5.05191339,
+    "candidates": [
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": 64.18226811000001,
+        "rank": 129,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "relative_performance": 46.6099178,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "relative_performance": 31.764474080000003,
+        "rank": 127,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 12.12258301,
+        "rank": 56,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 11.838414530000001,
+        "rank": 10,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "relative_performance": 10.90545113,
+        "rank": 112,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "relative_performance": 9.48488717,
+        "rank": 139,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "relative_performance": 8.783174939999999,
+        "rank": 79,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 8.67464261,
+        "rank": 60,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 7.9587306700000005,
+        "rank": 45,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-09-04T00:03:16.205493+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-09-03",
-    "counts": {
-      "OKB": 1,
-      "DOGE": 1
-    }
+    "date": "2026-09-04",
+    "counts": {}
   }
 }
