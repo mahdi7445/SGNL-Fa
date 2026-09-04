@@ -108700,7 +108700,7 @@
           "3": true,
           "4": true
         },
-        "closed_frac": 0.75,
+        "closed_frac": 1.0,
         "trailing_activated": true,
         "peak_price": 0.1362,
         "fills": [
@@ -108723,9 +108723,14 @@
             "target": 4,
             "frac": 0.1,
             "r": 6
+          },
+          {
+            "target": "runner",
+            "frac": 0.25,
+            "r": 15.78800116332962
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1788306004434,
         "events": [
           {
@@ -108756,9 +108761,22 @@
             "ts": "2026-09-03T08:53:52.115559+00:00",
             "price": 0.11931501096477926,
             "level": 4
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-09-04T19:43:39.412990+00:00",
+            "price": 0.13395624725880517,
+            "r": 15.78800116332962
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-04T19:43:39.997086+00:00",
+            "close_type": "runner_stop",
+            "final_r": 5.947
           }
         ],
-        "signal_message_id": 4987
+        "signal_message_id": 4987,
+        "close_type": "runner_stop"
       }
     },
     "CRV/USD|1m": {
@@ -117450,6 +117468,71 @@
       "runner_r": null,
       "opened_at": "2026-09-04T14:21:06.645000+00:00",
       "closed_at": "2026-09-04T14:25:46.926316+00:00"
+    },
+    {
+      "signal_id": "ALT-000048",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-01T23:40:04.434789+00:00",
+          "price": 0.11034
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-03T08:53:52.115534+00:00",
+          "price": 0.11183583516079654,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-03T08:53:52.115552+00:00",
+          "price": 0.11333167032159308,
+          "level": 2
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-03T08:53:52.115556+00:00",
+          "price": 0.11632334064318617,
+          "level": 3
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-03T08:53:52.115559+00:00",
+          "price": 0.11931501096477926,
+          "level": 4
+        },
+        {
+          "type": "runner_stop",
+          "ts": "2026-09-04T19:43:39.412990+00:00",
+          "price": 0.13395624725880517,
+          "r": 15.78800116332962
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-04T19:43:39.997086+00:00",
+          "close_type": "runner_stop",
+          "final_r": 5.947
+        }
+      ],
+      "symbol": "ARB/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 0.11034,
+      "sl": 0.10884416483920345,
+      "final_r": 5.947,
+      "close_type": "runner_stop",
+      "close_reason": "Runner closed by trailing stop after Target 4 (75% banked)",
+      "targets_hit": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runner_closed": true,
+      "runner_r": 15.788,
+      "opened_at": "2026-09-01T23:40:04.434000+00:00",
+      "closed_at": "2026-09-04T19:43:39.997086+00:00"
     }
   ],
   "live_last_checked": {
@@ -120208,9 +120291,19 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-04T14:25:46.926277+00:00"
+    },
+    {
+      "symbol": "ARB/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "runner_stop",
+      "r": 15.78800116332962,
+      "frac": 0.25,
+      "at": "2026-09-04T19:43:39.997052+00:00"
     }
   ],
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "trend_alts": {
     "regime": "bull",
     "btc_change": 5.05191339,
