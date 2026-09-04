@@ -108725,7 +108725,7 @@
         },
         "closed_frac": 0.75,
         "trailing_activated": true,
-        "peak_price": 0.1353,
+        "peak_price": 0.13609999,
         "fills": [
           {
             "target": 1,
@@ -118175,7 +118175,7 @@
       "at": "2026-09-03T16:06:15.495568+00:00"
     }
   ],
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "trend_alts": {
     "regime": "bull",
     "btc_change": 5.05191339,
