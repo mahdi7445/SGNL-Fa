@@ -112253,17 +112253,23 @@
         "entry": 0.23432,
         "sl": 0.22575812717031787,
         "r": 0.008561872829682127,
-        "working_sl": 0.22575812717031787,
+        "working_sl": 0.23432,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1788504123325,
         "events": [
@@ -112271,6 +112277,12 @@
             "type": "opened",
             "ts": "2026-09-04T06:42:03.325009+00:00",
             "price": 0.23432
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-04T06:51:24.771640+00:00",
+            "price": 0.24288187282968213,
+            "level": 1
           }
         ],
         "signal_message_id": 5041
@@ -119075,6 +119087,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-04T05:21:50.320431+00:00"
+    },
+    {
+      "symbol": "USELESS/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-04T06:51:25.313279+00:00"
     }
   ],
   "live_check_cursor": 10,
