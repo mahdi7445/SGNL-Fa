@@ -112260,20 +112260,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1788498464870,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-04T05:07:44.870101+00:00",
             "price": 0.218
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-04T05:21:49.753845+00:00",
+            "price": 0.22544472106950025,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-04T05:21:50.320471+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5039
+        "signal_message_id": 5039,
+        "close_type": "stop"
       }
     }
   },
@@ -116336,6 +116355,42 @@
       "runner_r": null,
       "opened_at": "2026-09-01T20:05:09.760000+00:00",
       "closed_at": "2026-09-03T15:06:28.254463+00:00"
+    },
+    {
+      "signal_id": "ALT-000061",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-04T05:07:44.870101+00:00",
+          "price": 0.218
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-04T05:21:49.753845+00:00",
+          "price": 0.22544472106950025,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-04T05:21:50.320471+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "USELESS/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "SELL",
+      "entry": 0.218,
+      "sl": 0.22544472106950025,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-04T05:07:44.870000+00:00",
+      "closed_at": "2026-09-04T05:21:50.320471+00:00"
     }
   ],
   "live_last_checked": {
@@ -119029,6 +119084,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-03T16:06:15.495568+00:00"
+    },
+    {
+      "symbol": "USELESS/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-04T05:21:50.320431+00:00"
     }
   ],
   "live_check_cursor": 7,
@@ -119111,6 +119176,8 @@
   },
   "daily_stop_counts": {
     "date": "2026-09-04",
-    "counts": {}
+    "counts": {
+      "USELESS": 1
+    }
   }
 }
