@@ -112260,7 +112260,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -112273,9 +112273,14 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": "stop",
+            "frac": 0.5,
+            "r": 1.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1788504123325,
         "events": [
           {
@@ -112294,9 +112299,22 @@
             "ts": "2026-09-04T06:51:27.191754+00:00",
             "price": 0.2514437456593642,
             "level": 2
+          },
+          {
+            "type": "stop_at_t1",
+            "ts": "2026-09-04T06:56:04.947243+00:00",
+            "price": 0.24288187282968213,
+            "r": 1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-04T06:56:05.602148+00:00",
+            "close_type": "stop_at_t1",
+            "final_r": 1.3
           }
         ],
-        "signal_message_id": 5041
+        "signal_message_id": 5041,
+        "close_type": "stop_at_t1"
       }
     }
   },
@@ -116395,6 +116413,57 @@
       "runner_r": null,
       "opened_at": "2026-09-04T05:07:44.870000+00:00",
       "closed_at": "2026-09-04T05:21:50.320471+00:00"
+    },
+    {
+      "signal_id": "ALT-000062",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-04T06:42:03.325009+00:00",
+          "price": 0.23432
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-04T06:51:24.771640+00:00",
+          "price": 0.24288187282968213,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-04T06:51:27.191754+00:00",
+          "price": 0.2514437456593642,
+          "level": 2
+        },
+        {
+          "type": "stop_at_t1",
+          "ts": "2026-09-04T06:56:04.947243+00:00",
+          "price": 0.24288187282968213,
+          "r": 1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-04T06:56:05.602148+00:00",
+          "close_type": "stop_at_t1",
+          "final_r": 1.3
+        }
+      ],
+      "symbol": "USELESS/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "BUY",
+      "entry": 0.23432,
+      "sl": 0.22575812717031787,
+      "final_r": 1.3,
+      "close_type": "stop_at_t1",
+      "close_reason": "Stopped at Target 1 level after Target 2 (50% banked)",
+      "targets_hit": [
+        1,
+        2
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-04T06:42:03.325000+00:00",
+      "closed_at": "2026-09-04T06:56:05.602148+00:00"
     }
   ],
   "live_last_checked": {
@@ -119118,6 +119187,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-04T06:51:27.409851+00:00"
+    },
+    {
+      "symbol": "USELESS/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "BUY",
+      "type": "stop_at_t1",
+      "r": 1.0,
+      "frac": 0.5,
+      "at": "2026-09-04T06:56:05.602112+00:00"
     }
   ],
   "live_check_cursor": 10,
