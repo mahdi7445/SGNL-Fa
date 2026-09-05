@@ -95,6 +95,9 @@ jobs:
           ADMIN_USER_IDS: ${{ secrets.ADMIN_USER_IDS }}
           FORCE_RUN_ALL: ${{ (github.event.inputs.force_run_all == 'true') && '1' || '' }}
           LOOP_MAX_SECONDS: ${{ github.event.inputs.quick_test_seconds }}
+          DISABLED_AUTO_TIMEFRAMES: ${{ secrets.DISABLED_AUTO_TIMEFRAMES }}
+          TREND_ALTS_MIN_VOLUME_USD: ${{ secrets.TREND_ALTS_MIN_VOLUME_USD }}
+          TREND_ALTS_MIN_MARKET_CAP_USD: ${{ secrets.TREND_ALTS_MIN_MARKET_CAP_USD }}
         run: |
           python bot.py
 
