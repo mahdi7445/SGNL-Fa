@@ -92023,11 +92023,11 @@
           "1": true,
           "2": true,
           "3": true,
-          "4": false
+          "4": true
         },
-        "closed_frac": 0.65,
-        "trailing_activated": false,
-        "peak_price": null,
+        "closed_frac": 0.75,
+        "trailing_activated": true,
+        "peak_price": 1177.05,
         "fills": [
           {
             "target": 1,
@@ -92043,6 +92043,11 @@
             "target": 3,
             "frac": 0.15,
             "r": 4
+          },
+          {
+            "target": 4,
+            "frac": 0.1,
+            "r": 6
           }
         ],
         "closed": false,
@@ -92065,6 +92070,12 @@
             "ts": "2026-09-06T08:35:23.883685+00:00",
             "price": 1063.1341134750364,
             "level": 3
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-06T08:35:27.777489+00:00",
+            "price": 1176.4111702125547,
+            "level": 4
           }
         ]
       }
@@ -120942,6 +120953,16 @@
       "r": 4,
       "frac": 0.15,
       "at": "2026-09-06T08:35:24.740486+00:00"
+    },
+    {
+      "symbol": "ZEC/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "BUY",
+      "type": "target_4",
+      "r": 6,
+      "frac": 0.1,
+      "at": "2026-09-06T08:35:27.948946+00:00"
     }
   ],
   "live_check_cursor": 16,
