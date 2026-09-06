@@ -21987,7 +21987,8 @@
         "peak_price": null,
         "fills": [],
         "closed": false,
-        "signal_message_id": 4298
+        "signal_message_id": 4298,
+        "events": []
       }
     },
     "TAO/USD|4h": {
@@ -120669,7 +120670,7 @@
       "at": "2026-09-05T07:08:44.634358+00:00"
     }
   ],
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": 0.2184809,
