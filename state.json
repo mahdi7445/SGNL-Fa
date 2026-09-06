@@ -81261,17 +81261,23 @@
         "entry": 0.07898,
         "sl": 0.07663469779519608,
         "r": 0.0023453022048039174,
-        "working_sl": 0.07663469779519608,
+        "working_sl": 0.07898,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1788577462034,
         "events": [
@@ -81279,6 +81285,12 @@
             "type": "opened",
             "ts": "2026-09-05T03:04:22.034616+00:00",
             "price": 0.07898
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-06T04:29:19.561749+00:00",
+            "price": 0.08132530220480391,
+            "level": 1
           }
         ],
         "signal_message_id": 5067
@@ -120733,9 +120745,19 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-06T03:36:37.805483+00:00"
+    },
+    {
+      "symbol": "HBAR/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-06T04:29:19.936321+00:00"
     }
   ],
-  "live_check_cursor": 7,
+  "live_check_cursor": 8,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": 0.2184809,
