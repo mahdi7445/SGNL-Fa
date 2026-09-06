@@ -18165,19 +18165,66 @@
         "entry": 3.701,
         "sl": 3.2018412046035927,
         "r": 0.4991587953964074,
-        "working_sl": 3.2018412046035927,
+        "working_sl": 4.699317590792814,
         "hit": {
-          "1": false,
-          "2": false,
-          "3": false,
-          "4": false
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true
         },
-        "closed_frac": 0.0,
-        "trailing_activated": false,
-        "peak_price": null,
-        "fills": [],
+        "closed_frac": 0.75,
+        "trailing_activated": true,
+        "peak_price": 6.939,
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
+          },
+          {
+            "target": 3,
+            "frac": 0.15,
+            "r": 4
+          },
+          {
+            "target": 4,
+            "frac": 0.1,
+            "r": 6
+          }
+        ],
         "closed": false,
-        "signal_message_id": 4291
+        "signal_message_id": 4291,
+        "events": [
+          {
+            "type": "rr",
+            "ts": "2026-09-06T07:59:48.165624+00:00",
+            "price": 4.2001587953964075,
+            "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-06T07:59:48.165641+00:00",
+            "price": 4.699317590792814,
+            "level": 2
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-06T07:59:48.165644+00:00",
+            "price": 5.69763518158563,
+            "level": 3
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-06T07:59:48.165646+00:00",
+            "price": 6.695952772378444,
+            "level": 4
+          }
+        ]
       }
     },
     "SUI/USD|4h": {
@@ -120799,9 +120846,19 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-06T05:59:35.411436+00:00"
+    },
+    {
+      "symbol": "UNI/USD",
+      "tf": "4h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-06T07:59:48.629444+00:00"
     }
   ],
-  "live_check_cursor": 14,
+  "live_check_cursor": 15,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": 0.2184809,
