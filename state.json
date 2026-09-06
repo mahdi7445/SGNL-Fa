@@ -24241,19 +24241,44 @@
         "entry": 1.736,
         "sl": 1.5360512274927545,
         "r": 0.19994877250724552,
-        "working_sl": 1.5360512274927545,
+        "working_sl": 1.9359487725072455,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
+          }
+        ],
         "closed": false,
-        "signal_message_id": 4292
+        "signal_message_id": 4292,
+        "events": [
+          {
+            "type": "rr",
+            "ts": "2026-09-06T05:59:33.081399+00:00",
+            "price": 1.9359487725072455,
+            "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-06T05:59:33.081412+00:00",
+            "price": 2.1358975450144913,
+            "level": 2
+          }
+        ]
       }
     },
     "ARB/USD|4h": {
@@ -120755,9 +120780,19 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-06T04:29:19.936321+00:00"
+    },
+    {
+      "symbol": "NEAR/USD",
+      "tf": "4h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-06T05:59:33.638409+00:00"
     }
   ],
-  "live_check_cursor": 10,
+  "live_check_cursor": 11,
   "trend_alts": {
     "regime": "neutral",
     "btc_change": 0.2184809,
