@@ -79833,9 +79833,9 @@
           "3": true,
           "4": true
         },
-        "closed_frac": 0.75,
+        "closed_frac": 1.0,
         "trailing_activated": true,
-        "peak_price": 59.28,
+        "peak_price": 59.46,
         "fills": [
           {
             "target": 1,
@@ -79856,9 +79856,14 @@
             "target": 4,
             "frac": 0.1,
             "r": 6
+          },
+          {
+            "target": "runner",
+            "frac": 0.25,
+            "r": 5.873255927801673
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1788289472421,
         "events": [
           {
@@ -79889,9 +79894,22 @@
             "ts": "2026-09-07T18:36:22.911905+00:00",
             "price": 57.57516782742459,
             "level": 4
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-09-07T18:36:26.522805+00:00",
+            "price": 57.40120804314385,
+            "r": 5.873255927801673
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-07T18:36:26.694007+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.4683
           }
         ],
-        "signal_message_id": 4966
+        "signal_message_id": 4966,
+        "close_type": "runner_stop"
       }
     },
     "SUI/USD|1h": {
@@ -118579,6 +118597,71 @@
       "runner_r": null,
       "opened_at": "2026-09-06T08:50:16.693000+00:00",
       "closed_at": "2026-09-07T18:03:10.021841+00:00"
+    },
+    {
+      "signal_id": "ALT-000038",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-01T19:04:32.421909+00:00",
+          "price": 49.34
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-03T09:07:18.300342+00:00",
+          "price": 50.712527971237435,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-05T03:03:52.493610+00:00",
+          "price": 52.08505594247487,
+          "level": 2
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-06T09:05:19.275518+00:00",
+          "price": 54.83011188494973,
+          "level": 3
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-07T18:36:22.911905+00:00",
+          "price": 57.57516782742459,
+          "level": 4
+        },
+        {
+          "type": "runner_stop",
+          "ts": "2026-09-07T18:36:26.522805+00:00",
+          "price": 57.40120804314385,
+          "r": 5.873255927801673
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-07T18:36:26.694007+00:00",
+          "close_type": "runner_stop",
+          "final_r": 3.4683
+        }
+      ],
+      "symbol": "LTC/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "BUY",
+      "entry": 49.34,
+      "sl": 47.96747202876257,
+      "final_r": 3.4683,
+      "close_type": "runner_stop",
+      "close_reason": "Runner closed by trailing stop after Target 4 (75% banked)",
+      "targets_hit": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runner_closed": true,
+      "runner_r": 5.8733,
+      "opened_at": "2026-09-01T19:04:32.421000+00:00",
+      "closed_at": "2026-09-07T18:36:26.694007+00:00"
     }
   ],
   "live_last_checked": {
@@ -121633,6 +121716,16 @@
       "r": 6,
       "frac": 0.1,
       "at": "2026-09-07T18:36:23.404118+00:00"
+    },
+    {
+      "symbol": "LTC/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "BUY",
+      "type": "runner_stop",
+      "r": 5.873255927801673,
+      "frac": 0.25,
+      "at": "2026-09-07T18:36:26.693956+00:00"
     }
   ],
   "live_check_cursor": 9,
