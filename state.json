@@ -48,9 +48,9 @@
     "updated": "2026-08-23T18:04:10.170332+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-09-06-21",
-    "1h": "2026-09-06-23",
-    "4h": "2026-09-06-20",
+    "flow_perf": "2026-09-07-00",
+    "1h": "2026-09-07-00",
+    "4h": "2026-09-07-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
     "results_report": "2026-08-29",
@@ -58,12 +58,12 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-09-06-23-45",
+    "15m": "2026-09-07-00-00",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-09-06-23-45",
+    "5m": "2026-09-07-00-00",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
-    "trendalts_refresh": "2026-09-06"
+    "trendalts_refresh": "2026-09-07"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -121348,19 +121348,84 @@
   ],
   "live_check_cursor": 8,
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.2184809,
-    "candidates": [],
-    "updated": "2026-09-06T00:03:25.861798+00:00"
+    "regime": "bull",
+    "btc_change": 0.65718894,
+    "candidates": [
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": 39.84818731,
+        "rank": 101,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "relative_performance": 24.441275259999998,
+        "rank": 62,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 19.171522619999998,
+        "rank": 10,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "relative_performance": 16.263464449999997,
+        "rank": 94,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "relative_performance": 11.60767491,
+        "rank": 31,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": 10.835788910000002,
+        "rank": 122,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "relative_performance": 10.37180006,
+        "rank": 30,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "relative_performance": 9.09519668,
+        "rank": 13,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "relative_performance": 8.526742200000001,
+        "rank": 95,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": 7.903675799999999,
+        "rank": 105,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-09-07T00:00:34.405696+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-09-06",
-    "counts": {
-      "SOL": 1,
-      "XLM": 1,
-      "BCH": 1,
-      "ADA": 1,
-      "AVAX": 1
-    }
+    "date": "2026-09-07",
+    "counts": {}
   }
 }
