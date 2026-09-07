@@ -68,6 +68,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 🔴 جدید - رفعِ ریسکِ drift بین این ریپو (SGNL-Fa) و ریپوی TICB-En: shared_risk_config.py
+      # (وزن‌های ریسک/ریوارد W1..W_RUNNER، سطوح تارگت RR_TARGETS، برچسب‌های تایم‌فریمِ معتبر،
+      # متنِ اقدامِ هر تارگت TARGET_ACTION_LINE، و فرمت نمایش قیمت format_signal_price - همه‌ی
+      # چیزهایی که باید بین این ربات و ربات VIP کاملاً هماهنگ بمانند چون هر دو به یک کانال پست
+      # می‌کنند) در این ریپو اصلاً وجود ندارد؛ منبعِ اصلی/حقیقی‌اش در ریپوی TICB-En است.
+      # bot.py طوری نوشته شده که اگر این فایل پیدا نشود کرش نمی‌کند (یک fallback محلیِ امن دارد)،
+      # ولی در آن حالت گاردِ خودکارِ ضدِ drift هم غیرفعال می‌ماند. این مرحله، همیشه *قبل* از
+      # اجرای بات، آخرین نسخه‌ی این فایل را مستقیماً از شاخه‌ی main ریپوی عمومیِ TICB-En می‌کشد -
+      # یعنی هیچ کپیِ دستی‌ای اینجا نگه‌داری نمی‌شود و هیچ‌وقت drift نمی‌کند. اگر ریپوی TICB-En
+      # بعداً Private شود، این مرحله باید به actions/checkout با یک Personal Access Token
+      # (به‌عنوان یک secret جدید، مثلاً TICB_EN_READ_TOKEN) تغییر کند.
+      - name: Fetch shared_risk_config.py from the TICB-En repo (single source of truth)
+        run: |
+          for i in 1 2 3; do
+            if curl -fsSL -o shared_risk_config.py \
+              "https://raw.githubusercontent.com/mahdi744/TICB-En/main/shared_risk_config.py"; then
+              if [ -s shared_risk_config.py ]; then
+                echo "✅ shared_risk_config.py با موفقیت از TICB-En گرفته شد."
+                exit 0
+              fi
+            fi
+            echo "⚠️ تلاش $i/۳ برای دریافت shared_risk_config.py ناموفق بود"
+            sleep 5
+          done
+          echo "❌ دریافت shared_risk_config.py بعد از ۳ تلاش ناموفق بود - bot.py با مقدارهای"
+          echo "   fallback محلیِ خودش (بدون گاردِ خودکارِ drift) اجرا خواهد شد؛ این مرحله عمداً"
+          echo "   کل job را متوقف نمی‌کند، چون یک قطعیِ موقتِ شبکه نباید کل ربات را از کار بندازد."
+          rm -f shared_risk_config.py
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -123,6 +152,10 @@ jobs:
           # روی یک ریپوی تازه، signal_id_counter.json/daily_report_log.json ممکنه هنوز
           # ساخته نشده باشن و `git add` روی یک فایلِ ناموجود با خطا کل دستور رو متوقف
           # می‌کنه) اضافه می‌کنه.
+          #
+          # 🔴 نکته: shared_risk_config.py (که در مرحله‌ی «Fetch» بالا از TICB-En کشیده
+          # شد) عمداً اینجا به FILES_TO_ADD اضافه نمی‌شود - این فایل فقط برای همین اجرا
+          # لازم است و نباید داخل ریپوی SGNL-Fa کامیت شود (منبع اصلی‌اش TICB-En می‌ماند).
           FILES_TO_ADD="state.json"
           for extra in signal_id_counter.json daily_report_log.json; do
             if [ -f "$extra" ]; then
