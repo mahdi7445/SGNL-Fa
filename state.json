@@ -78902,17 +78902,23 @@
         "entry": 0.1856,
         "sl": 0.18242668923419963,
         "r": 0.0031733107658003523,
-        "working_sl": 0.18242668923419963,
+        "working_sl": 0.1856,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1788681804550,
         "events": [
@@ -78920,6 +78926,12 @@
             "type": "opened",
             "ts": "2026-09-06T08:03:24.550398+00:00",
             "price": 0.1856
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-07T04:54:51.870628+00:00",
+            "price": 0.18877331076580034,
+            "level": 1
           }
         ],
         "signal_message_id": 5080
@@ -121344,9 +121356,19 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-06T15:04:48.400689+00:00"
+    },
+    {
+      "symbol": "XLM/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-07T04:54:52.348118+00:00"
     }
   ],
-  "live_check_cursor": 18,
+  "live_check_cursor": 0,
   "trend_alts": {
     "regime": "bull",
     "btc_change": 0.65718894,
