@@ -24449,14 +24449,14 @@
         "entry": 1.736,
         "sl": 1.5360512274927545,
         "r": 0.19994877250724552,
-        "working_sl": 1.9359487725072455,
+        "working_sl": 2.1358975450144913,
         "hit": {
           "1": true,
           "2": true,
-          "3": false,
+          "3": true,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 0.65,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -24469,6 +24469,11 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": 3,
+            "frac": 0.15,
+            "r": 4
           }
         ],
         "closed": false,
@@ -24485,6 +24490,12 @@
             "ts": "2026-09-06T05:59:33.081412+00:00",
             "price": 2.1358975450144913,
             "level": 2
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-09T15:53:23.658467+00:00",
+            "price": 2.535795090028982,
+            "level": 3
           }
         ]
       }
@@ -122011,9 +122022,19 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-09T14:02:12.455832+00:00"
+    },
+    {
+      "symbol": "NEAR/USD",
+      "tf": "4h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_3",
+      "r": 4,
+      "frac": 0.15,
+      "at": "2026-09-09T15:53:24.132714+00:00"
     }
   ],
-  "live_check_cursor": 8,
+  "live_check_cursor": 9,
   "trend_alts": {
     "regime": "bear",
     "btc_change": -0.79949144,
