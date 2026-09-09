@@ -48,9 +48,9 @@
     "updated": "2026-08-23T18:04:10.170332+00:00"
   },
   "tf_windows": {
-    "flow_perf": "2026-09-08-21",
-    "1h": "2026-09-08-23",
-    "4h": "2026-09-08-20",
+    "flow_perf": "2026-09-09-00",
+    "1h": "2026-09-09-00",
+    "4h": "2026-09-09-00",
     "1d": "2026-08-20",
     "1w": "2026-W34",
     "results_report": "2026-08-29",
@@ -58,12 +58,12 @@
     "hotmovers_4h": "2026-08-22-00",
     "hotmovers_1h": "2026-08-22-05",
     "hotmovers_15m": "2026-08-22-04",
-    "15m": "2026-09-08-23-45",
+    "15m": "2026-09-09-00-00",
     "1m": "2026-08-22-23-20",
-    "5m": "2026-09-08-23-45",
+    "5m": "2026-09-09-00-00",
     "30m": "2026-08-22-23-00",
     "hotmovers_5m": "2026-08-22-03",
-    "trendalts_refresh": "2026-09-08"
+    "trendalts_refresh": "2026-09-09"
   },
   "candle_signals": {
     "BTC/USD|15m": {
@@ -121576,83 +121576,83 @@
   "live_check_cursor": 13,
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -1.56554509,
+    "btc_change": -0.79949144,
     "candidates": [
       {
-        "symbol": "MARSCOIN",
-        "name": "MarsCoin",
-        "relative_performance": -19.00112313,
-        "rank": 150,
+        "symbol": "AR",
+        "name": "Arweave",
+        "relative_performance": -4.630411710000001,
+        "rank": 136,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "PONS",
-        "name": "Pons",
-        "relative_performance": -12.80103816,
-        "rank": 87,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "relative_performance": -12.70145907,
-        "rank": 137,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "relative_performance": -10.31359444,
-        "rank": 68,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "relative_performance": -8.93485082,
-        "rank": 57,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "RAY",
-        "name": "Raydium",
-        "relative_performance": -7.320810179999999,
-        "rank": 106,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "relative_performance": -4.56002388,
+        "rank": 46,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "relative_performance": -6.2940956,
-        "rank": 67,
+        "relative_performance": -4.54624644,
+        "rank": 69,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "BONK",
-        "name": "Bonk",
-        "relative_performance": -6.12874251,
-        "rank": 112,
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": -4.3966321100000005,
+        "rank": 108,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": -5.67250213,
-        "rank": 10,
+        "symbol": "PENDLE",
+        "name": "Pendle",
+        "relative_performance": -3.9589603099999997,
+        "rank": 100,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "relative_performance": -5.12435299,
-        "rank": 48,
+        "symbol": "OP",
+        "name": "Optimism",
+        "relative_performance": -3.9419133499999996,
+        "rank": 121,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "relative_performance": -3.70172591,
+        "rank": 85,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "relative_performance": -3.5991384600000003,
+        "rank": 111,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "relative_performance": -3.51828441,
+        "rank": 137,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "relative_performance": -3.4023851099999995,
+        "rank": 98,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-09-08T00:04:02.966818+00:00"
+    "updated": "2026-09-09T00:02:42.362832+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "counts": {}
   }
 }
