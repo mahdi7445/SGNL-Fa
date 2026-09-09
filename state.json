@@ -59531,20 +59531,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1788957178491,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-09T12:32:58.491487+00:00",
             "price": 104.43
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-09T14:02:11.852036+00:00",
+            "price": 103.53884441878228,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-09T14:02:12.455867+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5123
+        "signal_message_id": 5123,
+        "close_type": "stop"
       }
     },
     "XRP/USD|5m": {
@@ -118791,6 +118810,42 @@
       "runner_r": null,
       "opened_at": "2026-09-09T09:34:41.557000+00:00",
       "closed_at": "2026-09-09T12:04:59.735460+00:00"
+    },
+    {
+      "signal_id": "ALT-000091",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-09T12:32:58.491487+00:00",
+          "price": 104.43
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-09T14:02:11.852036+00:00",
+          "price": 103.53884441878228,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-09T14:02:12.455867+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "SOL/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 104.43,
+      "sl": 103.53884441878228,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-09T12:32:58.491000+00:00",
+      "closed_at": "2026-09-09T14:02:12.455867+00:00"
     }
   ],
   "live_last_checked": {
@@ -121946,6 +122001,16 @@
       "r": -0.0,
       "frac": 0.8,
       "at": "2026-09-09T12:04:59.735422+00:00"
+    },
+    {
+      "symbol": "SOL/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-09T14:02:12.455832+00:00"
     }
   ],
   "live_check_cursor": 5,
@@ -122031,7 +122096,8 @@
     "counts": {
       "ZEC": 1,
       "XRP": 2,
-      "ADA": 1
+      "ADA": 1,
+      "SOL": 1
     }
   }
 }
