@@ -1,80 +1,80 @@
 {
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -1.17312141,
+    "btc_change": -1.34268718,
     "candidates": [
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": -9.47995325,
+        "relative_performance": -9.45593901,
         "rank": 18,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "relative_performance": -8.28841656,
+        "relative_performance": -8.31906101,
         "rank": 71,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": -7.47480466,
-        "rank": 10,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "relative_performance": -6.893829309999999,
-        "rank": 126,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "IOTA",
-        "name": "IOTA",
-        "relative_performance": -6.806067479999999,
-        "rank": 135,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "PONS",
         "name": "Pons",
-        "relative_performance": -6.3871115199999995,
+        "relative_performance": -7.870832549999999,
         "rank": 93,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": -6.23136209,
+        "relative_performance": -7.720996039999999,
         "rank": 45,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "relative_performance": -7.53605651,
+        "rank": 126,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "IOTA",
+        "name": "IOTA",
+        "relative_performance": -6.97000935,
+        "rank": 135,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": -6.89054662,
+        "rank": 10,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "EDGE",
         "name": "edgeX",
-        "relative_performance": -6.21458698,
+        "relative_performance": -6.79973141,
         "rank": 133,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "relative_performance": -5.538936179999999,
+        "relative_performance": -5.940170419999999,
         "rank": 66,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
-        "symbol": "CFX",
-        "name": "Conflux",
-        "relative_performance": -5.1400286699999995,
-        "rank": 116,
+        "symbol": "BONK",
+        "name": "Bonk",
+        "relative_performance": -5.40911687,
+        "rank": 119,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-09-10T21:54:01.708439+00:00"
+    "updated": "2026-09-10T22:04:08.552280+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-10",
@@ -83,9 +83,9 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-10",
     "flow_perf": "2026-09-10-21",
-    "5m": "2026-09-10-21-45",
-    "15m": "2026-09-10-21-45",
-    "1h": "2026-09-10-21",
+    "5m": "2026-09-10-22-00",
+    "15m": "2026-09-10-22-00",
+    "1h": "2026-09-10-22",
     "4h": "2026-09-10-20"
   },
   "flow_signals_sent": {},
