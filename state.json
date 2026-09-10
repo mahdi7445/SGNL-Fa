@@ -1,1 +1,91 @@
-	{}
+{
+  "trend_alts": {
+    "regime": "bear",
+    "btc_change": -1.87237832,
+    "candidates": [
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": -17.71114158,
+        "rank": 45,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "relative_performance": -11.45526952,
+        "rank": 71,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "relative_performance": -10.71552707,
+        "rank": 18,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "relative_performance": -10.489886010000001,
+        "rank": 92,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": -10.18956672,
+        "rank": 57,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "relative_performance": -10.11126542,
+        "rank": 125,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "relative_performance": -9.37726391,
+        "rank": 133,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "relative_performance": -9.22178088,
+        "rank": 117,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "BONK",
+        "name": "Bonk",
+        "relative_performance": -9.004302260000001,
+        "rank": 119,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "relative_performance": -8.52244284,
+        "rank": 69,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      }
+    ],
+    "updated": "2026-09-10T18:26:09.476038+00:00"
+  },
+  "daily_stop_counts": {
+    "date": "2026-09-10",
+    "counts": {}
+  },
+  "tf_windows": {
+    "trendalts_refresh": "2026-09-10",
+    "flow_perf": "2026-09-10-18"
+  },
+  "flow_signals_sent": {},
+  "candle_signals": {},
+  "trade_history": [],
+  "target_events": []
+}
