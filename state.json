@@ -1,80 +1,80 @@
 {
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -1.37786087,
+    "btc_change": -1.42626013,
     "candidates": [
       {
         "symbol": "PONS",
         "name": "Pons",
-        "relative_performance": -9.495334730000001,
+        "relative_performance": -9.44375857,
         "rank": 93,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": -8.37094158,
-        "rank": 10,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "relative_performance": -8.331402480000001,
-        "rank": 18,
+        "relative_performance": -8.565397760000002,
+        "rank": 19,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": -8.446364,
+        "rank": 10,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "relative_performance": -6.961145299999999,
+        "relative_performance": -7.791590670000001,
         "rank": 126,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "relative_performance": -6.32316419,
+        "relative_performance": -6.43592038,
         "rank": 98,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "relative_performance": -6.08693725,
+        "relative_performance": -6.2902064399999995,
         "rank": 45,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "relative_performance": -5.54388645,
+        "relative_performance": -5.96776459,
         "rank": 66,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "IOTA",
-        "name": "IOTA",
-        "relative_performance": -5.26648237,
-        "rank": 134,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "BONK",
         "name": "Bonk",
-        "relative_performance": -5.12808023,
+        "relative_performance": -5.2167278,
         "rank": 120,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "IOTA",
+        "name": "IOTA",
+        "relative_performance": -5.15247382,
+        "rank": 135,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "relative_performance": -4.31754167,
+        "relative_performance": -4.52291253,
         "rank": 62,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-09-10T22:40:20.343638+00:00"
+    "updated": "2026-09-10T22:49:22.680420+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-10",
@@ -83,8 +83,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-10",
     "flow_perf": "2026-09-10-21",
-    "5m": "2026-09-10-22-30",
-    "15m": "2026-09-10-22-30",
+    "5m": "2026-09-10-22-45",
+    "15m": "2026-09-10-22-45",
     "1h": "2026-09-10-22",
     "4h": "2026-09-10-20"
   },
@@ -22582,9 +22582,9 @@
       "open_trade": null
     },
     "BCH/USD|1m": {
-      "ema7": 225.1404993497814,
-      "ema25": 225.52690809591434,
-      "atr": 0.20691122811910792,
+      "ema7": 225.21787451233604,
+      "ema25": 225.5209920885363,
+      "atr": 0.19927471182488551,
       "tr_buffer": [
         0.1599999999999966,
         0.06999999999999318,
@@ -22601,8 +22601,8 @@
         0.17000000000001592,
         0.2400000000000091
       ],
-      "plus_dm": 0.04948297170497345,
-      "minus_dm": 0.07726095244657923,
+      "plus_dm": 0.05309133086890351,
+      "minus_dm": 0.0717423129861093,
       "dm_buffer": [
         [
           0.0,
@@ -22661,7 +22661,7 @@
           0.15000000000000568
         ]
       ],
-      "adx": 40.50167788824394,
+      "adx": 38.675891572739275,
       "dx_buffer": [
         58.28220858895724,
         58.8262692128556,
@@ -22679,15 +22679,6 @@
         52.62169802579439
       ],
       "hist": [
-        {
-          "o": 226.32,
-          "h": 226.38,
-          "l": 226.32,
-          "c": 226.38,
-          "ema7": 226.3579535051802,
-          "dt_ms": 1789075560000,
-          "v": 1.11096386
-        },
         {
           "o": 226.32,
           "h": 226.36,
@@ -23398,6 +23389,15 @@
           "ema7": 225.1404993497814,
           "dt_ms": 1789080420000,
           "v": 9.017251360000003
+        },
+        {
+          "o": 225.41,
+          "h": 225.5,
+          "l": 225.4,
+          "c": 225.45,
+          "ema7": 225.21787451233604,
+          "dt_ms": 1789080480000,
+          "v": 12.368360769999999
         }
       ],
       "trend_prev": "down",
@@ -23406,8 +23406,8 @@
       "last_bull_bar_index": 27,
       "last_bear_bar_index": 164,
       "last_signal_price": 226.4,
-      "bar_index": 252,
-      "last_open_time": 1789080420000,
+      "bar_index": 253,
+      "last_open_time": 1789080480000,
       "open_trade": null
     },
     "DASH/USD|1m": {
