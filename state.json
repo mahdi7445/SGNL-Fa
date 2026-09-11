@@ -79,7 +79,8 @@
   "daily_stop_counts": {
     "date": "2026-09-11",
     "counts": {
-      "SOL": 2
+      "SOL": 2,
+      "BCH": 1
     }
   },
   "tf_windows": {
@@ -23518,20 +23519,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1789164226182,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-11T22:03:46.182371+00:00",
             "price": 225.82
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-11T23:31:47.513997+00:00",
+            "price": 228.00278319187072,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-11T23:31:47.883099+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5148
+        "signal_message_id": 5148,
+        "close_type": "stop"
       }
     },
     "DASH/USD|1m": {
@@ -28712,6 +28732,42 @@
       "runner_r": null,
       "opened_at": "2026-09-10T18:29:16.767000+00:00",
       "closed_at": "2026-09-11T21:05:47.670829+00:00"
+    },
+    {
+      "signal_id": "ALT-000102",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-11T22:03:46.182371+00:00",
+          "price": 225.82
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-11T23:31:47.513997+00:00",
+          "price": 228.00278319187072,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-11T23:31:47.883099+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "BCH/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 225.82,
+      "sl": 228.00278319187072,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-11T22:03:46.182000+00:00",
+      "closed_at": "2026-09-11T23:31:47.883099+00:00"
     }
   ],
   "target_events": [
@@ -28794,6 +28850,16 @@
       "r": -0.08094753414167555,
       "frac": 1.0,
       "at": "2026-09-11T21:05:47.670798+00:00"
+    },
+    {
+      "symbol": "BCH/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-11T23:31:47.883072+00:00"
     }
   ],
   "td_unsupported": {
