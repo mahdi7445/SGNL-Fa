@@ -23484,17 +23484,28 @@
         "entry": 228.48,
         "sl": 229.11292238612688,
         "r": 0.6329223861268929,
-        "working_sl": 229.11292238612688,
+        "working_sl": 227.8470776138731,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1789150685496,
         "events": [
@@ -23502,6 +23513,18 @@
             "type": "opened",
             "ts": "2026-09-11T18:18:05.496326+00:00",
             "price": 228.48
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-11T18:24:49.825523+00:00",
+            "price": 227.8470776138731,
+            "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-11T18:24:49.825545+00:00",
+            "price": 227.2141552277462,
+            "level": 2
           }
         ],
         "signal_message_id": 5141
@@ -28640,6 +28663,16 @@
       "r": -0.0,
       "frac": 0.8,
       "at": "2026-09-11T14:30:44.797515+00:00"
+    },
+    {
+      "symbol": "BCH/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-11T18:24:50.340983+00:00"
     }
   ],
   "td_unsupported": {
