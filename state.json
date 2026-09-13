@@ -1,92 +1,21 @@
 {
   "trend_alts": {
-    "regime": "bull",
-    "btc_change": 0.77456017,
-    "candidates": [
-      {
-        "symbol": "XCN",
-        "name": "Onyxcoin",
-        "relative_performance": 18.310299219999997,
-        "rank": 138,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "RAY",
-        "name": "Raydium",
-        "relative_performance": 14.19667755,
-        "rank": 91,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "THETA",
-        "name": "Theta Network",
-        "relative_performance": 10.586171279999999,
-        "rank": 133,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "TRAC",
-        "name": "OriginTrail",
-        "relative_performance": 9.312687789999998,
-        "rank": 139,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "EDGE",
-        "name": "edgeX",
-        "relative_performance": 8.494045150000002,
-        "rank": 125,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "relative_performance": 8.3482946,
-        "rank": 67,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 6.98334964,
-        "rank": 10,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "JTO",
-        "name": "Jito",
-        "relative_performance": 5.98955008,
-        "rank": 122,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "POL",
-        "name": "Polygon (prev. MATIC)",
-        "relative_performance": 4.96006494,
-        "rank": 59,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "relative_performance": 4.42255366,
-        "rank": 69,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      }
-    ],
-    "updated": "2026-09-12T00:02:50.520516+00:00"
+    "regime": "neutral",
+    "btc_change": 0.05453997,
+    "candidates": [],
+    "updated": "2026-09-13T00:02:54.297889+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-13",
     "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-09-12",
-    "flow_perf": "2026-09-12-21",
-    "5m": "2026-09-12-23-45",
-    "15m": "2026-09-12-23-45",
-    "1h": "2026-09-12-23",
-    "4h": "2026-09-12-20"
+    "trendalts_refresh": "2026-09-13",
+    "flow_perf": "2026-09-13-00",
+    "5m": "2026-09-13-00-00",
+    "15m": "2026-09-13-00-00",
+    "1h": "2026-09-13-00",
+    "4h": "2026-09-13-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
