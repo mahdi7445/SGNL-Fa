@@ -8,7 +8,8 @@
   "daily_stop_counts": {
     "date": "2026-09-13",
     "counts": {
-      "SOL": 1
+      "SOL": 1,
+      "ADA": 1
     }
   },
   "tf_windows": {
@@ -5174,20 +5175,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1789291104728,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-13T09:18:24.728038+00:00",
             "price": 0.2044
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-13T17:24:18.740581+00:00",
+            "price": 0.20846234855292334,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-13T17:24:19.391735+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5167
+        "signal_message_id": 5167,
+        "close_type": "stop"
       }
     },
     "SOL/USD|1h": {
@@ -31609,6 +31629,42 @@
       "runner_r": null,
       "opened_at": "2026-09-12T06:03:43.424000+00:00",
       "closed_at": "2026-09-13T13:50:40.285920+00:00"
+    },
+    {
+      "signal_id": "ALT-000111",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-13T09:18:24.728038+00:00",
+          "price": 0.2044
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-13T17:24:18.740581+00:00",
+          "price": 0.20846234855292334,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-13T17:24:19.391735+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "ADA/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 0.2044,
+      "sl": 0.20846234855292334,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-13T09:18:24.728000+00:00",
+      "closed_at": "2026-09-13T17:24:19.391735+00:00"
     }
   ],
   "target_events": [
@@ -31781,6 +31837,16 @@
       "r": -0.0,
       "frac": 0.8,
       "at": "2026-09-13T13:50:40.285885+00:00"
+    },
+    {
+      "symbol": "ADA/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-13T17:24:19.391703+00:00"
     }
   ],
   "td_unsupported": {
