@@ -21045,17 +21045,23 @@
         "entry": 7.441,
         "sl": 7.553730561856518,
         "r": 0.11273056185651775,
-        "working_sl": 7.553730561856518,
+        "working_sl": 7.441,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1789193023424,
         "events": [
@@ -21063,6 +21069,12 @@
             "type": "opened",
             "ts": "2026-09-12T06:03:43.424199+00:00",
             "price": 7.441
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-13T09:24:13.065715+00:00",
+            "price": 7.328269438143482,
+            "level": 1
           }
         ],
         "signal_message_id": 5155
@@ -31660,6 +31672,16 @@
       "r": 1.0,
       "frac": 0.5,
       "at": "2026-09-13T08:30:20.112316+00:00"
+    },
+    {
+      "symbol": "AVAX/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-13T09:24:13.511401+00:00"
     }
   ],
   "td_unsupported": {
@@ -31683,5 +31705,5 @@
     "CC/USD|1h": 1789327158.7547061,
     "USDG/USD|1h": 1789327231.3961594
   },
-  "live_check_cursor": 0
+  "live_check_cursor": 1
 }
