@@ -1,25 +1,92 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.05453997,
-    "candidates": [],
-    "updated": "2026-09-13T00:02:54.297889+00:00"
+    "regime": "bear",
+    "btc_change": -0.58017536,
+    "candidates": [
+      {
+        "symbol": "ETHFI",
+        "name": "ether.fi",
+        "relative_performance": -11.7792202,
+        "rank": 75,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": -10.92775781,
+        "rank": 57,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": -9.689477909999999,
+        "rank": 96,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "relative_performance": -8.57588262,
+        "rank": 95,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "relative_performance": -7.39605263,
+        "rank": 45,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": -7.36230881,
+        "rank": 126,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "relative_performance": -5.97670102,
+        "rank": 147,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud",
+        "relative_performance": -5.03021938,
+        "rank": 137,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "relative_performance": -4.89197498,
+        "rank": 63,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "relative_performance": -4.89113093,
+        "rank": 32,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      }
+    ],
+    "updated": "2026-09-14T00:03:30.706711+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-09-13",
-    "counts": {
-      "SOL": 1,
-      "ADA": 1,
-      "XRP": 1
-    }
+    "date": "2026-09-14",
+    "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-09-13",
-    "flow_perf": "2026-09-13-21",
-    "5m": "2026-09-13-23-45",
-    "15m": "2026-09-13-23-45",
-    "1h": "2026-09-13-23",
-    "4h": "2026-09-13-20"
+    "trendalts_refresh": "2026-09-14",
+    "flow_perf": "2026-09-14-00",
+    "5m": "2026-09-14-00-00",
+    "15m": "2026-09-14-00-00",
+    "1h": "2026-09-14-00",
+    "4h": "2026-09-14-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
