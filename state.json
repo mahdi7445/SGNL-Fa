@@ -33974,11 +33974,11 @@
           "1": true,
           "2": true,
           "3": true,
-          "4": false
+          "4": true
         },
-        "closed_frac": 0.65,
-        "trailing_activated": false,
-        "peak_price": null,
+        "closed_frac": 0.75,
+        "trailing_activated": true,
+        "peak_price": 0.17727,
         "fills": [
           {
             "target": 1,
@@ -33994,6 +33994,11 @@
             "target": 3,
             "frac": 0.15,
             "r": 4
+          },
+          {
+            "target": 4,
+            "frac": 0.1,
+            "r": 6
           }
         ],
         "closed": false,
@@ -34021,6 +34026,12 @@
             "ts": "2026-09-15T18:42:40.628619+00:00",
             "price": 0.1821157601705584,
             "level": 3
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-15T18:50:40.782235+00:00",
+            "price": 0.17782464025583758,
+            "level": 4
           }
         ],
         "signal_message_id": 5202
@@ -36940,6 +36951,16 @@
       "r": 6,
       "frac": 0.1,
       "at": "2026-09-15T18:50:39.203907+00:00"
+    },
+    {
+      "symbol": "XLM/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_4",
+      "r": 6,
+      "frac": 0.1,
+      "at": "2026-09-15T18:50:40.973278+00:00"
     }
   ],
   "td_unsupported": {
