@@ -1,80 +1,9 @@
 {
   "trend_alts": {
-    "regime": "bull",
-    "btc_change": 0.81757133,
-    "candidates": [
-      {
-        "symbol": "LSK",
-        "name": "Lisk",
-        "relative_performance": 70.82778114999999,
-        "rank": 122,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 18.67412828,
-        "rank": 9,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "relative_performance": 12.92269356,
-        "rank": 139,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "RAY",
-        "name": "Raydium",
-        "relative_performance": 11.81782254,
-        "rank": 95,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "relative_performance": 10.8005812,
-        "rank": 25,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "relative_performance": 10.69247763,
-        "rank": 68,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "relative_performance": 10.5826628,
-        "rank": 57,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": 10.45035838,
-        "rank": 55,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "USELESS",
-        "name": "Useless Coin",
-        "relative_performance": 7.897126419999999,
-        "rank": 116,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "relative_performance": 7.88049702,
-        "rank": 56,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      }
-    ],
-    "updated": "2026-09-16T22:20:54.713524+00:00"
+    "regime": "neutral",
+    "btc_change": 0.29102115,
+    "candidates": [],
+    "updated": "2026-09-16T22:29:58.646649+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
