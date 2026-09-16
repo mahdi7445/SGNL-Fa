@@ -1,80 +1,9 @@
 {
   "trend_alts": {
-    "regime": "bear",
-    "btc_change": -0.52811904,
-    "candidates": [
-      {
-        "symbol": "PONS",
-        "name": "Pons",
-        "relative_performance": -12.55509216,
-        "rank": 92,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "PI",
-        "name": "Pi",
-        "relative_performance": -8.66931454,
-        "rank": 63,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO Token",
-        "relative_performance": -7.884920859999999,
-        "rank": 83,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "STABLE",
-        "name": "Stable",
-        "relative_performance": -7.52684432,
-        "rank": 72,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "relative_performance": -7.34133826,
-        "rank": 51,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "B",
-        "name": "BUILDon",
-        "relative_performance": -6.9957142900000004,
-        "rank": 130,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "relative_performance": -6.27263415,
-        "rank": 42,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "relative_performance": -5.64166452,
-        "rank": 88,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "relative_performance": -5.316396,
-        "rank": 73,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "XCN",
-        "name": "Onyxcoin",
-        "relative_performance": -5.25459118,
-        "rank": 146,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      }
-    ],
-    "updated": "2026-09-16T19:01:44.852343+00:00"
+    "regime": "neutral",
+    "btc_change": -0.15418594,
+    "candidates": [],
+    "updated": "2026-09-16T19:11:42.082794+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -105,6 +34,8 @@
     "SOL/USD|4h": 1789671328.592652,
     "XRP/USD|4h": 1789671779.854619,
     "ADA/USD|4h": 1789671852.7186885,
-    "BNB/USD|1h": 1789671925.5133245
+    "BNB/USD|1h": 1789671925.5133245,
+    "TRX/USD|1h": 1789672399.5858705,
+    "ZEC/USD|1h": 1789672472.4593458
   }
 }
