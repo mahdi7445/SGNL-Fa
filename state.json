@@ -1,80 +1,9 @@
 {
   "trend_alts": {
-    "regime": "bull",
-    "btc_change": 0.67571298,
-    "candidates": [
-      {
-        "symbol": "LSK",
-        "name": "Lisk",
-        "relative_performance": 107.60671389,
-        "rank": 111,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 17.29279532,
-        "rank": 9,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "RAY",
-        "name": "Raydium",
-        "relative_performance": 12.06117256,
-        "rank": 95,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": 11.54000635,
-        "rank": 55,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "relative_performance": 10.87277533,
-        "rank": 57,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "relative_performance": 10.59069993,
-        "rank": 25,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "relative_performance": 9.341978319999999,
-        "rank": 70,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "USELESS",
-        "name": "Useless Coin",
-        "relative_performance": 7.867702359999999,
-        "rank": 117,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "H",
-        "name": "Humanity",
-        "relative_performance": 7.77304148,
-        "rank": 138,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "relative_performance": 5.72556959,
-        "rank": 44,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      }
-    ],
-    "updated": "2026-09-16T20:36:58.836602+00:00"
+    "regime": "neutral",
+    "btc_change": 0.37798628,
+    "candidates": [],
+    "updated": "2026-09-16T20:46:37.973419+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -83,8 +12,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-18",
-    "5m": "2026-09-16-20-30",
-    "15m": "2026-09-16-20-30",
+    "5m": "2026-09-16-20-45",
+    "15m": "2026-09-16-20-45",
     "1h": "2026-09-16-20",
     "4h": "2026-09-16-20"
   },
@@ -120,6 +49,7 @@
     "UNI/USD|1h": 1789675915.1098359,
     "LTC/USD|1h": 1789676471.2090468,
     "CC/USD|1h": 1789677042.831732,
-    "GRAM/USD|1h": 1789677621.3419423
+    "GRAM/USD|1h": 1789677621.3419423,
+    "NEAR/USD|1h": 1789678207.9793656
   }
 }
