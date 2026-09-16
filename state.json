@@ -1,9 +1,80 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.23527376,
-    "candidates": [],
-    "updated": "2026-09-16T21:44:40.310332+00:00"
+    "regime": "bull",
+    "btc_change": 0.5716497,
+    "candidates": [
+      {
+        "symbol": "LSK",
+        "name": "Lisk",
+        "relative_performance": 115.77506449,
+        "rank": 111,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 17.97896858,
+        "rank": 9,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 13.30286347,
+        "rank": 57,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": 12.7570094,
+        "rank": 95,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "relative_performance": 11.0399227,
+        "rank": 69,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "relative_performance": 10.3961705,
+        "rank": 25,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 9.81526051,
+        "rank": 55,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "relative_performance": 8.178308939999999,
+        "rank": 140,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": 7.36762409,
+        "rank": 118,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 5.90980728,
+        "rank": 56,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-09-16T21:53:43.904713+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -12,8 +83,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-21",
-    "5m": "2026-09-16-21-30",
-    "15m": "2026-09-16-21-30",
+    "5m": "2026-09-16-21-45",
+    "15m": "2026-09-16-21-45",
     "1h": "2026-09-16-21",
     "4h": "2026-09-16-20"
   },
