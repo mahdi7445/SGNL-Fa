@@ -19745,7 +19745,8 @@
             "price": 6.553
           }
         ],
-        "signal_message_id": 5189
+        "signal_message_id": 5189,
+        "_stop_pending_since": 1789522827.4902973
       }
     },
     "HBAR/USD|1h": {
@@ -37208,5 +37209,5 @@
     "USDG/USD|1h": 1789595380.8036678,
     "PYUSD/USD|1h": 1789607132.4517493
   },
-  "live_check_cursor": 2
+  "live_check_cursor": 0
 }
