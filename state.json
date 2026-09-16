@@ -1,80 +1,9 @@
 {
   "trend_alts": {
-    "regime": "bear",
-    "btc_change": -1.23822632,
-    "candidates": [
-      {
-        "symbol": "PONS",
-        "name": "Pons",
-        "relative_performance": -10.975633199999999,
-        "rank": 92,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "PI",
-        "name": "Pi",
-        "relative_performance": -10.77031018,
-        "rank": 63,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "relative_performance": -8.132659539999999,
-        "rank": 51,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "relative_performance": -7.30376003,
-        "rank": 88,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO Token",
-        "relative_performance": -6.66677442,
-        "rank": 83,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "XCN",
-        "name": "Onyxcoin",
-        "relative_performance": -6.4637372300000004,
-        "rank": 146,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "STABLE",
-        "name": "Stable",
-        "relative_performance": -6.38680309,
-        "rank": 72,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "relative_performance": -6.23875843,
-        "rank": 41,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "JTO",
-        "name": "Jito",
-        "relative_performance": -6.17210766,
-        "rank": 124,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "OP",
-        "name": "Optimism",
-        "relative_performance": -5.4937280600000005,
-        "rank": 123,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      }
-    ],
-    "updated": "2026-09-16T18:33:03.138890+00:00"
+    "regime": "neutral",
+    "btc_change": -0.27549225,
+    "candidates": [],
+    "updated": "2026-09-16T18:42:58.132491+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -83,7 +12,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-18",
-    "5m": "2026-09-16-18-30"
+    "5m": "2026-09-16-18-30",
+    "15m": "2026-09-16-18-30"
   },
   "flow_signals_sent": {},
   "candle_signals": {},
@@ -93,6 +23,9 @@
     "SOL/USD|5min": 1789669983.1391716,
     "XRP/USD|5min": 1789670055.968386,
     "ADA/USD|5min": 1789670128.771779,
-    "SOL/USD|15min": 1789670201.555819
+    "SOL/USD|15min": 1789670201.555819,
+    "XRP/USD|15min": 1789670608.133453,
+    "ADA/USD|15min": 1789670680.9908419,
+    "SOL/USD|1h": 1789670753.8538115
   }
 }
