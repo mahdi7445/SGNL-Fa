@@ -1,9 +1,80 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.15418594,
-    "candidates": [],
-    "updated": "2026-09-16T19:11:42.082794+00:00"
+    "regime": "bear",
+    "btc_change": -0.61336518,
+    "candidates": [
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "relative_performance": -11.971923129999999,
+        "rank": 92,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "relative_performance": -9.87942752,
+        "rank": 130,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "STABLE",
+        "name": "Stable",
+        "relative_performance": -9.804616209999999,
+        "rank": 72,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi",
+        "relative_performance": -8.52456804,
+        "rank": 63,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO Token",
+        "relative_performance": -8.491023199999999,
+        "rank": 83,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "relative_performance": -7.31810774,
+        "rank": 51,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "relative_performance": -6.22800489,
+        "rank": 90,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "relative_performance": -5.897733560000001,
+        "rank": 42,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "relative_performance": -5.65547219,
+        "rank": 89,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "XCN",
+        "name": "Onyxcoin",
+        "relative_performance": -5.27964487,
+        "rank": 146,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      }
+    ],
+    "updated": "2026-09-16T19:20:49.055303+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -12,8 +83,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-18",
-    "5m": "2026-09-16-19-00",
-    "15m": "2026-09-16-19-00",
+    "5m": "2026-09-16-19-15",
+    "15m": "2026-09-16-19-15",
     "1h": "2026-09-16-19",
     "4h": "2026-09-16-16"
   },
@@ -36,6 +107,8 @@
     "ADA/USD|4h": 1789671852.7186885,
     "BNB/USD|1h": 1789671925.5133245,
     "TRX/USD|1h": 1789672399.5858705,
-    "ZEC/USD|1h": 1789672472.4593458
+    "ZEC/USD|1h": 1789672472.4593458,
+    "HYPE/USD|1h": 1789672961.5588925,
+    "DOGE/USD|1h": 1789673034.4097955
   }
 }
