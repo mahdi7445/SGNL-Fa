@@ -1,80 +1,80 @@
 {
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 0.74711278,
+    "btc_change": 0.65803714,
     "candidates": [
       {
         "symbol": "LSK",
         "name": "Lisk",
-        "relative_performance": 53.5136561,
-        "rank": 131,
+        "relative_performance": 42.679321050000006,
+        "rank": 140,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "relative_performance": 20.23243476,
+        "relative_performance": 19.45404473,
         "rank": 9,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "relative_performance": 16.32643042,
-        "rank": 133,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": 14.45540957,
+        "relative_performance": 14.90407027,
         "rank": 54,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "relative_performance": 14.025997380000002,
+        "rank": 135,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RAY",
         "name": "Raydium",
-        "relative_performance": 11.75502429,
+        "relative_performance": 11.906546030000001,
         "rank": 95,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "relative_performance": 11.1180593,
+        "relative_performance": 11.381542280000001,
         "rank": 25,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "relative_performance": 10.85240646,
-        "rank": 56,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "relative_performance": 10.63856058,
-        "rank": 69,
+        "relative_performance": 10.703291980000001,
+        "rank": 70,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 10.05854654,
+        "rank": 57,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": 7.98034234,
-        "rank": 57,
+        "relative_performance": 8.86863372,
+        "rank": 56,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "relative_performance": 7.325683809999999,
+        "relative_performance": 8.017290580000001,
         "rank": 23,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-09-16T23:42:28.650321+00:00"
+    "updated": "2026-09-16T23:51:32.427605+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -83,8 +83,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-21",
-    "5m": "2026-09-16-23-30",
-    "15m": "2026-09-16-23-30",
+    "5m": "2026-09-16-23-45",
+    "15m": "2026-09-16-23-45",
     "1h": "2026-09-16-23",
     "4h": "2026-09-16-20"
   },
