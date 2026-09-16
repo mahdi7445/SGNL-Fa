@@ -1,9 +1,80 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.26640757,
-    "candidates": [],
-    "updated": "2026-09-16T23:24:21.344600+00:00"
+    "regime": "bull",
+    "btc_change": 0.59892727,
+    "candidates": [
+      {
+        "symbol": "LSK",
+        "name": "Lisk",
+        "relative_performance": 52.07166371,
+        "rank": 131,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 19.363396859999998,
+        "rank": 9,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "relative_performance": 13.77069128,
+        "rank": 134,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 13.293838979999999,
+        "rank": 55,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "relative_performance": 11.06552209,
+        "rank": 25,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": 10.374668739999999,
+        "rank": 95,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "relative_performance": 10.064881349999999,
+        "rank": 69,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 9.73509923,
+        "rank": 56,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 6.9495422,
+        "rank": 57,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "relative_performance": 6.0603605300000005,
+        "rank": 23,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-09-16T23:33:25.030635+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -12,8 +83,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-21",
-    "5m": "2026-09-16-23-15",
-    "15m": "2026-09-16-23-15",
+    "5m": "2026-09-16-23-30",
+    "15m": "2026-09-16-23-30",
     "1h": "2026-09-16-23",
     "4h": "2026-09-16-20"
   },
