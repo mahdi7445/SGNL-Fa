@@ -1,80 +1,80 @@
 {
   "trend_alts": {
     "regime": "bear",
-    "btc_change": -0.61336518,
+    "btc_change": -0.79020574,
     "candidates": [
       {
         "symbol": "PONS",
         "name": "Pons",
-        "relative_performance": -11.971923129999999,
+        "relative_performance": -11.562888580000001,
         "rank": 92,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "B",
         "name": "BUILDon",
-        "relative_performance": -9.87942752,
+        "relative_performance": -10.15312943,
         "rank": 130,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "STABLE",
         "name": "Stable",
-        "relative_performance": -9.804616209999999,
+        "relative_performance": -9.82565471,
         "rank": 72,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "PI",
         "name": "Pi",
-        "relative_performance": -8.52456804,
+        "relative_performance": -9.218271020000001,
         "rank": 63,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO Token",
-        "relative_performance": -8.491023199999999,
+        "relative_performance": -8.41051299,
         "rank": 83,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "relative_performance": -7.31810774,
-        "rank": 51,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "FF",
-        "name": "Falcon Finance",
-        "relative_performance": -6.22800489,
-        "rank": 90,
+        "relative_performance": -7.70890222,
+        "rank": 52,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "relative_performance": -5.897733560000001,
+        "relative_performance": -6.251057729999999,
         "rank": 42,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "relative_performance": -5.84091195,
+        "rank": 89,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "relative_performance": -5.73882349,
+        "rank": 126,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "relative_performance": -5.65547219,
-        "rank": 89,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "XCN",
-        "name": "Onyxcoin",
-        "relative_performance": -5.27964487,
-        "rank": 146,
+        "relative_performance": -5.66174263,
+        "rank": 88,
         "reason": "بازنده نسبت به BTC (بازار نزولی)"
       }
     ],
-    "updated": "2026-09-16T19:20:49.055303+00:00"
+    "updated": "2026-09-16T19:30:10.772473+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -83,8 +83,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-18",
-    "5m": "2026-09-16-19-15",
-    "15m": "2026-09-16-19-15",
+    "5m": "2026-09-16-19-30",
+    "15m": "2026-09-16-19-30",
     "1h": "2026-09-16-19",
     "4h": "2026-09-16-16"
   },
@@ -109,6 +109,8 @@
     "TRX/USD|1h": 1789672399.5858705,
     "ZEC/USD|1h": 1789672472.4593458,
     "HYPE/USD|1h": 1789672961.5588925,
-    "DOGE/USD|1h": 1789673034.4097955
+    "DOGE/USD|1h": 1789673034.4097955,
+    "XMR/USD|1h": 1789673538.2765565,
+    "LEO/USD|1h": 1789673611.1703744
   }
 }
