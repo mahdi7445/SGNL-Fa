@@ -1,80 +1,80 @@
 {
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 0.5716497,
+    "btc_change": 0.6394914,
     "candidates": [
       {
         "symbol": "LSK",
         "name": "Lisk",
-        "relative_performance": 115.77506449,
-        "rank": 111,
+        "relative_performance": 107.44218923,
+        "rank": 113,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "relative_performance": 17.97896858,
+        "relative_performance": 18.56735642,
         "rank": 9,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "relative_performance": 13.30286347,
-        "rank": 57,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "RAY",
         "name": "Raydium",
-        "relative_performance": 12.7570094,
+        "relative_performance": 13.20496717,
         "rank": 95,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 12.620439119999999,
+        "rank": 57,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "relative_performance": 11.0399227,
-        "rank": 69,
+        "relative_performance": 11.42954589,
+        "rank": 68,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "relative_performance": 10.3961705,
+        "relative_performance": 10.90232558,
         "rank": 25,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "relative_performance": 9.81526051,
+        "relative_performance": 10.66692497,
         "rank": 55,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
-        "relative_performance": 8.178308939999999,
+        "relative_performance": 9.42425944,
         "rank": 140,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "USELESS",
         "name": "Useless Coin",
-        "relative_performance": 7.36762409,
-        "rank": 118,
+        "relative_performance": 7.635512680000001,
+        "rank": 117,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "relative_performance": 5.90980728,
+        "relative_performance": 6.5815148400000005,
         "rank": 56,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-09-16T21:53:43.904713+00:00"
+    "updated": "2026-09-16T22:02:47.497130+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -83,9 +83,9 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-21",
-    "5m": "2026-09-16-21-45",
-    "15m": "2026-09-16-21-45",
-    "1h": "2026-09-16-21",
+    "5m": "2026-09-16-22-00",
+    "15m": "2026-09-16-22-00",
+    "1h": "2026-09-16-22",
     "4h": "2026-09-16-20"
   },
   "flow_signals_sent": {},
