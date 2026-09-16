@@ -1,9 +1,80 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.27549225,
-    "candidates": [],
-    "updated": "2026-09-16T18:42:58.132491+00:00"
+    "regime": "bull",
+    "btc_change": 1.18846768,
+    "candidates": [
+      {
+        "symbol": "LSK",
+        "name": "Lisk",
+        "relative_performance": 122.27036249,
+        "rank": 108,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "relative_performance": 21.598433580000002,
+        "rank": 9,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 14.940601169999999,
+        "rank": 57,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": 14.19830181,
+        "rank": 95,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "relative_performance": 11.46875644,
+        "rank": 67,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": 11.032214569999999,
+        "rank": 118,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "relative_performance": 8.843749879999999,
+        "rank": 25,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 8.73085451,
+        "rank": 56,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 8.42147619,
+        "rank": 54,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 7.6778619,
+        "rank": 47,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-09-16T18:52:10.397885+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-09-16",
@@ -12,8 +83,9 @@
   "tf_windows": {
     "trendalts_refresh": "2026-09-16",
     "flow_perf": "2026-09-16-18",
-    "5m": "2026-09-16-18-30",
-    "15m": "2026-09-16-18-30"
+    "5m": "2026-09-16-18-45",
+    "15m": "2026-09-16-18-45",
+    "1h": "2026-09-16-18"
   },
   "flow_signals_sent": {},
   "candle_signals": {},
@@ -26,6 +98,9 @@
     "SOL/USD|15min": 1789670201.555819,
     "XRP/USD|15min": 1789670608.133453,
     "ADA/USD|15min": 1789670680.9908419,
-    "SOL/USD|1h": 1789670753.8538115
+    "SOL/USD|1h": 1789670753.8538115,
+    "XRP/USD|1h": 1789671182.8993793,
+    "ADA/USD|1h": 1789671255.7760885,
+    "SOL/USD|4h": 1789671328.592652
   }
 }
