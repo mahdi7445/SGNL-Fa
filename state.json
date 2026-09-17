@@ -3407,9 +3407,9 @@
       "open_trade": null
     },
     "TAO/USD|1h": {
-      "ema7": 221.63143053892964,
-      "ema25": 219.86528414346623,
-      "atr": 3.105613847203435,
+      "ema7": 222.09857290419723,
+      "ema25": 220.1448776708919,
+      "atr": 3.0694985724031896,
       "tr_buffer": [
         4.599999999999994,
         4.599999999999994,
@@ -3426,8 +3426,8 @@
         3.200000000000017,
         3.6999999999999886
       ],
-      "plus_dm": 0.825337591749492,
-      "minus_dm": 0.39708193036395334,
+      "plus_dm": 0.7663849066245282,
+      "minus_dm": 0.497290363909384,
       "dm_buffer": [
         [
           0.0,
@@ -3486,7 +3486,7 @@
           0.8999999999999773
         ]
       ],
-      "adx": 30.538707705886544,
+      "adx": 29.878414007538918,
       "dx_buffer": [
         27.04402515723281,
         29.893072989307388,
@@ -3504,15 +3504,6 @@
         48.777555214180545
       ],
       "hist": [
-        {
-          "o": 236.4,
-          "h": 237.6,
-          "l": 235.9,
-          "c": 236.8,
-          "ema7": 235.3636317945212,
-          "dt_ms": 1789322400000,
-          "v": null
-        },
         {
           "o": 236.8,
           "h": 238.2,
@@ -4223,17 +4214,53 @@
           "ema7": 221.63143053892964,
           "dt_ms": 1789606800000,
           "v": null
+        },
+        {
+          "o": 224.3,
+          "h": 224.5,
+          "l": 221.9,
+          "c": 223.5,
+          "ema7": 222.09857290419723,
+          "dt_ms": 1789610400000,
+          "v": null
         }
       ],
       "trend_prev": "up",
-      "bull_used_this_trend": false,
+      "bull_used_this_trend": true,
       "bear_used_this_trend": true,
-      "last_bull_bar_index": null,
+      "last_bull_bar_index": 301,
       "last_bear_bar_index": 274,
-      "last_signal_price": 217.9,
-      "bar_index": 301,
-      "last_open_time": 1789606800000,
-      "open_trade": null
+      "last_signal_price": 223.5,
+      "bar_index": 302,
+      "last_open_time": 1789610400000,
+      "open_trade": {
+        "signal_id": "ALT-000133",
+        "side": "BUY",
+        "entry": 223.5,
+        "sl": 211.7978760706976,
+        "r": 11.702123929302388,
+        "working_sl": 211.7978760706976,
+        "hit": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false
+        },
+        "closed_frac": 0.0,
+        "trailing_activated": false,
+        "peak_price": null,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1789615436712,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-17T03:23:56.712519+00:00",
+            "price": 223.5
+          }
+        ],
+        "signal_message_id": 5236
+      }
     },
     "ZEC/USD|1m": {
       "ema7": 1377.8206474277354,
