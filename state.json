@@ -8486,14 +8486,14 @@
         "entry": 104.98,
         "sl": 101.7744002403902,
         "r": 3.205599759609811,
-        "working_sl": 104.98,
+        "working_sl": 108.18559975960981,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -8501,6 +8501,11 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
           }
         ],
         "closed": false,
@@ -8516,6 +8521,12 @@
             "ts": "2026-09-18T13:47:20.511806+00:00",
             "price": 108.18559975960981,
             "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-18T15:58:42.074578+00:00",
+            "price": 111.39119951921963,
+            "level": 2
           }
         ],
         "signal_message_id": 5248
@@ -27019,6 +27030,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-18T13:53:51.147618+00:00"
+    },
+    {
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_2",
+      "r": 2,
+      "frac": 0.3,
+      "at": "2026-09-18T15:58:42.659473+00:00"
     }
   ],
   "td_unsupported": {
