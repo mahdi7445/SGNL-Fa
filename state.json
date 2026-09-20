@@ -8572,7 +8572,7 @@
           "3": true,
           "4": false
         },
-        "closed_frac": 0.65,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -8590,9 +8590,14 @@
             "target": 3,
             "frac": 0.15,
             "r": 4
+          },
+          {
+            "target": "stop",
+            "frac": 0.35,
+            "r": 2.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1789816554593,
         "events": [
           {
@@ -8617,9 +8622,22 @@
             "ts": "2026-09-20T02:56:35.603960+00:00",
             "price": 107.51434648066622,
             "level": 3
+          },
+          {
+            "type": "stop_at_t2",
+            "ts": "2026-09-20T16:33:10.494991+00:00",
+            "price": 109.62217324033311,
+            "r": 2.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-20T16:33:11.105600+00:00",
+            "close_type": "stop_at_t2",
+            "final_r": 2.1
           }
         ],
-        "signal_message_id": 5263
+        "signal_message_id": 5263,
+        "close_type": "stop_at_t2"
       }
     },
     "XRP/USD|15m": {
@@ -28934,6 +28952,64 @@
       "runner_r": null,
       "opened_at": "2026-09-19T13:19:03.713000+00:00",
       "closed_at": "2026-09-19T18:30:57.927297+00:00"
+    },
+    {
+      "signal_id": "ALT-000141",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-19T11:15:54.593643+00:00",
+          "price": 111.73
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-19T21:13:42.332174+00:00",
+          "price": 110.67608662016656,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-20T02:31:00.263608+00:00",
+          "price": 109.62217324033311,
+          "level": 2
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-20T02:56:35.603960+00:00",
+          "price": 107.51434648066622,
+          "level": 3
+        },
+        {
+          "type": "stop_at_t2",
+          "ts": "2026-09-20T16:33:10.494991+00:00",
+          "price": 109.62217324033311,
+          "r": 2.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-20T16:33:11.105600+00:00",
+          "close_type": "stop_at_t2",
+          "final_r": 2.1
+        }
+      ],
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 111.73,
+      "sl": 112.78391337983345,
+      "final_r": 2.1,
+      "close_type": "stop_at_t2",
+      "close_reason": "Stopped at Target 2 level after Target 3 (65% banked)",
+      "targets_hit": [
+        1,
+        2,
+        3
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-19T11:15:54.593000+00:00",
+      "closed_at": "2026-09-20T16:33:11.105600+00:00"
     }
   ],
   "target_events": [
@@ -29156,6 +29232,16 @@
       "r": 4,
       "frac": 0.15,
       "at": "2026-09-20T02:56:36.222936+00:00"
+    },
+    {
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop_at_t2",
+      "r": 2.0,
+      "frac": 0.35,
+      "at": "2026-09-20T16:33:11.105569+00:00"
     }
   ],
   "td_unsupported": {
