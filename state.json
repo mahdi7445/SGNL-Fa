@@ -13878,17 +13878,23 @@
         "entry": 765.88,
         "sl": 744.7050300819285,
         "r": 21.174969918071497,
-        "working_sl": 744.7050300819285,
+        "working_sl": 765.88,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1789941713533,
         "events": [
@@ -13896,6 +13902,12 @@
             "type": "opened",
             "ts": "2026-09-20T22:01:53.533800+00:00",
             "price": 765.88
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-22T01:22:50.862510+00:00",
+            "price": 787.0549699180715,
+            "level": 1
           }
         ],
         "signal_message_id": 5283
@@ -30015,6 +30027,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-22T00:19:43.716316+00:00"
+    },
+    {
+      "symbol": "BNB/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-22T01:22:51.649155+00:00"
     }
   ],
   "td_unsupported": {
@@ -30058,5 +30080,5 @@
     "USDG/USD|1h": 1790113892.0605094,
     "PYUSD/USD|1h": 1790126446.0332012
   },
-  "live_check_cursor": 0
+  "live_check_cursor": 1
 }
