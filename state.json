@@ -18960,17 +18960,28 @@
         "entry": 0.1957,
         "sl": 0.1865865538315692,
         "r": 0.009113446168430822,
-        "working_sl": 0.1865865538315692,
+        "working_sl": 0.20481344616843083,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1789941790259,
         "events": [
@@ -18978,6 +18989,18 @@
             "type": "opened",
             "ts": "2026-09-20T22:03:10.259147+00:00",
             "price": 0.1957
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-22T00:19:40.997931+00:00",
+            "price": 0.20481344616843083,
+            "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-22T00:19:40.997948+00:00",
+            "price": 0.21392689233686166,
+            "level": 2
           }
         ],
         "signal_message_id": 5287
@@ -29972,6 +29995,16 @@
       "r": 5.549057109437794,
       "frac": 0.25,
       "at": "2026-09-21T23:36:34.311265+00:00"
+    },
+    {
+      "symbol": "XLM/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-22T00:19:41.631876+00:00"
     }
   ],
   "td_unsupported": {
@@ -30015,5 +30048,5 @@
     "M/USD|1h": 1790112840.7501793,
     "USDG/USD|1h": 1790113892.0605094
   },
-  "live_check_cursor": 9
+  "live_check_cursor": 10
 }
