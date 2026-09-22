@@ -1,21 +1,92 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.12938326,
-    "candidates": [],
-    "updated": "2026-09-21T00:03:57.492104+00:00"
+    "regime": "bull",
+    "btc_change": 6.72972944,
+    "candidates": [
+      {
+        "symbol": "AIOZ",
+        "name": "AIOZ Network",
+        "relative_performance": 49.62177112,
+        "rank": 145,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "WIF",
+        "name": "dogwifhat",
+        "relative_performance": 14.26552036,
+        "rank": 127,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "relative_performance": 13.4148566,
+        "rank": 29,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "relative_performance": 12.27946541,
+        "rank": 45,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": 10.187259099999999,
+        "rank": 120,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "relative_performance": 9.721466970000002,
+        "rank": 135,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "relative_performance": 9.552169509999999,
+        "rank": 141,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "relative_performance": 9.37667811,
+        "rank": 93,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "relative_performance": 9.12974481,
+        "rank": 142,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "relative_performance": 8.99693895,
+        "rank": 26,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-09-22T00:01:29.883708+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-09-21",
-    "flow_perf": "2026-09-21-21",
-    "5m": "2026-09-21-23-45",
-    "15m": "2026-09-21-23-45",
-    "1h": "2026-09-21-23",
-    "4h": "2026-09-21-20"
+    "trendalts_refresh": "2026-09-22",
+    "flow_perf": "2026-09-22-00",
+    "5m": "2026-09-22-00-00",
+    "15m": "2026-09-22-00-00",
+    "1h": "2026-09-22-00",
+    "4h": "2026-09-22-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
