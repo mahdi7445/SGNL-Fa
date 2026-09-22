@@ -2647,14 +2647,14 @@
         "entry": 0.05831,
         "sl": 0.05493508811612715,
         "r": 0.003374911883872851,
-        "working_sl": 0.05831,
+        "working_sl": 0.06168491188387285,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -2662,6 +2662,11 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
           }
         ],
         "closed": false,
@@ -2677,6 +2682,12 @@
             "ts": "2026-09-21T03:19:39.834594+00:00",
             "price": 0.06168491188387285,
             "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-22T01:54:07.923506+00:00",
+            "price": 0.0650598237677457,
+            "level": 2
           }
         ],
         "signal_message_id": 5238
@@ -30037,6 +30048,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-22T01:22:51.649155+00:00"
+    },
+    {
+      "symbol": "CRO/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_2",
+      "r": 2,
+      "frac": 0.3,
+      "at": "2026-09-22T01:54:08.515496+00:00"
     }
   ],
   "td_unsupported": {
@@ -30080,5 +30101,5 @@
     "USDG/USD|1h": 1790113892.0605094,
     "PYUSD/USD|1h": 1790126446.0332012
   },
-  "live_check_cursor": 1
+  "live_check_cursor": 2
 }
