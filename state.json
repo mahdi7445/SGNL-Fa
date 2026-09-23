@@ -13985,7 +13985,8 @@
             "level": 1
           }
         ],
-        "signal_message_id": 5283
+        "signal_message_id": 5283,
+        "_stop_pending_since": 1790179888.8987927
       }
     },
     "TRX/USD|1h": {
@@ -34236,5 +34237,5 @@
     "M/USD|1h": 1790202062.762875,
     "PYUSD/USD|1h": 1790213675.5476596
   },
-  "live_check_cursor": 0
+  "live_check_cursor": 1
 }
