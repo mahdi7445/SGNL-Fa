@@ -18277,7 +18277,8 @@
             "level": 1
           }
         ],
-        "signal_message_id": 5286
+        "signal_message_id": 5286,
+        "_stop_pending_since": 1790182898.11227
       }
     },
     "XLM/USD|1h": {
@@ -34235,5 +34236,5 @@
     "M/USD|1h": 1790202062.762875,
     "PYUSD/USD|1h": 1790213675.5476596
   },
-  "live_check_cursor": 2
+  "live_check_cursor": 3
 }
