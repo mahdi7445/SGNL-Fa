@@ -15659,7 +15659,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -15667,9 +15667,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": 0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1790089430852,
         "events": [
           {
@@ -15682,9 +15687,22 @@
             "ts": "2026-09-23T17:06:09.520856+00:00",
             "price": 1634.7468876707544,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-09-23T17:06:13.342698+00:00",
+            "price": 1532.4,
+            "r": 0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-23T17:06:13.661728+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
-        "signal_message_id": 5334
+        "signal_message_id": 5334,
+        "close_type": "breakeven"
       }
     },
     "DOGE/USD|1h": {
@@ -33537,6 +33555,50 @@
       "runner_r": null,
       "opened_at": "2026-09-20T22:03:22.644000+00:00",
       "closed_at": "2026-09-22T11:04:33.996971+00:00"
+    },
+    {
+      "signal_id": "ALT-000159",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-22T15:03:50.852855+00:00",
+          "price": 1532.4
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-23T17:06:09.520856+00:00",
+          "price": 1634.7468876707544,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-09-23T17:06:13.342698+00:00",
+          "price": 1532.4,
+          "r": 0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-23T17:06:13.661728+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "ZEC/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "BUY",
+      "entry": 1532.4,
+      "sl": 1430.0531123292458,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-22T15:03:50.852000+00:00",
+      "closed_at": "2026-09-23T17:06:13.661728+00:00"
     }
   ],
   "target_events": [
@@ -34219,6 +34281,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-23T17:06:10.030396+00:00"
+    },
+    {
+      "symbol": "ZEC/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "BUY",
+      "type": "breakeven",
+      "r": 0.0,
+      "frac": 0.8,
+      "at": "2026-09-23T17:06:13.661695+00:00"
     }
   ],
   "td_unsupported": {
