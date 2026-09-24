@@ -79,7 +79,8 @@
   "daily_stop_counts": {
     "date": "2026-09-24",
     "counts": {
-      "ADA": 3
+      "ADA": 3,
+      "SOL": 1
     }
   },
   "tf_windows": {
@@ -8656,20 +8657,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1790203561519,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-23T22:46:01.519525+00:00",
             "price": 114.85
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-24T09:16:33.244168+00:00",
+            "price": 113.47074188415414,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-24T09:16:33.771795+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5350
+        "signal_message_id": 5350,
+        "close_type": "stop"
       }
     },
     "XRP/USD|15m": {
@@ -36413,6 +36433,42 @@
       "runner_r": null,
       "opened_at": "2026-09-24T05:46:00.901000+00:00",
       "closed_at": "2026-09-24T09:16:16.264917+00:00"
+    },
+    {
+      "signal_id": "ALT-000164",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-23T22:46:01.519525+00:00",
+          "price": 114.85
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-24T09:16:33.244168+00:00",
+          "price": 113.47074188415414,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-24T09:16:33.771795+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 114.85,
+      "sl": 113.47074188415414,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-23T22:46:01.519000+00:00",
+      "closed_at": "2026-09-24T09:16:33.771795+00:00"
     }
   ],
   "target_events": [
@@ -37205,6 +37261,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-24T09:16:16.264879+00:00"
+    },
+    {
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-24T09:16:33.771765+00:00"
     }
   ],
   "td_unsupported": {
