@@ -10,7 +10,8 @@
     "counts": {
       "SOL": 1,
       "SUI": 1,
-      "ADA": 1
+      "ADA": 1,
+      "XRP": 1
     }
   },
   "tf_windows": {
@@ -12080,20 +12081,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1790204749312,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-23T23:05:49.312467+00:00",
             "price": 1.5018
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-25T12:01:51.967207+00:00",
+            "price": 1.6028971379240207,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-25T12:01:52.623130+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5352
+        "signal_message_id": 5352,
+        "close_type": "stop"
       }
     },
     "ADA/USD|1h": {
@@ -37359,6 +37379,42 @@
       "runner_r": null,
       "opened_at": "2026-09-23T23:22:20.877000+00:00",
       "closed_at": "2026-09-25T11:05:38.547744+00:00"
+    },
+    {
+      "signal_id": "ALT-000166",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-23T23:05:49.312467+00:00",
+          "price": 1.5018
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-25T12:01:51.967207+00:00",
+          "price": 1.6028971379240207,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-25T12:01:52.623130+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "XRP/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 1.5018,
+      "sl": 1.6028971379240207,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-23T23:05:49.312000+00:00",
+      "closed_at": "2026-09-25T12:01:52.623130+00:00"
     }
   ],
   "target_events": [
@@ -38211,6 +38267,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-09-25T11:07:05.744967+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-25T12:01:52.623095+00:00"
     }
   ],
   "td_unsupported": {
