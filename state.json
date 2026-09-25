@@ -8,7 +8,8 @@
   "daily_stop_counts": {
     "date": "2026-09-25",
     "counts": {
-      "SOL": 1
+      "SOL": 1,
+      "SUI": 1
     }
   },
   "tf_windows": {
@@ -1717,21 +1718,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1790215675466,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-24T02:07:55.466061+00:00",
             "price": 0.9543
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-25T02:43:54.357323+00:00",
+            "price": 1.001251774718787,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-25T02:43:54.844842+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 5356,
-        "_stop_pending_since": 1790294947.618793
+        "close_type": "stop"
       }
     },
     "CRO/USD|1h": {
@@ -36453,6 +36472,42 @@
       "runner_r": null,
       "opened_at": "2026-09-23T23:05:37.741000+00:00",
       "closed_at": "2026-09-25T02:10:37.160728+00:00"
+    },
+    {
+      "signal_id": "ALT-000170",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-24T02:07:55.466061+00:00",
+          "price": 0.9543
+        },
+        {
+          "type": "stop",
+          "ts": "2026-09-25T02:43:54.357323+00:00",
+          "price": 1.001251774718787,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-25T02:43:54.844842+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "SUI/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 0.9543,
+      "sl": 1.001251774718787,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-24T02:07:55.466000+00:00",
+      "closed_at": "2026-09-25T02:43:54.844842+00:00"
     }
   ],
   "target_events": [
@@ -37265,6 +37320,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-25T02:10:37.160701+00:00"
+    },
+    {
+      "symbol": "SUI/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-09-25T02:43:54.844808+00:00"
     }
   ],
   "td_unsupported": {
@@ -37307,5 +37372,5 @@
     "M/USD|1h": 1790375715.4952533,
     "PYUSD/USD|1h": 1790387336.806338
   },
-  "live_check_cursor": 4
+  "live_check_cursor": 5
 }
