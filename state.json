@@ -24,9 +24,9 @@
   "flow_signals_sent": {},
   "candle_signals": {
     "SHIB/USD|1h": {
-      "ema7": 5.810131064924626e-06,
-      "ema25": 5.777867309558229e-06,
-      "atr": 6.320877316284548e-08,
+      "ema7": 5.822598298693469e-06,
+      "ema25": 5.784185208822981e-06,
+      "atr": 6.226528936549933e-08,
       "tr_buffer": [
         8.000000000000008e-08,
         1.2000000000000055e-07,
@@ -43,8 +43,8 @@
         1.999999999999981e-08,
         4.999999999999952e-08
       ],
-      "plus_dm": 1.8013276693692494e-08,
-      "minus_dm": 7.597413090751937e-09,
+      "plus_dm": 1.6726614072714457e-08,
+      "minus_dm": 7.054740727126799e-09,
       "dm_buffer": [
         [
           0.0,
@@ -103,7 +103,7 @@
           0.0
         ]
       ],
-      "adx": 28.269205973249793,
+      "adx": 29.154975878410625,
       "dx_buffer": [
         14.285714285713603,
         20.408163265305927,
@@ -121,15 +121,6 @@
         77.35090839204258
       ],
       "hist": [
-        {
-          "o": 6.01e-06,
-          "h": 6.04e-06,
-          "l": 5.93e-06,
-          "c": 5.95e-06,
-          "ema7": 5.982604326799153e-06,
-          "dt_ms": 1790042400000,
-          "v": null
-        },
         {
           "o": 5.94e-06,
           "h": 6.09e-06,
@@ -840,62 +831,52 @@
           "ema7": 5.810131064924626e-06,
           "dt_ms": 1790326800000,
           "v": null
+        },
+        {
+          "o": 5.86e-06,
+          "h": 5.86e-06,
+          "l": 5.82e-06,
+          "c": 5.86e-06,
+          "ema7": 5.822598298693469e-06,
+          "dt_ms": 1790330400000,
+          "v": null
         }
       ],
       "trend_prev": "up",
-      "bull_used_this_trend": false,
+      "bull_used_this_trend": true,
       "bear_used_this_trend": true,
-      "last_bull_bar_index": 392,
+      "last_bull_bar_index": 501,
       "last_bear_bar_index": 465,
-      "last_signal_price": 5.61e-06,
-      "bar_index": 501,
-      "last_open_time": 1790326800000,
+      "last_signal_price": 5.86e-06,
+      "bar_index": 502,
+      "last_open_time": 1790330400000,
       "open_trade": {
-        "signal_id": "ALT-000168",
-        "side": "SELL",
-        "entry": 5.61e-06,
-        "sl": 6.080193271723611e-06,
-        "r": 4.7019327172361094e-07,
-        "working_sl": 6.080193271723611e-06,
+        "signal_id": "ALT-000175",
+        "side": "BUY",
+        "entry": 5.86e-06,
+        "sl": 5.683301032975876e-06,
+        "r": 1.7669896702412403e-07,
+        "working_sl": 5.683301032975876e-06,
         "hit": {
           "1": false,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 1.0,
+        "closed_frac": 0.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [
-          {
-            "target": "opposite_signal",
-            "frac": 1.0,
-            "r": -0.5316962513809751
-          }
-        ],
-        "closed": true,
-        "opened_at_ms": 1790205740877,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1790334341671,
         "events": [
           {
             "type": "opened",
-            "ts": "2026-09-23T23:22:20.877477+00:00",
-            "price": 5.61e-06
-          },
-          {
-            "type": "opposite_signal",
-            "ts": "2026-09-25T11:05:38.177498+00:00",
-            "price": 5.86e-06,
-            "r": -0.5316962513809751
-          },
-          {
-            "type": "closed",
-            "ts": "2026-09-25T11:05:38.547744+00:00",
-            "close_type": "opposite_signal",
-            "final_r": -0.5317
+            "ts": "2026-09-25T11:05:41.671259+00:00",
+            "price": 5.86e-06
           }
         ],
-        "signal_message_id": 5354,
-        "close_type": "opposite_signal"
+        "signal_message_id": 5370
       }
     },
     "SUI/USD|1h": {
