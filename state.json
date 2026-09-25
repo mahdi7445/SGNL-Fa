@@ -863,20 +863,39 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "opposite_signal",
+            "frac": 1.0,
+            "r": -0.5316962513809751
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1790205740877,
         "events": [
           {
             "type": "opened",
             "ts": "2026-09-23T23:22:20.877477+00:00",
             "price": 5.61e-06
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-09-25T11:05:38.177498+00:00",
+            "price": 5.86e-06,
+            "r": -0.5316962513809751
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-25T11:05:38.547744+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -0.5317
           }
         ],
-        "signal_message_id": 5354
+        "signal_message_id": 5354,
+        "close_type": "opposite_signal"
       }
     },
     "SUI/USD|1h": {
@@ -3440,9 +3459,9 @@
       "open_trade": null
     },
     "TAO/USD|1h": {
-      "ema7": 299.9591837023827,
-      "ema25": 296.0090997906221,
-      "atr": 5.92856872075989,
+      "ema7": 301.144387776787,
+      "ema25": 296.67763057595886,
+      "atr": 5.783670954991329,
       "tr_buffer": [
         4.599999999999994,
         4.599999999999994,
@@ -3459,8 +3478,8 @@
         3.200000000000017,
         3.6999999999999886
       ],
-      "plus_dm": 1.6420940969407505,
-      "minus_dm": 0.6218365362751757,
+      "plus_dm": 1.5248016614449826,
+      "minus_dm": 0.655991069398379,
       "dm_buffer": [
         [
           0.0,
@@ -3519,7 +3538,7 @@
           0.8999999999999773
         ]
       ],
-      "adx": 30.53567436275086,
+      "adx": 31.200212610570468,
       "dx_buffer": [
         27.04402515723281,
         29.893072989307388,
@@ -3537,15 +3556,6 @@
         48.777555214180545
       ],
       "hist": [
-        {
-          "o": 315.9,
-          "h": 325.0,
-          "l": 313.3,
-          "c": 316.2,
-          "ema7": 311.10914459548724,
-          "dt_ms": 1790042400000,
-          "v": null
-        },
         {
           "o": 316.1,
           "h": 317.7,
@@ -4256,106 +4266,52 @@
           "ema7": 299.9591837023827,
           "dt_ms": 1790326800000,
           "v": null
+        },
+        {
+          "o": 304.4,
+          "h": 305.3,
+          "l": 301.4,
+          "c": 304.7,
+          "ema7": 301.144387776787,
+          "dt_ms": 1790330400000,
+          "v": null
         }
       ],
       "trend_prev": "up",
-      "bull_used_this_trend": false,
+      "bull_used_this_trend": true,
       "bear_used_this_trend": false,
-      "last_bull_bar_index": 409,
+      "last_bull_bar_index": 501,
       "last_bear_bar_index": 380,
-      "last_signal_price": 285.4,
-      "bar_index": 501,
-      "last_open_time": 1790326800000,
+      "last_signal_price": 304.7,
+      "bar_index": 502,
+      "last_open_time": 1790330400000,
       "open_trade": {
-        "signal_id": "ALT-000133",
+        "signal_id": "ALT-000174",
         "side": "BUY",
-        "entry": 223.5,
-        "sl": 211.7978760706976,
-        "r": 11.702123929302388,
-        "working_sl": 246.90424785860478,
+        "entry": 304.7,
+        "sl": 288.66224678375653,
+        "r": 16.03775321624346,
+        "working_sl": 288.66224678375653,
         "hit": {
-          "1": true,
-          "2": true,
-          "3": true,
-          "4": true
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false
         },
-        "closed_frac": 1.0,
-        "trailing_activated": true,
-        "peak_price": 324.7,
-        "fills": [
-          {
-            "target": 1,
-            "frac": 0.2,
-            "r": 1
-          },
-          {
-            "target": 2,
-            "frac": 0.3,
-            "r": 2
-          },
-          {
-            "target": 3,
-            "frac": 0.15,
-            "r": 4
-          },
-          {
-            "target": 4,
-            "frac": 0.1,
-            "r": 6
-          },
-          {
-            "target": "runner",
-            "frac": 0.25,
-            "r": 7.148002756712638
-          }
-        ],
-        "closed": true,
-        "opened_at_ms": 1789615436712,
+        "closed_frac": 0.0,
+        "trailing_activated": false,
+        "peak_price": null,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1790334326055,
         "events": [
           {
             "type": "opened",
-            "ts": "2026-09-17T03:23:56.712519+00:00",
-            "price": 223.5
-          },
-          {
-            "type": "rr",
-            "ts": "2026-09-18T02:19:48.226675+00:00",
-            "price": 235.2021239293024,
-            "level": 1
-          },
-          {
-            "type": "rr",
-            "ts": "2026-09-19T01:07:21.696426+00:00",
-            "price": 246.90424785860478,
-            "level": 2
-          },
-          {
-            "type": "rr",
-            "ts": "2026-09-19T11:19:45.220616+00:00",
-            "price": 270.30849571720955,
-            "level": 3
-          },
-          {
-            "type": "rr",
-            "ts": "2026-09-22T03:05:17.629579+00:00",
-            "price": 293.71274357581433,
-            "level": 4
-          },
-          {
-            "type": "runner_stop",
-            "ts": "2026-09-22T10:37:13.433753+00:00",
-            "price": 307.1468141060464,
-            "r": 7.148002756712638
-          },
-          {
-            "type": "closed",
-            "ts": "2026-09-22T10:37:13.977036+00:00",
-            "close_type": "runner_stop",
-            "final_r": 3.787
+            "ts": "2026-09-25T11:05:26.055003+00:00",
+            "price": 304.7
           }
         ],
-        "signal_message_id": 5236,
-        "close_type": "runner_stop"
+        "signal_message_id": 5368
       }
     },
     "ZEC/USD|1m": {
@@ -37374,6 +37330,42 @@
       "runner_r": null,
       "opened_at": "2026-09-23T23:06:00.595000+00:00",
       "closed_at": "2026-09-25T10:01:13.808274+00:00"
+    },
+    {
+      "signal_id": "ALT-000168",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-23T23:22:20.877477+00:00",
+          "price": 5.61e-06
+        },
+        {
+          "type": "opposite_signal",
+          "ts": "2026-09-25T11:05:38.177498+00:00",
+          "price": 5.86e-06,
+          "r": -0.5316962513809751
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-25T11:05:38.547744+00:00",
+          "close_type": "opposite_signal",
+          "final_r": -0.5317
+        }
+      ],
+      "symbol": "SHIB/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "SELL",
+      "entry": 5.61e-06,
+      "sl": 6.080193271723611e-06,
+      "final_r": -0.5317,
+      "close_type": "opposite_signal",
+      "close_reason": "Closed early - opposite signal fired",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-23T23:22:20.877000+00:00",
+      "closed_at": "2026-09-25T11:05:38.547744+00:00"
     }
   ],
   "target_events": [
@@ -38206,6 +38198,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-25T10:01:13.808247+00:00"
+    },
+    {
+      "symbol": "SHIB/USD",
+      "tf": "1h",
+      "tier": "۳۰ ارز برتر بازار",
+      "side": "SELL",
+      "type": "opposite_signal",
+      "r": -0.5316962513809751,
+      "frac": 1.0,
+      "at": "2026-09-25T11:05:38.547714+00:00"
     }
   ],
   "td_unsupported": {
