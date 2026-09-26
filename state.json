@@ -9454,7 +9454,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -9462,9 +9462,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": -0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1790453002942,
         "events": [
           {
@@ -9477,10 +9482,22 @@
             "ts": "2026-09-26T21:04:50.318788+00:00",
             "price": 1.5019302223816826,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-09-26T21:28:35.701022+00:00",
+            "price": 1.523,
+            "r": -0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-26T21:28:36.125811+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 5385,
-        "_stop_pending_since": 1790458104.2721114
+        "close_type": "breakeven"
       }
     },
     "ADA/USD|15m": {
@@ -38349,6 +38366,50 @@
       "runner_r": null,
       "opened_at": "2026-09-25T11:05:41.671000+00:00",
       "closed_at": "2026-09-26T21:08:10.229985+00:00"
+    },
+    {
+      "signal_id": "ALT-000182",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-09-26T20:03:22.942681+00:00",
+          "price": 1.523
+        },
+        {
+          "type": "rr",
+          "ts": "2026-09-26T21:04:50.318788+00:00",
+          "price": 1.5019302223816826,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-09-26T21:28:35.701022+00:00",
+          "price": 1.523,
+          "r": -0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-09-26T21:28:36.125811+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 1.523,
+      "sl": 1.5440697776183172,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-09-26T20:03:22.942000+00:00",
+      "closed_at": "2026-09-26T21:28:36.125811+00:00"
     }
   ],
   "target_events": [
@@ -39291,6 +39352,16 @@
       "r": 0.0,
       "frac": 0.8,
       "at": "2026-09-26T21:08:10.229952+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "breakeven",
+      "r": -0.0,
+      "frac": 0.8,
+      "at": "2026-09-26T21:28:36.125776+00:00"
     }
   ],
   "td_unsupported": {
