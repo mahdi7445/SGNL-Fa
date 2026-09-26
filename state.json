@@ -9479,7 +9479,8 @@
             "level": 1
           }
         ],
-        "signal_message_id": 5385
+        "signal_message_id": 5385,
+        "_stop_pending_since": 1790458104.2721114
       }
     },
     "ADA/USD|15m": {
