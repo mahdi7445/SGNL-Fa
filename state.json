@@ -4254,17 +4254,23 @@
         "entry": 304.7,
         "sl": 288.66224678375653,
         "r": 16.03775321624346,
-        "working_sl": 288.66224678375653,
+        "working_sl": 304.7,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1790334326055,
         "events": [
@@ -4272,6 +4278,12 @@
             "type": "opened",
             "ts": "2026-09-25T11:05:26.055003+00:00",
             "price": 304.7
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-26T14:08:52.453379+00:00",
+            "price": 320.73775321624345,
+            "level": 1
           }
         ],
         "signal_message_id": 5368
@@ -39013,6 +39025,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-09-25T12:01:52.623095+00:00"
+    },
+    {
+      "symbol": "TAO/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-26T14:08:53.010997+00:00"
     }
   ],
   "td_unsupported": {
@@ -39055,5 +39077,5 @@
     "USDG/USD|1h": 1790462146.0591807,
     "M/USD|1h": 1790463048.4237256
   },
-  "live_check_cursor": 6
+  "live_check_cursor": 7
 }
