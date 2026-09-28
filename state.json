@@ -2652,9 +2652,9 @@
       }
     },
     "XAUt/USD|1h": {
-      "ema7": 4168.78446654847,
-      "ema25": 4215.949028608575,
-      "atr": 10.500158109416578,
+      "ema7": 4166.563349911352,
+      "ema25": 4211.637564869454,
+      "atr": 11.600146815886797,
       "tr_buffer": [
         62.69999999999982,
         26.5,
@@ -2671,8 +2671,8 @@
         4.899999999999636,
         2.699999999999818
       ],
-      "plus_dm": 0.25184750030268904,
-      "minus_dm": 5.794989016316109,
+      "plus_dm": 0.9195726788525229,
+      "minus_dm": 5.381061229436386,
       "dm_buffer": [
         [
           0.0,
@@ -2731,7 +2731,7 @@
           0.0
         ]
       ],
-      "adx": 64.56032881214547,
+      "adx": 65.00674487108583,
       "dx_buffer": [
         8.018867924529827,
         8.018867924529824,
@@ -2749,15 +2749,6 @@
         11.786809387235513
       ],
       "hist": [
-        {
-          "o": 4268.4,
-          "h": 4271.3,
-          "l": 4261.7,
-          "c": 4262.2,
-          "ema7": 4270.239557768778,
-          "dt_ms": 1790308800000,
-          "v": null
-        },
         {
           "o": 4262.2,
           "h": 4273.9,
@@ -3468,17 +3459,53 @@
           "ema7": 4168.78446654847,
           "dt_ms": 1790593200000,
           "v": null
+        },
+        {
+          "o": 4154.4,
+          "h": 4176.0,
+          "l": 4150.1,
+          "c": 4159.9,
+          "ema7": 4166.563349911352,
+          "dt_ms": 1790596800000,
+          "v": null
         }
       ],
       "trend_prev": "down",
       "bull_used_this_trend": false,
-      "bear_used_this_trend": false,
+      "bear_used_this_trend": true,
       "last_bull_bar_index": 287,
-      "last_bear_bar_index": 465,
-      "last_signal_price": 4290.2,
-      "bar_index": 575,
-      "last_open_time": 1790593200000,
-      "open_trade": null
+      "last_bear_bar_index": 575,
+      "last_signal_price": 4159.9,
+      "bar_index": 576,
+      "last_open_time": 1790596800000,
+      "open_trade": {
+        "signal_id": "ALT-000189",
+        "side": "SELL",
+        "entry": 4159.9,
+        "sl": 4231.400110111915,
+        "r": 71.50011011191509,
+        "working_sl": 4231.400110111915,
+        "hit": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false
+        },
+        "closed_frac": 0.0,
+        "trailing_activated": false,
+        "peak_price": null,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1790601752107,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-28T13:22:32.107258+00:00",
+            "price": 4159.9
+          }
+        ],
+        "signal_message_id": 5410
+      }
     },
     "TAO/USD|1h": {
       "ema7": 305.856032368591,
