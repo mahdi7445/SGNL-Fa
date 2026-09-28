@@ -1741,17 +1741,23 @@
         "entry": 1.1287,
         "sl": 0.9845244196962332,
         "r": 0.14417558030376687,
-        "working_sl": 0.9845244196962332,
+        "working_sl": 1.1287,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1790348789026,
         "events": [
@@ -1759,6 +1765,12 @@
             "type": "opened",
             "ts": "2026-09-25T15:06:29.026825+00:00",
             "price": 1.1287
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-28T00:23:20.874517+00:00",
+            "price": 1.2728755803037668,
+            "level": 1
           }
         ],
         "signal_message_id": 5377
@@ -39606,6 +39618,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-09-27T07:56:41.691909+00:00"
+    },
+    {
+      "symbol": "SUI/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-09-28T00:23:21.329513+00:00"
     }
   ],
   "td_unsupported": {
@@ -39650,5 +39672,5 @@
     "USDG/USD|1h": 1790635896.6898549,
     "QNT/USD|1h": 1790636791.8800714
   },
-  "live_check_cursor": 3
+  "live_check_cursor": 4
 }
