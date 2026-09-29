@@ -1,24 +1,92 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.04904901,
-    "candidates": [],
-    "updated": "2026-09-28T00:00:08.271663+00:00"
+    "regime": "bear",
+    "btc_change": -1.21110902,
+    "candidates": [
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "relative_performance": -18.037240540000003,
+        "rank": 34,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": -15.855552269999999,
+        "rank": 131,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "GRT",
+        "name": "The Graph",
+        "relative_performance": -14.47286173,
+        "rank": 110,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "MET",
+        "name": "Meteora",
+        "relative_performance": -12.26014433,
+        "rank": 150,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "relative_performance": -11.65888569,
+        "rank": 91,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "relative_performance": -11.06400983,
+        "rank": 99,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "relative_performance": -10.98367891,
+        "rank": 64,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "relative_performance": -10.61114199,
+        "rank": 129,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "relative_performance": -10.5870911,
+        "rank": 38,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": -9.66427512,
+        "rank": 56,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      }
+    ],
+    "updated": "2026-09-29T00:02:26.919402+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-09-28",
-    "counts": {
-      "ADA": 1,
-      "UNI": 1
-    }
+    "date": "2026-09-29",
+    "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-09-28",
-    "flow_perf": "2026-09-28-21",
-    "5m": "2026-09-28-23-45",
-    "15m": "2026-09-28-23-45",
-    "1h": "2026-09-28-23",
-    "4h": "2026-09-28-20"
+    "trendalts_refresh": "2026-09-29",
+    "flow_perf": "2026-09-29-00",
+    "5m": "2026-09-29-00-00",
+    "15m": "2026-09-29-00-00",
+    "1h": "2026-09-29-00",
+    "4h": "2026-09-29-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
