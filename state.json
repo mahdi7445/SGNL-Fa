@@ -6967,7 +6967,8 @@
             "price": 1.4931
           }
         ],
-        "signal_message_id": 5428
+        "signal_message_id": 5428,
+        "_stop_pending_since": 1790760624.512897
       }
     },
     "ADA/USD|5m": {
