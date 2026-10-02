@@ -83,8 +83,8 @@
   "tf_windows": {
     "trendalts_refresh": "2026-10-02",
     "flow_perf": "2026-10-02-09",
-    "5m": "2026-10-02-10-15",
-    "15m": "2026-10-02-10-15",
+    "5m": "2026-10-02-10-30",
+    "15m": "2026-10-02-10-30",
     "1h": "2026-10-02-10",
     "4h": "2026-10-02-08"
   },
@@ -974,7 +974,8 @@
         ],
         "signal_message_id": 5370,
         "close_type": "breakeven"
-      }
+      },
+      "pending_signal": null
     },
     "SUI/USD|1h": {
       "ema7": 1.1558144106016068,
@@ -1860,7 +1861,8 @@
         ],
         "signal_message_id": 5377,
         "close_type": "breakeven"
-      }
+      },
+      "pending_signal": null
     },
     "CRO/USD|1h": {
       "ema7": 0.06874954220548316,
@@ -2735,7 +2737,8 @@
         ],
         "signal_message_id": 5349,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "XAUt/USD|1h": {
       "ema7": 4169.493846469326,
@@ -3591,7 +3594,8 @@
           }
         ],
         "signal_message_id": 5410
-      }
+      },
+      "pending_signal": null
     },
     "TAO/USD|1h": {
       "ema7": 305.944188036159,
@@ -4477,7 +4481,8 @@
         ],
         "signal_message_id": 5368,
         "close_type": "breakeven"
-      }
+      },
+      "pending_signal": null
     },
     "ZEC/USD|1m": {
       "ema7": 1468.7320151673484,
@@ -6181,7 +6186,8 @@
         ],
         "signal_message_id": 5423,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "XRP/USD|5m": {
       "ema7": 1.4835317446111873,
@@ -7056,7 +7062,8 @@
         ],
         "signal_message_id": 5428,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "ADA/USD|5m": {
       "ema7": 0.24530383711699139,
@@ -7931,7 +7938,8 @@
         ],
         "signal_message_id": 5395,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "SOL/USD|15m": {
       "ema7": 117.43164841132064,
@@ -8806,7 +8814,8 @@
         ],
         "signal_message_id": 5412,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "XRP/USD|15m": {
       "ema7": 1.4847750877555013,
@@ -9681,7 +9690,8 @@
         ],
         "signal_message_id": 5413,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "ADA/USD|15m": {
       "ema7": 0.24572652826373545,
@@ -10556,7 +10566,8 @@
         ],
         "signal_message_id": 5414,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "SOL/USD|1h": {
       "ema7": 117.77435111738228,
@@ -14071,7 +14082,8 @@
         "signal_message_id": 5283,
         "_stop_pending_since": 1790179888.8987927,
         "close_type": "breakeven"
-      }
+      },
+      "pending_signal": null
     },
     "TRX/USD|1h": {
       "ema7": 0.33408658290996074,
@@ -14900,7 +14912,8 @@
       "last_signal_price": 0.3396,
       "bar_index": 631,
       "last_open_time": 1790863200000,
-      "open_trade": null
+      "open_trade": null,
+      "pending_signal": null
     },
     "ZEC/USD|1h": {
       "ema7": 1399.4270593544434,
@@ -15775,7 +15788,8 @@
         ],
         "signal_message_id": 5355,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "DOGE/USD|1h": {
       "ema7": 0.09461947911688465,
@@ -16631,7 +16645,8 @@
           }
         ],
         "signal_message_id": 5346
-      }
+      },
+      "pending_signal": null
     },
     "XMR/USD|1h": {
       "ema7": 544.9779469444753,
@@ -17460,7 +17475,8 @@
       "last_signal_price": null,
       "bar_index": 631,
       "last_open_time": 1790863200000,
-      "open_trade": null
+      "open_trade": null,
+      "pending_signal": null
     },
     "LINK/USD|1h": {
       "ema7": 14.340925561227571,
@@ -18347,7 +18363,8 @@
         "signal_message_id": 5286,
         "_stop_pending_since": 1790182898.11227,
         "close_type": "breakeven"
-      }
+      },
+      "pending_signal": null
     },
     "XLM/USD|1h": {
       "ema7": 0.2216983900907631,
@@ -19203,7 +19220,8 @@
           }
         ],
         "signal_message_id": 5421
-      }
+      },
+      "pending_signal": null
     },
     "SOL/USD|4h": {
       "ema7": 118.21355479156543,
@@ -22519,7 +22537,8 @@
       "last_signal_price": null,
       "bar_index": 476,
       "last_open_time": 1790863200000,
-      "open_trade": null
+      "open_trade": null,
+      "pending_signal": null
     },
     "BCH/USD|1h": {
       "ema7": 307.7806141781824,
@@ -23375,7 +23394,8 @@
           }
         ],
         "signal_message_id": 5409
-      }
+      },
+      "pending_signal": null
     },
     "UNI/USD|1h": {
       "ema7": 9.033041523237399,
@@ -24250,7 +24270,8 @@
         ],
         "signal_message_id": 5376,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "LTC/USD|1h": {
       "ema7": 67.18773263377493,
@@ -25125,7 +25146,8 @@
         ],
         "signal_message_id": 5425,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "NEAR/USD|1h": {
       "ema7": 5.064743802542302,
@@ -25981,7 +26003,8 @@
           }
         ],
         "signal_message_id": 5375
-      }
+      },
+      "pending_signal": null
     },
     "AVAX/USD|1h": {
       "ema7": 10.997738684543469,
@@ -26856,7 +26879,8 @@
         ],
         "signal_message_id": 5347,
         "close_type": "stop"
-      }
+      },
+      "pending_signal": null
     },
     "HBAR/USD|1h": {
       "ema7": 0.10470591561458553,
@@ -27685,7 +27709,8 @@
       "last_signal_price": 0.09327,
       "bar_index": 629,
       "last_open_time": 1790863200000,
-      "open_trade": null
+      "open_trade": null,
+      "pending_signal": null
     },
     "STRK/USD|1m": {
       "ema7": 0.04450835365506894,
@@ -39294,9 +39319,9 @@
       "open_trade": null
     },
     "AAVE/USD|1m": {
-      "ema7": 184.81709130699224,
-      "ema25": 184.9505767423201,
-      "atr": 0.40213377756866603,
+      "ema7": 184.7878184802442,
+      "ema25": 184.93130160829548,
+      "atr": 0.39483850774233353,
       "tr_buffer": [
         0.4200000000000159,
         1.049999999999983,
@@ -39313,8 +39338,8 @@
         0.46999999999999886,
         0.5200000000000102
       ],
-      "plus_dm": 0.10651932446596044,
-      "minus_dm": 0.08250339440933022,
+      "plus_dm": 0.09891080128982041,
+      "minus_dm": 0.08375315195152254,
       "dm_buffer": [
         [
           0.0,
@@ -39373,7 +39398,7 @@
           0.0
         ]
       ],
-      "adx": 18.43724573452533,
+      "adx": 17.7130215019714,
       "dx_buffer": [
         94.561933534743,
         94.56193353474302,
@@ -39391,15 +39416,6 @@
         45.845370547585475
       ],
       "hist": [
-        {
-          "o": 181.89,
-          "h": 182.1,
-          "l": 181.8,
-          "c": 182.01,
-          "ema7": 181.76493433797182,
-          "dt_ms": 1790932260000,
-          "v": 40.12699999999999
-        },
         {
           "o": 182.13,
           "h": 182.13,
@@ -40114,6 +40130,16 @@
           "sma7": 184.68428571428572,
           "dt_ms": 1790937000000,
           "v": 78.292
+        },
+        {
+          "o": 184.87,
+          "h": 184.93,
+          "l": 184.7,
+          "c": 184.7,
+          "ema7": 184.7878184802442,
+          "sma7": 184.6942857142857,
+          "dt_ms": 1790937060000,
+          "v": 13.051999999999998
         }
       ],
       "trend_prev": "up",
@@ -40122,15 +40148,15 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": 319,
       "last_signal_price": 184.61,
-      "bar_index": 324,
-      "last_open_time": 1790937000000,
+      "bar_index": 325,
+      "last_open_time": 1790937060000,
       "open_trade": null,
       "pending_signal": null
     },
     "JASMY/USD|1m": {
-      "ema7": 0.005418299655687972,
-      "ema25": 0.0054209322305102245,
-      "atr": 1.6595122599143707e-05,
+      "ema7": 0.00542122474176598,
+      "ema25": 0.005421629751240208,
+      "atr": 1.6124042413490617e-05,
       "tr_buffer": [
         0.0,
         0.0,
@@ -40147,8 +40173,8 @@
         1.000000000000046e-05,
         4.0000000000000105e-05
       ],
-      "plus_dm": 3.440238620979947e-06,
-      "minus_dm": 5.050483346146129e-06,
+      "plus_dm": 3.1945072909099506e-06,
+      "minus_dm": 5.404020249992867e-06,
       "dm_buffer": [
         [
           0.0,
@@ -40207,7 +40233,7 @@
           0.0
         ]
       ],
-      "adx": 29.936235439785786,
+      "adx": 29.633390822177574,
       "dx_buffer": [
         15.789473684209959,
         15.789473684209957,
@@ -40225,15 +40251,6 @@
         54.05755335695325
       ],
       "hist": [
-        {
-          "o": 0.0055,
-          "h": 0.0055,
-          "l": 0.00549,
-          "c": 0.00549,
-          "ema7": 0.005486661405779145,
-          "dt_ms": 1790930340000,
-          "v": 24565.0
-        },
         {
           "o": 0.00549,
           "h": 0.0055,
@@ -40948,6 +40965,16 @@
           "sma7": 0.005415714285714286,
           "dt_ms": 1790937000000,
           "v": 4466.0
+        },
+        {
+          "o": 0.00543,
+          "h": 0.00543,
+          "l": 0.00543,
+          "c": 0.00543,
+          "ema7": 0.00542122474176598,
+          "sma7": 0.005418571428571428,
+          "dt_ms": 1790937060000,
+          "v": 52300.0
         }
       ],
       "trend_prev": "up",
@@ -40956,15 +40983,15 @@
       "last_bull_bar_index": 137,
       "last_bear_bar_index": null,
       "last_signal_price": 0.00549,
-      "bar_index": 213,
-      "last_open_time": 1790937000000,
+      "bar_index": 214,
+      "last_open_time": 1790937060000,
       "open_trade": null,
       "pending_signal": null
     },
     "SKY/USD|1m": {
-      "ema7": 0.09029704895376996,
-      "ema25": 0.09007193479210036,
-      "atr": 0.00030706991358685464,
+      "ema7": 0.09028528671532747,
+      "ema25": 0.09008563211578495,
+      "atr": 0.0003022792054735082,
       "tr_buffer": [
         0.00020000000000000573,
         9.000000000000674e-05,
@@ -40981,8 +41008,8 @@
         0.00015000000000001124,
         0.00021000000000000185
       ],
-      "plus_dm": 0.00010876250572145287,
-      "minus_dm": 4.9547862482077956e-05,
+      "plus_dm": 0.00010099375531277767,
+      "minus_dm": 4.600872944764382e-05,
       "dm_buffer": [
         [
           0.0,
@@ -41041,7 +41068,7 @@
           0.00021000000000000185
         ]
       ],
-      "adx": 42.458796896532306,
+      "adx": 42.097750493412015,
       "dx_buffer": [
         64.83516483516156,
         64.83516483516156,
@@ -41059,15 +41086,6 @@
         0.30185185355352023
       ],
       "hist": [
-        {
-          "o": 0.08793,
-          "h": 0.088,
-          "l": 0.08788,
-          "c": 0.08798,
-          "ema7": 0.08747047787355909,
-          "dt_ms": 1790932200000,
-          "v": 42356.8
-        },
         {
           "o": 0.088,
           "h": 0.08828,
@@ -41782,16 +41800,26 @@
           "sma7": 0.09026285714285713,
           "dt_ms": 1790937000000,
           "v": 55782.700000000004
+        },
+        {
+          "o": 0.09025,
+          "h": 0.09042,
+          "l": 0.09025,
+          "c": 0.09025,
+          "ema7": 0.09028528671532747,
+          "sma7": 0.09024,
+          "dt_ms": 1790937060000,
+          "v": 109187.59999999999
         }
       ],
-      "trend_prev": "up",
+      "trend_prev": "down",
       "bull_used_this_trend": false,
       "bear_used_this_trend": false,
       "last_bull_bar_index": null,
       "last_bear_bar_index": null,
       "last_signal_price": null,
-      "bar_index": 187,
-      "last_open_time": 1790937000000,
+      "bar_index": 188,
+      "last_open_time": 1790937060000,
       "open_trade": null,
       "pending_signal": null
     }
