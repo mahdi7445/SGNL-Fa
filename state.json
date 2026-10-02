@@ -1,23 +1,92 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.13288516,
-    "candidates": [],
-    "updated": "2026-10-01T00:03:23.907469+00:00"
+    "regime": "bull",
+    "btc_change": 1.5360168,
+    "candidates": [
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "relative_performance": 10.966530169999999,
+        "rank": 122,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "relative_performance": 6.97562374,
+        "rank": 46,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "relative_performance": 6.14337911,
+        "rank": 37,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "relative_performance": 5.52836389,
+        "rank": 104,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "KAIA",
+        "name": "Kaia",
+        "relative_performance": 4.910836590000001,
+        "rank": 135,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "relative_performance": 4.8127601,
+        "rank": 121,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": 4.69633679,
+        "rank": 101,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "relative_performance": 3.42850735,
+        "rank": 27,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "MINA",
+        "name": "Mina",
+        "relative_performance": 3.2452211199999996,
+        "rank": 145,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "relative_performance": 3.04960544,
+        "rank": 123,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-10-02T00:01:08.834537+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-10-01",
-    "counts": {
-      "LTC": 1
-    }
+    "date": "2026-10-02",
+    "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-10-01",
-    "flow_perf": "2026-10-01-21",
-    "5m": "2026-10-01-23-45",
-    "15m": "2026-10-01-23-45",
-    "1h": "2026-10-01-23",
-    "4h": "2026-10-01-20"
+    "trendalts_refresh": "2026-10-02",
+    "flow_perf": "2026-10-02-00",
+    "5m": "2026-10-02-00-00",
+    "15m": "2026-10-02-00-00",
+    "1h": "2026-10-02-00",
+    "4h": "2026-10-02-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
