@@ -11105,11 +11105,11 @@
           "1": true,
           "2": true,
           "3": true,
-          "4": false
+          "4": true
         },
-        "closed_frac": 0.65,
-        "trailing_activated": false,
-        "peak_price": null,
+        "closed_frac": 0.75,
+        "trailing_activated": true,
+        "peak_price": 0.24651,
         "fills": [
           {
             "target": 1,
@@ -11125,6 +11125,11 @@
             "target": 3,
             "frac": 0.15,
             "r": 4
+          },
+          {
+            "target": 4,
+            "frac": 0.1,
+            "r": 6
           }
         ],
         "closed": false,
@@ -11152,6 +11157,12 @@
             "ts": "2026-10-02T23:41:13.414237+00:00",
             "price": 0.24470000000000006,
             "level": 3
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-03T00:23:35.338893+00:00",
+            "price": 0.24650000000000008,
+            "level": 4
           }
         ],
         "signal_message_id": 5435
@@ -47027,6 +47038,16 @@
       "r": 4,
       "frac": 0.15,
       "at": "2026-10-02T23:41:13.920788+00:00"
+    },
+    {
+      "symbol": "ADA/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_4",
+      "r": 6,
+      "frac": 0.1,
+      "at": "2026-10-03T00:23:35.950140+00:00"
     }
   ],
   "td_unsupported": {
