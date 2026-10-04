@@ -10364,17 +10364,23 @@
         "entry": 1.5007,
         "sl": 1.4979,
         "r": 0.0027999999999999137,
-        "working_sl": 1.4979,
+        "working_sl": 1.5007,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1791125382422,
         "events": [
@@ -10382,6 +10388,12 @@
             "type": "opened",
             "ts": "2026-10-04T14:49:42.422174+00:00",
             "price": 1.5007
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-04T15:07:31.734907+00:00",
+            "price": 1.5034999999999998,
+            "level": 1
           }
         ],
         "signal_message_id": 5455
@@ -48343,6 +48355,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-10-04T12:46:52.430093+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-10-04T15:07:32.186973+00:00"
     }
   ],
   "td_unsupported": {
