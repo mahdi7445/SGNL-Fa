@@ -1,24 +1,92 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": 0.28907292,
-    "candidates": [],
-    "updated": "2026-10-04T00:02:36.483770+00:00"
+    "regime": "bull",
+    "btc_change": 2.0226294,
+    "candidates": [
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "relative_performance": 13.86012994,
+        "rank": 137,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "AXS",
+        "name": "Axie Infinity",
+        "relative_performance": 11.31461082,
+        "rank": 136,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "relative_performance": 9.98690745,
+        "rank": 87,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "IOTA",
+        "name": "IOTA",
+        "relative_performance": 6.70467753,
+        "rank": 123,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "relative_performance": 5.395819919999999,
+        "rank": 43,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "relative_performance": 5.22483886,
+        "rank": 98,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "relative_performance": 5.01334119,
+        "rank": 54,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "relative_performance": 4.82389835,
+        "rank": 128,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": 4.41634621,
+        "rank": 127,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "VIRTUAL",
+        "name": "Virtuals Protocol",
+        "relative_performance": 3.6171154499999996,
+        "rank": 92,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      }
+    ],
+    "updated": "2026-10-05T00:01:07.225341+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-10-04",
-    "counts": {
-      "XRP": 2,
-      "SOL": 1
-    }
+    "date": "2026-10-05",
+    "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-10-04",
-    "flow_perf": "2026-10-04-21",
-    "5m": "2026-10-04-23-45",
-    "15m": "2026-10-04-23-45",
-    "1h": "2026-10-04-23",
-    "4h": "2026-10-04-20"
+    "trendalts_refresh": "2026-10-05",
+    "flow_perf": "2026-10-05-00",
+    "5m": "2026-10-05-00-00",
+    "15m": "2026-10-05-00-00",
+    "1h": "2026-10-05-00",
+    "4h": "2026-10-05-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
