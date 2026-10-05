@@ -19012,7 +19012,8 @@
             "price": 551.54163
           }
         ],
-        "signal_message_id": 5449
+        "signal_message_id": 5449,
+        "_stop_pending_since": 1791163355.5231912
       },
       "pending_signal": null
     },
@@ -48583,5 +48584,5 @@
     "CC/USD|1h": 1791242421.4710994,
     "GRAM/USD|1h": 1791243318.3308463
   },
-  "live_check_cursor": 5
+  "live_check_cursor": 0
 }
