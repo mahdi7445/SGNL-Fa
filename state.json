@@ -28180,17 +28180,23 @@
         "entry": 5.2,
         "sl": 5.293,
         "r": 0.09299999999999997,
-        "working_sl": 5.293,
+        "working_sl": 5.2,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1791270344782,
         "events": [
@@ -28198,6 +28204,12 @@
             "type": "opened",
             "ts": "2026-10-06T07:05:44.782195+00:00",
             "price": 5.2
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-07T01:37:49.306511+00:00",
+            "price": 5.107,
+            "level": 1
           }
         ],
         "signal_message_id": 5464
@@ -52639,6 +52651,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-10-06T07:47:37.645920+00:00"
+    },
+    {
+      "symbol": "NEAR/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-10-07T01:37:49.883431+00:00"
     }
   ],
   "td_unsupported": {
@@ -52681,5 +52703,5 @@
     "CC/USD|1h": 1791416171.5860236,
     "GRAM/USD|1h": 1791417063.432131
   },
-  "live_check_cursor": 2
+  "live_check_cursor": 3
 }
