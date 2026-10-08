@@ -18196,17 +18196,23 @@
         "entry": 0.09235,
         "sl": 0.10172535954989285,
         "r": 0.009375359549892853,
-        "working_sl": 0.10172535954989285,
+        "working_sl": 0.09235,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1790193977980,
         "events": [
@@ -18214,6 +18220,12 @@
             "type": "opened",
             "ts": "2026-09-23T20:06:17.980427+00:00",
             "price": 0.09235
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-08T16:49:10.486908+00:00",
+            "price": 0.08297464045010715,
+            "level": 1
           }
         ],
         "signal_message_id": 5346
@@ -54096,6 +54108,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-10-08T04:23:12.688778+00:00"
+    },
+    {
+      "symbol": "DOGE/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-10-08T16:49:11.113143+00:00"
     }
   ],
   "td_unsupported": {
@@ -54125,5 +54147,5 @@
     "USDG/USD|1h": 1791508135.0105174,
     "PYUSD/USD|1h": 1791560263.186752
   },
-  "live_check_cursor": 1
+  "live_check_cursor": 2
 }
