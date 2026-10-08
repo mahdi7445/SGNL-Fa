@@ -1,23 +1,92 @@
 {
   "trend_alts": {
-    "regime": "neutral",
-    "btc_change": -0.27733541,
-    "candidates": [],
-    "updated": "2026-10-07T00:02:21.758320+00:00"
+    "regime": "bear",
+    "btc_change": -2.66600799,
+    "candidates": [
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "relative_performance": -7.813454179999999,
+        "rank": 115,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "relative_performance": -7.741667589999999,
+        "rank": 47,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": -6.18578535,
+        "rank": 143,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "relative_performance": -6.04691315,
+        "rank": 70,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "relative_performance": -5.7883719299999985,
+        "rank": 73,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "relative_performance": -5.688104539999999,
+        "rank": 120,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "IMX",
+        "name": "Immutable",
+        "relative_performance": -5.487805929999999,
+        "rank": 106,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": -5.23723371,
+        "rank": 74,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "relative_performance": -5.0126192199999995,
+        "rank": 146,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "relative_performance": -4.9766712900000005,
+        "rank": 83,
+        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+      }
+    ],
+    "updated": "2026-10-08T00:04:59.497066+00:00"
   },
   "daily_stop_counts": {
-    "date": "2026-10-07",
-    "counts": {
-      "ADA": 1
-    }
+    "date": "2026-10-08",
+    "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-10-07",
-    "flow_perf": "2026-10-07-21",
-    "5m": "2026-10-07-23-45",
-    "15m": "2026-10-07-23-45",
-    "1h": "2026-10-07-23",
-    "4h": "2026-10-07-20"
+    "trendalts_refresh": "2026-10-08",
+    "flow_perf": "2026-10-08-00",
+    "5m": "2026-10-08-00-00",
+    "15m": "2026-10-08-00-00",
+    "1h": "2026-10-08-00",
+    "4h": "2026-10-08-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
@@ -53009,7 +53078,8 @@
     "HYPE/USD|1h": 1791498664.3265297,
     "LEO/USD|1h": 1791498767.0974867,
     "USD1/USD|1h": 1791499929.2260747,
-    "CC/USD|1h": 1791503303.3742294
+    "CC/USD|1h": 1791503303.3742294,
+    "GRAM/USD|1h": 1791504532.0035436
   },
   "live_check_cursor": 2
 }
