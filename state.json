@@ -54229,11 +54229,10 @@
   "td_unsupported": {
     "HYPE/USD|1h": 1791585323.0409195,
     "LEO/USD|1h": 1791585361.1290112,
-    "USDG/USD|1h": 1791508135.0105174,
     "PYUSD/USD|1h": 1791560263.186752,
     "USD1/USD|1h": 1791587157.2989087,
     "CC/USD|1h": 1791590850.5705657,
     "GRAM/USD|1h": 1791591699.732933
   },
-  "live_check_cursor": 4
+  "live_check_cursor": 0
 }
