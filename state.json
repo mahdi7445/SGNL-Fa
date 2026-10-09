@@ -80,7 +80,7 @@
     "date": "2026-10-09",
     "counts": {
       "XRP": 1,
-      "NEAR": 1
+      "NEAR": 2
     }
   },
   "tf_windows": {
@@ -32279,20 +32279,40 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1791586980858,
         "events": [
           {
             "type": "opened",
             "ts": "2026-10-09T23:03:00.858053+00:00",
             "price": 4.923
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-09T23:09:15.696534+00:00",
+            "price": 4.9331,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-09T23:09:16.108358+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
-        "signal_message_id": 5495
+        "signal_message_id": 5495,
+        "_stop_pending_since": 1791587355.6961427,
+        "close_type": "stop"
       },
       "pending_signal": null
     },
@@ -54005,6 +54025,49 @@
       "stop_pct": null,
       "fee_r_est": null,
       "net_r_est": null
+    },
+    {
+      "signal_id": "ALT-000215",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-10-09T23:03:00.858053+00:00",
+          "price": 4.923
+        },
+        {
+          "type": "stop",
+          "ts": "2026-10-09T23:09:15.696534+00:00",
+          "price": 4.9331,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-09T23:09:16.108358+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "NEAR/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "SELL",
+      "entry": 4.923,
+      "sl": 4.9331,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-10-09T23:03:00.858000+00:00",
+      "closed_at": "2026-10-09T23:09:16.108358+00:00",
+      "quality_tier": null,
+      "strategy": null,
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": null,
+      "fee_r_est": null,
+      "net_r_est": null
     }
   ],
   "target_events": [
@@ -55547,6 +55610,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-10-09T22:07:28.033002+00:00"
+    },
+    {
+      "symbol": "NEAR/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-10-09T23:09:16.108327+00:00"
     }
   ],
   "td_unsupported": {
