@@ -1,92 +1,92 @@
 {
   "trend_alts": {
-    "regime": "bear",
-    "btc_change": -1.82628321,
+    "regime": "bull",
+    "btc_change": 1.05825869,
     "candidates": [
+      {
+        "symbol": "KAIA",
+        "name": "Kaia",
+        "relative_performance": 62.01875326,
+        "rank": 99,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention Token",
+        "relative_performance": 31.01376651,
+        "rank": 142,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "relative_performance": 30.122383300000003,
+        "rank": 89,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos",
+        "relative_performance": 16.19915071,
+        "rank": 62,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "relative_performance": 12.4566404,
+        "rank": 43,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "relative_performance": 10.80183111,
+        "rank": 57,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "OP",
+        "name": "Optimism",
+        "relative_performance": 10.230433849999999,
+        "rank": 114,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "relative_performance": 9.579713309999999,
+        "rank": 77,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "relative_performance": 9.220760929999999,
+        "rank": 74,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "relative_performance": -14.53684337,
+        "relative_performance": 8.63832191,
         "rank": 17,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "SAND",
-        "name": "The Sandbox",
-        "relative_performance": -12.711279170000001,
-        "rank": 143,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO Token",
-        "relative_performance": -10.12930474,
-        "rank": 87,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "LDO",
-        "name": "Lido DAO",
-        "relative_performance": -9.86008348,
-        "rank": 106,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": -9.35906833,
-        "rank": 38,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "relative_performance": -8.878144840000001,
-        "rank": 61,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": -8.83736346,
-        "rank": 10,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "relative_performance": -8.82245084,
-        "rank": 72,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "MANA",
-        "name": "Decentraland",
-        "relative_performance": -8.694535740000001,
-        "rank": 146,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "WIF",
-        "name": "dogwifhat",
-        "relative_performance": -8.65493208,
-        "rank": 138,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-10-09T00:04:16.169290+00:00"
+    "updated": "2026-10-10T00:01:48.714790+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-10-10",
     "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-10-09",
-    "flow_perf": "2026-10-09-21",
-    "5m": "2026-10-09-23-45",
-    "15m": "2026-10-09-23-45",
-    "1h": "2026-10-09-23",
-    "4h": "2026-10-09-20"
+    "trendalts_refresh": "2026-10-10",
+    "flow_perf": "2026-10-10-00",
+    "5m": "2026-10-10-00-00",
+    "15m": "2026-10-10-00-00",
+    "1h": "2026-10-10-00",
+    "4h": "2026-10-10-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
@@ -31357,9 +31357,9 @@
       "pending_signal": null
     },
     "NEAR/USD|1m": {
-      "ema7": 4.8909957995030515,
-      "ema25": 4.906406379405239,
-      "atr": 0.009220448106496776,
+      "ema7": 4.885571849627288,
+      "ema25": 4.903552042527913,
+      "atr": 0.009390416098889898,
       "tr_buffer": [
         0.0009000000000001229,
         0.01880000000000015,
@@ -31376,8 +31376,8 @@
         0.005799999999999805,
         0.010499999999999954
       ],
-      "plus_dm": 0.00191742256931189,
-      "minus_dm": 0.0035470495694898403,
+      "plus_dm": 0.0017804638143610405,
+      "minus_dm": 0.004057974600240561,
       "dm_buffer": [
         [
           0.0,
@@ -31436,7 +31436,7 @@
           0.0
         ]
       ],
-      "adx": 20.458783977132242,
+      "adx": 21.783792488568718,
       "dx_buffer": [
         22.000000000000867,
         26.734104046243782,
@@ -31454,16 +31454,6 @@
         27.593827036870728
       ],
       "hist": [
-        {
-          "o": 4.9444,
-          "h": 4.9501,
-          "l": 4.933,
-          "c": 4.933,
-          "ema7": 4.918796635157909,
-          "sma7": 4.917585714285715,
-          "dt_ms": 1791585600000,
-          "v": 8425.580000000002
-        },
         {
           "o": 4.9392,
           "h": 4.966,
@@ -32253,6 +32243,16 @@
           "sma7": 4.892242857142857,
           "dt_ms": 1791590340000,
           "v": 11963.076999999994
+        },
+        {
+          "o": 4.8794,
+          "h": 4.8794,
+          "l": 4.8678,
+          "c": 4.8693,
+          "ema7": 4.885571849627288,
+          "sma7": 4.885599999999999,
+          "dt_ms": 1791590400000,
+          "v": 1687.413
         }
       ],
       "trend_prev": "down",
@@ -32261,62 +32261,37 @@
       "last_bull_bar_index": 1621,
       "last_bear_bar_index": 2651,
       "last_signal_price": 4.8785,
-      "bar_index": 2652,
-      "last_open_time": 1791590340000,
+      "bar_index": 2653,
+      "last_open_time": 1791590400000,
       "open_trade": {
-        "signal_id": "ALT-000215",
+        "signal_id": "ALT-000216",
         "side": "SELL",
-        "entry": 4.923,
-        "sl": 4.9331,
-        "r": 0.010099999999999554,
-        "working_sl": 4.9331,
+        "entry": 4.8785,
+        "sl": 4.8949,
+        "r": 0.01639999999999997,
+        "working_sl": 4.8949,
         "hit": {
           "1": false,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 1.0,
+        "closed_frac": 0.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [
-          {
-            "target": "stop",
-            "frac": 1.0,
-            "r": -1.0
-          }
-        ],
-        "closed": true,
-        "opened_at_ms": 1791586980858,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1791590464121,
         "events": [
           {
             "type": "opened",
-            "ts": "2026-10-09T23:03:00.858053+00:00",
-            "price": 4.923
-          },
-          {
-            "type": "stop",
-            "ts": "2026-10-09T23:09:15.696534+00:00",
-            "price": 4.9331,
-            "r": -1.0
-          },
-          {
-            "type": "closed",
-            "ts": "2026-10-09T23:09:16.108358+00:00",
-            "close_type": "stop",
-            "final_r": -1.0
+            "ts": "2026-10-10T00:01:04.121923+00:00",
+            "price": 4.8785
           }
         ],
-        "signal_message_id": 5495,
-        "_stop_pending_since": 1791587355.6961427,
-        "close_type": "stop"
+        "signal_message_id": 5497
       },
-      "pending_signal": {
-        "side": "SELL",
-        "trigger_price": 4.8785,
-        "sl": 4.8949,
-        "created_bar_index": 2651
-      }
+      "pending_signal": null
     },
     "WIF/USD|1m": {
       "ema7": 0.25473316431314375,
@@ -47970,9 +47945,9 @@
       "pending_signal": null
     },
     "SAND/USD|1m": {
-      "ema7": 0.06866363015892787,
-      "ema25": 0.06866271148299535,
-      "atr": 8.771377776744174e-05,
+      "ema7": 0.06864772261919591,
+      "ema25": 0.06865788752276494,
+      "atr": 0.00011001993649833859,
       "tr_buffer": [
         0.00019999999999999185,
         0.00010000000000000286,
@@ -47989,8 +47964,8 @@
         0.00019999999999999185,
         0.00010000000000000286
       ],
-      "plus_dm": 4.131792105432402e-05,
-      "minus_dm": 4.231480040402572e-05,
+      "plus_dm": 6.693806955044356e-05,
+      "minus_dm": 3.9292314660881026e-05,
       "dm_buffer": [
         [
           0.0,
@@ -48049,7 +48024,7 @@
           0.00010000000000000286
         ]
       ],
-      "adx": 30.608240553984633,
+      "adx": 30.28081898626826,
       "dx_buffer": [
         42.857142857143145,
         50.47619047619091,
@@ -48067,16 +48042,6 @@
         73.92823175433749
       ],
       "hist": [
-        {
-          "o": 0.0676,
-          "h": 0.0676,
-          "l": 0.0676,
-          "c": 0.0676,
-          "ema7": 0.06749243295746811,
-          "sma7": 0.06747142857142857,
-          "dt_ms": 1791579660000,
-          "v": 6134.7
-        },
         {
           "o": 0.0677,
           "h": 0.0678,
@@ -48866,18 +48831,33 @@
           "sma7": 0.06868571428571428,
           "dt_ms": 1791590340000,
           "v": 5402.240000000001
+        },
+        {
+          "o": 0.0687,
+          "h": 0.0689,
+          "l": 0.0686,
+          "c": 0.0686,
+          "ema7": 0.06864772261919591,
+          "sma7": 0.06864285714285714,
+          "dt_ms": 1791590400000,
+          "v": 11863.07
         }
       ],
       "trend_prev": "down",
       "bull_used_this_trend": false,
-      "bear_used_this_trend": false,
+      "bear_used_this_trend": true,
       "last_bull_bar_index": null,
-      "last_bear_bar_index": null,
-      "last_signal_price": null,
-      "bar_index": 1572,
-      "last_open_time": 1791590340000,
+      "last_bear_bar_index": 1572,
+      "last_signal_price": 0.0686,
+      "bar_index": 1573,
+      "last_open_time": 1791590400000,
       "open_trade": null,
-      "pending_signal": null
+      "pending_signal": {
+        "side": "SELL",
+        "trigger_price": 0.0686,
+        "sl": 0.0689,
+        "created_bar_index": 1572
+      }
     },
     "MON/USD|1m": {
       "ema7": 0.02401344592419323,
