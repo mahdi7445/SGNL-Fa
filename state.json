@@ -16370,17 +16370,23 @@
         "entry": 0.3328,
         "sl": 0.3341,
         "r": 0.0013000000000000234,
-        "working_sl": 0.3341,
+        "working_sl": 0.3328,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1791496960554,
         "events": [
@@ -16388,6 +16394,12 @@
             "type": "opened",
             "ts": "2026-10-08T22:02:40.554814+00:00",
             "price": 0.3328
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-10T00:53:08.103950+00:00",
+            "price": 0.33149999999999996,
+            "level": 1
           }
         ],
         "signal_message_id": 5482
@@ -55677,6 +55689,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-10-10T00:05:55.614002+00:00"
+    },
+    {
+      "symbol": "TRX/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-10-10T00:53:08.481662+00:00"
     }
   ],
   "td_unsupported": {
@@ -55720,5 +55742,5 @@
     "CC/USD|1h": 1791677886.9992712,
     "GRAM/USD|1h": 1791679078.5415142
   },
-  "live_check_cursor": 3
+  "live_check_cursor": 4
 }
