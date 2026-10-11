@@ -40043,7 +40043,8 @@
             "level": 1
           }
         ],
-        "signal_message_id": 5511
+        "signal_message_id": 5511,
+        "_stop_pending_since": 1791704651.346636
       },
       "pending_signal": null
     },
@@ -57272,5 +57273,5 @@
     "GRAM/USD|1h": 1791766198.0533261,
     "USDG/USD|1h": 1791769062.05612
   },
-  "live_check_cursor": 2
+  "live_check_cursor": 3
 }
