@@ -57595,12 +57595,11 @@
     }
   ],
   "td_unsupported": {
-    "CC/USD|1h": 1791764479.6067529,
     "USD1/USD|1h": 1791847344.8766088,
     "GRAM/USD|1h": 1791766198.0533261,
     "USDG/USD|1h": 1791769062.05612,
     "HYPE/USD|1h": 1791846106.8678513,
     "LEO/USD|1h": 1791846144.7229066
   },
-  "live_check_cursor": 0
+  "live_check_cursor": 1
 }
