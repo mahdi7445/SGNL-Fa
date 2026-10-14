@@ -51876,7 +51876,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -51889,9 +51889,14 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": "stop",
+            "frac": 0.5,
+            "r": 1.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1791966662984,
         "events": [
           {
@@ -51910,9 +51915,22 @@
             "ts": "2026-10-14T08:31:49.783466+00:00",
             "price": 0.19255999999999995,
             "level": 2
+          },
+          {
+            "type": "stop_at_t1",
+            "ts": "2026-10-14T08:32:06.804878+00:00",
+            "price": 0.19315999999999997,
+            "r": 1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-14T08:32:07.259814+00:00",
+            "close_type": "stop_at_t1",
+            "final_r": 1.3
           }
         ],
-        "signal_message_id": 5556
+        "signal_message_id": 5556,
+        "close_type": "stop_at_t1"
       },
       "pending_signal": null
     },
@@ -59924,6 +59942,64 @@
       "stop_pct": null,
       "fee_r_est": null,
       "net_r_est": null
+    },
+    {
+      "signal_id": "ALT-000232",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-10-14T08:31:02.984353+00:00",
+          "price": 0.19376
+        },
+        {
+          "type": "rr",
+          "ts": "2026-10-14T08:31:27.259296+00:00",
+          "price": 0.19315999999999997,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-10-14T08:31:49.783466+00:00",
+          "price": 0.19255999999999995,
+          "level": 2
+        },
+        {
+          "type": "stop_at_t1",
+          "ts": "2026-10-14T08:32:06.804878+00:00",
+          "price": 0.19315999999999997,
+          "r": 1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-14T08:32:07.259814+00:00",
+          "close_type": "stop_at_t1",
+          "final_r": 1.3
+        }
+      ],
+      "symbol": "BAT/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "SELL",
+      "entry": 0.19376,
+      "sl": 0.19436,
+      "final_r": 1.3,
+      "close_type": "stop_at_t1",
+      "close_reason": "Stopped at Target 1 level after Target 2 (50% banked)",
+      "targets_hit": [
+        1,
+        2
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-10-14T08:31:02.984000+00:00",
+      "closed_at": "2026-10-14T08:32:07.259814+00:00",
+      "quality_tier": null,
+      "strategy": null,
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": null,
+      "fee_r_est": null,
+      "net_r_est": null
     }
   ],
   "target_events": [
@@ -61886,6 +61962,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-10-14T08:31:50.194858+00:00"
+    },
+    {
+      "symbol": "BAT/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "SELL",
+      "type": "stop_at_t1",
+      "r": 1.0,
+      "frac": 0.5,
+      "at": "2026-10-14T08:32:07.259772+00:00"
     }
   ],
   "td_unsupported": {
