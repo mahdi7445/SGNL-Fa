@@ -51869,17 +51869,28 @@
         "entry": 0.18993,
         "sl": 0.18903,
         "r": 0.0008999999999999841,
-        "working_sl": 0.18903,
+        "working_sl": 0.19082999999999997,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1791976635041,
         "events": [
@@ -51887,6 +51898,18 @@
             "type": "opened",
             "ts": "2026-10-14T11:17:15.041455+00:00",
             "price": 0.18993
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-14T11:22:16.211989+00:00",
+            "price": 0.19082999999999997,
+            "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-14T11:22:16.212013+00:00",
+            "price": 0.19172999999999996,
+            "level": 2
           }
         ],
         "signal_message_id": 5560
@@ -61931,6 +61954,16 @@
       "r": 1.0,
       "frac": 0.5,
       "at": "2026-10-14T08:32:07.259772+00:00"
+    },
+    {
+      "symbol": "BAT/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-10-14T11:22:16.666553+00:00"
     }
   ],
   "td_unsupported": {
