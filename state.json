@@ -1,92 +1,92 @@
 {
   "trend_alts": {
-    "regime": "bear",
-    "btc_change": -1.91527759,
+    "regime": "bull",
+    "btc_change": 0.68542956,
     "candidates": [
-      {
-        "symbol": "ZAMA",
-        "name": "Zama",
-        "relative_performance": -10.961370129999999,
-        "rank": 149,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
       {
         "symbol": "BAT",
         "name": "Basic Attention Token",
-        "relative_performance": -10.866959379999999,
-        "rank": 121,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "OP",
-        "name": "Optimism",
-        "relative_performance": -9.35115193,
-        "rank": 108,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "relative_performance": 24.65149623,
+        "rank": 107,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "relative_performance": -7.98139982,
-        "rank": 85,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "relative_performance": 12.100421910000001,
+        "rank": 82,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "SYRUP",
-        "name": "Maple Finance",
-        "relative_performance": -6.700493999999999,
-        "rank": 122,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "symbol": "INJ",
+        "name": "Injective",
+        "relative_performance": 10.89712105,
+        "rank": 71,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "JTO",
-        "name": "Jito",
-        "relative_performance": -6.625822529999999,
-        "rank": 120,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "relative_performance": 9.564968550000001,
+        "rank": 72,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "relative_performance": 9.444251280000001,
+        "rank": 144,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "relative_performance": 8.77150164,
+        "rank": 78,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
+      },
+      {
+        "symbol": "ZK",
+        "name": "ZKsync",
+        "relative_performance": 7.90179838,
+        "rank": 145,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "FF",
         "name": "Falcon Finance",
-        "relative_performance": -6.344242769999999,
-        "rank": 103,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "relative_performance": 7.261765909999999,
+        "rank": 100,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "FET",
-        "name": "Artificial Superintelligence Alliance",
-        "relative_performance": -6.150292009999999,
-        "rank": 95,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "relative_performance": 7.12347161,
+        "rank": 16,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "relative_performance": -6.057274919999999,
-        "rank": 21,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": -5.87202057,
-        "rank": 71,
-        "reason": "بازنده نسبت به BTC (بازار نزولی)"
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "relative_performance": 6.94167622,
+        "rank": 55,
+        "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-10-15T00:03:41.985491+00:00"
+    "updated": "2026-10-16T00:02:30.524154+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-10-16",
     "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-10-15",
-    "flow_perf": "2026-10-15-21",
-    "5m": "2026-10-15-23-45",
-    "15m": "2026-10-15-23-45",
-    "1h": "2026-10-15-23",
-    "4h": "2026-10-15-20"
+    "trendalts_refresh": "2026-10-16",
+    "flow_perf": "2026-10-16-00",
+    "5m": "2026-10-16-00-00",
+    "15m": "2026-10-16-00-00",
+    "1h": "2026-10-16-00",
+    "4h": "2026-10-16-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
@@ -63475,7 +63475,8 @@
     "SOL/USD|4h": 1792152272.2365992,
     "XRP/USD|4h": 1792152345.096031,
     "ADA/USD|4h": 1792152417.8505945,
-    "PYUSD/USD|1h": 1792182013.931359
+    "PYUSD/USD|1h": 1792182013.931359,
+    "USD1/USD|1h": 1792195568.0285804
   },
   "live_check_cursor": 2
 }
