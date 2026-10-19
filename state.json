@@ -2933,7 +2933,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -2941,9 +2941,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": -0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1792293757129,
         "events": [
           {
@@ -2956,10 +2961,22 @@
             "ts": "2026-10-18T06:21:58.550885+00:00",
             "price": 0.056530000000000004,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-19T08:53:51.732664+00:00",
+            "price": 0.05689,
+            "r": -0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-19T08:53:52.300005+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 5606,
-        "_stop_pending_since": 1792393753.1376238
+        "close_type": "breakeven"
       },
       "pending_signal": null
     },
@@ -58547,9 +58564,9 @@
       "pending_signal": null
     },
     "CVX/USD|1m": {
-      "ema7": 2.04791449159145,
-      "ema25": 2.0503444875541015,
-      "atr": 0.005211896937576794,
+      "ema7": 2.0476858686935873,
+      "ema25": 2.050087219280709,
+      "atr": 0.004982475727749896,
       "tr_buffer": [
         0.0,
         0.005999999999999783,
@@ -58566,8 +58583,8 @@
         0.018000000000000238,
         0.008999999999999897
       ],
-      "plus_dm": 0.0020594939238072403,
-      "minus_dm": 0.0027355847245591333,
+      "plus_dm": 0.002055244357821025,
+      "minus_dm": 0.002540185815662052,
       "dm_buffer": [
         [
           0.0,
@@ -58626,7 +58643,7 @@
           0.0
         ]
       ],
-      "adx": 13.648657698676127,
+      "adx": 13.427517082659818,
       "dx_buffer": [
         24.05063291139195,
         19.176800748362353,
@@ -59363,6 +59380,16 @@
           "sma7": 2.0472857142857146,
           "dt_ms": 1792399500000,
           "v": 115.229
+        },
+        {
+          "o": 2.047,
+          "h": 2.047,
+          "l": 2.047,
+          "c": 2.047,
+          "ema7": 2.0476858686935873,
+          "sma7": 2.0465714285714287,
+          "dt_ms": 1792399560000,
+          "v": 244.231
         }
       ],
       "trend_prev": "down",
@@ -59371,8 +59398,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": null,
       "last_signal_price": null,
-      "bar_index": 72,
-      "last_open_time": 1792399500000,
+      "bar_index": 73,
+      "last_open_time": 1792399560000,
       "open_trade": null,
       "pending_signal": null
     }
@@ -64488,6 +64515,57 @@
       "stop_pct": null,
       "fee_r_est": null,
       "net_r_est": null
+    },
+    {
+      "signal_id": "ALT-000248",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-10-18T03:22:37.129718+00:00",
+          "price": 0.05689
+        },
+        {
+          "type": "rr",
+          "ts": "2026-10-18T06:21:58.550885+00:00",
+          "price": 0.056530000000000004,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-10-19T08:53:51.732664+00:00",
+          "price": 0.05689,
+          "r": -0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-19T08:53:52.300005+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "CRO/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 0.05689,
+      "sl": 0.05725,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-10-18T03:22:37.129000+00:00",
+      "closed_at": "2026-10-19T08:53:52.300005+00:00",
+      "quality_tier": null,
+      "strategy": null,
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": null,
+      "fee_r_est": null,
+      "net_r_est": null
     }
   ],
   "target_events": [
@@ -66760,6 +66838,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-10-18T06:21:58.954256+00:00"
+    },
+    {
+      "symbol": "CRO/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "breakeven",
+      "r": -0.0,
+      "frac": 0.8,
+      "at": "2026-10-19T08:53:52.299960+00:00"
     }
   ],
   "td_unsupported": {
@@ -66782,5 +66870,5 @@
     "GRAM/USD|1h": 1792472709.7651281,
     "USDG/USD|1h": 1792472732.3625014
   },
-  "live_check_cursor": 1
+  "live_check_cursor": 2
 }
