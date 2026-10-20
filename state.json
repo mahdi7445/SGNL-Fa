@@ -1,92 +1,21 @@
 {
   "trend_alts": {
-    "regime": "bull",
-    "btc_change": 0.77294009,
-    "candidates": [
-      {
-        "symbol": "CVX",
-        "name": "Convex Finance",
-        "relative_performance": 6.696272240000001,
-        "rank": 135,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "relative_performance": 4.13112434,
-        "rank": 12,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "RUNE",
-        "name": "THORChain",
-        "relative_performance": 3.6191033999999997,
-        "rank": 130,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "AKT",
-        "name": "Akash Network",
-        "relative_performance": 3.1444975299999998,
-        "rank": 131,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "relative_performance": 2.94452548,
-        "rank": 50,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "relative_performance": 2.46704754,
-        "rank": 55,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "relative_performance": 2.4126233299999997,
-        "rank": 16,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "relative_performance": 1.3618944499999999,
-        "rank": 69,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "SUI",
-        "name": "Sui",
-        "relative_performance": 1.2902373899999997,
-        "rank": 24,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      },
-      {
-        "symbol": "KCS",
-        "name": "KuCoin Token",
-        "relative_performance": 1.2298797599999998,
-        "rank": 60,
-        "reason": "برنده نسبت به BTC (بازار صعودی)"
-      }
-    ],
-    "updated": "2026-10-19T00:02:34.991086+00:00"
+    "regime": "neutral",
+    "btc_change": -0.20473104,
+    "candidates": [],
+    "updated": "2026-10-20T00:02:03.911211+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-10-20",
     "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-10-19",
-    "flow_perf": "2026-10-19-21",
-    "5m": "2026-10-19-23-45",
-    "15m": "2026-10-19-23-45",
-    "1h": "2026-10-19-23",
-    "4h": "2026-10-19-20"
+    "trendalts_refresh": "2026-10-20",
+    "flow_perf": "2026-10-20-00",
+    "5m": "2026-10-20-00-00",
+    "15m": "2026-10-20-00-00",
+    "1h": "2026-10-20-00",
+    "4h": "2026-10-20-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
