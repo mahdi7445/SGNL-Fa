@@ -1,92 +1,92 @@
 {
   "trend_alts": {
     "regime": "bull",
-    "btc_change": 1.27778365,
+    "btc_change": 1.55263351,
     "candidates": [
       {
-        "symbol": "COMP",
-        "name": "Compound",
-        "relative_performance": 18.43051045,
-        "rank": 121,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "relative_performance": 9.87175315,
+        "rank": 67,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
         "symbol": "CVX",
         "name": "Convex Finance",
-        "relative_performance": 13.24826365,
-        "rank": 126,
+        "relative_performance": 7.95275796,
+        "rank": 119,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "relative_performance": 10.09759517,
-        "rank": 70,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "relative_performance": 7.736115590000001,
+        "rank": 35,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "THETA",
-        "name": "Theta Network",
-        "relative_performance": 9.06688776,
-        "rank": 136,
+        "symbol": "GRASS",
+        "name": "Grass",
+        "relative_performance": 6.89115632,
+        "rank": 149,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "relative_performance": 8.93486306,
-        "rank": 40,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "relative_performance": 6.37480486,
+        "rank": 74,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "relative_performance": 8.42186077,
-        "rank": 45,
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "relative_performance": 5.90994828,
+        "rank": 137,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "relative_performance": 7.996825019999999,
-        "rank": 72,
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "relative_performance": 5.701253680000001,
+        "rank": 150,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "relative_performance": 7.82797347,
-        "rank": 9,
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "relative_performance": 5.33637899,
+        "rank": 132,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "relative_performance": 7.71234741,
-        "rank": 81,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "relative_performance": 5.2908249000000005,
+        "rank": 16,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "relative_performance": 7.060863019999999,
-        "rank": 41,
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "relative_performance": 5.160189330000001,
+        "rank": 125,
         "reason": "برنده نسبت به BTC (بازار صعودی)"
       }
     ],
-    "updated": "2026-10-21T00:04:13.597520+00:00"
+    "updated": "2026-10-22T00:05:01.110504+00:00"
   },
   "daily_stop_counts": {
     "date": "2026-10-22",
     "counts": {}
   },
   "tf_windows": {
-    "trendalts_refresh": "2026-10-21",
-    "flow_perf": "2026-10-21-21",
-    "5m": "2026-10-21-23-45",
-    "15m": "2026-10-21-23-45",
-    "1h": "2026-10-21-23",
-    "4h": "2026-10-21-20"
+    "trendalts_refresh": "2026-10-22",
+    "flow_perf": "2026-10-22-00",
+    "5m": "2026-10-22-00-00",
+    "15m": "2026-10-22-00-00",
+    "1h": "2026-10-22-00",
+    "4h": "2026-10-22-00"
   },
   "flow_signals_sent": {},
   "candle_signals": {
@@ -69167,8 +69167,8 @@
     }
   ],
   "td_unsupported": {
-    "HYPE/USD|1h": 1792627567.9485729,
-    "LEO/USD|1h": 1792627598.40087,
+    "HYPE/USD|1h": 1792714013.6139948,
+    "LEO/USD|1h": 1792714043.9243937,
     "USD1/USD|1h": 1792631044.8047407,
     "CC/USD|1h": 1792646348.9193192,
     "GRAM/USD|1h": 1792646364.041389,
