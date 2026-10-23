@@ -104199,17 +104199,23 @@
         "entry": 0.004504,
         "sl": 0.004514,
         "r": 9.999999999999593e-06,
-        "working_sl": 0.004514,
+        "working_sl": 0.004504,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1792782368410,
         "events": [
@@ -104217,6 +104223,12 @@
             "type": "opened",
             "ts": "2026-10-23T19:06:08.410380+00:00",
             "price": 0.004504
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-23T19:11:08.516234+00:00",
+            "price": 0.004494000000000001,
+            "level": 1
           }
         ],
         "quality_tier": "experimental",
@@ -114216,6 +114228,16 @@
       "r": 0.0,
       "frac": 0.8,
       "at": "2026-10-23T14:53:17.458551+00:00"
+    },
+    {
+      "symbol": "PUMP/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-10-23T19:11:09.103491+00:00"
     }
   ],
   "td_unsupported": {
