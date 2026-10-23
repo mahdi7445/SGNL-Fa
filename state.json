@@ -106517,7 +106517,7 @@
     "PUMP/USD|1h": 1792801236.782073,
     "PONS/USD|15min": 1792801244.5548363
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
