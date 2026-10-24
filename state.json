@@ -116303,7 +116303,7 @@
     "LEO/USD|1h": 1792929793.8362823,
     "M/USD|1h": 1792930488.5073628
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
