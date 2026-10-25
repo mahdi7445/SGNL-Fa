@@ -116493,7 +116493,7 @@
     "M/USD|1h": 1792930488.5073628,
     "GRAM/USD|1h": 1792974010.1286862
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
