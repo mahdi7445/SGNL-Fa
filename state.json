@@ -126854,7 +126854,7 @@
     "LEO/USD|1h": 1793103349.9657023,
     "GRAM/USD|1h": 1793103418.724253
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
