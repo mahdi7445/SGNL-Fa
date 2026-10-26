@@ -125821,7 +125821,7 @@
     "SOON/USD|1h": 1793060417.223647,
     "SOON/USD|15min": 1793060852.3912761
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
