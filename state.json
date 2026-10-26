@@ -83,7 +83,7 @@
   "tf_windows": {
     "trendalts_refresh": "2026-10-26",
     "flow_perf": "2026-10-26-03",
-    "5m": "2026-10-26-03-00",
+    "5m": "2026-10-26-03-05",
     "15m": "2026-10-26-03-00",
     "1h": "2026-10-26-03",
     "4h": "2026-10-26-00",
@@ -5830,9 +5830,9 @@
       "pending_signal": null
     },
     "SOL/USD|5m": {
-      "ema7": 100.55187107806077,
-      "ema25": 100.81155534588963,
-      "atr": 0.2620140329318939,
+      "ema7": 100.65640330854558,
+      "ema25": 100.82374339620581,
+      "atr": 0.28472731629390136,
       "tr_buffer": [
         0.4099999999999966,
         0.5,
@@ -5849,8 +5849,8 @@
         0.3500000000000085,
         0.4899999999999949
       ],
-      "plus_dm": 0.03868843218418045,
-      "minus_dm": 0.07198461503147872,
+      "plus_dm": 0.06735354417102454,
+      "minus_dm": 0.06684285681494453,
       "dm_buffer": [
         [
           0.0,
@@ -5909,7 +5909,7 @@
           0.2599999999999909
         ]
       ],
-      "adx": 26.198020088034713,
+      "adx": 24.353915238879107,
       "dx_buffer": [
         37.70491803278738,
         31.0531053105314,
@@ -5927,16 +5927,6 @@
         19.475291636980906
       ],
       "hist": [
-        {
-          "o": 101.65,
-          "h": 101.72,
-          "l": 101.65,
-          "c": 101.66,
-          "ema7": 101.64140128707052,
-          "sma7": 101.62714285714286,
-          "dt_ms": 1792959600000,
-          "v": 210.36772668
-        },
         {
           "o": 101.67,
           "h": 101.67,
@@ -6726,16 +6716,26 @@
           "sma7": 100.51285714285714,
           "dt_ms": 1792983300000,
           "v": 774.29774776
+        },
+        {
+          "o": 100.47,
+          "h": 100.97,
+          "l": 100.39,
+          "c": 100.97,
+          "ema7": 100.65640330854558,
+          "sma7": 100.56285714285715,
+          "dt_ms": 1792983600000,
+          "v": 263.25423704
         }
       ],
-      "trend_prev": "down",
+      "trend_prev": "up",
       "bull_used_this_trend": false,
       "bear_used_this_trend": false,
       "last_bull_bar_index": 8593,
       "last_bear_bar_index": 10736,
       "last_signal_price": 102.18,
-      "bar_index": 11343,
-      "last_open_time": 1792983300000,
+      "bar_index": 11344,
+      "last_open_time": 1792983600000,
       "open_trade": {
         "signal_id": "ALT-000240",
         "side": "BUY",
@@ -6797,9 +6797,9 @@
       "pending_signal": null
     },
     "XRP/USD|5m": {
-      "ema7": 1.2829997152032226,
-      "ema25": 1.2871421096977254,
-      "atr": 0.0036398389261847685,
+      "ema7": 1.283842286402417,
+      "ema25": 1.2870827166440542,
+      "atr": 0.0038041361457430032,
       "tr_buffer": [
         0.006599999999999939,
         0.005399999999999849,
@@ -6816,8 +6816,8 @@
         0.007000000000000117,
         0.011399999999999855
       ],
-      "plus_dm": 0.0005964423839391707,
-      "minus_dm": 0.0011061838268107058,
+      "plus_dm": 0.0008109822136578048,
+      "minus_dm": 0.0010271706963242268,
       "dm_buffer": [
         [
           0.0,
@@ -6876,7 +6876,7 @@
           0.005599999999999827
         ]
       ],
-      "adx": 30.683501318983637,
+      "adx": 29.331906978879584,
       "dx_buffer": [
         32.619047619047706,
         26.92375109553024,
@@ -6894,16 +6894,6 @@
         42.097326518552705
       ],
       "hist": [
-        {
-          "o": 1.29867,
-          "h": 1.29979,
-          "l": 1.29867,
-          "c": 1.29922,
-          "ema7": 1.2986366322876828,
-          "sma7": 1.2983985714285713,
-          "dt_ms": 1792959600000,
-          "v": 7622.91714232
-        },
         {
           "o": 1.29915,
           "h": 1.29915,
@@ -7693,16 +7683,26 @@
           "sma7": 1.2821814285714286,
           "dt_ms": 1792983300000,
           "v": 29625.86335251
+        },
+        {
+          "o": 1.28142,
+          "h": 1.28637,
+          "l": 1.28043,
+          "c": 1.28637,
+          "ema7": 1.283842286402417,
+          "sma7": 1.2825214285714286,
+          "dt_ms": 1792983600000,
+          "v": 66574.22515352
         }
       ],
-      "trend_prev": "down",
+      "trend_prev": "up",
       "bull_used_this_trend": false,
       "bear_used_this_trend": false,
       "last_bull_bar_index": 10102,
       "last_bear_bar_index": 10195,
       "last_signal_price": 1.3423,
-      "bar_index": 11343,
-      "last_open_time": 1792983300000,
+      "bar_index": 11344,
+      "last_open_time": 1792983600000,
       "open_trade": {
         "signal_id": "ALT-000249",
         "side": "SELL",
@@ -7775,9 +7775,9 @@
       "pending_signal": null
     },
     "ADA/USD|5m": {
-      "ema7": 0.2016334695162713,
-      "ema25": 0.20222924611354537,
-      "atr": 0.0006092256094605089,
+      "ema7": 0.20185360213720346,
+      "ema25": 0.20225115025865728,
+      "atr": 0.0006417809230704732,
       "tr_buffer": [
         0.0010000000000000009,
         0.0010999999999999899,
@@ -7794,8 +7794,8 @@
         0.0007000000000000062,
         0.0015000000000000013
       ],
-      "plus_dm": 9.068213400370078e-05,
-      "minus_dm": 0.00017013767489600264,
+      "plus_dm": 0.00014656198157486593,
+      "minus_dm": 0.00015798498383200245,
       "dm_buffer": [
         [
           0.0,
@@ -7854,7 +7854,7 @@
           0.0010000000000000009
         ]
       ],
-      "adx": 36.024809907534404,
+      "adx": 33.71952476800312,
       "dx_buffer": [
         19.008264462809656,
         12.028725314182822,
@@ -7872,16 +7872,6 @@
         21.299821071905594
       ],
       "hist": [
-        {
-          "o": 0.205533,
-          "h": 0.205669,
-          "l": 0.205533,
-          "c": 0.205548,
-          "ema7": 0.20546936433393687,
-          "sma7": 0.20541842857142853,
-          "dt_ms": 1792959600000,
-          "v": 6137.92341745
-        },
         {
           "o": 0.205565,
           "h": 0.205565,
@@ -8671,16 +8661,26 @@
           "sma7": 0.20156285714285715,
           "dt_ms": 1792983300000,
           "v": 83361.26032534
+        },
+        {
+          "o": 0.20151,
+          "h": 0.202575,
+          "l": 0.20151,
+          "c": 0.202514,
+          "ema7": 0.20185360213720346,
+          "sma7": 0.20168114285714286,
+          "dt_ms": 1792983600000,
+          "v": 32305.31394234
         }
       ],
-      "trend_prev": "down",
+      "trend_prev": "up",
       "bull_used_this_trend": false,
       "bear_used_this_trend": false,
       "last_bull_bar_index": 10983,
       "last_bear_bar_index": 10915,
       "last_signal_price": 0.206724,
-      "bar_index": 11343,
-      "last_open_time": 1792983300000,
+      "bar_index": 11344,
+      "last_open_time": 1792983600000,
       "open_trade": {
         "signal_id": "ALT-000328",
         "side": "SELL",
@@ -123355,6 +123355,231 @@
       "hot_move_pct": null,
       "tier": "ماژول CN15",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000386",
+      "events": [
+        {
+          "type": "stop",
+          "price": 8.868,
+          "final_r": -1.0,
+          "ts": "2026-10-26T03:10:17.164522+00:00"
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-26T03:10:17.632611+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "AVAX/USD",
+      "tf": "15m",
+      "logical_tf": "15m",
+      "side": "SELL",
+      "entry": 8.829,
+      "sl": 8.868,
+      "final_r": -1.0,
+      "targets_hit": [],
+      "close_type": "stop",
+      "close_reason": "stop",
+      "opened_at": "2026-10-26T02:35:07.892000+00:00",
+      "closed_at": "2026-10-26T03:10:17.632611+00:00",
+      "r_pct": 0.4417,
+      "mfe_r": 0.9231,
+      "mae_r": 1.1282,
+      "quality_tier": "orig",
+      "strategy": "module:CN15",
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": 0.4417,
+      "fee_r_est": null,
+      "net_r_est": null,
+      "module": "CN15",
+      "ladder": "Q1",
+      "trigger": null,
+      "hot_move_pct": null,
+      "tier": "ماژول CN15",
+      "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000387",
+      "events": [
+        {
+          "type": "stop",
+          "price": 0.07705,
+          "final_r": -1.0,
+          "ts": "2026-10-26T03:10:18.363763+00:00"
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-26T03:10:18.542037+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "HBAR/USD",
+      "tf": "15m",
+      "logical_tf": "15m",
+      "side": "SELL",
+      "entry": 0.07665,
+      "sl": 0.07705,
+      "final_r": -1.0,
+      "targets_hit": [],
+      "close_type": "stop",
+      "close_reason": "stop",
+      "opened_at": "2026-10-26T02:35:07.892000+00:00",
+      "closed_at": "2026-10-26T03:10:18.542037+00:00",
+      "r_pct": 0.5219,
+      "mfe_r": 0.6,
+      "mae_r": 1.025,
+      "quality_tier": "orig",
+      "strategy": "module:CN15",
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": 0.5219,
+      "fee_r_est": null,
+      "net_r_est": null,
+      "module": "CN15",
+      "ladder": "Q1",
+      "trigger": null,
+      "hot_move_pct": null,
+      "tier": "ماژول CN15",
+      "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000388",
+      "events": [
+        {
+          "type": "stop",
+          "price": 0.1679,
+          "final_r": -1.0,
+          "ts": "2026-10-26T03:10:19.552729+00:00"
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-26T03:10:19.725620+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "ARB/USD",
+      "tf": "15m",
+      "logical_tf": "15m",
+      "side": "SELL",
+      "entry": 0.1668,
+      "sl": 0.1679,
+      "final_r": -1.0,
+      "targets_hit": [],
+      "close_type": "stop",
+      "close_reason": "stop",
+      "opened_at": "2026-10-26T02:35:07.892000+00:00",
+      "closed_at": "2026-10-26T03:10:19.725620+00:00",
+      "r_pct": 0.6595,
+      "mfe_r": 0.6364,
+      "mae_r": 1.0909,
+      "quality_tier": "orig",
+      "strategy": "module:CN15",
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": 0.6595,
+      "fee_r_est": null,
+      "net_r_est": null,
+      "module": "CN15",
+      "ladder": "Q1",
+      "trigger": null,
+      "hot_move_pct": null,
+      "tier": "ماژول CN15",
+      "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000389",
+      "events": [
+        {
+          "type": "stop",
+          "price": 4.839e-06,
+          "final_r": -1.0,
+          "ts": "2026-10-26T03:10:20.765230+00:00"
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-26T03:10:20.944736+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "SHIB/USD",
+      "tf": "15m",
+      "logical_tf": "15m",
+      "side": "SELL",
+      "entry": 4.818e-06,
+      "sl": 4.839e-06,
+      "final_r": -1.0,
+      "targets_hit": [],
+      "close_type": "stop",
+      "close_reason": "stop",
+      "opened_at": "2026-10-26T02:35:07.892000+00:00",
+      "closed_at": "2026-10-26T03:10:20.944736+00:00",
+      "r_pct": 0.4359,
+      "mfe_r": 0.7143,
+      "mae_r": 1.0476,
+      "quality_tier": "orig",
+      "strategy": "module:CN15",
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": 0.4359,
+      "fee_r_est": null,
+      "net_r_est": null,
+      "module": "CN15",
+      "ladder": "Q1",
+      "trigger": null,
+      "hot_move_pct": null,
+      "tier": "ماژول CN15",
+      "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000390",
+      "events": [
+        {
+          "type": "stop",
+          "price": 4.267e-06,
+          "final_r": -1.0,
+          "ts": "2026-10-26T03:10:21.956422+00:00"
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-26T03:10:22.131240+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "PEPE/USD",
+      "tf": "15m",
+      "logical_tf": "15m",
+      "side": "SELL",
+      "entry": 4.248e-06,
+      "sl": 4.267e-06,
+      "final_r": -1.0,
+      "targets_hit": [],
+      "close_type": "stop",
+      "close_reason": "stop",
+      "opened_at": "2026-10-26T02:35:07.892000+00:00",
+      "closed_at": "2026-10-26T03:10:22.131240+00:00",
+      "r_pct": 0.4473,
+      "mfe_r": 0.3684,
+      "mae_r": 1.1579,
+      "quality_tier": "orig",
+      "strategy": "module:CN15",
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": 0.4473,
+      "fee_r_est": null,
+      "net_r_est": null,
+      "module": "CN15",
+      "ladder": "Q1",
+      "trigger": null,
+      "hot_move_pct": null,
+      "tier": "ماژول CN15",
+      "runner_closed": false
     }
   ],
   "target_events": [
@@ -125910,7 +126135,7 @@
           "status": "open",
           "opened_ms": 1792713283896,
           "armed_ms": 1792713283896,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792684800000,
           "mfe_r": 0.3819,
           "mae_r": 0.7668,
@@ -125918,7 +126143,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5630,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000255": {
           "id": "ALT-000255",
@@ -125960,7 +126185,7 @@
           "status": "open",
           "opened_ms": 1792713283896,
           "armed_ms": 1792713283896,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792684800000,
           "mfe_r": 0.3441,
           "mae_r": 0.6977,
@@ -125968,7 +126193,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5632,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000256": {
           "id": "ALT-000256",
@@ -126010,7 +126235,7 @@
           "status": "open",
           "opened_ms": 1792713283896,
           "armed_ms": 1792713283896,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792684800000,
           "mfe_r": 0.0349,
           "mae_r": 0.5885,
@@ -126018,7 +126243,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5633,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000257": {
           "id": "ALT-000257",
@@ -126060,7 +126285,7 @@
           "status": "open",
           "opened_ms": 1792713283896,
           "armed_ms": 1792713283896,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792684800000,
           "mfe_r": 0.4142,
           "mae_r": 0.8284,
@@ -126068,7 +126293,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5634,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000258": {
           "id": "ALT-000258",
@@ -126110,7 +126335,7 @@
           "status": "open",
           "opened_ms": 1792713283896,
           "armed_ms": 1792713283896,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792684800000,
           "mfe_r": 0.3018,
           "mae_r": 0.9469,
@@ -126118,7 +126343,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5635,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000260": {
           "id": "ALT-000260",
@@ -126160,7 +126385,7 @@
           "status": "open",
           "opened_ms": 1792714069627,
           "armed_ms": 1792714069627,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792699200000,
           "mfe_r": 0.3314,
           "mae_r": 0.7932,
@@ -126168,7 +126393,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5637,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000261": {
           "id": "ALT-000261",
@@ -126210,7 +126435,7 @@
           "status": "open",
           "opened_ms": 1792714069627,
           "armed_ms": 1792714069627,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792699200000,
           "mfe_r": 0.4438,
           "mae_r": 0.5154,
@@ -126218,7 +126443,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5638,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000263": {
           "id": "ALT-000263",
@@ -126260,7 +126485,7 @@
           "status": "open",
           "opened_ms": 1792714069627,
           "armed_ms": 1792714069627,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792699200000,
           "mfe_r": 0.3289,
           "mae_r": 0.8155,
@@ -126268,7 +126493,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5640,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000285": {
           "id": "ALT-000285",
@@ -126310,7 +126535,7 @@
           "status": "open",
           "opened_ms": 1792742965888,
           "armed_ms": 1792742965888,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792728000000,
           "mfe_r": 1.642,
           "mae_r": 0.1273,
@@ -126326,7 +126551,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5679,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000323": {
           "id": "ALT-000323",
@@ -126368,7 +126593,7 @@
           "status": "open",
           "opened_ms": 1792800284425,
           "armed_ms": 1792800284425,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792785600000,
           "mfe_r": 0.4638,
           "mae_r": 0.0742,
@@ -126376,7 +126601,7 @@
           "tier": "verified",
           "profile": "B25",
           "msg_id": 5788,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000324": {
           "id": "ALT-000324",
@@ -126418,7 +126643,7 @@
           "status": "open",
           "opened_ms": 1792800284425,
           "armed_ms": 1792800284425,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792785600000,
           "mfe_r": 0.1194,
           "mae_r": 0.8315,
@@ -126426,7 +126651,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5789,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000325": {
           "id": "ALT-000325",
@@ -126468,7 +126693,7 @@
           "status": "open",
           "opened_ms": 1792800284425,
           "armed_ms": 1792800284425,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792785600000,
           "mfe_r": 0.0398,
           "mae_r": 0.8087,
@@ -126476,7 +126701,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5790,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000326": {
           "id": "ALT-000326",
@@ -126518,7 +126743,7 @@
           "status": "open",
           "opened_ms": 1792800284425,
           "armed_ms": 1792800284425,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984139999,
           "bar_ms": 1792785600000,
           "mfe_r": 0.0767,
           "mae_r": 0.6352,
@@ -126526,7 +126751,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5791,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000334": {
           "id": "ALT-000334",
@@ -126568,7 +126793,7 @@
           "status": "open",
           "opened_ms": 1792814820415,
           "armed_ms": 1792814820415,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792800000000,
           "mfe_r": 0.6663,
           "mae_r": 0.0,
@@ -126576,7 +126801,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5815,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000343": {
           "id": "ALT-000343",
@@ -126618,7 +126843,7 @@
           "status": "open",
           "opened_ms": 1792829194487,
           "armed_ms": 1792829194487,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792814400000,
           "mfe_r": 0.3342,
           "mae_r": 0.0164,
@@ -126626,7 +126851,7 @@
           "tier": "verified",
           "profile": "H3",
           "msg_id": 5844,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000344": {
           "id": "ALT-000344",
@@ -126668,7 +126893,7 @@
           "status": "open",
           "opened_ms": 1792829194487,
           "armed_ms": 1792829194487,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792825200000,
           "mfe_r": 2.3462,
           "mae_r": 0.4231,
@@ -126684,7 +126909,7 @@
           "tier": "orig",
           "profile": "Q3",
           "msg_id": 5845,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000348": {
           "id": "ALT-000348",
@@ -126726,7 +126951,7 @@
           "status": "open",
           "opened_ms": 1792836193505,
           "armed_ms": 1792836193505,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792832400000,
           "mfe_r": 1.3713,
           "mae_r": 0.4149,
@@ -126734,7 +126959,7 @@
           "tier": "candidate",
           "profile": "Q2",
           "msg_id": 5856,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000354": {
           "id": "ALT-000354",
@@ -126776,7 +127001,7 @@
           "status": "open",
           "opened_ms": 1792854258858,
           "armed_ms": 1792854258858,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792850400000,
           "mfe_r": 0.614,
           "mae_r": 0.796,
@@ -126784,7 +127009,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 5877,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000358": {
           "id": "ALT-000358",
@@ -126826,7 +127051,7 @@
           "status": "open",
           "opened_ms": 1792857841846,
           "armed_ms": 1792857841846,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792843200000,
           "mfe_r": 0.7751,
           "mae_r": 0.0622,
@@ -126834,7 +127059,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5886,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000378": {
           "id": "ALT-000378",
@@ -126876,7 +127101,7 @@
           "status": "open",
           "opened_ms": 1792973342781,
           "armed_ms": 1792973342781,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792958400000,
           "mfe_r": 0.149,
           "mae_r": 0.2068,
@@ -126884,7 +127109,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5945,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000379": {
           "id": "ALT-000379",
@@ -126926,7 +127151,7 @@
           "status": "open",
           "opened_ms": 1792973342781,
           "armed_ms": 1792973342781,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792969200000,
           "mfe_r": 1.5,
           "mae_r": 0.5,
@@ -126934,7 +127159,7 @@
           "tier": "orig",
           "profile": "Q3",
           "msg_id": 5946,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000381": {
           "id": "ALT-000381",
@@ -126976,15 +127201,15 @@
           "status": "open",
           "opened_ms": 1792979278081,
           "armed_ms": 1792979278081,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792978200000,
           "mfe_r": 0.4545,
-          "mae_r": 0.7273,
+          "mae_r": 0.9091,
           "events": [],
           "tier": "orig",
           "profile": "Q1",
           "msg_id": 5949,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000382": {
           "id": "ALT-000382",
@@ -127026,7 +127251,7 @@
           "status": "open",
           "opened_ms": 1792980045010,
           "armed_ms": 1792980045010,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792976400000,
           "mfe_r": 0.7101,
           "mae_r": 0.1739,
@@ -127034,7 +127259,7 @@
           "tier": "orig",
           "profile": "Q3",
           "msg_id": 5950,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000383": {
           "id": "ALT-000383",
@@ -127076,15 +127301,15 @@
           "status": "open",
           "opened_ms": 1792982107892,
           "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792980900000,
           "mfe_r": 1.1597,
-          "mae_r": 0.0,
+          "mae_r": 0.8769,
           "events": [],
           "tier": "orig",
           "profile": "Q1",
           "msg_id": 5951,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000384": {
           "id": "ALT-000384",
@@ -127126,15 +127351,15 @@
           "status": "open",
           "opened_ms": 1792982107892,
           "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792980900000,
           "mfe_r": 0.7143,
-          "mae_r": 0.3143,
+          "mae_r": 0.7571,
           "events": [],
           "tier": "orig",
           "profile": "Q1",
           "msg_id": 5952,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         },
         "ALT-000385": {
           "id": "ALT-000385",
@@ -127176,265 +127401,15 @@
           "status": "open",
           "opened_ms": 1792982107892,
           "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
+          "last_ms": 1792984199999,
           "bar_ms": 1792980900000,
           "mfe_r": 0.9032,
-          "mae_r": 0.0,
+          "mae_r": 0.8065,
           "events": [],
           "tier": "orig",
           "profile": "Q1",
           "msg_id": 5953,
-          "polled_ms": 1792983723265
-        },
-        "ALT-000386": {
-          "id": "ALT-000386",
-          "module": "CN15",
-          "symbol": "AVAX/USD",
-          "tf": "15m",
-          "side": "SELL",
-          "entry": 8.829,
-          "sl0": 8.868,
-          "sl": 8.868,
-          "risk": 0.0389999999999997,
-          "targets": [
-            8.751000000000001,
-            8.712000000000002,
-            8.673000000000002,
-            8.595000000000002
-          ],
-          "levels": [
-            2.0,
-            3.0,
-            4.0,
-            6.0
-          ],
-          "weights": [
-            0.3,
-            0.25,
-            0.2,
-            0.1
-          ],
-          "trail": 1.5,
-          "hit": [
-            false,
-            false,
-            false,
-            false
-          ],
-          "runner_on": false,
-          "best": 8.829,
-          "status": "open",
-          "opened_ms": 1792982107892,
-          "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
-          "bar_ms": 1792980900000,
-          "mfe_r": 0.9231,
-          "mae_r": 0.1795,
-          "events": [],
-          "tier": "orig",
-          "profile": "Q1",
-          "msg_id": 5954,
-          "polled_ms": 1792983723265
-        },
-        "ALT-000387": {
-          "id": "ALT-000387",
-          "module": "CN15",
-          "symbol": "HBAR/USD",
-          "tf": "15m",
-          "side": "SELL",
-          "entry": 0.07665,
-          "sl0": 0.07705,
-          "sl": 0.07705,
-          "risk": 0.0003999999999999976,
-          "targets": [
-            0.07585,
-            0.07545,
-            0.07505,
-            0.07425000000000001
-          ],
-          "levels": [
-            2.0,
-            3.0,
-            4.0,
-            6.0
-          ],
-          "weights": [
-            0.3,
-            0.25,
-            0.2,
-            0.1
-          ],
-          "trail": 1.5,
-          "hit": [
-            false,
-            false,
-            false,
-            false
-          ],
-          "runner_on": false,
-          "best": 0.07665,
-          "status": "open",
-          "opened_ms": 1792982107892,
-          "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
-          "bar_ms": 1792980900000,
-          "mfe_r": 0.6,
-          "mae_r": 0.375,
-          "events": [],
-          "tier": "orig",
-          "profile": "Q1",
-          "msg_id": 5955,
-          "polled_ms": 1792983723265
-        },
-        "ALT-000388": {
-          "id": "ALT-000388",
-          "module": "CN15",
-          "symbol": "ARB/USD",
-          "tf": "15m",
-          "side": "SELL",
-          "entry": 0.1668,
-          "sl0": 0.1679,
-          "sl": 0.1679,
-          "risk": 0.0010999999999999899,
-          "targets": [
-            0.16460000000000002,
-            0.16350000000000003,
-            0.16240000000000004,
-            0.16020000000000006
-          ],
-          "levels": [
-            2.0,
-            3.0,
-            4.0,
-            6.0
-          ],
-          "weights": [
-            0.3,
-            0.25,
-            0.2,
-            0.1
-          ],
-          "trail": 1.5,
-          "hit": [
-            false,
-            false,
-            false,
-            false
-          ],
-          "runner_on": false,
-          "best": 0.1668,
-          "status": "open",
-          "opened_ms": 1792982107892,
-          "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
-          "bar_ms": 1792980900000,
-          "mfe_r": 0.6364,
-          "mae_r": 0.1818,
-          "events": [],
-          "tier": "orig",
-          "profile": "Q1",
-          "msg_id": 5956,
-          "polled_ms": 1792983723265
-        },
-        "ALT-000389": {
-          "id": "ALT-000389",
-          "module": "CN15",
-          "symbol": "SHIB/USD",
-          "tf": "15m",
-          "side": "SELL",
-          "entry": 4.818e-06,
-          "sl0": 4.839e-06,
-          "sl": 4.839e-06,
-          "risk": 2.099999999999946e-08,
-          "targets": [
-            4.776000000000001e-06,
-            4.755000000000002e-06,
-            4.7340000000000024e-06,
-            4.6920000000000035e-06
-          ],
-          "levels": [
-            2.0,
-            3.0,
-            4.0,
-            6.0
-          ],
-          "weights": [
-            0.3,
-            0.25,
-            0.2,
-            0.1
-          ],
-          "trail": 1.5,
-          "hit": [
-            false,
-            false,
-            false,
-            false
-          ],
-          "runner_on": false,
-          "best": 4.818e-06,
-          "status": "open",
-          "opened_ms": 1792982107892,
-          "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
-          "bar_ms": 1792980900000,
-          "mfe_r": 0.7143,
-          "mae_r": 0.1905,
-          "events": [],
-          "tier": "orig",
-          "profile": "Q1",
-          "msg_id": 5957,
-          "polled_ms": 1792983723265
-        },
-        "ALT-000390": {
-          "id": "ALT-000390",
-          "module": "CN15",
-          "symbol": "PEPE/USD",
-          "tf": "15m",
-          "side": "SELL",
-          "entry": 4.248e-06,
-          "sl0": 4.267e-06,
-          "sl": 4.267e-06,
-          "risk": 1.9000000000000157e-08,
-          "targets": [
-            4.2099999999999995e-06,
-            4.190999999999999e-06,
-            4.171999999999999e-06,
-            4.133999999999999e-06
-          ],
-          "levels": [
-            2.0,
-            3.0,
-            4.0,
-            6.0
-          ],
-          "weights": [
-            0.3,
-            0.25,
-            0.2,
-            0.1
-          ],
-          "trail": 1.5,
-          "hit": [
-            false,
-            false,
-            false,
-            false
-          ],
-          "runner_on": false,
-          "best": 4.248e-06,
-          "status": "open",
-          "opened_ms": 1792982107892,
-          "armed_ms": 1792982107892,
-          "last_ms": 1792983719999,
-          "bar_ms": 1792980900000,
-          "mfe_r": 0.3684,
-          "mae_r": 0.8421,
-          "events": [],
-          "tier": "orig",
-          "profile": "Q1",
-          "msg_id": 5958,
-          "polled_ms": 1792983723265
+          "polled_ms": 1792984185752
         }
       },
       "seen": [],
@@ -127735,14 +127710,14 @@
         "CN4H|SOL/USD|4h": 1792958400000,
         "CN4H|XRP/USD|4h": 1792958400000,
         "CN4H|ADA/USD|4h": 1792958400000,
-        "TKF|DOGE/USD|5m": 1792983300000,
-        "TKF|LINK/USD|5m": 1792983300000,
-        "TKF|SUI/USD|5m": 1792983300000,
-        "TKF|LTC/USD|5m": 1792983300000,
-        "TKF|AVAX/USD|5m": 1792983300000,
-        "TKF|DOT/USD|5m": 1792983300000,
-        "TKF|NEAR/USD|5m": 1792983300000,
-        "TKF|ATOM/USD|5m": 1792983300000,
+        "TKF|DOGE/USD|5m": 1792983900000,
+        "TKF|LINK/USD|5m": 1792983900000,
+        "TKF|SUI/USD|5m": 1792983900000,
+        "TKF|LTC/USD|5m": 1792983900000,
+        "TKF|AVAX/USD|5m": 1792983900000,
+        "TKF|DOT/USD|5m": 1792983900000,
+        "TKF|NEAR/USD|5m": 1792983900000,
+        "TKF|ATOM/USD|5m": 1792983900000,
         "SMS|DOGE/USD|5m": 1792728900000,
         "SMS|LINK/USD|5m": 1792728900000,
         "SMS|SUI/USD|5m": 1792728900000,
@@ -127791,14 +127766,14 @@
         "HOT|UNI/USD|15m|BUY": 1792746000000,
         "HOT|AKE/USD|5m|BUY": 1792740600000,
         "HOT|AKE/USD|15m|BUY": 1792739700000,
-        "FBR|DOGE/USD|5m": 1792983300000,
-        "FBR|LINK/USD|5m": 1792983300000,
-        "FBR|SUI/USD|5m": 1792983300000,
-        "FBR|LTC/USD|5m": 1792983300000,
-        "FBR|AVAX/USD|5m": 1792983300000,
-        "FBR|DOT/USD|5m": 1792983300000,
-        "FBR|NEAR/USD|5m": 1792983300000,
-        "FBR|ATOM/USD|5m": 1792983300000,
+        "FBR|DOGE/USD|5m": 1792983900000,
+        "FBR|LINK/USD|5m": 1792983900000,
+        "FBR|SUI/USD|5m": 1792983900000,
+        "FBR|LTC/USD|5m": 1792983900000,
+        "FBR|AVAX/USD|5m": 1792983900000,
+        "FBR|DOT/USD|5m": 1792983900000,
+        "FBR|NEAR/USD|5m": 1792983900000,
+        "FBR|ATOM/USD|5m": 1792983900000,
         "HOT|PEPE/USD|5m|BUY": 1792783200000,
         "HOT|PEPE/USD|15m|BUY": 1792782000000,
         "HOT|QNT/USD|5m|SELL": 1792783200000,
@@ -127911,12 +127886,12 @@
         },
         "TKF": {
           "since": 1792713510,
-          "checks": 4960,
+          "checks": 4968,
           "nodata": 0,
           "raw": 0,
           "blocked": {},
           "opened": 0,
-          "last_check": 1792983859
+          "last_check": 1792984231
         },
         "SMS": {
           "since": 1792713520,
@@ -127969,7 +127944,7 @@
           "nodata": 0,
           "raw": 15,
           "blocked": {
-            "off_session": 195,
+            "off_session": 196,
             "no_pullback": 793,
             "daily_cap": 159,
             "time_budget": 4,
@@ -127980,12 +127955,12 @@
         },
         "FBR": {
           "since": 1792740561,
-          "checks": 4520,
+          "checks": 4528,
           "nodata": 0,
           "raw": 4,
           "blocked": {},
           "opened": 4,
-          "last_check": 1792983859
+          "last_check": 1792984231
         }
       },
       "mx_last": {
