@@ -127472,7 +127472,7 @@
     "GRAM/USD|1h": 1793103418.724253,
     "CC/USD|1h": 1793145873.6808643
   },
-  "live_check_cursor": 2,
+  "live_check_cursor": 0,
   "module_store": {
     "module_trades.json": {
       "trades": {
