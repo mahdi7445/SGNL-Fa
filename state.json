@@ -53860,7 +53860,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -53868,9 +53868,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": 0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1793216936997,
         "events": [
           {
@@ -53883,6 +53888,18 @@
             "ts": "2026-10-28T19:51:22.212725+00:00",
             "price": 0.28929999999999995,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-28T19:51:25.051225+00:00",
+            "price": 0.2885,
+            "r": 0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-28T19:51:25.294510+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "quality_tier": "experimental",
@@ -53891,7 +53908,8 @@
         "htf_aligned": null,
         "stop_pct": 0.2773,
         "fee_r_est": 0.5409,
-        "signal_message_id": 6142
+        "signal_message_id": 6142,
+        "close_type": "breakeven"
       },
       "pending_signal": null
     },
@@ -135454,6 +135472,57 @@
       "hot_move_pct": null,
       "tier": "ماژول MRB",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000469",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-10-28T19:48:56.997620+00:00",
+          "price": 0.2885
+        },
+        {
+          "type": "rr",
+          "ts": "2026-10-28T19:51:22.212725+00:00",
+          "price": 0.28929999999999995,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-10-28T19:51:25.051225+00:00",
+          "price": 0.2885,
+          "r": 0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-10-28T19:51:25.294510+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "PONS/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "BUY",
+      "entry": 0.2885,
+      "sl": 0.2877,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-10-28T19:48:56.997000+00:00",
+      "closed_at": "2026-10-28T19:51:25.294510+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": 0.2773,
+      "fee_r_est": 0.5409,
+      "net_r_est": -0.3409
     }
   ],
   "target_events": [
@@ -138076,6 +138145,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-10-28T19:51:22.801961+00:00"
+    },
+    {
+      "symbol": "PONS/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (برنده نسبت به BTC (بازار صعودی))",
+      "side": "BUY",
+      "type": "breakeven",
+      "r": 0.0,
+      "frac": 0.8,
+      "at": "2026-10-28T19:51:25.294448+00:00"
     }
   ],
   "td_unsupported": {
