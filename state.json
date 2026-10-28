@@ -53853,17 +53853,23 @@
         "entry": 0.2885,
         "sl": 0.2877,
         "r": 0.0007999999999999674,
-        "working_sl": 0.2877,
+        "working_sl": 0.2885,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1793216936997,
         "events": [
@@ -53871,6 +53877,12 @@
             "type": "opened",
             "ts": "2026-10-28T19:48:56.997620+00:00",
             "price": 0.2885
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-28T19:51:22.212725+00:00",
+            "price": 0.28929999999999995,
+            "level": 1
           }
         ],
         "quality_tier": "experimental",
@@ -138054,6 +138066,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-10-28T19:44:01.076759+00:00"
+    },
+    {
+      "symbol": "PONS/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-10-28T19:51:22.801961+00:00"
     }
   ],
   "td_unsupported": {
