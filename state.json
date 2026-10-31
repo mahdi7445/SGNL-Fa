@@ -164187,7 +164187,7 @@
     "KMNO/USD|1h": 1793492352.4274487,
     "KMNO/USD|15min": 1793492377.0381427
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
