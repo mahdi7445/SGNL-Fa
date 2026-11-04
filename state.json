@@ -167283,7 +167283,7 @@
   "td_unsupported": {
     "GRAM/USD|1h": 1793840397.2436872
   },
-  "live_check_cursor": 3,
+  "live_check_cursor": 0,
   "module_store": {
     "module_trades.json": {
       "trades": {
