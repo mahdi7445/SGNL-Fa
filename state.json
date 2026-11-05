@@ -175718,7 +175718,7 @@
     "CAP/USD|15min": 1793924233.6539335,
     "FLUID/USD|15min": 1793924241.5827994
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
