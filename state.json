@@ -84,7 +84,7 @@
     "trendalts_refresh": "2026-11-06",
     "flow_perf": "2026-11-06-00",
     "5m": "2026-11-06-01-15",
-    "15m": "2026-11-06-01-00",
+    "15m": "2026-11-06-01-15",
     "1h": "2026-11-06-01",
     "4h": "2026-11-06-00",
     "4h_universe": "2026-11-06-00",
@@ -10700,9 +10700,9 @@
       "pending_signal": null
     },
     "ADA/USD|15m": {
-      "ema7": 0.18294839266185928,
-      "ema25": 0.18304510258447648,
-      "atr": 0.0014942923895849267,
+      "ema7": 0.18348629449639448,
+      "ema25": 0.18320317161643984,
+      "atr": 0.0014732715046145734,
       "tr_buffer": [
         0.0011999999999999789,
         0.0009999999999999731,
@@ -10719,8 +10719,8 @@
         0.0009000000000000119,
         0.0013999999999999846
       ],
-      "plus_dm": 0.00034569181719846094,
-      "minus_dm": 0.0003850200297818413,
+      "plus_dm": 0.00034242811596999905,
+      "minus_dm": 0.0003575185990831384,
       "dm_buffer": [
         [
           0.0,
@@ -10779,7 +10779,7 @@
           0.0010999999999999899
         ]
       ],
-      "adx": 39.82471055415711,
+      "adx": 37.134084615682355,
       "dx_buffer": [
         59.52380952380945,
         59.523809523809454,
@@ -10797,16 +10797,6 @@
         3.096871706631327
       ],
       "hist": [
-        {
-          "o": 0.1975,
-          "h": 0.1978,
-          "l": 0.1971,
-          "c": 0.1975,
-          "ema7": 0.19792316091087503,
-          "sma7": 0.1981,
-          "dt_ms": 1793854800000,
-          "v": null
-        },
         {
           "o": 0.1975,
           "h": 0.1975,
@@ -11596,6 +11586,16 @@
           "sma7": 0.18232857142857142,
           "dt_ms": 1793925900000,
           "v": null
+        },
+        {
+          "o": 0.1848,
+          "h": 0.1851,
+          "l": 0.1839,
+          "c": 0.1851,
+          "ema7": 0.18348629449639448,
+          "sma7": 0.18302857142857146,
+          "dt_ms": 1793926800000,
+          "v": null
         }
       ],
       "trend_prev": "up",
@@ -11604,67 +11604,43 @@
       "last_bull_bar_index": 5028,
       "last_bear_bar_index": 4890,
       "last_signal_price": 0.1848,
-      "bar_index": 5029,
-      "last_open_time": 1793925900000,
+      "bar_index": 5030,
+      "last_open_time": 1793926800000,
       "open_trade": {
-        "signal_id": "ALT-000398",
-        "side": "SELL",
-        "entry": 0.202,
-        "sl": 0.2028,
-        "r": 0.0007999999999999952,
-        "working_sl": 0.2028,
+        "signal_id": "ALT-000729",
+        "side": "BUY",
+        "entry": 0.1848,
+        "sl": 0.1837,
+        "r": 0.0010999999999999899,
+        "working_sl": 0.1837,
         "hit": {
           "1": false,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 1.0,
+        "closed_frac": 0.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [
-          {
-            "target": "stop",
-            "frac": 1.0,
-            "r": -1.0
-          }
-        ],
-        "closed": true,
-        "opened_at_ms": 1792998274786,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1793927935287,
         "events": [
           {
             "type": "opened",
-            "ts": "2026-10-26T07:04:34.786928+00:00",
-            "price": 0.202
-          },
-          {
-            "type": "stop",
-            "ts": "2026-10-26T07:18:59.866727+00:00",
-            "price": 0.2028,
-            "r": -1.0
-          },
-          {
-            "type": "closed",
-            "ts": "2026-10-26T07:19:00.293493+00:00",
-            "close_type": "stop",
-            "final_r": -1.0
+            "ts": "2026-11-06T01:18:55.287052+00:00",
+            "price": 0.1848
           }
         ],
         "quality_tier": "experimental",
         "strategy": "pin+htf1d-v1",
         "htf_trend": -1,
-        "htf_aligned": true,
-        "stop_pct": 0.396,
-        "fee_r_est": 0.3788,
-        "signal_message_id": 5982,
-        "close_type": "stop"
+        "htf_aligned": false,
+        "stop_pct": 0.5952,
+        "fee_r_est": 0.252,
+        "signal_message_id": 6902
       },
-      "pending_signal": {
-        "side": "BUY",
-        "trigger_price": 0.1848,
-        "sl": 0.1837,
-        "created_bar_index": 5028
-      }
+      "pending_signal": null
     },
     "SOL/USD|1h": {
       "ema7": 90.16878294547604,
@@ -186016,7 +185992,7 @@
           "status": "open",
           "opened_ms": 1792742965888,
           "armed_ms": 1792742965888,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1792728000000,
           "mfe_r": 2.9861,
           "mae_r": 0.1273,
@@ -186039,7 +186015,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5679,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000343": {
           "id": "ALT-000343",
@@ -186081,7 +186057,7 @@
           "status": "open",
           "opened_ms": 1792829194487,
           "armed_ms": 1792829194487,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1792814400000,
           "mfe_r": 1.1723,
           "mae_r": 0.0164,
@@ -186089,7 +186065,7 @@
           "tier": "verified",
           "profile": "H3",
           "msg_id": 5844,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000521": {
           "id": "ALT-000521",
@@ -186131,7 +186107,7 @@
           "status": "open",
           "opened_ms": 1793304436482,
           "armed_ms": 1793304436482,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793289600000,
           "mfe_r": 2.1922,
           "mae_r": 0.0,
@@ -186154,7 +186130,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6294,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000547": {
           "id": "ALT-000547",
@@ -186196,7 +186172,7 @@
           "status": "open",
           "opened_ms": 1793318879597,
           "armed_ms": 1793318879597,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793304000000,
           "mfe_r": 0.8426,
           "mae_r": 0.6572,
@@ -186204,7 +186180,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6377,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000560": {
           "id": "ALT-000560",
@@ -186246,7 +186222,7 @@
           "status": "open",
           "opened_ms": 1793333246489,
           "armed_ms": 1793333246489,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793318400000,
           "mfe_r": 0.6613,
           "mae_r": 0.9146,
@@ -186254,7 +186230,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6422,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000561": {
           "id": "ALT-000561",
@@ -186296,7 +186272,7 @@
           "status": "open",
           "opened_ms": 1793333246489,
           "armed_ms": 1793333246489,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793318400000,
           "mfe_r": 0.745,
           "mae_r": 0.4031,
@@ -186304,7 +186280,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6423,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000583": {
           "id": "ALT-000583",
@@ -186346,7 +186322,7 @@
           "status": "open",
           "opened_ms": 1793376232585,
           "armed_ms": 1793376232585,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793361600000,
           "mfe_r": 0.8084,
           "mae_r": 0.2387,
@@ -186354,7 +186330,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6490,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000591": {
           "id": "ALT-000591",
@@ -186396,7 +186372,7 @@
           "status": "open",
           "opened_ms": 1793390735134,
           "armed_ms": 1793390735134,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793376000000,
           "mfe_r": 1.6808,
           "mae_r": 0.3013,
@@ -186412,7 +186388,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6516,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000592": {
           "id": "ALT-000592",
@@ -186454,7 +186430,7 @@
           "status": "open",
           "opened_ms": 1793390735134,
           "armed_ms": 1793390735134,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793376000000,
           "mfe_r": 0.7929,
           "mae_r": 0.957,
@@ -186462,7 +186438,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6517,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000599": {
           "id": "ALT-000599",
@@ -186504,7 +186480,7 @@
           "status": "open",
           "opened_ms": 1793734669852,
           "armed_ms": 1793734669852,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793707200000,
           "mfe_r": 1.1419,
           "mae_r": 0.7075,
@@ -186520,7 +186496,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6553,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000640": {
           "id": "ALT-000640",
@@ -186562,7 +186538,7 @@
           "status": "open",
           "opened_ms": 1793793894657,
           "armed_ms": 1793793894657,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793779200000,
           "mfe_r": 0.5781,
           "mae_r": 0.4509,
@@ -186570,7 +186546,7 @@
           "tier": "verified",
           "profile": "Q2",
           "msg_id": 6645,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000641": {
           "id": "ALT-000641",
@@ -186612,7 +186588,7 @@
           "status": "open",
           "opened_ms": 1793793894657,
           "armed_ms": 1793793894657,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793779200000,
           "mfe_r": 1.6076,
           "mae_r": 0.9654,
@@ -186628,7 +186604,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6646,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000657": {
           "id": "ALT-000657",
@@ -186670,7 +186646,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793793600000,
           "mfe_r": 1.4407,
           "mae_r": 0.0856,
@@ -186686,7 +186662,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6705,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000658": {
           "id": "ALT-000658",
@@ -186728,7 +186704,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793793600000,
           "mfe_r": 1.6706,
           "mae_r": 0.1101,
@@ -186744,7 +186720,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6706,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000659": {
           "id": "ALT-000659",
@@ -186786,7 +186762,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793793600000,
           "mfe_r": 1.757,
           "mae_r": 0.0645,
@@ -186802,7 +186778,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6707,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000679": {
           "id": "ALT-000679",
@@ -186844,7 +186820,7 @@
           "status": "open",
           "opened_ms": 1793880508134,
           "armed_ms": 1793880508134,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793865600000,
           "mfe_r": 0.0549,
           "mae_r": 0.9555,
@@ -186852,7 +186828,7 @@
           "tier": "verified",
           "profile": "Q2",
           "msg_id": 6765,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000688": {
           "id": "ALT-000688",
@@ -186894,7 +186870,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793880000000,
           "mfe_r": 0.2232,
           "mae_r": 0.2285,
@@ -186902,7 +186878,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6796,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000689": {
           "id": "ALT-000689",
@@ -186944,7 +186920,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793880000000,
           "mfe_r": 0.7327,
           "mae_r": 0.2214,
@@ -186952,7 +186928,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6797,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000690": {
           "id": "ALT-000690",
@@ -186994,7 +186970,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793880000000,
           "mfe_r": 0.6437,
           "mae_r": 0.0,
@@ -187002,7 +186978,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6798,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000715": {
           "id": "ALT-000715",
@@ -187044,7 +187020,7 @@
           "status": "open",
           "opened_ms": 1793909310180,
           "armed_ms": 1793909310180,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793894400000,
           "mfe_r": 0.0219,
           "mae_r": 0.387,
@@ -187052,7 +187028,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6860,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000727": {
           "id": "ALT-000727",
@@ -187094,7 +187070,7 @@
           "status": "open",
           "opened_ms": 1793923595262,
           "armed_ms": 1793923595262,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793908800000,
           "mfe_r": 0.2678,
           "mae_r": 0.0,
@@ -187102,7 +187078,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6900,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
         },
         "ALT-000728": {
           "id": "ALT-000728",
@@ -187144,7 +187120,7 @@
           "status": "open",
           "opened_ms": 1793923595262,
           "armed_ms": 1793923595262,
-          "last_ms": 1793927519999,
+          "last_ms": 1793927939999,
           "bar_ms": 1793908800000,
           "mfe_r": 0.2897,
           "mae_r": 0.0,
@@ -187152,7 +187128,154 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6901,
-          "polled_ms": 1793927525748
+          "polled_ms": 1793927947125
+        },
+        "ALT-000730": {
+          "id": "ALT-000730",
+          "module": "CN5M",
+          "symbol": "TIA/USD",
+          "tf": "5m",
+          "side": "SELL",
+          "entry": 0.4177,
+          "sl0": 0.4187,
+          "sl": 0.4187,
+          "risk": 0.0010000000000000009,
+          "targets": [
+            0.4167,
+            0.4157,
+            0.4137,
+            0.4117
+          ],
+          "levels": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.2,
+            0.3,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 0.4177,
+          "status": "open",
+          "opened_ms": 1793927972607,
+          "armed_ms": 1793927972607,
+          "last_ms": 1793927972607,
+          "bar_ms": 1793927400000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "orig",
+          "profile": "CLASSIC",
+          "msg_id": 6903
+        },
+        "ALT-000731": {
+          "id": "ALT-000731",
+          "module": "CN15",
+          "symbol": "SUI/USD",
+          "tf": "15m",
+          "side": "BUY",
+          "entry": 0.8597,
+          "sl0": 0.8546,
+          "sl": 0.8546,
+          "risk": 0.005099999999999993,
+          "targets": [
+            0.8699,
+            0.875,
+            0.8801,
+            0.8903
+          ],
+          "levels": [
+            2.0,
+            3.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.3,
+            0.25,
+            0.2,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 0.8597,
+          "status": "open",
+          "opened_ms": 1793927972607,
+          "armed_ms": 1793927972607,
+          "last_ms": 1793927972607,
+          "bar_ms": 1793926800000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "orig",
+          "profile": "Q1",
+          "msg_id": 6904
+        },
+        "ALT-000732": {
+          "id": "ALT-000732",
+          "module": "CN15",
+          "symbol": "APT/USD",
+          "tf": "15m",
+          "side": "BUY",
+          "entry": 0.5997,
+          "sl0": 0.597,
+          "sl": 0.597,
+          "risk": 0.0027000000000000357,
+          "targets": [
+            0.6051000000000001,
+            0.6078000000000001,
+            0.6105000000000002,
+            0.6159000000000002
+          ],
+          "levels": [
+            2.0,
+            3.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.3,
+            0.25,
+            0.2,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 0.5997,
+          "status": "open",
+          "opened_ms": 1793927972607,
+          "armed_ms": 1793927972607,
+          "last_ms": 1793927972607,
+          "bar_ms": 1793926800000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "orig",
+          "profile": "Q1",
+          "msg_id": 6905
         }
       },
       "seen": [],
@@ -187305,80 +187428,80 @@
         "CN1M|SOL/USD|1m": 1792837620000,
         "CN1M|XRP/USD|1m": 1792837620000,
         "CN1M|ADA/USD|1m": 1792837620000,
-        "CN5M|DOGE/USD|5m": 1793927100000,
-        "CN5M|LINK/USD|5m": 1793927100000,
-        "CN5M|SUI/USD|5m": 1793927100000,
-        "CN5M|LTC/USD|5m": 1793927100000,
-        "CN5M|AVAX/USD|5m": 1793927100000,
-        "CN5M|DOT/USD|5m": 1793927100000,
-        "CN5M|NEAR/USD|5m": 1793927100000,
-        "CN5M|ATOM/USD|5m": 1793927100000,
-        "CN5M|UNI/USD|5m": 1793927100000,
-        "CN5M|BCH/USD|5m": 1793927100000,
-        "CN5M|XLM/USD|5m": 1793927100000,
-        "CN5M|HBAR/USD|5m": 1793927100000,
-        "CN5M|ICP/USD|5m": 1793927100000,
-        "CN5M|APT/USD|5m": 1793927100000,
-        "CN5M|ARB/USD|5m": 1793927100000,
-        "CN5M|OP/USD|5m": 1793927100000,
-        "CN5M|INJ/USD|5m": 1793927100000,
-        "CN5M|AAVE/USD|5m": 1793927100000,
-        "CN5M|FIL/USD|5m": 1793927100000,
-        "CN5M|ETC/USD|5m": 1793927100000,
-        "CN5M|TAO/USD|5m": 1793927100000,
-        "CN5M|SEI/USD|5m": 1793927100000,
-        "CN5M|TIA/USD|5m": 1793927100000,
-        "CN5M|LDO/USD|5m": 1793927100000,
-        "CN5M|SHIB/USD|5m": 1793927100000,
-        "CN5M|PEPE/USD|5m": 1793927100000,
-        "CN5M|XMR/USD|5m": 1793927100000,
-        "CN5M|ZEC/USD|5m": 1793927100000,
-        "CN5M|ALGO/USD|5m": 1793927100000,
-        "CN5M|TRX/USD|5m": 1793927100000,
-        "CN5M|BNB/USD|5m": 1793927100000,
-        "CN5M|POL/USD|5m": 1793927100000,
-        "CN5M|RENDER/USD|5m": 1793927100000,
-        "CN5M|JUP/USD|5m": 1793927100000,
-        "CN5M|SOL/USD|5m": 1793927100000,
-        "CN5M|XRP/USD|5m": 1793927100000,
-        "CN5M|ADA/USD|5m": 1793927100000,
-        "CN15|DOGE/USD|15m": 1793925900000,
-        "CN15|LINK/USD|15m": 1793925900000,
-        "CN15|SUI/USD|15m": 1793925900000,
-        "CN15|LTC/USD|15m": 1793925900000,
-        "CN15|AVAX/USD|15m": 1793925900000,
-        "CN15|DOT/USD|15m": 1793925900000,
-        "CN15|NEAR/USD|15m": 1793925900000,
-        "CN15|ATOM/USD|15m": 1793925900000,
-        "CN15|UNI/USD|15m": 1793925900000,
-        "CN15|BCH/USD|15m": 1793925900000,
-        "CN15|XLM/USD|15m": 1793925900000,
-        "CN15|HBAR/USD|15m": 1793925900000,
-        "CN15|ICP/USD|15m": 1793925900000,
-        "CN15|APT/USD|15m": 1793925900000,
-        "CN15|ARB/USD|15m": 1793925900000,
-        "CN15|OP/USD|15m": 1793925900000,
-        "CN15|INJ/USD|15m": 1793925900000,
-        "CN15|AAVE/USD|15m": 1793925900000,
-        "CN15|FIL/USD|15m": 1793925900000,
-        "CN15|ETC/USD|15m": 1793925900000,
-        "CN15|TAO/USD|15m": 1793925900000,
-        "CN15|SEI/USD|15m": 1793925900000,
-        "CN15|TIA/USD|15m": 1793925900000,
-        "CN15|LDO/USD|15m": 1793925900000,
-        "CN15|SHIB/USD|15m": 1793925900000,
-        "CN15|PEPE/USD|15m": 1793925900000,
-        "CN15|XMR/USD|15m": 1793925900000,
-        "CN15|ZEC/USD|15m": 1793925900000,
-        "CN15|ALGO/USD|15m": 1793925900000,
-        "CN15|TRX/USD|15m": 1793925900000,
-        "CN15|BNB/USD|15m": 1793925900000,
-        "CN15|POL/USD|15m": 1793925900000,
-        "CN15|RENDER/USD|15m": 1793925900000,
-        "CN15|JUP/USD|15m": 1793925900000,
-        "CN15|SOL/USD|15m": 1793925900000,
-        "CN15|XRP/USD|15m": 1793925900000,
-        "CN15|ADA/USD|15m": 1793925900000,
+        "CN5M|DOGE/USD|5m": 1793927400000,
+        "CN5M|LINK/USD|5m": 1793927400000,
+        "CN5M|SUI/USD|5m": 1793927400000,
+        "CN5M|LTC/USD|5m": 1793927400000,
+        "CN5M|AVAX/USD|5m": 1793927400000,
+        "CN5M|DOT/USD|5m": 1793927400000,
+        "CN5M|NEAR/USD|5m": 1793927400000,
+        "CN5M|ATOM/USD|5m": 1793927400000,
+        "CN5M|UNI/USD|5m": 1793927400000,
+        "CN5M|BCH/USD|5m": 1793927400000,
+        "CN5M|XLM/USD|5m": 1793927400000,
+        "CN5M|HBAR/USD|5m": 1793927400000,
+        "CN5M|ICP/USD|5m": 1793927400000,
+        "CN5M|APT/USD|5m": 1793927400000,
+        "CN5M|ARB/USD|5m": 1793927400000,
+        "CN5M|OP/USD|5m": 1793927400000,
+        "CN5M|INJ/USD|5m": 1793927400000,
+        "CN5M|AAVE/USD|5m": 1793927400000,
+        "CN5M|FIL/USD|5m": 1793927400000,
+        "CN5M|ETC/USD|5m": 1793927400000,
+        "CN5M|TAO/USD|5m": 1793927400000,
+        "CN5M|SEI/USD|5m": 1793927400000,
+        "CN5M|TIA/USD|5m": 1793927400000,
+        "CN5M|LDO/USD|5m": 1793927400000,
+        "CN5M|SHIB/USD|5m": 1793927400000,
+        "CN5M|PEPE/USD|5m": 1793927400000,
+        "CN5M|XMR/USD|5m": 1793927400000,
+        "CN5M|ZEC/USD|5m": 1793927400000,
+        "CN5M|ALGO/USD|5m": 1793927400000,
+        "CN5M|TRX/USD|5m": 1793927400000,
+        "CN5M|BNB/USD|5m": 1793927400000,
+        "CN5M|POL/USD|5m": 1793927400000,
+        "CN5M|RENDER/USD|5m": 1793927400000,
+        "CN5M|JUP/USD|5m": 1793927400000,
+        "CN5M|SOL/USD|5m": 1793927400000,
+        "CN5M|XRP/USD|5m": 1793927400000,
+        "CN5M|ADA/USD|5m": 1793927400000,
+        "CN15|DOGE/USD|15m": 1793926800000,
+        "CN15|LINK/USD|15m": 1793926800000,
+        "CN15|SUI/USD|15m": 1793926800000,
+        "CN15|LTC/USD|15m": 1793926800000,
+        "CN15|AVAX/USD|15m": 1793926800000,
+        "CN15|DOT/USD|15m": 1793926800000,
+        "CN15|NEAR/USD|15m": 1793926800000,
+        "CN15|ATOM/USD|15m": 1793926800000,
+        "CN15|UNI/USD|15m": 1793926800000,
+        "CN15|BCH/USD|15m": 1793926800000,
+        "CN15|XLM/USD|15m": 1793926800000,
+        "CN15|HBAR/USD|15m": 1793926800000,
+        "CN15|ICP/USD|15m": 1793926800000,
+        "CN15|APT/USD|15m": 1793926800000,
+        "CN15|ARB/USD|15m": 1793926800000,
+        "CN15|OP/USD|15m": 1793926800000,
+        "CN15|INJ/USD|15m": 1793926800000,
+        "CN15|AAVE/USD|15m": 1793926800000,
+        "CN15|FIL/USD|15m": 1793926800000,
+        "CN15|ETC/USD|15m": 1793926800000,
+        "CN15|TAO/USD|15m": 1793926800000,
+        "CN15|SEI/USD|15m": 1793926800000,
+        "CN15|TIA/USD|15m": 1793926800000,
+        "CN15|LDO/USD|15m": 1793926800000,
+        "CN15|SHIB/USD|15m": 1793926800000,
+        "CN15|PEPE/USD|15m": 1793926800000,
+        "CN15|XMR/USD|15m": 1793926800000,
+        "CN15|ZEC/USD|15m": 1793926800000,
+        "CN15|ALGO/USD|15m": 1793926800000,
+        "CN15|TRX/USD|15m": 1793926800000,
+        "CN15|BNB/USD|15m": 1793926800000,
+        "CN15|POL/USD|15m": 1793926800000,
+        "CN15|RENDER/USD|15m": 1793926800000,
+        "CN15|JUP/USD|15m": 1793926800000,
+        "CN15|SOL/USD|15m": 1793926800000,
+        "CN15|XRP/USD|15m": 1793926800000,
+        "CN15|ADA/USD|15m": 1793926800000,
         "CN1H|DOGE/USD|1h": 1793257200000,
         "CN1H|LINK/USD|1h": 1793257200000,
         "CN1H|SUI/USD|1h": 1793257200000,
@@ -187579,14 +187702,14 @@
         "HOT|PUMP/USD|15m|SELL": 1793280600000,
         "HOT|ZRO/USD|5m|SELL": 1793898000000,
         "HOT|ZRO/USD|15m|SELL": 1793897100000,
-        "TKF|DOGE/USD|15m": 1793925900000,
-        "TKF|LINK/USD|15m": 1793925900000,
-        "TKF|SUI/USD|15m": 1793925900000,
-        "TKF|LTC/USD|15m": 1793925900000,
-        "TKF|AVAX/USD|15m": 1793925900000,
-        "TKF|DOT/USD|15m": 1793925900000,
-        "TKF|NEAR/USD|15m": 1793925900000,
-        "TKF|ATOM/USD|15m": 1793925900000,
+        "TKF|DOGE/USD|15m": 1793926800000,
+        "TKF|LINK/USD|15m": 1793926800000,
+        "TKF|SUI/USD|15m": 1793926800000,
+        "TKF|LTC/USD|15m": 1793926800000,
+        "TKF|AVAX/USD|15m": 1793926800000,
+        "TKF|DOT/USD|15m": 1793926800000,
+        "TKF|NEAR/USD|15m": 1793926800000,
+        "TKF|ATOM/USD|15m": 1793926800000,
         "HOT|PENGU/USD|5m|SELL": 1793275200000,
         "HOT|PENGU/USD|15m|SELL": 1793274300000,
         "HOT|LIGHTER/USD|5m|BUY": 1793895300000,
@@ -187595,14 +187718,14 @@
         "HOT|CRV/USD|15m|SELL": 1793381400000,
         "HOT|TRX/USD|5m|SELL": 1793479800000,
         "HOT|TRX/USD|15m|SELL": 1793478600000,
-        "TKS|DOGE/USD|15m": 1793925900000,
-        "TKS|LINK/USD|15m": 1793925900000,
-        "TKS|SUI/USD|15m": 1793925900000,
-        "TKS|LTC/USD|15m": 1793925900000,
-        "TKS|AVAX/USD|15m": 1793925900000,
-        "TKS|DOT/USD|15m": 1793925900000,
-        "TKS|NEAR/USD|15m": 1793925900000,
-        "TKS|ATOM/USD|15m": 1793925900000,
+        "TKS|DOGE/USD|15m": 1793926800000,
+        "TKS|LINK/USD|15m": 1793926800000,
+        "TKS|SUI/USD|15m": 1793926800000,
+        "TKS|LTC/USD|15m": 1793926800000,
+        "TKS|AVAX/USD|15m": 1793926800000,
+        "TKS|DOT/USD|15m": 1793926800000,
+        "TKS|NEAR/USD|15m": 1793926800000,
+        "TKS|ATOM/USD|15m": 1793926800000,
         "HOT|WLD/USD|5m|BUY": 1793382300000,
         "HOT|WLD/USD|15m|BUY": 1793381400000,
         "HOT|XMR/USD|5m|SELL": 1793370600000,
@@ -187680,30 +187803,31 @@
         },
         "CN5M": {
           "since": 1792713423,
-          "checks": 47396,
+          "checks": 47433,
           "nodata": 1,
-          "raw": 163,
+          "raw": 164,
           "blocked": {
             "already_open": 5,
             "weekly_loss(-14.35R)": 2,
             "weekly_loss(-11.25R)": 11
           },
-          "opened": 145,
-          "last_check": 1793927595
+          "opened": 146,
+          "last_check": 1793928016
         },
         "CN15": {
           "since": 1792713467,
-          "checks": 33337,
+          "checks": 33374,
           "nodata": 0,
-          "raw": 163,
+          "raw": 166,
           "blocked": {
             "weekly_loss(-14.35R)": 2,
             "weekly_loss(-11.45R)": 2,
             "weekly_loss(-11.25R)": 9,
-            "already_open": 3
+            "already_open": 3,
+            "duplicate_signal": 1
           },
-          "opened": 147,
-          "last_check": 1793927056
+          "opened": 149,
+          "last_check": 1793928061
         },
         "CN1H": {
           "since": 1792713510,
@@ -187727,12 +187851,12 @@
         },
         "TKF": {
           "since": 1792713510,
-          "checks": 14544,
+          "checks": 14552,
           "nodata": 0,
           "raw": 0,
           "blocked": {},
           "opened": 0,
-          "last_check": 1793927064
+          "last_check": 1793928086
         },
         "SMS": {
           "since": 1792713520,
@@ -187791,7 +187915,7 @@
           "nodata": 1,
           "raw": 51,
           "blocked": {
-            "off_session": 841,
+            "off_session": 842,
             "no_pullback": 3460,
             "daily_cap": 420,
             "time_budget": 43,
@@ -187816,12 +187940,12 @@
         },
         "TKS": {
           "since": 1793360359,
-          "checks": 3264,
+          "checks": 3272,
           "nodata": 0,
           "raw": 0,
           "blocked": {},
           "opened": 0,
-          "last_check": 1793927065
+          "last_check": 1793928090
         }
       },
       "mx_last": {
@@ -187876,7 +188000,7 @@
         "CN1H|FIL/USD": 1793048531168,
         "CN4H|POL/USD": 1792785957496,
         "CN5M|ADA/USD": 1793911602010,
-        "CN15|APT/USD": 1793908269464,
+        "CN15|APT/USD": 1793927972607,
         "CN5M|UNI/USD": 1793834837657,
         "CN5M|JUP/USD": 1793755390823,
         "HDV3|ALGO/USD": 1792800284425,
@@ -187885,7 +188009,7 @@
         "SWP|FIL/USD": 1793808237348,
         "CN5M|ARB/USD": 1793812520431,
         "CN15|PEPE/USD": 1793196418918,
-        "CN15|SUI/USD": 1793791924199,
+        "CN15|SUI/USD": 1793927972607,
         "CN15|TAO/USD": 1793906348179,
         "SWP|XMR/USD": 1793376232585,
         "CN15|BNB/USD": 1793112550470,
@@ -187959,7 +188083,7 @@
         "CN5M|BNB/USD": 1793364529827,
         "CN5M|ALGO/USD": 1793922538571,
         "CN5M|POL/USD": 1793794564457,
-        "CN5M|TIA/USD": 1793887848514,
+        "CN5M|TIA/USD": 1793927972607,
         "CN15|ZEC/USD": 1793735396359,
         "SWP|SUI/USD": 1793909310180,
         "HDV3|POL/USD": 1793793894657,
@@ -187969,7 +188093,9 @@
       },
       "mx_day": {
         "day": "2026-11-06",
-        "SWP": 2
+        "SWP": 2,
+        "CN5M": 1,
+        "CN15": 2
       },
       "hot_daily": {
         "day": "2026-11-06",
