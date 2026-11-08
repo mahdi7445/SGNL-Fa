@@ -196535,7 +196535,7 @@
     "STABLE/USD|15min": 1794097248.112035,
     "BEAM/USD|15min": 1794097713.9158876
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
