@@ -196522,7 +196522,7 @@
     "HYPE/USD|1h": 1794183194.0735939,
     "LEO/USD|1h": 1794183216.8668697
   },
-  "live_check_cursor": 2,
+  "live_check_cursor": 3,
   "module_store": {
     "module_trades.json": {
       "trades": {
