@@ -196949,7 +196949,7 @@
     "CC/USD|1h": 1794226294.6497605,
     "GRAM/USD|1h": 1794226566.0615034
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
@@ -196993,7 +196993,7 @@
           "status": "open",
           "opened_ms": 1792742965888,
           "armed_ms": 1792742965888,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1792728000000,
           "mfe_r": 3.2152,
           "mae_r": 0.1273,
@@ -197016,7 +197016,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5679,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000343": {
           "id": "ALT-000343",
@@ -197058,7 +197058,7 @@
           "status": "open",
           "opened_ms": 1792829194487,
           "armed_ms": 1792829194487,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1792814400000,
           "mfe_r": 1.4254,
           "mae_r": 0.0164,
@@ -197066,7 +197066,7 @@
           "tier": "verified",
           "profile": "H3",
           "msg_id": 5844,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000521": {
           "id": "ALT-000521",
@@ -197108,7 +197108,7 @@
           "status": "open",
           "opened_ms": 1793304436482,
           "armed_ms": 1793304436482,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793289600000,
           "mfe_r": 2.8738,
           "mae_r": 0.0,
@@ -197131,7 +197131,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6294,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000561": {
           "id": "ALT-000561",
@@ -197173,7 +197173,7 @@
           "status": "open",
           "opened_ms": 1793333246489,
           "armed_ms": 1793333246489,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793318400000,
           "mfe_r": 0.745,
           "mae_r": 0.4031,
@@ -197181,7 +197181,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6423,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000583": {
           "id": "ALT-000583",
@@ -197223,7 +197223,7 @@
           "status": "open",
           "opened_ms": 1793376232585,
           "armed_ms": 1793376232585,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793361600000,
           "mfe_r": 0.8084,
           "mae_r": 0.2387,
@@ -197231,7 +197231,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6490,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000591": {
           "id": "ALT-000591",
@@ -197273,7 +197273,7 @@
           "status": "open",
           "opened_ms": 1793390735134,
           "armed_ms": 1793390735134,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793376000000,
           "mfe_r": 1.6808,
           "mae_r": 0.3013,
@@ -197289,7 +197289,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6516,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000592": {
           "id": "ALT-000592",
@@ -197331,7 +197331,7 @@
           "status": "open",
           "opened_ms": 1793390735134,
           "armed_ms": 1793390735134,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793376000000,
           "mfe_r": 0.8803,
           "mae_r": 0.957,
@@ -197339,7 +197339,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6517,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000599": {
           "id": "ALT-000599",
@@ -197381,7 +197381,7 @@
           "status": "open",
           "opened_ms": 1793734669852,
           "armed_ms": 1793734669852,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793707200000,
           "mfe_r": 1.1419,
           "mae_r": 0.7075,
@@ -197397,7 +197397,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6553,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000641": {
           "id": "ALT-000641",
@@ -197439,7 +197439,7 @@
           "status": "open",
           "opened_ms": 1793793894657,
           "armed_ms": 1793793894657,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793779200000,
           "mfe_r": 3.5076,
           "mae_r": 0.9654,
@@ -197462,7 +197462,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6646,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000657": {
           "id": "ALT-000657",
@@ -197504,7 +197504,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793793600000,
           "mfe_r": 1.9511,
           "mae_r": 0.0856,
@@ -197520,7 +197520,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6705,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000658": {
           "id": "ALT-000658",
@@ -197562,7 +197562,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793793600000,
           "mfe_r": 2.4909,
           "mae_r": 0.1101,
@@ -197585,7 +197585,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6706,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000659": {
           "id": "ALT-000659",
@@ -197627,7 +197627,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793793600000,
           "mfe_r": 2.7241,
           "mae_r": 0.0645,
@@ -197650,7 +197650,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6707,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000688": {
           "id": "ALT-000688",
@@ -197692,7 +197692,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793880000000,
           "mfe_r": 0.3298,
           "mae_r": 0.613,
@@ -197700,7 +197700,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6796,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000689": {
           "id": "ALT-000689",
@@ -197742,7 +197742,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793880000000,
           "mfe_r": 2.3237,
           "mae_r": 0.2214,
@@ -197765,7 +197765,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6797,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000690": {
           "id": "ALT-000690",
@@ -197807,7 +197807,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793880000000,
           "mfe_r": 0.7923,
           "mae_r": 0.0,
@@ -197815,7 +197815,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6798,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000715": {
           "id": "ALT-000715",
@@ -197857,7 +197857,7 @@
           "status": "open",
           "opened_ms": 1793909310180,
           "armed_ms": 1793909310180,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793894400000,
           "mfe_r": 0.2735,
           "mae_r": 0.7443,
@@ -197865,7 +197865,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6860,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000727": {
           "id": "ALT-000727",
@@ -197907,7 +197907,7 @@
           "status": "open",
           "opened_ms": 1793923595262,
           "armed_ms": 1793923595262,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793908800000,
           "mfe_r": 0.7169,
           "mae_r": 0.4923,
@@ -197915,7 +197915,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6900,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000728": {
           "id": "ALT-000728",
@@ -197957,7 +197957,7 @@
           "status": "open",
           "opened_ms": 1793923595262,
           "armed_ms": 1793923595262,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1793908800000,
           "mfe_r": 0.4635,
           "mae_r": 0.4925,
@@ -197965,7 +197965,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6901,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000768": {
           "id": "ALT-000768",
@@ -198007,7 +198007,7 @@
           "status": "open",
           "opened_ms": 1794048165469,
           "armed_ms": 1794048165469,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1794042000000,
           "mfe_r": 2.8695,
           "mae_r": 0.1906,
@@ -198023,7 +198023,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 6998,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000769": {
           "id": "ALT-000769",
@@ -198065,7 +198065,7 @@
           "status": "open",
           "opened_ms": 1794048165469,
           "armed_ms": 1794048165469,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1794042000000,
           "mfe_r": 2.9061,
           "mae_r": 0.0,
@@ -198081,7 +198081,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 6999,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000770": {
           "id": "ALT-000770",
@@ -198123,7 +198123,7 @@
           "status": "open",
           "opened_ms": 1794048165469,
           "armed_ms": 1794048165469,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1794042000000,
           "mfe_r": 2.7692,
           "mae_r": 0.4743,
@@ -198139,7 +198139,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7000,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000772": {
           "id": "ALT-000772",
@@ -198181,7 +198181,7 @@
           "status": "open",
           "opened_ms": 1794067585563,
           "armed_ms": 1794067585563,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1794063600000,
           "mfe_r": 2.9178,
           "mae_r": 0.2822,
@@ -198197,7 +198197,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7009,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000773": {
           "id": "ALT-000773",
@@ -198239,7 +198239,7 @@
           "status": "open",
           "opened_ms": 1794067585563,
           "armed_ms": 1794067585563,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1794063600000,
           "mfe_r": 2.5067,
           "mae_r": 0.5892,
@@ -198255,7 +198255,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7010,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000774": {
           "id": "ALT-000774",
@@ -198297,7 +198297,7 @@
           "status": "open",
           "opened_ms": 1794067585563,
           "armed_ms": 1794067585563,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1794063600000,
           "mfe_r": 1.7436,
           "mae_r": 0.519,
@@ -198305,7 +198305,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7011,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000786": {
           "id": "ALT-000786",
@@ -198347,7 +198347,7 @@
           "status": "open",
           "opened_ms": 1794177035657,
           "armed_ms": 1794177035657,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178439999,
           "bar_ms": 1794176700000,
           "mfe_r": 2.276,
           "mae_r": 0.268,
@@ -198363,7 +198363,7 @@
           "tier": "orig",
           "profile": "Q3",
           "msg_id": 7051,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         },
         "ALT-000787": {
           "id": "ALT-000787",
@@ -198405,15 +198405,15 @@
           "status": "open",
           "opened_ms": 1794177903326,
           "armed_ms": 1794177903326,
-          "last_ms": 1794178319999,
+          "last_ms": 1794178499999,
           "bar_ms": 1794177000000,
           "mfe_r": 0.8814,
-          "mae_r": 0.0996,
+          "mae_r": 0.3675,
           "events": [],
           "tier": "orig",
           "profile": "Q1",
           "msg_id": 7052,
-          "polled_ms": 1794178341585
+          "polled_ms": 1794178471096
         }
       },
       "seen": [],
@@ -198566,43 +198566,43 @@
         "CN1M|SOL/USD|1m": 1792837620000,
         "CN1M|XRP/USD|1m": 1792837620000,
         "CN1M|ADA/USD|1m": 1792837620000,
-        "CN5M|DOGE/USD|5m": 1794177900000,
-        "CN5M|LINK/USD|5m": 1794177900000,
-        "CN5M|SUI/USD|5m": 1794177900000,
-        "CN5M|LTC/USD|5m": 1794177900000,
-        "CN5M|AVAX/USD|5m": 1794177900000,
-        "CN5M|DOT/USD|5m": 1794177900000,
-        "CN5M|NEAR/USD|5m": 1794177900000,
-        "CN5M|ATOM/USD|5m": 1794177900000,
-        "CN5M|UNI/USD|5m": 1794177900000,
-        "CN5M|BCH/USD|5m": 1794177900000,
-        "CN5M|XLM/USD|5m": 1794177900000,
-        "CN5M|HBAR/USD|5m": 1794177900000,
-        "CN5M|ICP/USD|5m": 1794177900000,
-        "CN5M|APT/USD|5m": 1794177900000,
-        "CN5M|ARB/USD|5m": 1794177900000,
-        "CN5M|OP/USD|5m": 1794177900000,
-        "CN5M|INJ/USD|5m": 1794177900000,
-        "CN5M|AAVE/USD|5m": 1794177900000,
-        "CN5M|FIL/USD|5m": 1794177900000,
-        "CN5M|ETC/USD|5m": 1794177900000,
-        "CN5M|TAO/USD|5m": 1794177900000,
-        "CN5M|SEI/USD|5m": 1794177900000,
-        "CN5M|TIA/USD|5m": 1794177900000,
-        "CN5M|LDO/USD|5m": 1794177900000,
-        "CN5M|SHIB/USD|5m": 1794177900000,
-        "CN5M|PEPE/USD|5m": 1794177900000,
-        "CN5M|XMR/USD|5m": 1794177900000,
-        "CN5M|ZEC/USD|5m": 1794177900000,
-        "CN5M|ALGO/USD|5m": 1794177900000,
-        "CN5M|TRX/USD|5m": 1794177900000,
-        "CN5M|BNB/USD|5m": 1794177900000,
-        "CN5M|POL/USD|5m": 1794177900000,
-        "CN5M|RENDER/USD|5m": 1794177900000,
-        "CN5M|JUP/USD|5m": 1794177900000,
-        "CN5M|SOL/USD|5m": 1794177900000,
-        "CN5M|XRP/USD|5m": 1794177900000,
-        "CN5M|ADA/USD|5m": 1794177900000,
+        "CN5M|DOGE/USD|5m": 1794178200000,
+        "CN5M|LINK/USD|5m": 1794178200000,
+        "CN5M|SUI/USD|5m": 1794178200000,
+        "CN5M|LTC/USD|5m": 1794178200000,
+        "CN5M|AVAX/USD|5m": 1794178200000,
+        "CN5M|DOT/USD|5m": 1794178200000,
+        "CN5M|NEAR/USD|5m": 1794178200000,
+        "CN5M|ATOM/USD|5m": 1794178200000,
+        "CN5M|UNI/USD|5m": 1794178200000,
+        "CN5M|BCH/USD|5m": 1794178200000,
+        "CN5M|XLM/USD|5m": 1794178200000,
+        "CN5M|HBAR/USD|5m": 1794178200000,
+        "CN5M|ICP/USD|5m": 1794178200000,
+        "CN5M|APT/USD|5m": 1794178200000,
+        "CN5M|ARB/USD|5m": 1794178200000,
+        "CN5M|OP/USD|5m": 1794178200000,
+        "CN5M|INJ/USD|5m": 1794178200000,
+        "CN5M|AAVE/USD|5m": 1794178200000,
+        "CN5M|FIL/USD|5m": 1794178200000,
+        "CN5M|ETC/USD|5m": 1794178200000,
+        "CN5M|TAO/USD|5m": 1794178200000,
+        "CN5M|SEI/USD|5m": 1794178200000,
+        "CN5M|TIA/USD|5m": 1794178200000,
+        "CN5M|LDO/USD|5m": 1794178200000,
+        "CN5M|SHIB/USD|5m": 1794178200000,
+        "CN5M|PEPE/USD|5m": 1794178200000,
+        "CN5M|XMR/USD|5m": 1794178200000,
+        "CN5M|ZEC/USD|5m": 1794178200000,
+        "CN5M|ALGO/USD|5m": 1794178200000,
+        "CN5M|TRX/USD|5m": 1794178200000,
+        "CN5M|BNB/USD|5m": 1794178200000,
+        "CN5M|POL/USD|5m": 1794178200000,
+        "CN5M|RENDER/USD|5m": 1794178200000,
+        "CN5M|JUP/USD|5m": 1794178200000,
+        "CN5M|SOL/USD|5m": 1794178200000,
+        "CN5M|XRP/USD|5m": 1794178200000,
+        "CN5M|ADA/USD|5m": 1794178200000,
         "CN15|DOGE/USD|15m": 1794177000000,
         "CN15|LINK/USD|15m": 1794177000000,
         "CN15|SUI/USD|15m": 1794177000000,
@@ -198983,7 +198983,7 @@
         },
         "CN5M": {
           "since": 1792713423,
-          "checks": 68227,
+          "checks": 68264,
           "nodata": 1,
           "raw": 184,
           "blocked": {
@@ -198994,7 +198994,7 @@
             "loss_streak(8)": 1
           },
           "opened": 160,
-          "last_check": 1794178416
+          "last_check": 1794178545
         },
         "CN15": {
           "since": 1792713467,
@@ -199113,7 +199113,7 @@
           "nodata": 551,
           "raw": 85,
           "blocked": {
-            "off_session": 1018,
+            "off_session": 1019,
             "no_pullback": 3601,
             "daily_cap": 619,
             "time_budget": 49,
