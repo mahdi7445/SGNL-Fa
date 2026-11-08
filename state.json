@@ -21166,14 +21166,14 @@
         "entry": 0.2218,
         "sl": 0.24045317820725487,
         "r": 0.018653178207254872,
-        "working_sl": 0.20314682179274512,
+        "working_sl": 0.18449364358549025,
         "hit": {
           "1": true,
           "2": true,
-          "3": false,
+          "3": true,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 0.65,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -21186,6 +21186,11 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": 3,
+            "frac": 0.15,
+            "r": 4
           }
         ],
         "closed": false,
@@ -21207,6 +21212,12 @@
             "ts": "2026-10-14T15:08:52.734956+00:00",
             "price": 0.18449364358549025,
             "level": 2
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-08T22:06:57.158372+00:00",
+            "price": 0.1471872871709805,
+            "level": 3
           }
         ],
         "signal_message_id": 5421
@@ -196920,6 +196931,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-11-08T20:03:05.688115+00:00"
+    },
+    {
+      "symbol": "XLM/USD",
+      "tf": "1h",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_3",
+      "r": 4,
+      "frac": 0.15,
+      "at": "2026-11-08T22:06:57.762550+00:00"
     }
   ],
   "td_unsupported": {
@@ -196928,7 +196949,7 @@
     "CC/USD|1h": 1794226294.6497605,
     "GRAM/USD|1h": 1794226566.0615034
   },
-  "live_check_cursor": 4,
+  "live_check_cursor": 5,
   "module_store": {
     "module_trades.json": {
       "trades": {
