@@ -199116,7 +199116,7 @@
     "ZAMA/USD|15min": 1794270133.0382135,
     "XPL/USD|15min": 1794270140.895484
   },
-  "live_check_cursor": 3,
+  "live_check_cursor": 4,
   "module_store": {
     "module_trades.json": {
       "trades": {
