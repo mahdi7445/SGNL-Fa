@@ -200488,7 +200488,7 @@
     "XPL/USD|15min": 1794270140.895484,
     "SOON/USD|15min": 1794270616.3055723
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
