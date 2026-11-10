@@ -86,7 +86,7 @@
     "trendalts_refresh": "2026-11-10",
     "flow_perf": "2026-11-10-15",
     "5m": "2026-11-10-15-35",
-    "15m": "2026-11-10-15-15",
+    "15m": "2026-11-10-15-30",
     "1h": "2026-11-10-15",
     "4h": "2026-11-10-12",
     "4h_universe": "2026-11-10-12",
@@ -9724,9 +9724,9 @@
       "pending_signal": null
     },
     "XRP/USD|15m": {
-      "ema7": 1.0655893799932725,
-      "ema25": 1.0755316452162709,
-      "atr": 0.008497699520295568,
+      "ema7": 1.0625670349949545,
+      "ema25": 1.0738369032765578,
+      "atr": 0.008626435268845883,
       "tr_buffer": [
         0.006599999999999939,
         0.0032000000000000917,
@@ -9743,8 +9743,8 @@
         0.014899999999999913,
         0.02279999999999993
       ],
-      "plus_dm": 0.0014306330686007244,
-      "minus_dm": 0.0022979267524748798,
+      "plus_dm": 0.0013284449922721013,
+      "minus_dm": 0.0027409319844409565,
       "dm_buffer": [
         [
           0.0,
@@ -9803,7 +9803,7 @@
           0.010499999999999954
         ]
       ],
-      "adx": 41.56752429755411,
+      "adx": 41.07771209256497,
       "dx_buffer": [
         77.07423580786028,
         77.07423580786029,
@@ -9821,16 +9821,6 @@
         26.08489174411308
       ],
       "hist": [
-        {
-          "o": 1.0923,
-          "h": 1.0961,
-          "l": 1.09,
-          "c": 1.0901,
-          "ema7": 1.0920703569686165,
-          "sma7": 1.0911285714285714,
-          "dt_ms": 1794251700000,
-          "v": null
-        },
         {
           "o": 1.0901,
           "h": 1.1035,
@@ -10620,6 +10610,16 @@
           "sma7": 1.0638285714285713,
           "dt_ms": 1794322800000,
           "v": null
+        },
+        {
+          "o": 1.0617,
+          "h": 1.063,
+          "l": 1.0527,
+          "c": 1.0535,
+          "ema7": 1.0625670349949545,
+          "sma7": 1.0616999999999999,
+          "dt_ms": 1794323700000,
+          "v": null
         }
       ],
       "trend_prev": "down",
@@ -10628,83 +10628,48 @@
       "last_bull_bar_index": 5366,
       "last_bear_bar_index": 5469,
       "last_signal_price": 1.0618,
-      "bar_index": 5470,
-      "last_open_time": 1794322800000,
+      "bar_index": 5471,
+      "last_open_time": 1794323700000,
       "open_trade": {
-        "signal_id": "ALT-000800",
+        "signal_id": "ALT-000869",
         "side": "SELL",
-        "entry": 1.1167,
-        "sl": 1.1264,
-        "r": 0.009700000000000042,
-        "working_sl": 1.1167,
+        "entry": 1.0612,
+        "sl": 1.075,
+        "r": 0.013800000000000034,
+        "working_sl": 1.075,
         "hit": {
-          "1": true,
+          "1": false,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 1.0,
+        "closed_frac": 0.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [
-          {
-            "target": 1,
-            "frac": 0.2,
-            "r": 1
-          },
-          {
-            "target": "stop",
-            "frac": 0.8,
-            "r": -0.0
-          }
-        ],
-        "closed": true,
-        "opened_at_ms": 1794188266516,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1794324963120,
         "events": [
           {
             "type": "opened",
-            "ts": "2026-11-09T01:37:46.516482+00:00",
-            "price": 1.1167
-          },
-          {
-            "type": "rr",
-            "ts": "2026-11-09T03:09:32.948426+00:00",
-            "price": 1.107,
-            "level": 1
-          },
-          {
-            "type": "breakeven",
-            "ts": "2026-11-09T03:22:10.490771+00:00",
-            "price": 1.1167,
-            "r": -0.0
-          },
-          {
-            "type": "closed",
-            "ts": "2026-11-09T03:22:11.055832+00:00",
-            "close_type": "breakeven",
-            "final_r": 0.2
+            "ts": "2026-11-10T15:36:03.120835+00:00",
+            "price": 1.0612
           }
         ],
         "quality_tier": "experimental",
         "strategy": "pin+htf1d-v1",
         "htf_trend": -1,
         "htf_aligned": true,
-        "stop_pct": 0.8686,
-        "fee_r_est": 0.1727,
-        "signal_message_id": 7077,
-        "close_type": "breakeven"
+        "stop_pct": 1.3004,
+        "fee_r_est": 0.1153,
+        "signal_message_id": 7277
       },
-      "pending_signal": {
-        "side": "SELL",
-        "trigger_price": 1.0612,
-        "sl": 1.075,
-        "created_bar_index": 5469
-      }
+      "pending_signal": null
     },
     "ADA/USD|15m": {
-      "ema7": 0.17704425258813253,
-      "ema25": 0.17744352424229864,
-      "atr": 0.0011341301646230627,
+      "ema7": 0.1767331894410994,
+      "ema25": 0.17731709930058337,
+      "atr": 0.0011959780100071298,
       "tr_buffer": [
         0.0011999999999999789,
         0.0009999999999999731,
@@ -10721,8 +10686,8 @@
         0.0009000000000000119,
         0.0013999999999999846
       ],
-      "plus_dm": 0.00021482309708938173,
-      "minus_dm": 0.00027792500476793154,
+      "plus_dm": 0.0001994785901544259,
+      "minus_dm": 0.00037950179014165124,
       "dm_buffer": [
         [
           0.0,
@@ -10781,7 +10746,7 @@
           0.0010999999999999899
         ]
       ],
-      "adx": 35.02024150965325,
+      "adx": 34.73973450285596,
       "dx_buffer": [
         59.52380952380945,
         59.523809523809454,
@@ -10799,16 +10764,6 @@
         3.096871706631327
       ],
       "hist": [
-        {
-          "o": 0.1784,
-          "h": 0.1789,
-          "l": 0.1782,
-          "c": 0.1782,
-          "ema7": 0.1783200505796004,
-          "sma7": 0.1781142857142857,
-          "dt_ms": 1794251700000,
-          "v": null
-        },
         {
           "o": 0.1782,
           "h": 0.1798,
@@ -11598,16 +11553,26 @@
           "sma7": 0.1766285714285714,
           "dt_ms": 1794322800000,
           "v": null
+        },
+        {
+          "o": 0.1775,
+          "h": 0.1776,
+          "l": 0.1756,
+          "c": 0.1758,
+          "ema7": 0.1767331894410994,
+          "sma7": 0.1766,
+          "dt_ms": 1794323700000,
+          "v": null
         }
       ],
-      "trend_prev": "up",
+      "trend_prev": "down",
       "bull_used_this_trend": false,
-      "bear_used_this_trend": true,
+      "bear_used_this_trend": false,
       "last_bull_bar_index": 5393,
       "last_bear_bar_index": 5465,
       "last_signal_price": 0.1762,
-      "bar_index": 5470,
-      "last_open_time": 1794322800000,
+      "bar_index": 5471,
+      "last_open_time": 1794323700000,
       "open_trade": {
         "signal_id": "ALT-000866",
         "side": "SELL",
@@ -208309,6 +208274,51 @@
       "hot_move_pct": null,
       "tier": "ماژول CN5M",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000868",
+      "events": [
+        {
+          "type": "stop",
+          "price": 2.404,
+          "final_r": -1.0,
+          "ts": "2026-11-10T15:38:43.509096+00:00"
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-10T15:38:43.678498+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "ICP/USD",
+      "tf": "15m",
+      "logical_tf": "15m",
+      "side": "BUY",
+      "entry": 2.415,
+      "sl": 2.404,
+      "final_r": -1.0,
+      "targets_hit": [],
+      "close_type": "stop",
+      "close_reason": "stop",
+      "opened_at": "2026-11-10T15:15:08.407000+00:00",
+      "closed_at": "2026-11-10T15:38:43.678498+00:00",
+      "r_pct": 0.4555,
+      "mfe_r": 0.4545,
+      "mae_r": 1.1818,
+      "quality_tier": "orig",
+      "strategy": "module:CN15",
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": 0.4555,
+      "fee_r_est": null,
+      "net_r_est": null,
+      "module": "CN15",
+      "ladder": "Q1",
+      "trigger": null,
+      "hot_move_pct": null,
+      "tier": "ماژول CN15",
+      "runner_closed": false
     }
   ],
   "target_events": [
@@ -211617,7 +211627,7 @@
           "status": "open",
           "opened_ms": 1792742965888,
           "armed_ms": 1792742965888,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1792728000000,
           "mfe_r": 3.2661,
           "mae_r": 0.1273,
@@ -211640,7 +211650,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 5679,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000343": {
           "id": "ALT-000343",
@@ -211682,7 +211692,7 @@
           "status": "open",
           "opened_ms": 1792829194487,
           "armed_ms": 1792829194487,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1792814400000,
           "mfe_r": 1.4254,
           "mae_r": 0.0164,
@@ -211690,7 +211700,7 @@
           "tier": "verified",
           "profile": "H3",
           "msg_id": 5844,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000521": {
           "id": "ALT-000521",
@@ -211732,7 +211742,7 @@
           "status": "open",
           "opened_ms": 1793304436482,
           "armed_ms": 1793304436482,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793289600000,
           "mfe_r": 2.8738,
           "mae_r": 0.0,
@@ -211755,7 +211765,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6294,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000561": {
           "id": "ALT-000561",
@@ -211797,7 +211807,7 @@
           "status": "open",
           "opened_ms": 1793333246489,
           "armed_ms": 1793333246489,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793318400000,
           "mfe_r": 1.5359,
           "mae_r": 0.4031,
@@ -211813,7 +211823,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6423,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000591": {
           "id": "ALT-000591",
@@ -211855,7 +211865,7 @@
           "status": "open",
           "opened_ms": 1793390735134,
           "armed_ms": 1793390735134,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793376000000,
           "mfe_r": 1.6808,
           "mae_r": 0.3013,
@@ -211871,7 +211881,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6516,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000592": {
           "id": "ALT-000592",
@@ -211913,7 +211923,7 @@
           "status": "open",
           "opened_ms": 1793390735134,
           "armed_ms": 1793390735134,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793376000000,
           "mfe_r": 0.8803,
           "mae_r": 0.957,
@@ -211921,7 +211931,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6517,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000599": {
           "id": "ALT-000599",
@@ -211963,7 +211973,7 @@
           "status": "open",
           "opened_ms": 1793734669852,
           "armed_ms": 1793734669852,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793707200000,
           "mfe_r": 1.1419,
           "mae_r": 0.7075,
@@ -211979,7 +211989,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6553,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000641": {
           "id": "ALT-000641",
@@ -212021,9 +212031,9 @@
           "status": "open",
           "opened_ms": 1793793894657,
           "armed_ms": 1793793894657,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793779200000,
-          "mfe_r": 4.3335,
+          "mfe_r": 4.4418,
           "mae_r": 0.9654,
           "events": [
             {
@@ -212051,7 +212061,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6646,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000658": {
           "id": "ALT-000658",
@@ -212093,7 +212103,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793793600000,
           "mfe_r": 2.4909,
           "mae_r": 0.1101,
@@ -212116,7 +212126,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6706,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000659": {
           "id": "ALT-000659",
@@ -212158,7 +212168,7 @@
           "status": "open",
           "opened_ms": 1793808237348,
           "armed_ms": 1793808237348,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793793600000,
           "mfe_r": 2.7241,
           "mae_r": 0.0645,
@@ -212181,7 +212191,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6707,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000688": {
           "id": "ALT-000688",
@@ -212223,7 +212233,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793880000000,
           "mfe_r": 0.3298,
           "mae_r": 0.613,
@@ -212231,7 +212241,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6796,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000689": {
           "id": "ALT-000689",
@@ -212273,9 +212283,9 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793880000000,
-          "mfe_r": 2.5783,
+          "mfe_r": 2.5825,
           "mae_r": 0.2214,
           "events": [
             {
@@ -212296,7 +212306,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6797,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000690": {
           "id": "ALT-000690",
@@ -212338,7 +212348,7 @@
           "status": "open",
           "opened_ms": 1793894856137,
           "armed_ms": 1793894856137,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793880000000,
           "mfe_r": 0.8916,
           "mae_r": 0.1452,
@@ -212346,7 +212356,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6798,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000715": {
           "id": "ALT-000715",
@@ -212388,7 +212398,7 @@
           "status": "open",
           "opened_ms": 1793909310180,
           "armed_ms": 1793909310180,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793894400000,
           "mfe_r": 0.2735,
           "mae_r": 0.7443,
@@ -212396,7 +212406,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6860,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000727": {
           "id": "ALT-000727",
@@ -212438,7 +212448,7 @@
           "status": "open",
           "opened_ms": 1793923595262,
           "armed_ms": 1793923595262,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793908800000,
           "mfe_r": 0.7169,
           "mae_r": 0.4923,
@@ -212446,7 +212456,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6900,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000728": {
           "id": "ALT-000728",
@@ -212488,7 +212498,7 @@
           "status": "open",
           "opened_ms": 1793923595262,
           "armed_ms": 1793923595262,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1793908800000,
           "mfe_r": 0.4635,
           "mae_r": 0.4925,
@@ -212496,7 +212506,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 6901,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000770": {
           "id": "ALT-000770",
@@ -212538,7 +212548,7 @@
           "status": "open",
           "opened_ms": 1794048165469,
           "armed_ms": 1794048165469,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794042000000,
           "mfe_r": 2.7692,
           "mae_r": 0.4743,
@@ -212554,7 +212564,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7000,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000773": {
           "id": "ALT-000773",
@@ -212596,7 +212606,7 @@
           "status": "open",
           "opened_ms": 1794067585563,
           "armed_ms": 1794067585563,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794063600000,
           "mfe_r": 2.7764,
           "mae_r": 0.5892,
@@ -212612,7 +212622,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7010,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000774": {
           "id": "ALT-000774",
@@ -212654,7 +212664,7 @@
           "status": "open",
           "opened_ms": 1794067585563,
           "armed_ms": 1794067585563,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794063600000,
           "mfe_r": 1.7436,
           "mae_r": 0.6476,
@@ -212662,7 +212672,7 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7011,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000788": {
           "id": "ALT-000788",
@@ -212704,7 +212714,7 @@
           "status": "open",
           "opened_ms": 1794182419084,
           "armed_ms": 1794182419084,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794168000000,
           "mfe_r": 0.5394,
           "mae_r": 0.3824,
@@ -212712,7 +212722,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7057,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000789": {
           "id": "ALT-000789",
@@ -212754,7 +212764,7 @@
           "status": "open",
           "opened_ms": 1794182419084,
           "armed_ms": 1794182419084,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794168000000,
           "mfe_r": 0.7915,
           "mae_r": 0.0894,
@@ -212762,7 +212772,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7058,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000790": {
           "id": "ALT-000790",
@@ -212804,15 +212814,15 @@
           "status": "open",
           "opened_ms": 1794182419084,
           "armed_ms": 1794182419084,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794168000000,
           "mfe_r": 0.2736,
-          "mae_r": 0.6002,
+          "mae_r": 0.7494,
           "events": [],
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7059,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000791": {
           "id": "ALT-000791",
@@ -212854,7 +212864,7 @@
           "status": "open",
           "opened_ms": 1794182419084,
           "armed_ms": 1794182419084,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794168000000,
           "mfe_r": 0.3817,
           "mae_r": 0.5489,
@@ -212862,7 +212872,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7060,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000828": {
           "id": "ALT-000828",
@@ -212904,7 +212914,7 @@
           "status": "open",
           "opened_ms": 1794226165838,
           "armed_ms": 1794226165838,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794211200000,
           "mfe_r": 0.567,
           "mae_r": 0.288,
@@ -212912,7 +212922,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7152,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000829": {
           "id": "ALT-000829",
@@ -212954,7 +212964,7 @@
           "status": "open",
           "opened_ms": 1794226165838,
           "armed_ms": 1794226165838,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794211200000,
           "mfe_r": 0.2507,
           "mae_r": 0.2778,
@@ -212962,7 +212972,7 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7153,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000843": {
           "id": "ALT-000843",
@@ -213004,15 +213014,15 @@
           "status": "open",
           "opened_ms": 1794243653840,
           "armed_ms": 1794243653840,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794240000000,
-          "mfe_r": 1.002,
+          "mfe_r": 1.112,
           "mae_r": 0.0511,
           "events": [],
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7195,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         },
         "ALT-000844": {
           "id": "ALT-000844",
@@ -213054,7 +213064,7 @@
           "status": "open",
           "opened_ms": 1794243653840,
           "armed_ms": 1794243653840,
-          "last_ms": 1794324539999,
+          "last_ms": 1794325079999,
           "bar_ms": 1794240000000,
           "mfe_r": 0.2333,
           "mae_r": 0.5473,
@@ -213062,57 +213072,7 @@
           "tier": "candidate",
           "profile": "Q2",
           "msg_id": 7196,
-          "polled_ms": 1794324550045
-        },
-        "ALT-000868": {
-          "id": "ALT-000868",
-          "module": "CN15",
-          "symbol": "ICP/USD",
-          "tf": "15m",
-          "side": "BUY",
-          "entry": 2.415,
-          "sl0": 2.404,
-          "sl": 2.404,
-          "risk": 0.01100000000000012,
-          "targets": [
-            2.4370000000000003,
-            2.4480000000000004,
-            2.4590000000000005,
-            2.4810000000000008
-          ],
-          "levels": [
-            2.0,
-            3.0,
-            4.0,
-            6.0
-          ],
-          "weights": [
-            0.3,
-            0.25,
-            0.2,
-            0.1
-          ],
-          "trail": 1.5,
-          "hit": [
-            false,
-            false,
-            false,
-            false
-          ],
-          "runner_on": false,
-          "best": 2.415,
-          "status": "open",
-          "opened_ms": 1794323708407,
-          "armed_ms": 1794323708407,
-          "last_ms": 1794324539999,
-          "bar_ms": 1794322800000,
-          "mfe_r": 0.4545,
-          "mae_r": 0.6364,
-          "events": [],
-          "tier": "orig",
-          "profile": "Q1",
-          "msg_id": 7274,
-          "polled_ms": 1794324550045
+          "polled_ms": 1794325090887
         }
       },
       "seen": [],
@@ -213265,80 +213225,80 @@
         "CN1M|SOL/USD|1m": 1792837620000,
         "CN1M|XRP/USD|1m": 1792837620000,
         "CN1M|ADA/USD|1m": 1792837620000,
-        "CN5M|DOGE/USD|5m": 1794324000000,
-        "CN5M|LINK/USD|5m": 1794324000000,
-        "CN5M|SUI/USD|5m": 1794324000000,
-        "CN5M|LTC/USD|5m": 1794324000000,
-        "CN5M|AVAX/USD|5m": 1794324000000,
-        "CN5M|DOT/USD|5m": 1794324000000,
-        "CN5M|NEAR/USD|5m": 1794324000000,
-        "CN5M|ATOM/USD|5m": 1794324000000,
-        "CN5M|UNI/USD|5m": 1794324000000,
-        "CN5M|BCH/USD|5m": 1794324000000,
-        "CN5M|XLM/USD|5m": 1794324000000,
-        "CN5M|HBAR/USD|5m": 1794324000000,
-        "CN5M|ICP/USD|5m": 1794324000000,
-        "CN5M|APT/USD|5m": 1794324000000,
-        "CN5M|ARB/USD|5m": 1794324000000,
-        "CN5M|OP/USD|5m": 1794324000000,
-        "CN5M|INJ/USD|5m": 1794324000000,
-        "CN5M|AAVE/USD|5m": 1794324000000,
-        "CN5M|FIL/USD|5m": 1794324000000,
-        "CN5M|ETC/USD|5m": 1794324000000,
-        "CN5M|TAO/USD|5m": 1794324000000,
-        "CN5M|SEI/USD|5m": 1794324000000,
-        "CN5M|TIA/USD|5m": 1794324000000,
-        "CN5M|LDO/USD|5m": 1794324000000,
-        "CN5M|SHIB/USD|5m": 1794324000000,
-        "CN5M|PEPE/USD|5m": 1794324000000,
-        "CN5M|XMR/USD|5m": 1794324000000,
-        "CN5M|ZEC/USD|5m": 1794324000000,
-        "CN5M|ALGO/USD|5m": 1794324000000,
-        "CN5M|TRX/USD|5m": 1794324000000,
-        "CN5M|BNB/USD|5m": 1794324000000,
-        "CN5M|POL/USD|5m": 1794324000000,
-        "CN5M|RENDER/USD|5m": 1794324000000,
-        "CN5M|JUP/USD|5m": 1794324000000,
-        "CN5M|SOL/USD|5m": 1794324000000,
-        "CN5M|XRP/USD|5m": 1794324000000,
-        "CN5M|ADA/USD|5m": 1794324000000,
-        "CN15|DOGE/USD|15m": 1794322800000,
-        "CN15|LINK/USD|15m": 1794322800000,
-        "CN15|SUI/USD|15m": 1794322800000,
-        "CN15|LTC/USD|15m": 1794322800000,
-        "CN15|AVAX/USD|15m": 1794322800000,
-        "CN15|DOT/USD|15m": 1794322800000,
-        "CN15|NEAR/USD|15m": 1794322800000,
-        "CN15|ATOM/USD|15m": 1794322800000,
-        "CN15|UNI/USD|15m": 1794322800000,
-        "CN15|BCH/USD|15m": 1794322800000,
-        "CN15|XLM/USD|15m": 1794322800000,
-        "CN15|HBAR/USD|15m": 1794322800000,
-        "CN15|ICP/USD|15m": 1794322800000,
-        "CN15|APT/USD|15m": 1794322800000,
-        "CN15|ARB/USD|15m": 1794322800000,
-        "CN15|OP/USD|15m": 1794322800000,
-        "CN15|INJ/USD|15m": 1794322800000,
-        "CN15|AAVE/USD|15m": 1794322800000,
-        "CN15|FIL/USD|15m": 1794322800000,
-        "CN15|ETC/USD|15m": 1794322800000,
-        "CN15|TAO/USD|15m": 1794322800000,
-        "CN15|SEI/USD|15m": 1794322800000,
-        "CN15|TIA/USD|15m": 1794322800000,
-        "CN15|LDO/USD|15m": 1794322800000,
-        "CN15|SHIB/USD|15m": 1794322800000,
-        "CN15|PEPE/USD|15m": 1794322800000,
-        "CN15|XMR/USD|15m": 1794322800000,
-        "CN15|ZEC/USD|15m": 1794322800000,
-        "CN15|ALGO/USD|15m": 1794322800000,
-        "CN15|TRX/USD|15m": 1794322800000,
-        "CN15|BNB/USD|15m": 1794322800000,
-        "CN15|POL/USD|15m": 1794322800000,
-        "CN15|RENDER/USD|15m": 1794322800000,
-        "CN15|JUP/USD|15m": 1794322800000,
-        "CN15|SOL/USD|15m": 1794322800000,
-        "CN15|XRP/USD|15m": 1794322800000,
-        "CN15|ADA/USD|15m": 1794322800000,
+        "CN5M|DOGE/USD|5m": 1794324600000,
+        "CN5M|LINK/USD|5m": 1794324600000,
+        "CN5M|SUI/USD|5m": 1794324600000,
+        "CN5M|LTC/USD|5m": 1794324600000,
+        "CN5M|AVAX/USD|5m": 1794324600000,
+        "CN5M|DOT/USD|5m": 1794324600000,
+        "CN5M|NEAR/USD|5m": 1794324600000,
+        "CN5M|ATOM/USD|5m": 1794324600000,
+        "CN5M|UNI/USD|5m": 1794324600000,
+        "CN5M|BCH/USD|5m": 1794324600000,
+        "CN5M|XLM/USD|5m": 1794324600000,
+        "CN5M|HBAR/USD|5m": 1794324600000,
+        "CN5M|ICP/USD|5m": 1794324600000,
+        "CN5M|APT/USD|5m": 1794324600000,
+        "CN5M|ARB/USD|5m": 1794324600000,
+        "CN5M|OP/USD|5m": 1794324600000,
+        "CN5M|INJ/USD|5m": 1794324600000,
+        "CN5M|AAVE/USD|5m": 1794324600000,
+        "CN5M|FIL/USD|5m": 1794324600000,
+        "CN5M|ETC/USD|5m": 1794324600000,
+        "CN5M|TAO/USD|5m": 1794324600000,
+        "CN5M|SEI/USD|5m": 1794324600000,
+        "CN5M|TIA/USD|5m": 1794324600000,
+        "CN5M|LDO/USD|5m": 1794324600000,
+        "CN5M|SHIB/USD|5m": 1794324600000,
+        "CN5M|PEPE/USD|5m": 1794324600000,
+        "CN5M|XMR/USD|5m": 1794324600000,
+        "CN5M|ZEC/USD|5m": 1794324600000,
+        "CN5M|ALGO/USD|5m": 1794324600000,
+        "CN5M|TRX/USD|5m": 1794324600000,
+        "CN5M|BNB/USD|5m": 1794324600000,
+        "CN5M|POL/USD|5m": 1794324600000,
+        "CN5M|RENDER/USD|5m": 1794324600000,
+        "CN5M|JUP/USD|5m": 1794324600000,
+        "CN5M|SOL/USD|5m": 1794324600000,
+        "CN5M|XRP/USD|5m": 1794324600000,
+        "CN5M|ADA/USD|5m": 1794324600000,
+        "CN15|DOGE/USD|15m": 1794323700000,
+        "CN15|LINK/USD|15m": 1794323700000,
+        "CN15|SUI/USD|15m": 1794323700000,
+        "CN15|LTC/USD|15m": 1794323700000,
+        "CN15|AVAX/USD|15m": 1794323700000,
+        "CN15|DOT/USD|15m": 1794323700000,
+        "CN15|NEAR/USD|15m": 1794323700000,
+        "CN15|ATOM/USD|15m": 1794323700000,
+        "CN15|UNI/USD|15m": 1794323700000,
+        "CN15|BCH/USD|15m": 1794323700000,
+        "CN15|XLM/USD|15m": 1794323700000,
+        "CN15|HBAR/USD|15m": 1794323700000,
+        "CN15|ICP/USD|15m": 1794323700000,
+        "CN15|APT/USD|15m": 1794323700000,
+        "CN15|ARB/USD|15m": 1794323700000,
+        "CN15|OP/USD|15m": 1794323700000,
+        "CN15|INJ/USD|15m": 1794323700000,
+        "CN15|AAVE/USD|15m": 1794323700000,
+        "CN15|FIL/USD|15m": 1794323700000,
+        "CN15|ETC/USD|15m": 1794323700000,
+        "CN15|TAO/USD|15m": 1794323700000,
+        "CN15|SEI/USD|15m": 1794323700000,
+        "CN15|TIA/USD|15m": 1794323700000,
+        "CN15|LDO/USD|15m": 1794323700000,
+        "CN15|SHIB/USD|15m": 1794323700000,
+        "CN15|PEPE/USD|15m": 1794323700000,
+        "CN15|XMR/USD|15m": 1794323700000,
+        "CN15|ZEC/USD|15m": 1794323700000,
+        "CN15|ALGO/USD|15m": 1794323700000,
+        "CN15|TRX/USD|15m": 1794323700000,
+        "CN15|BNB/USD|15m": 1794323700000,
+        "CN15|POL/USD|15m": 1794323700000,
+        "CN15|RENDER/USD|15m": 1794323700000,
+        "CN15|JUP/USD|15m": 1794323700000,
+        "CN15|SOL/USD|15m": 1794323700000,
+        "CN15|XRP/USD|15m": 1794323700000,
+        "CN15|ADA/USD|15m": 1794323700000,
         "CN1H|DOGE/USD|1h": 1793257200000,
         "CN1H|LINK/USD|1h": 1793257200000,
         "CN1H|SUI/USD|1h": 1793257200000,
@@ -213687,7 +213647,7 @@
         },
         "CN5M": {
           "since": 1792713423,
-          "checks": 79843,
+          "checks": 79880,
           "nodata": 3,
           "raw": 229,
           "blocked": {
@@ -213700,19 +213660,19 @@
             "duplicate_signal": 1
           },
           "opened": 196,
-          "last_check": 1794324627
+          "last_check": 1794325167
         },
         "CN15": {
           "since": 1792713467,
-          "checks": 49578,
+          "checks": 49615,
           "nodata": 2,
-          "raw": 216,
+          "raw": 217,
           "blocked": {
             "weekly_loss(-14.35R)": 2,
             "weekly_loss(-11.45R)": 2,
             "weekly_loss(-11.25R)": 9,
             "already_open": 4,
-            "duplicate_signal": 4,
+            "duplicate_signal": 5,
             "loss_streak(4)": 2,
             "loss_streak(6)": 1,
             "loss_streak(7)": 1,
@@ -213720,7 +213680,7 @@
             "loss_streak(5)": 8
           },
           "opened": 181,
-          "last_check": 1794323797
+          "last_check": 1794325216
         },
         "CN1H": {
           "since": 1792713510,
@@ -213824,7 +213784,7 @@
           "blocked": {
             "off_session": 1138,
             "no_pullback": 3601,
-            "daily_cap": 769,
+            "daily_cap": 770,
             "time_budget": 52,
             "already_open": 8,
             "stop_too_small": 1,
