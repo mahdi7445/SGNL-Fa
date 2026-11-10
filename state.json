@@ -209549,7 +209549,7 @@
     "PIEVERSE/USD|15min": 1794356576.242206,
     "EDGE/USD|15min": 1794356584.0422618
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
