@@ -51217,9 +51217,9 @@
       "pending_signal": null
     },
     "BAT/USD|1m": {
-      "ema7": 0.12135455869419574,
-      "ema25": 0.12175450856726489,
-      "atr": 0.0002165023925304058,
+      "ema7": 0.1213984190206468,
+      "ema25": 0.12173723867747528,
+      "atr": 0.00020175222163537656,
       "tr_buffer": [
         0.0003999999999999837,
         0.0005700000000000149,
@@ -51236,8 +51236,8 @@
         0.0009300000000000141,
         0.00036000000000002697
       ],
-      "plus_dm": 6.354110056473667e-05,
-      "minus_dm": 0.00010463854349530021,
+      "plus_dm": 5.9002450524398334e-05,
+      "minus_dm": 9.716436181706448e-05,
       "dm_buffer": [
         [
           0.0,
@@ -51296,7 +51296,7 @@
           0.0
         ]
       ],
-      "adx": 40.08649985589153,
+      "adx": 38.96865224587628,
       "dx_buffer": [
         66.97588126159482,
         68.48699441645044,
@@ -51314,16 +51314,6 @@
         49.58082607914478
       ],
       "hist": [
-        {
-          "o": 0.12256,
-          "h": 0.12283,
-          "l": 0.12256,
-          "c": 0.12261,
-          "ema7": 0.12297229578211777,
-          "sma7": 0.1229342857142857,
-          "dt_ms": 1794325320000,
-          "v": 1205.6499999999999
-        },
         {
           "o": 0.12261,
           "h": 0.12261,
@@ -52113,6 +52103,16 @@
           "sma7": 0.12128857142857143,
           "dt_ms": 1794330840000,
           "v": 2022.71
+        },
+        {
+          "o": 0.12153,
+          "h": 0.12153,
+          "l": 0.12153,
+          "c": 0.12153,
+          "ema7": 0.1213984190206468,
+          "sma7": 0.12127,
+          "dt_ms": 1794330960000,
+          "v": 0.02
         }
       ],
       "trend_prev": "down",
@@ -52121,8 +52121,8 @@
       "last_bull_bar_index": 7885,
       "last_bear_bar_index": 10839,
       "last_signal_price": 0.12203,
-      "bar_index": 10860,
-      "last_open_time": 1794330840000,
+      "bar_index": 10861,
+      "last_open_time": 1794330960000,
       "open_trade": {
         "signal_id": "ALT-000874",
         "side": "SELL",
@@ -52136,7 +52136,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -52149,9 +52149,14 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": "stop",
+            "frac": 0.5,
+            "r": 1.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1794329665960,
         "events": [
           {
@@ -52170,6 +52175,18 @@
             "ts": "2026-11-10T17:07:32.025275+00:00",
             "price": 0.12122999999999999,
             "level": 2
+          },
+          {
+            "type": "stop_at_t1",
+            "ts": "2026-11-10T17:18:33.894257+00:00",
+            "price": 0.12161,
+            "r": 1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-10T17:18:34.333423+00:00",
+            "close_type": "stop_at_t1",
+            "final_r": 1.3
           }
         ],
         "quality_tier": "experimental",
@@ -52178,7 +52195,8 @@
         "htf_aligned": false,
         "stop_pct": 0.3115,
         "fee_r_est": 0.4815,
-        "signal_message_id": 7288
+        "signal_message_id": 7288,
+        "close_type": "stop_at_t1"
       },
       "pending_signal": null
     },
@@ -208499,6 +208517,64 @@
       "hot_move_pct": null,
       "tier": "ماژول SWP",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000874",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-10T16:54:25.960989+00:00",
+          "price": 0.12199
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-10T16:56:41.851803+00:00",
+          "price": 0.12161,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-10T17:07:32.025275+00:00",
+          "price": 0.12122999999999999,
+          "level": 2
+        },
+        {
+          "type": "stop_at_t1",
+          "ts": "2026-11-10T17:18:33.894257+00:00",
+          "price": 0.12161,
+          "r": 1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-10T17:18:34.333423+00:00",
+          "close_type": "stop_at_t1",
+          "final_r": 1.3
+        }
+      ],
+      "symbol": "BAT/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 0.12199,
+      "sl": 0.12237,
+      "final_r": 1.3,
+      "close_type": "stop_at_t1",
+      "close_reason": "Stopped at Target 1 level after Target 2 (50% banked)",
+      "targets_hit": [
+        1,
+        2
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-10T16:54:25.960000+00:00",
+      "closed_at": "2026-11-10T17:18:34.333423+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": 1,
+      "htf_aligned": false,
+      "stop_pct": 0.3115,
+      "fee_r_est": 0.4815,
+      "net_r_est": 0.8185
     }
   ],
   "target_events": [
@@ -211801,6 +211877,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-11-10T17:07:32.553391+00:00"
+    },
+    {
+      "symbol": "BAT/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop_at_t1",
+      "r": 1.0,
+      "frac": 0.5,
+      "at": "2026-11-10T17:18:34.333389+00:00"
     }
   ],
   "td_unsupported": {
