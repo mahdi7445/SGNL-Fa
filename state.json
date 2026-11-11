@@ -216898,7 +216898,7 @@
     "VVV/USD|1h": 1794442752.8880372,
     "VVV/USD|15min": 1794442768.5165043
   },
-  "live_check_cursor": 2,
+  "live_check_cursor": 0,
   "module_store": {
     "module_trades.json": {
       "trades": {
