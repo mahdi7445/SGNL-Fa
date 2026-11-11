@@ -217006,7 +217006,7 @@
     "VVV/USD|15min": 1794442768.5165043,
     "PIEVERSE/USD|1h": 1794449050.135245
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
