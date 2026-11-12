@@ -220265,6 +220265,55 @@
           "tier": "orig",
           "profile": "Q1",
           "msg_id": 7366
+        },
+        "ALT-000904": {
+          "id": "ALT-000904",
+          "module": "CN15",
+          "symbol": "XMR/USD",
+          "tf": "15m",
+          "side": "SELL",
+          "entry": 567.54,
+          "sl0": 571.7,
+          "sl": 571.7,
+          "risk": 4.160000000000082,
+          "targets": [
+            559.2199999999998,
+            555.0599999999997,
+            550.8999999999996,
+            542.5799999999995
+          ],
+          "levels": [
+            2.0,
+            3.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.3,
+            0.25,
+            0.2,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 567.54,
+          "status": "open",
+          "opened_ms": 1794460518059,
+          "armed_ms": 1794460518059,
+          "last_ms": 1794460518059,
+          "bar_ms": 1794459600000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "orig",
+          "profile": "Q1",
+          "msg_id": 7367
         }
       },
       "seen": [],
@@ -220480,7 +220529,7 @@
         "CN15|LDO/USD|15m": 1794459600000,
         "CN15|SHIB/USD|15m": 1794459600000,
         "CN15|PEPE/USD|15m": 1794459600000,
-        "CN15|XMR/USD|15m": 1794458700000,
+        "CN15|XMR/USD|15m": 1794459600000,
         "CN15|ZEC/USD|15m": 1794458700000,
         "CN15|ALGO/USD|15m": 1794458700000,
         "CN15|TRX/USD|15m": 1794458700000,
@@ -220858,9 +220907,9 @@
         },
         "CN15": {
           "since": 1792713467,
-          "checks": 55191,
+          "checks": 55192,
           "nodata": 2,
-          "raw": 240,
+          "raw": 241,
           "blocked": {
             "weekly_loss(-14.35R)": 2,
             "weekly_loss(-11.45R)": 2,
@@ -220873,8 +220922,8 @@
             "loss_streak(9)": 1,
             "loss_streak(5)": 8
           },
-          "opened": 197,
-          "last_check": 1794460605
+          "opened": 198,
+          "last_check": 1794460608
         },
         "CN1H": {
           "since": 1792713510,
@@ -221093,7 +221142,7 @@
         "SWP|NEAR/USD": 1794182419084,
         "SWP|FIL/USD": 1793808237348,
         "CN5M|ARB/USD": 1794250195698,
-        "CN15|PEPE/USD": 1794327521123,
+        "CN15|PEPE/USD": 1794460518059,
         "CN15|SUI/USD": 1793927972607,
         "CN15|TAO/USD": 1793979002063,
         "SWP|XMR/USD": 1793376232585,
@@ -221189,7 +221238,7 @@
       },
       "mx_day": {
         "day": "2026-11-12",
-        "CN15": 2
+        "CN15": 3
       },
       "hot_daily": {
         "day": "2026-11-12",
@@ -221271,7 +221320,8 @@
         "CN5M|PEPE/USD|5m|SELL|1794430800000",
         "CN15|DOGE/USD|15m|SELL|1794459600000",
         "CN15|LINK/USD|15m|SELL|1794459600000",
-        "CN15|PEPE/USD|15m|SELL|1794459600000"
+        "CN15|PEPE/USD|15m|SELL|1794459600000",
+        "CN15|XMR/USD|15m|SELL|1794459600000"
       ]
     }
   }
