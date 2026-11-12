@@ -221040,6 +221040,55 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7410
+        },
+        "ALT-000917": {
+          "id": "ALT-000917",
+          "module": "TPS",
+          "symbol": "SUI/USD",
+          "tf": "1h",
+          "side": "SELL",
+          "entry": 0.8038,
+          "sl0": 0.8290061719685633,
+          "sl": 0.8290061719685633,
+          "risk": 0.02520617196856334,
+          "targets": [
+            0.7533876560628733,
+            0.7029753121257466,
+            0.6525629681886199,
+            0.5769444522829299
+          ],
+          "levels": [
+            2.0,
+            4.0,
+            6.0,
+            9.0
+          ],
+          "weights": [
+            0.35,
+            0.25,
+            0.15,
+            0.1
+          ],
+          "trail": 2.0,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 0.8038,
+          "status": "open",
+          "opened_ms": 1794484838803,
+          "armed_ms": 1794484838803,
+          "last_ms": 1794484838803,
+          "bar_ms": 1794481200000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "candidate",
+          "profile": "Q3",
+          "msg_id": 7411
         }
       },
       "seen": [],
@@ -221724,7 +221773,7 @@
             "loss_streak(9)": 1,
             "already_open": 1
           },
-          "opened": 3,
+          "opened": 4,
           "last_check": 1794484981
         },
         "MRA": {
@@ -221964,11 +222013,13 @@
         "MRB|AVAX/USD": 1794243653840,
         "MRA|ATOM/USD": 1794243653840,
         "CN15|ETC/USD": 1794247404136,
-        "CN4H|SEI/USD": 1794297953530
+        "CN4H|SEI/USD": 1794297953530,
+        "TPS|LTC/USD": 1794484838803
       },
       "mx_day": {
         "day": "2026-11-12",
-        "CN15": 10
+        "CN15": 10,
+        "TPS": 1
       },
       "hot_daily": {
         "day": "2026-11-12",
@@ -222040,7 +222091,7 @@
       },
       "daily": {
         "day": "2026-11-12",
-        "lowtf": 0
+        "lowtf": 1
       },
       "outbox": [],
       "published": [
@@ -222064,7 +222115,8 @@
         "CN15|AAVE/USD|15m|SELL|1794474900000",
         "CN15|LTC/USD|15m|SELL|1794482100000",
         "CN15|RENDER/USD|15m|SELL|1794482100000",
-        "TPS|LTC/USD|1h|SELL|1794481200000"
+        "TPS|LTC/USD|1h|SELL|1794481200000",
+        "TPS|SUI/USD|1h|SELL|1794481200000"
       ]
     }
   }
