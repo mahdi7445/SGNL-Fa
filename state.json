@@ -221335,7 +221335,7 @@
             "off_session": 1250,
             "no_pullback": 3601,
             "daily_cap": 961,
-            "time_budget": 59,
+            "time_budget": 60,
             "already_open": 9,
             "stop_too_small": 1,
             "no_hot_coins": 17,
@@ -221349,7 +221349,7 @@
             "loss_streak(9)": 7,
             "loss_streak(5)": 6
           },
-          "opened": 60,
+          "opened": 61,
           "last_check": 1794472078
         },
         "FBR": {
@@ -221549,7 +221549,7 @@
       },
       "hot_daily": {
         "day": "2026-11-12",
-        "n": 3
+        "n": 4
       },
       "hot_last": {
         "ts": 1794472032,
@@ -221612,7 +221612,8 @@
         "XMR/USD": 1794471243939,
         "UNI/USD": 1794385107714,
         "AVAX/USD": 1794388828632,
-        "ARIA/USD": 1794474481268
+        "ARIA/USD": 1794474481268,
+        "TON/USD": 1794475632121
       },
       "daily": {
         "day": "2026-11-09",
