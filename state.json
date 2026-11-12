@@ -221197,10 +221197,10 @@
         "CN15|BNB/USD|15m": 1794482100000,
         "CN15|POL/USD|15m": 1794482100000,
         "CN15|RENDER/USD|15m": 1794482100000,
-        "CN15|JUP/USD|15m": 1794481200000,
-        "CN15|SOL/USD|15m": 1794481200000,
-        "CN15|XRP/USD|15m": 1794481200000,
-        "CN15|ADA/USD|15m": 1794481200000,
+        "CN15|JUP/USD|15m": 1794482100000,
+        "CN15|SOL/USD|15m": 1794482100000,
+        "CN15|XRP/USD|15m": 1794482100000,
+        "CN15|ADA/USD|15m": 1794482100000,
         "CN1H|DOGE/USD|1h": 1793257200000,
         "CN1H|LINK/USD|1h": 1793257200000,
         "CN1H|SUI/USD|1h": 1793257200000,
@@ -221571,7 +221571,7 @@
         },
         "CN15": {
           "since": 1792713467,
-          "checks": 56123,
+          "checks": 56127,
           "nodata": 2,
           "raw": 252,
           "blocked": {
@@ -221586,8 +221586,8 @@
             "loss_streak(9)": 1,
             "loss_streak(5)": 8
           },
-          "opened": 204,
-          "last_check": 1794483496
+          "opened": 205,
+          "last_check": 1794483601
         },
         "CN1H": {
           "since": 1792713510,
@@ -221691,7 +221691,7 @@
           "blocked": {
             "off_session": 1250,
             "no_pullback": 3601,
-            "daily_cap": 985,
+            "daily_cap": 986,
             "time_budget": 60,
             "already_open": 9,
             "stop_too_small": 1,
@@ -221765,7 +221765,7 @@
         "CN5M|AAVE/USD": 1793755390823,
         "CN5M|LTC/USD": 1794241849309,
         "CN15|AAVE/USD": 1794476295589,
-        "CN15|RENDER/USD": 1794001684643,
+        "CN15|RENDER/USD": 1794483409533,
         "CN1M|DOT/USD": 1792728302345,
         "CN5M|NEAR/USD": 1794330199877,
         "CN1H|BCH/USD": 1792731707153,
@@ -221902,7 +221902,7 @@
       },
       "mx_day": {
         "day": "2026-11-12",
-        "CN15": 9
+        "CN15": 10
       },
       "hot_daily": {
         "day": "2026-11-12",
