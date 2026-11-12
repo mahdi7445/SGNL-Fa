@@ -221773,7 +221773,7 @@
             "loss_streak(9)": 1,
             "already_open": 1
           },
-          "opened": 4,
+          "opened": 5,
           "last_check": 1794484981
         },
         "MRA": {
@@ -221806,7 +221806,7 @@
           "blocked": {
             "off_session": 1250,
             "no_pullback": 3601,
-            "daily_cap": 988,
+            "daily_cap": 989,
             "time_budget": 60,
             "already_open": 9,
             "stop_too_small": 1,
@@ -222006,7 +222006,7 @@
         "CN5M|ETC/USD": 1794044216960,
         "TPB|LTC/USD": 1794048165469,
         "TPB|AVAX/USD": 1794048165469,
-        "TPS|SUI/USD": 1794067585563,
+        "TPS|SUI/USD": 1794484838803,
         "TPS|DOT/USD": 1794067585563,
         "TPB|NEAR/USD": 1794067585563,
         "SWP|RENDER/USD": 1794226165838,
@@ -222019,7 +222019,7 @@
       "mx_day": {
         "day": "2026-11-12",
         "CN15": 10,
-        "TPS": 1
+        "TPS": 2
       },
       "hot_daily": {
         "day": "2026-11-12",
@@ -222091,7 +222091,7 @@
       },
       "daily": {
         "day": "2026-11-12",
-        "lowtf": 1
+        "lowtf": 2
       },
       "outbox": [],
       "published": [
