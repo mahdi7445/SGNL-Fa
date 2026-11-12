@@ -220638,21 +220638,21 @@
         "CN15|ETC/USD|15m": 1794462300000,
         "CN15|TAO/USD|15m": 1794462300000,
         "CN15|SEI/USD|15m": 1794462300000,
-        "CN15|TIA/USD|15m": 1794461400000,
-        "CN15|LDO/USD|15m": 1794461400000,
-        "CN15|SHIB/USD|15m": 1794461400000,
-        "CN15|PEPE/USD|15m": 1794461400000,
-        "CN15|XMR/USD|15m": 1794461400000,
-        "CN15|ZEC/USD|15m": 1794461400000,
-        "CN15|ALGO/USD|15m": 1794461400000,
-        "CN15|TRX/USD|15m": 1794461400000,
-        "CN15|BNB/USD|15m": 1794461400000,
-        "CN15|POL/USD|15m": 1794461400000,
-        "CN15|RENDER/USD|15m": 1794461400000,
-        "CN15|JUP/USD|15m": 1794461400000,
-        "CN15|SOL/USD|15m": 1794461400000,
-        "CN15|XRP/USD|15m": 1794461400000,
-        "CN15|ADA/USD|15m": 1794461400000,
+        "CN15|TIA/USD|15m": 1794462300000,
+        "CN15|LDO/USD|15m": 1794462300000,
+        "CN15|SHIB/USD|15m": 1794462300000,
+        "CN15|PEPE/USD|15m": 1794462300000,
+        "CN15|XMR/USD|15m": 1794462300000,
+        "CN15|ZEC/USD|15m": 1794462300000,
+        "CN15|ALGO/USD|15m": 1794462300000,
+        "CN15|TRX/USD|15m": 1794462300000,
+        "CN15|BNB/USD|15m": 1794462300000,
+        "CN15|POL/USD|15m": 1794462300000,
+        "CN15|RENDER/USD|15m": 1794462300000,
+        "CN15|JUP/USD|15m": 1794462300000,
+        "CN15|SOL/USD|15m": 1794462300000,
+        "CN15|XRP/USD|15m": 1794462300000,
+        "CN15|ADA/USD|15m": 1794462300000,
         "CN1H|DOGE/USD|1h": 1793257200000,
         "CN1H|LINK/USD|1h": 1793257200000,
         "CN1H|SUI/USD|1h": 1793257200000,
@@ -220743,38 +220743,38 @@
         "SMS|DOT/USD|5m": 1794141300000,
         "SMS|NEAR/USD|5m": 1794141300000,
         "SMS|ATOM/USD|5m": 1794141300000,
-        "TPB|DOGE/USD|1h": 1794456000000,
-        "TPB|LINK/USD|1h": 1794456000000,
-        "TPB|SUI/USD|1h": 1794456000000,
-        "TPB|LTC/USD|1h": 1794456000000,
-        "TPB|AVAX/USD|1h": 1794456000000,
-        "TPB|DOT/USD|1h": 1794456000000,
-        "TPB|NEAR/USD|1h": 1794456000000,
-        "TPB|ATOM/USD|1h": 1794456000000,
-        "TPS|DOGE/USD|1h": 1794456000000,
-        "TPS|LINK/USD|1h": 1794456000000,
-        "TPS|SUI/USD|1h": 1794456000000,
-        "TPS|LTC/USD|1h": 1794456000000,
-        "TPS|AVAX/USD|1h": 1794456000000,
-        "TPS|DOT/USD|1h": 1794456000000,
-        "TPS|NEAR/USD|1h": 1794456000000,
-        "TPS|ATOM/USD|1h": 1794456000000,
-        "MRA|DOGE/USD|1h": 1794456000000,
-        "MRA|LINK/USD|1h": 1794456000000,
-        "MRA|SUI/USD|1h": 1794456000000,
-        "MRA|LTC/USD|1h": 1794456000000,
-        "MRA|AVAX/USD|1h": 1794456000000,
-        "MRA|DOT/USD|1h": 1794456000000,
-        "MRA|NEAR/USD|1h": 1794456000000,
-        "MRA|ATOM/USD|1h": 1794456000000,
-        "MRB|DOGE/USD|1h": 1794456000000,
-        "MRB|LINK/USD|1h": 1794456000000,
-        "MRB|SUI/USD|1h": 1794456000000,
-        "MRB|LTC/USD|1h": 1794456000000,
-        "MRB|AVAX/USD|1h": 1794456000000,
-        "MRB|DOT/USD|1h": 1794456000000,
-        "MRB|NEAR/USD|1h": 1794456000000,
-        "MRB|ATOM/USD|1h": 1794456000000,
+        "TPB|DOGE/USD|1h": 1794459600000,
+        "TPB|LINK/USD|1h": 1794459600000,
+        "TPB|SUI/USD|1h": 1794459600000,
+        "TPB|LTC/USD|1h": 1794459600000,
+        "TPB|AVAX/USD|1h": 1794459600000,
+        "TPB|DOT/USD|1h": 1794459600000,
+        "TPB|NEAR/USD|1h": 1794459600000,
+        "TPB|ATOM/USD|1h": 1794459600000,
+        "TPS|DOGE/USD|1h": 1794459600000,
+        "TPS|LINK/USD|1h": 1794459600000,
+        "TPS|SUI/USD|1h": 1794459600000,
+        "TPS|LTC/USD|1h": 1794459600000,
+        "TPS|AVAX/USD|1h": 1794459600000,
+        "TPS|DOT/USD|1h": 1794459600000,
+        "TPS|NEAR/USD|1h": 1794459600000,
+        "TPS|ATOM/USD|1h": 1794459600000,
+        "MRA|DOGE/USD|1h": 1794459600000,
+        "MRA|LINK/USD|1h": 1794459600000,
+        "MRA|SUI/USD|1h": 1794459600000,
+        "MRA|LTC/USD|1h": 1794459600000,
+        "MRA|AVAX/USD|1h": 1794459600000,
+        "MRA|DOT/USD|1h": 1794459600000,
+        "MRA|NEAR/USD|1h": 1794459600000,
+        "MRA|ATOM/USD|1h": 1794459600000,
+        "MRB|DOGE/USD|1h": 1794459600000,
+        "MRB|LINK/USD|1h": 1794459600000,
+        "MRB|SUI/USD|1h": 1794459600000,
+        "MRB|LTC/USD|1h": 1794459600000,
+        "MRB|AVAX/USD|1h": 1794459600000,
+        "MRB|DOT/USD|1h": 1794459600000,
+        "MRB|NEAR/USD|1h": 1794459600000,
+        "MRB|ATOM/USD|1h": 1794459600000,
         "HOT|DOT/USD|5m|BUY": 1792763100000,
         "HOT|DOT/USD|15m|BUY": 1792762200000,
         "HOT|INJ/USD|5m|BUY": 1793888700000,
@@ -221020,7 +221020,7 @@
         },
         "CN15": {
           "since": 1792713467,
-          "checks": 55298,
+          "checks": 55313,
           "nodata": 2,
           "raw": 243,
           "blocked": {
@@ -221035,8 +221035,8 @@
             "loss_streak(9)": 1,
             "loss_streak(5)": 8
           },
-          "opened": 200,
-          "last_check": 1794463694
+          "opened": 201,
+          "last_check": 1794463720
         },
         "CN1H": {
           "since": 1792713510,
@@ -221081,7 +221081,7 @@
         },
         "TPB": {
           "since": 1792713520,
-          "checks": 2160,
+          "checks": 2168,
           "nodata": 0,
           "raw": 20,
           "blocked": {
@@ -221093,11 +221093,11 @@
             "loss_streak(4)": 1
           },
           "opened": 6,
-          "last_check": 1794459717
+          "last_check": 1794463730
         },
         "TPS": {
           "since": 1792713520,
-          "checks": 3456,
+          "checks": 3464,
           "nodata": 0,
           "raw": 14,
           "blocked": {
@@ -221108,29 +221108,29 @@
             "loss_streak(9)": 1
           },
           "opened": 3,
-          "last_check": 1794459717
+          "last_check": 1794463730
         },
         "MRA": {
           "since": 1792713520,
-          "checks": 1952,
+          "checks": 1960,
           "nodata": 0,
           "raw": 5,
           "blocked": {
             "already_open": 2
           },
           "opened": 3,
-          "last_check": 1794459717
+          "last_check": 1794463730
         },
         "MRB": {
           "since": 1792713520,
-          "checks": 1952,
+          "checks": 1960,
           "nodata": 0,
           "raw": 5,
           "blocked": {
             "already_open": 2
           },
           "opened": 3,
-          "last_check": 1794459717
+          "last_check": 1794463730
         },
         "HOT": {
           "since": 1792713520,
@@ -221138,7 +221138,7 @@
           "nodata": 915,
           "raw": 104,
           "blocked": {
-            "off_session": 1242,
+            "off_session": 1243,
             "no_pullback": 3601,
             "daily_cap": 961,
             "time_budget": 55,
@@ -221285,7 +221285,7 @@
         "CN15|SHIB/USD": 1793907215453,
         "SWP|PEPE/USD": 1794226165838,
         "CN15|DOGE/USD": 1794460518059,
-        "CN15|SEI/USD": 1793905468846,
+        "CN15|SEI/USD": 1794463623575,
         "CN15|ALGO/USD": 1793929721038,
         "CN4H|OP/USD": 1793016420491,
         "CN15|TIA/USD": 1794069383094,
@@ -221351,7 +221351,7 @@
       },
       "mx_day": {
         "day": "2026-11-12",
-        "CN15": 5
+        "CN15": 6
       },
       "hot_daily": {
         "day": "2026-11-12",
