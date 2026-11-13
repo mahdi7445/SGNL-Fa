@@ -79,7 +79,8 @@
   "daily_stop_counts": {
     "date": "2026-11-13",
     "counts": {
-      "SOL": 1
+      "SOL": 1,
+      "XCN": 1
     }
   },
   "tf_windows": {
@@ -182387,17 +182388,35 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1794605240629,
         "events": [
           {
             "type": "opened",
             "ts": "2026-11-13T21:27:20.629193+00:00",
             "price": 0.003233
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-13T21:30:48.340926+00:00",
+            "price": 0.003223,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-13T21:30:48.915503+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "quality_tier": "experimental",
@@ -182406,7 +182425,8 @@
         "htf_aligned": false,
         "stop_pct": 0.3093,
         "fee_r_est": 0.4849,
-        "signal_message_id": 7480
+        "signal_message_id": 7480,
+        "close_type": "stop"
       },
       "pending_signal": null
     }
@@ -221147,6 +221167,49 @@
       "stop_pct": 0.3026,
       "fee_r_est": 0.4957,
       "net_r_est": -1.4957
+    },
+    {
+      "signal_id": "ALT-000934",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-13T21:27:20.629193+00:00",
+          "price": 0.003233
+        },
+        {
+          "type": "stop",
+          "ts": "2026-11-13T21:30:48.340926+00:00",
+          "price": 0.003223,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-13T21:30:48.915503+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "XCN/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "BUY",
+      "entry": 0.003233,
+      "sl": 0.003223,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-13T21:27:20.629000+00:00",
+      "closed_at": "2026-11-13T21:30:48.915503+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": -1,
+      "htf_aligned": false,
+      "stop_pct": 0.3093,
+      "fee_r_est": 0.4849,
+      "net_r_est": -1.4849
     }
   ],
   "target_events": [
@@ -224599,6 +224662,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-11-13T16:59:57.858408+00:00"
+    },
+    {
+      "symbol": "XCN/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-11-13T21:30:48.915467+00:00"
     }
   ],
   "td_unsupported": {
