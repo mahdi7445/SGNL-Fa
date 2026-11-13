@@ -225954,8 +225954,8 @@
         "HOT|NIGHT/USD|15m|SELL": 1794562200000,
         "HOT|BARD/USD|5m|BUY": 1794563700000,
         "HOT|BARD/USD|15m|BUY": 1794563100000,
-        "HOT|ARB/USD|5m|SELL": 1794563100000,
-        "HOT|ARB/USD|15m|SELL": 1794562200000
+        "HOT|ARB/USD|5m|SELL": 1794564000000,
+        "HOT|ARB/USD|15m|SELL": 1794563100000
       },
       "diag": {
         "HDV3": {
@@ -226146,7 +226146,7 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 6063,
+          "checks": 6065,
           "nodata": 1145,
           "raw": 126,
           "blocked": {
@@ -226167,8 +226167,8 @@
             "loss_streak(9)": 7,
             "loss_streak(5)": 6
           },
-          "opened": 62,
-          "last_check": 1794564510
+          "opened": 63,
+          "last_check": 1794564516
         },
         "FBR": {
           "since": 1792740561,
@@ -226427,7 +226427,7 @@
       },
       "hot_daily": {
         "day": "2026-11-13",
-        "n": 1
+        "n": 2
       },
       "hot_last": {
         "ts": 1794564494,
@@ -226484,7 +226484,7 @@
         "KOR/USD": 1794047816960,
         "UAI/USD": 1794041811280,
         "XMR/USD": 1794471243939,
-        "UNI/USD": 1794385107714,
+        "UNI/USD": 1794568094166,
         "AVAX/USD": 1794388828632,
         "ARIA/USD": 1794474481268,
         "TON/USD": 1794475632121,
