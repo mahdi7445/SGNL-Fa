@@ -222928,7 +222928,7 @@
     "XCN/USD|15min": 1794615381.9885728,
     "ZAMA/USD|15min": 1794615397.2611752
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
