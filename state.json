@@ -58776,14 +58776,14 @@
         "entry": 0.2998,
         "sl": 0.3009,
         "r": 0.0010999999999999899,
-        "working_sl": 0.2998,
+        "working_sl": 0.2987,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 0.5,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -58791,6 +58791,11 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": 2,
+            "frac": 0.3,
+            "r": 2
           }
         ],
         "closed": false,
@@ -58806,6 +58811,12 @@
             "ts": "2026-11-13T13:53:08.638221+00:00",
             "price": 0.2987,
             "level": 1
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-13T13:56:00.685615+00:00",
+            "price": 0.29760000000000003,
+            "level": 2
           }
         ],
         "quality_tier": "experimental",
@@ -224240,6 +224251,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-11-13T13:53:09.144661+00:00"
+    },
+    {
+      "symbol": "STX/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_2",
+      "r": 2,
+      "frac": 0.3,
+      "at": "2026-11-13T13:56:01.152349+00:00"
     }
   ],
   "td_unsupported": {
@@ -224252,7 +224273,7 @@
     "ZAMA/USD|15min": 1794615397.2611752,
     "GRAM/USD|1h": 1794658533.1731815
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
