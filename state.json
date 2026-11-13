@@ -58776,17 +58776,23 @@
         "entry": 0.2897,
         "sl": 0.2886,
         "r": 0.0010999999999999899,
-        "working_sl": 0.2886,
+        "working_sl": 0.2897,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1794564140015,
         "events": [
@@ -58794,6 +58800,12 @@
             "type": "opened",
             "ts": "2026-11-13T10:02:20.015751+00:00",
             "price": 0.2897
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-13T10:04:10.895722+00:00",
+            "price": 0.2908,
+            "level": 1
           }
         ],
         "quality_tier": "experimental",
@@ -223995,6 +224007,16 @@
       "r": 1.0,
       "frac": 0.5,
       "at": "2026-11-12T11:16:54.631494+00:00"
+    },
+    {
+      "symbol": "STX/USD",
+      "tf": "1m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-11-13T10:04:16.264269+00:00"
     }
   ],
   "td_unsupported": {
