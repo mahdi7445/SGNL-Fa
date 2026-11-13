@@ -226090,7 +226090,7 @@
         "RD5|DOT/USD|4h": 1794542400000,
         "RD5|NEAR/USD|4h": 1794542400000,
         "RD5|ATOM/USD|4h": 1794542400000,
-        "HOT|NIGHT/USD|5m|SELL": 1794566700000,
+        "HOT|NIGHT/USD|5m|SELL": 1794567000000,
         "HOT|NIGHT/USD|15m|SELL": 1794565800000,
         "HOT|BARD/USD|5m|BUY": 1794563700000,
         "HOT|BARD/USD|15m|BUY": 1794563100000,
@@ -226294,8 +226294,8 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 6085,
-          "nodata": 1187,
+          "checks": 6086,
+          "nodata": 1193,
           "raw": 127,
           "blocked": {
             "off_session": 1315,
@@ -226308,15 +226308,15 @@
             "weekly_loss(-11.45R)": 4,
             "weekly_loss(-11.25R)": 4,
             "duplicate_signal": 2,
-            "cooldown": 179,
+            "cooldown": 183,
             "loss_streak(4)": 1,
             "loss_streak(7)": 4,
             "loss_streak(8)": 25,
             "loss_streak(9)": 7,
             "loss_streak(5)": 6
           },
-          "opened": 63,
-          "last_check": 1794567564
+          "opened": 64,
+          "last_check": 1794567575
         },
         "FBR": {
           "since": 1792740561,
@@ -226575,7 +226575,7 @@
       },
       "hot_daily": {
         "day": "2026-11-13",
-        "n": 2
+        "n": 3
       },
       "hot_last": {
         "ts": 1794567553,
@@ -226614,7 +226614,7 @@
         "pool": 38
       },
       "hot_cd": {
-        "AKE/USD": 1794046399837,
+        "AKE/USD": 1794571153923,
         "DOT/USD": 1792762357074,
         "QNT/USD": 1794473057264,
         "NEAR/USD": 1794215511151,
