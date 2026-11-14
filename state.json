@@ -232397,7 +232397,7 @@
           "nodata": 1217,
           "raw": 129,
           "blocked": {
-            "off_session": 1351,
+            "off_session": 1352,
             "no_pullback": 3601,
             "daily_cap": 1215,
             "time_budget": 64,
@@ -232512,7 +232512,7 @@
             "loss_streak(7)": 2,
             "duplicate_signal": 1
           },
-          "opened": 0,
+          "opened": 1,
           "last_check": 1794629116
         }
       },
@@ -232671,12 +232671,14 @@
         "CN4H|SEI/USD": 1794297953530,
         "TPS|LTC/USD": 1794484838803,
         "FBR|ATOM/USD": 1794492345253,
-        "RD1|NEAR/USD": 1794614888768
+        "RD1|NEAR/USD": 1794614888768,
+        "RD5|LINK/USD": 1794629031563
       },
       "mx_day": {
         "day": "2026-11-14",
         "RD1": 1,
-        "SWP": 1
+        "SWP": 1,
+        "RD5": 1
       },
       "hot_daily": {
         "day": "2026-11-14",
@@ -232758,7 +232760,7 @@
       },
       "daily": {
         "day": "2026-11-14",
-        "lowtf": 1
+        "lowtf": 2
       },
       "outbox": [],
       "published": [
