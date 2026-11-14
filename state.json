@@ -234251,7 +234251,7 @@
             "off_session": 1379,
             "no_pullback": 3601,
             "daily_cap": 1215,
-            "time_budget": 68,
+            "time_budget": 69,
             "already_open": 10,
             "stop_too_small": 1,
             "no_hot_coins": 17,
@@ -234266,7 +234266,7 @@
             "loss_streak(5)": 9,
             "loss_streak(6)": 38
           },
-          "opened": 65,
+          "opened": 66,
           "last_check": 1794655656
         },
         "FBR": {
@@ -234534,7 +234534,7 @@
       },
       "hot_daily": {
         "day": "2026-11-14",
-        "n": 0
+        "n": 1
       },
       "hot_last": {
         "ts": 1794655642,
@@ -234579,7 +234579,7 @@
         "NEAR/USD": 1794215511151,
         "PEPE/USD": 1794389295348,
         "VVV/USD": 1793795524199,
-        "ENA/USD": 1793211443753,
+        "ENA/USD": 1794659242298,
         "WLD/USD": 1793900313882,
         "CAP/USD": 1793104188816,
         "ZEC/USD": 1794387889086,
