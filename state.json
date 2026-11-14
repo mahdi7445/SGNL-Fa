@@ -78,7 +78,9 @@
   },
   "daily_stop_counts": {
     "date": "2026-11-14",
-    "counts": {}
+    "counts": {
+      "XRP": 1
+    }
   },
   "tf_windows": {
     "trendalts_refresh": "2026-11-14",
@@ -10630,17 +10632,35 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1794618190070,
         "events": [
           {
             "type": "opened",
             "ts": "2026-11-14T01:03:10.070387+00:00",
             "price": 1.0131
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-14T01:05:11.290538+00:00",
+            "price": 1.0085,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-14T01:05:11.781967+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "quality_tier": "experimental",
@@ -10649,7 +10669,8 @@
         "htf_aligned": false,
         "stop_pct": 0.4541,
         "fee_r_est": 0.3304,
-        "signal_message_id": 7486
+        "signal_message_id": 7486,
+        "close_type": "stop"
       },
       "pending_signal": null
     },
@@ -226672,6 +226693,49 @@
       "stop_pct": 0.3519,
       "fee_r_est": 0.4263,
       "net_r_est": -0.2263
+    },
+    {
+      "signal_id": "ALT-000937",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-14T01:03:10.070387+00:00",
+          "price": 1.0131
+        },
+        {
+          "type": "stop",
+          "ts": "2026-11-14T01:05:11.290538+00:00",
+          "price": 1.0085,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-14T01:05:11.781967+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 1.0131,
+      "sl": 1.0085,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-14T01:03:10.070000+00:00",
+      "closed_at": "2026-11-14T01:05:11.781967+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": -1,
+      "htf_aligned": false,
+      "stop_pct": 0.4541,
+      "fee_r_est": 0.3304,
+      "net_r_est": -1.3304
     }
   ],
   "target_events": [
@@ -230154,6 +230218,16 @@
       "r": -0.0,
       "frac": 0.8,
       "at": "2026-11-13T22:10:34.891832+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-11-14T01:05:11.781948+00:00"
     }
   ],
   "td_unsupported": {
