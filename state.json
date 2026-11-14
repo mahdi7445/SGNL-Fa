@@ -233931,6 +233931,55 @@
           "tier": "lowtf",
           "profile": "Q2",
           "msg_id": 7521
+        },
+        "ALT-000949": {
+          "id": "ALT-000949",
+          "module": "RD1",
+          "symbol": "AVAX/USD",
+          "tf": "4h",
+          "side": "SELL",
+          "entry": 7.673,
+          "sl0": 8.397955594908256,
+          "sl": 8.397955594908256,
+          "risk": 0.7249555949082556,
+          "targets": [
+            6.223088810183489,
+            5.498133215275233,
+            4.41069982291285,
+            2.598310835642211
+          ],
+          "levels": [
+            2.0,
+            3.0,
+            4.5,
+            7.0
+          ],
+          "weights": [
+            0.4,
+            0.25,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 7.673,
+          "status": "open",
+          "opened_ms": 1794672278640,
+          "armed_ms": 1794672278640,
+          "last_ms": 1794672278640,
+          "bar_ms": 1794657600000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "lowtf",
+          "profile": "H4",
+          "msg_id": 7522
         }
       },
       "seen": [],
@@ -234822,9 +234871,10 @@
           "nodata": 0,
           "raw": 7,
           "blocked": {
-            "duplicate_signal": 4
+            "duplicate_signal": 4,
+            "strategy_cap": 1
           },
-          "opened": 1,
+          "opened": 2,
           "last_check": 1794672351
         },
         "RD4": {
@@ -234851,7 +234901,7 @@
           "nodata": 0,
           "raw": 9,
           "blocked": {
-            "duplicate_signal": 5
+            "duplicate_signal": 7
           },
           "opened": 1,
           "last_check": 1794672351
@@ -235026,14 +235076,15 @@
         "FBR|ATOM/USD": 1794492345253,
         "RD1|NEAR/USD": 1794614888768,
         "RD5|LINK/USD": 1794629031563,
-        "RD3|LTC/USD": 1794672278640
+        "RD3|LTC/USD": 1794672278640,
+        "RD3|SUI/USD": 1794672278640
       },
       "mx_day": {
         "day": "2026-11-14",
         "RD1": 1,
         "SWP": 1,
         "RD5": 1,
-        "RD3": 1
+        "RD3": 2
       },
       "hot_daily": {
         "day": "2026-11-14",
@@ -235111,7 +235162,7 @@
       },
       "daily": {
         "day": "2026-11-14",
-        "lowtf": 3
+        "lowtf": 4
       },
       "outbox": [],
       "published": [
@@ -235157,7 +235208,8 @@
         "HOT|NIGHT/USD|15m|BUY|1794657600000",
         "HOT|UNI/USD|5m|SELL|1794670800000",
         "RD3|LTC/USD|4h|SELL|1794657600000",
-        "RD3|SUI/USD|4h|SELL|1794657600000"
+        "RD3|SUI/USD|4h|SELL|1794657600000",
+        "RD1|AVAX/USD|4h|SELL|1794657600000"
       ]
     }
   }
