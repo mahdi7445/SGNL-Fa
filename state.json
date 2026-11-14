@@ -234798,7 +234798,7 @@
           "blocked": {
             "off_session": 1379,
             "no_pullback": 3601,
-            "daily_cap": 1216,
+            "daily_cap": 1217,
             "time_budget": 76,
             "already_open": 10,
             "stop_too_small": 1,
@@ -234903,7 +234903,7 @@
           "blocked": {
             "duplicate_signal": 7
           },
-          "opened": 1,
+          "opened": 2,
           "last_check": 1794672351
         },
         "RD5": {
@@ -235077,11 +235077,12 @@
         "RD1|NEAR/USD": 1794614888768,
         "RD5|LINK/USD": 1794629031563,
         "RD3|LTC/USD": 1794672278640,
-        "RD3|SUI/USD": 1794672278640
+        "RD3|SUI/USD": 1794672278640,
+        "RD1|AVAX/USD": 1794672278640
       },
       "mx_day": {
         "day": "2026-11-14",
-        "RD1": 1,
+        "RD1": 2,
         "SWP": 1,
         "RD5": 1,
         "RD3": 2
@@ -235162,7 +235163,7 @@
       },
       "daily": {
         "day": "2026-11-14",
-        "lowtf": 4
+        "lowtf": 5
       },
       "outbox": [],
       "published": [
