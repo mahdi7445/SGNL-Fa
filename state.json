@@ -79,7 +79,8 @@
   "daily_stop_counts": {
     "date": "2026-11-14",
     "counts": {
-      "XRP": 1
+      "XRP": 1,
+      "ADA": 1
     }
   },
   "tf_windows": {
@@ -8656,17 +8657,35 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1794628084241,
         "events": [
           {
             "type": "opened",
             "ts": "2026-11-14T03:48:04.241644+00:00",
             "price": 0.163417
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-14T06:00:16.633820+00:00",
+            "price": 0.164896,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-14T06:00:17.010047+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "quality_tier": "experimental",
@@ -8675,7 +8694,8 @@
         "htf_aligned": true,
         "stop_pct": 0.905,
         "fee_r_est": 0.1657,
-        "signal_message_id": 7493
+        "signal_message_id": 7493,
+        "close_type": "stop"
       },
       "pending_signal": null
     },
@@ -187814,9 +187834,9 @@
       "pending_signal": null
     },
     "TIA/USD|1m": {
-      "ema7": 0.3719519088815436,
-      "ema25": 0.3710774362222872,
-      "atr": 0.0010731475920990436,
+      "ema7": 0.37213893166115775,
+      "ema25": 0.37120224882057284,
+      "atr": 0.0010607799069491128,
       "tr_buffer": [
         0.0,
         0.00039999999999995595,
@@ -187833,8 +187853,8 @@
         0.0010000000000000009,
         0.0006999999999999784
       ],
-      "plus_dm": 0.00035938755359175167,
-      "minus_dm": 0.0002271666685584967,
+      "plus_dm": 0.00034085987119234,
+      "minus_dm": 0.0002109404779471755,
       "dm_buffer": [
         [
           0.0,
@@ -187893,7 +187913,7 @@
           0.0
         ]
       ],
-      "adx": 20.3412774914512,
+      "adx": 20.570088937675283,
       "dx_buffer": [
         4.761904761905182,
         9.206349206349154,
@@ -187911,16 +187931,6 @@
         8.865904455469783
       ],
       "hist": [
-        {
-          "o": 0.3694,
-          "h": 0.3694,
-          "l": 0.3687,
-          "c": 0.3687,
-          "ema7": 0.3695812500000001,
-          "sma7": null,
-          "dt_ms": 1794630540000,
-          "v": 2316.8
-        },
         {
           "o": 0.3687,
           "h": 0.3692,
@@ -188710,6 +188720,16 @@
           "sma7": 0.37184285714285714,
           "dt_ms": 1794635880000,
           "v": 19537.930000000015
+        },
+        {
+          "o": 0.3727,
+          "h": 0.3729,
+          "l": 0.372,
+          "c": 0.3727,
+          "ema7": 0.37213893166115775,
+          "sma7": 0.37207142857142855,
+          "dt_ms": 1794635940000,
+          "v": 40948.31000000001
         }
       ],
       "trend_prev": "up",
@@ -188718,8 +188738,8 @@
       "last_bull_bar_index": null,
       "last_bear_bar_index": null,
       "last_signal_price": null,
-      "bar_index": 82,
-      "last_open_time": 1794635880000,
+      "bar_index": 83,
+      "last_open_time": 1794635940000,
       "open_trade": null,
       "pending_signal": null
     }
@@ -227687,6 +227707,49 @@
       "hot_move_pct": null,
       "tier": "ماژول SWP",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000939",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-14T03:48:04.241644+00:00",
+          "price": 0.163417
+        },
+        {
+          "type": "stop",
+          "ts": "2026-11-14T06:00:16.633820+00:00",
+          "price": 0.164896,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-14T06:00:17.010047+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "ADA/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 0.163417,
+      "sl": 0.164896,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-14T03:48:04.241000+00:00",
+      "closed_at": "2026-11-14T06:00:17.010047+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": -1,
+      "htf_aligned": true,
+      "stop_pct": 0.905,
+      "fee_r_est": 0.1657,
+      "net_r_est": -1.1657
     }
   ],
   "target_events": [
@@ -231179,6 +231242,16 @@
       "r": -1.0,
       "frac": 1.0,
       "at": "2026-11-14T01:05:11.781948+00:00"
+    },
+    {
+      "symbol": "ADA/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-11-14T06:00:17.010005+00:00"
     }
   ],
   "td_unsupported": {
