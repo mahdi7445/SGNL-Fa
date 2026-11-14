@@ -234038,6 +234038,55 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7527
+        },
+        "ALT-000951": {
+          "id": "ALT-000951",
+          "module": "TPB",
+          "symbol": "NEAR/USD",
+          "tf": "1h",
+          "side": "SELL",
+          "entry": 3.1092,
+          "sl0": 3.3643372206516573,
+          "sl": 3.3643372206516573,
+          "risk": 0.25513722065165734,
+          "targets": [
+            2.5989255586966853,
+            2.0886511173933706,
+            1.578376676090056,
+            0.8129650141350839
+          ],
+          "levels": [
+            2.0,
+            4.0,
+            6.0,
+            9.0
+          ],
+          "weights": [
+            0.35,
+            0.25,
+            0.15,
+            0.1
+          ],
+          "trail": 2.0,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 3.1092,
+          "status": "open",
+          "opened_ms": 1794675852929,
+          "armed_ms": 1794675852929,
+          "last_ms": 1794675852929,
+          "bar_ms": 1794672000000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "candidate",
+          "profile": "Q3",
+          "msg_id": 7528
         }
       },
       "seen": [],
@@ -234798,7 +234847,7 @@
           "nodata": 0,
           "raw": 31,
           "blocked": {
-            "duplicate_signal": 8,
+            "duplicate_signal": 9,
             "loss_streak(7)": 4,
             "loss_streak(8)": 3,
             "loss_streak(9)": 2,
@@ -234821,7 +234870,7 @@
             "loss_streak(9)": 4,
             "already_open": 1
           },
-          "opened": 5,
+          "opened": 6,
           "last_check": 1794675881
         },
         "MRA": {
@@ -235136,14 +235185,16 @@
         "RD5|LINK/USD": 1794629031563,
         "RD3|LTC/USD": 1794672278640,
         "RD3|SUI/USD": 1794672278640,
-        "RD1|AVAX/USD": 1794672278640
+        "RD1|AVAX/USD": 1794672278640,
+        "TPS|ATOM/USD": 1794675852929
       },
       "mx_day": {
         "day": "2026-11-14",
         "RD1": 2,
         "SWP": 1,
         "RD5": 1,
-        "RD3": 2
+        "RD3": 2,
+        "TPS": 1
       },
       "hot_daily": {
         "day": "2026-11-14",
@@ -235221,7 +235272,7 @@
       },
       "daily": {
         "day": "2026-11-14",
-        "lowtf": 5
+        "lowtf": 6
       },
       "outbox": [],
       "published": [
@@ -235269,7 +235320,8 @@
         "RD3|LTC/USD|4h|SELL|1794657600000",
         "RD3|SUI/USD|4h|SELL|1794657600000",
         "RD1|AVAX/USD|4h|SELL|1794657600000",
-        "TPS|ATOM/USD|1h|SELL|1794672000000"
+        "TPS|ATOM/USD|1h|SELL|1794672000000",
+        "TPB|NEAR/USD|1h|SELL|1794672000000"
       ]
     }
   }
