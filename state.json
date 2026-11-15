@@ -240977,7 +240977,7 @@
     "ASTER/USD|15min": 1794788392.129067,
     "PENGU/USD|15min": 1794788399.9553132
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
