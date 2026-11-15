@@ -245022,14 +245022,14 @@
         "HOT|HYPE/USD|15m|SELL": 1793457900000,
         "HOT|UNI/USD|5m|SELL": 1794670800000,
         "HOT|UNI/USD|15m|SELL": 1794669300000,
-        "HOT|AAVE/USD|5m|BUY": 1794730200000,
+        "HOT|AAVE/USD|5m|BUY": 1794730800000,
         "HOT|AAVE/USD|15m|BUY": 1794729600000,
         "HOT|LINK/USD|5m|BUY": 1793479800000,
         "HOT|LINK/USD|15m|BUY": 1793478600000,
         "HOT|AVAX/USD|5m|BUY": 1794384900000,
         "HOT|AVAX/USD|15m|BUY": 1794384000000,
-        "HOT|XMR/USD|5m|BUY": 1794727800000,
-        "HOT|XMR/USD|15m|BUY": 1794726900000,
+        "HOT|XMR/USD|5m|BUY": 1794730800000,
+        "HOT|XMR/USD|15m|BUY": 1794729600000,
         "HOT|VVV/USD|5m|BUY": 1794730800000,
         "HOT|VVV/USD|15m|BUY": 1794729600000,
         "HOT|KOR/USD|5m|SELL": 1794043800000,
@@ -245378,14 +245378,14 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 6608,
-          "nodata": 1729,
+          "checks": 6611,
+          "nodata": 1731,
           "raw": 215,
           "blocked": {
             "off_session": 1443,
             "no_pullback": 3601,
             "daily_cap": 1291,
-            "time_budget": 84,
+            "time_budget": 85,
             "already_open": 10,
             "stop_too_small": 1,
             "no_hot_coins": 17,
@@ -245400,8 +245400,8 @@
             "loss_streak(5)": 9,
             "loss_streak(6)": 38
           },
-          "opened": 71,
-          "last_check": 1794731139
+          "opened": 72,
+          "last_check": 1794731148
         },
         "FBR": {
           "since": 1792740561,
@@ -245681,7 +245681,7 @@
       },
       "hot_daily": {
         "day": "2026-11-15",
-        "n": 2
+        "n": 3
       },
       "hot_last": {
         "ts": 1794731126,
@@ -245759,7 +245759,8 @@
         "ARIA/USD": 1794474481268,
         "TON/USD": 1794475632121,
         "BARD/USD": 1794567606617,
-        "NIGHT/USD": 1794730227298
+        "NIGHT/USD": 1794730227298,
+        "JUP/USD": 1794734726144
       },
       "daily": {
         "day": "2026-11-14",
