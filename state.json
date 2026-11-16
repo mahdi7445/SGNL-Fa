@@ -247009,7 +247009,7 @@
     "VVV/USD|15min": 1794874563.7513711,
     "CC/USD|15min": 1794874571.5709298
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
