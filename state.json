@@ -256233,7 +256233,7 @@
           "blocked": {
             "off_session": 1573,
             "no_pullback": 3601,
-            "daily_cap": 1611,
+            "daily_cap": 1612,
             "time_budget": 94,
             "already_open": 10,
             "stop_too_small": 1,
@@ -256260,7 +256260,7 @@
           "blocked": {
             "already_open": 1
           },
-          "opened": 11,
+          "opened": 12,
           "last_check": 1794923283
         },
         "TKS": {
@@ -256392,7 +256392,7 @@
         "SWP|DOT/USD": 1792742965888,
         "CN15|XLM/USD": 1794398798208,
         "CN15|XRP/USD": 1794187842696,
-        "FBR|DOGE/USD": 1793119596291,
+        "FBR|DOGE/USD": 1794923265138,
         "CN15|LINK/USD": 1794460518059,
         "FBR|NEAR/USD": 1793096584292,
         "CN5M|ZEC/USD": 1794332807251,
@@ -256523,7 +256523,7 @@
         "FBR|AVAX/USD": 1794736851687
       },
       "mx_day": {
-        "day": "2026-11-15",
+        "day": "2026-11-17",
         "FBR": 1
       },
       "hot_daily": {
@@ -256592,7 +256592,7 @@
       },
       "daily": {
         "day": "2026-11-17",
-        "lowtf": 0
+        "lowtf": 1
       },
       "outbox": [],
       "published": [
