@@ -252948,7 +252948,7 @@
     "JUP/USD|15min": 1794960944.850932,
     "KMNO/USD|15min": 1794960952.7455592
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
