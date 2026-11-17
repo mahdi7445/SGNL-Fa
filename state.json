@@ -256153,7 +256153,7 @@
             "off_session": 1573,
             "no_pullback": 3601,
             "daily_cap": 1574,
-            "time_budget": 93,
+            "time_budget": 94,
             "already_open": 10,
             "stop_too_small": 1,
             "no_hot_coins": 17,
@@ -256168,7 +256168,7 @@
             "loss_streak(5)": 9,
             "loss_streak(6)": 38
           },
-          "opened": 80,
+          "opened": 81,
           "last_check": 1794908277
         },
         "FBR": {
@@ -256445,7 +256445,7 @@
       },
       "hot_daily": {
         "day": "2026-11-17",
-        "n": 3
+        "n": 4
       },
       "hot_last": {
         "ts": 1794908266,
@@ -256497,7 +256497,7 @@
         "BCH/USD": 1793977390129,
         "KOR/USD": 1794047816960,
         "UAI/USD": 1794041811280,
-        "XMR/USD": 1794471243939,
+        "XMR/USD": 1794911866853,
         "UNI/USD": 1794674931055,
         "AVAX/USD": 1794388828632,
         "ARIA/USD": 1794474481268,
