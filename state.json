@@ -6678,7 +6678,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.5,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -6691,9 +6691,14 @@
             "target": 2,
             "frac": 0.3,
             "r": 2
+          },
+          {
+            "target": "stop",
+            "frac": 0.5,
+            "r": 1.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1794965284521,
         "events": [
           {
@@ -6712,6 +6717,18 @@
             "ts": "2026-11-18T01:49:26.183831+00:00",
             "price": 74.24000000000001,
             "level": 2
+          },
+          {
+            "type": "stop_at_t1",
+            "ts": "2026-11-18T01:54:07.891080+00:00",
+            "price": 74.43,
+            "r": 1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-18T01:54:08.346193+00:00",
+            "close_type": "stop_at_t1",
+            "final_r": 1.3
           }
         ],
         "quality_tier": "experimental",
@@ -6721,7 +6738,8 @@
         "stop_pct": 0.2546,
         "fee_r_est": 0.5891,
         "entry_unsent": true,
-        "entry_maybe_delivered": true
+        "entry_maybe_delivered": true,
+        "close_type": "stop_at_t1"
       },
       "pending_signal": null
     },
@@ -250616,6 +250634,64 @@
       "hot_move_pct": null,
       "tier": "ماژول TPB",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-000979",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-18T01:28:04.521710+00:00",
+          "price": 74.62
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-18T01:30:09.759048+00:00",
+          "price": 74.43,
+          "level": 1
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-18T01:49:26.183831+00:00",
+          "price": 74.24000000000001,
+          "level": 2
+        },
+        {
+          "type": "stop_at_t1",
+          "ts": "2026-11-18T01:54:07.891080+00:00",
+          "price": 74.43,
+          "r": 1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-18T01:54:08.346193+00:00",
+          "close_type": "stop_at_t1",
+          "final_r": 1.3
+        }
+      ],
+      "symbol": "SOL/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "entry": 74.62,
+      "sl": 74.81,
+      "final_r": 1.3,
+      "close_type": "stop_at_t1",
+      "close_reason": "Stopped at Target 1 level after Target 2 (50% banked)",
+      "targets_hit": [
+        1,
+        2
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-18T01:28:04.521000+00:00",
+      "closed_at": "2026-11-18T01:54:08.346193+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": -1,
+      "htf_aligned": true,
+      "stop_pct": 0.2546,
+      "fee_r_est": 0.5891,
+      "net_r_est": 0.7109
     }
   ],
   "target_events": [
@@ -254288,6 +254364,16 @@
       "r": 2,
       "frac": 0.3,
       "at": "2026-11-18T01:49:28.505564+00:00"
+    },
+    {
+      "symbol": "SOL/USD",
+      "tf": "5m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "stop_at_t1",
+      "r": 1.0,
+      "frac": 0.5,
+      "at": "2026-11-18T01:54:08.346158+00:00"
     }
   ],
   "td_unsupported": {
