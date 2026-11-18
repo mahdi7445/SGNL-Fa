@@ -256073,8 +256073,8 @@
         "HOT|VVV/USD|15m|SELL": 1793219400000,
         "HOT|AKE/USD|5m|SELL": 1794814200000,
         "HOT|AKE/USD|15m|SELL": 1794813300000,
-        "HOT|ENA/USD|5m|SELL": 1794995400000,
-        "HOT|ENA/USD|15m|SELL": 1794994200000,
+        "HOT|ENA/USD|5m|SELL": 1794995700000,
+        "HOT|ENA/USD|15m|SELL": 1794995100000,
         "HOT|PEPE/USD|5m|SELL": 1794641100000,
         "HOT|PEPE/USD|15m|SELL": 1794640500000,
         "HOT|NEAR/USD|5m|SELL": 1794211500000,
@@ -256461,7 +256461,7 @@
           "nodata": 0,
           "raw": 45,
           "blocked": {
-            "duplicate_signal": 16,
+            "duplicate_signal": 17,
             "loss_streak(7)": 4,
             "loss_streak(8)": 3,
             "loss_streak(9)": 2,
@@ -256484,7 +256484,7 @@
             "loss_streak(9)": 4,
             "already_open": 1
           },
-          "opened": 6,
+          "opened": 7,
           "last_check": 1794996296
         },
         "MRA": {
@@ -256513,15 +256513,15 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 6711,
-          "nodata": 2077,
-          "raw": 235,
+          "checks": 6713,
+          "nodata": 2083,
+          "raw": 236,
           "blocked": {
             "off_session": 1638,
             "no_pullback": 3601,
             "daily_cap": 1708,
             "time_budget": 96,
-            "already_open": 16,
+            "already_open": 17,
             "stop_too_small": 1,
             "no_hot_coins": 17,
             "weekly_loss(-11.45R)": 4,
@@ -256536,7 +256536,7 @@
             "loss_streak(6)": 38
           },
           "opened": 82,
-          "last_check": 1794995871
+          "last_check": 1794996321
         },
         "FBR": {
           "since": 1792740561,
@@ -256806,24 +256806,24 @@
         "RD3|LTC/USD": 1794672278640,
         "RD3|SUI/USD": 1794672278640,
         "RD1|AVAX/USD": 1794672278640,
-        "TPS|ATOM/USD": 1794675852929,
+        "TPS|ATOM/USD": 1794996268551,
         "SWP|JUP/USD": 1794686674550,
         "FBR|AVAX/USD": 1794736851687
       },
       "mx_day": {
-        "day": "2026-11-17",
-        "FBR": 1
+        "day": "2026-11-18",
+        "TPS": 1
       },
       "hot_daily": {
         "day": "2026-11-18",
         "n": 1
       },
       "hot_last": {
-        "ts": 1794995858,
+        "ts": 1794996268,
         "buy": [
           [
             "GRAM/USD",
-            4.38
+            3.6
           ]
         ],
         "sell": [
@@ -256837,7 +256837,7 @@
           ],
           [
             "ENA/USD",
-            -4.16
+            -4.41
           ]
         ],
         "pool": 27
@@ -256876,7 +256876,7 @@
       },
       "daily": {
         "day": "2026-11-18",
-        "lowtf": 0
+        "lowtf": 1
       },
       "outbox": [],
       "published": [
