@@ -256132,6 +256132,55 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7654
+        },
+        "ALT-001014": {
+          "id": "ALT-001014",
+          "module": "RD12",
+          "symbol": "XMR/USD",
+          "tf": "4h",
+          "side": "SELL",
+          "entry": 495.98,
+          "sl0": 540.2438841000334,
+          "sl": 540.2438841000334,
+          "risk": 44.26388410003335,
+          "targets": [
+            407.4522317999333,
+            318.9244635998666,
+            230.3966953997999,
+            97.60504309969986
+          ],
+          "levels": [
+            2.0,
+            4.0,
+            6.0,
+            9.0
+          ],
+          "weights": [
+            0.35,
+            0.25,
+            0.15,
+            0.1
+          ],
+          "trail": 2.0,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 495.98,
+          "status": "open",
+          "opened_ms": 1795039341073,
+          "armed_ms": 1795039341073,
+          "last_ms": 1795039341073,
+          "bar_ms": 1795017600000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "candidate",
+          "profile": "Q3",
+          "msg_id": 7655
         }
       },
       "seen": [],
@@ -257418,7 +257467,7 @@
           "blocked": {
             "duplicate_signal": 6
           },
-          "opened": 0,
+          "opened": 1,
           "last_check": 1795039430
         }
       },
@@ -257585,12 +257634,14 @@
         "TPS|ATOM/USD": 1794996268551,
         "SWP|JUP/USD": 1794686674550,
         "FBR|AVAX/USD": 1794736851687,
-        "RD10|SHIB/USD": 1795015044977
+        "RD10|SHIB/USD": 1795015044977,
+        "RD12|ALGO/USD": 1795039341073
       },
       "mx_day": {
         "day": "2026-11-18",
         "TPS": 1,
-        "RD10": 1
+        "RD10": 1,
+        "RD12": 1
       },
       "hot_daily": {
         "day": "2026-11-18",
@@ -257668,7 +257719,7 @@
       "daily": {
         "day": "2026-11-18",
         "lowtf": 1,
-        "rnd": 1
+        "rnd": 2
       },
       "outbox": [],
       "published": [
@@ -257739,7 +257790,8 @@
         "HOT|ZEC/USD|5m|SELL|1795001100000",
         "HOT|NIGHT/USD|15m|BUY|1795001400000",
         "RD10|SHIB/USD|4h|SELL|1794988800000",
-        "RD12|ALGO/USD|4h|SELL|1795017600000"
+        "RD12|ALGO/USD|4h|SELL|1795017600000",
+        "RD12|XMR/USD|4h|SELL|1795017600000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -257762,7 +257814,8 @@
         "ZEC|5m|SELL|1795001100000": "HOT",
         "NIGHT|15m|BUY|1795001400000": "HOT",
         "SHIB|4h|SELL|1794988800000": "RD10",
-        "ALGO|4h|SELL|1795017600000": "RD12"
+        "ALGO|4h|SELL|1795017600000": "RD12",
+        "XMR|4h|SELL|1795017600000": "RD12"
       },
       "rd_report_ts": 1795018776
     }
