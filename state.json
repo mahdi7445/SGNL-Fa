@@ -257289,7 +257289,7 @@
           "blocked": {
             "off_session": 1638,
             "no_pullback": 3601,
-            "daily_cap": 1802,
+            "daily_cap": 1803,
             "time_budget": 101,
             "already_open": 25,
             "stop_too_small": 1,
@@ -257465,9 +257465,10 @@
           "nodata": 0,
           "raw": 12,
           "blocked": {
-            "duplicate_signal": 6
+            "duplicate_signal": 6,
+            "strategy_cap": 4
           },
-          "opened": 1,
+          "opened": 2,
           "last_check": 1795039430
         }
       },
@@ -257635,13 +257636,14 @@
         "SWP|JUP/USD": 1794686674550,
         "FBR|AVAX/USD": 1794736851687,
         "RD10|SHIB/USD": 1795015044977,
-        "RD12|ALGO/USD": 1795039341073
+        "RD12|ALGO/USD": 1795039341073,
+        "RD12|XMR/USD": 1795039341073
       },
       "mx_day": {
         "day": "2026-11-18",
         "TPS": 1,
         "RD10": 1,
-        "RD12": 1
+        "RD12": 2
       },
       "hot_daily": {
         "day": "2026-11-18",
@@ -257719,7 +257721,7 @@
       "daily": {
         "day": "2026-11-18",
         "lowtf": 1,
-        "rnd": 2
+        "rnd": 3
       },
       "outbox": [],
       "published": [
