@@ -10543,7 +10543,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -10551,9 +10551,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": 0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1795026758528,
         "events": [
           {
@@ -10566,6 +10571,18 @@
             "ts": "2026-11-18T18:46:07.448951+00:00",
             "price": 0.9816999999999999,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-18T18:53:36.746649+00:00",
+            "price": 0.9792,
+            "r": 0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-18T18:53:37.093004+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "quality_tier": "experimental",
@@ -10574,7 +10591,8 @@
         "htf_aligned": false,
         "stop_pct": 0.2553,
         "fee_r_est": 0.5875,
-        "entry_unsent": true
+        "entry_unsent": true,
+        "close_type": "breakeven"
       },
       "pending_signal": null
     },
@@ -250893,6 +250911,57 @@
       "hot_move_pct": -4.16,
       "tier": "ماژول HOT",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-001003",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-18T18:32:38.528051+00:00",
+          "price": 0.9792
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-18T18:46:07.448951+00:00",
+          "price": 0.9816999999999999,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-11-18T18:53:36.746649+00:00",
+          "price": 0.9792,
+          "r": 0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-18T18:53:37.093004+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 0.9792,
+      "sl": 0.9767,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-18T18:32:38.528000+00:00",
+      "closed_at": "2026-11-18T18:53:37.093004+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": -1,
+      "htf_aligned": false,
+      "stop_pct": 0.2553,
+      "fee_r_est": 0.5875,
+      "net_r_est": -0.3875
     }
   ],
   "target_events": [
@@ -254595,6 +254664,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-11-18T18:46:07.906415+00:00"
+    },
+    {
+      "symbol": "XRP/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "breakeven",
+      "r": 0.0,
+      "frac": 0.8,
+      "at": "2026-11-18T18:53:37.092967+00:00"
     }
   ],
   "td_unsupported": {
