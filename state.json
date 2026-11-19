@@ -261154,7 +261154,7 @@
           "blocked": {
             "off_session": 1702,
             "no_pullback": 3601,
-            "daily_cap": 1929,
+            "daily_cap": 1930,
             "time_budget": 105,
             "already_open": 26,
             "stop_too_small": 1,
@@ -261333,9 +261333,9 @@
           "raw": 20,
           "blocked": {
             "duplicate_signal": 11,
-            "strategy_cap": 4
+            "strategy_cap": 5
           },
-          "opened": 3,
+          "opened": 4,
           "last_check": 1795118869
         },
         "RD9": {
@@ -261522,12 +261522,13 @@
         "RD11|AAVE/USD": 1795104400317,
         "RD10|ICP/USD": 1795104400317,
         "RD6|HBAR/USD": 1795104400317,
-        "RD6|ARB/USD": 1795104400317
+        "RD6|ARB/USD": 1795104400317,
+        "RD12|TIA/USD": 1795118743536
       },
       "mx_day": {
         "day": "2026-11-19",
         "FBR": 3,
-        "RD12": 1,
+        "RD12": 2,
         "RD4": 2,
         "RD11": 2,
         "RD10": 1,
@@ -261615,7 +261616,7 @@
       "daily": {
         "day": "2026-11-19",
         "lowtf": 4,
-        "rnd": 8
+        "rnd": 9
       },
       "outbox": [],
       "published": [
