@@ -257566,7 +257566,7 @@
     "PUMP/USD|15min": 1795133888.1810455,
     "MON/USD|15min": 1795133896.0703132
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
