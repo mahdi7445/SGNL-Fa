@@ -11598,17 +11598,23 @@
         "entry": 0.1543,
         "sl": 0.1555,
         "r": 0.0012000000000000066,
-        "working_sl": 0.1555,
+        "working_sl": 0.1543,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 0.2,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
+        "fills": [
+          {
+            "target": 1,
+            "frac": 0.2,
+            "r": 1
+          }
+        ],
         "closed": false,
         "opened_at_ms": 1795102317681,
         "events": [
@@ -11616,6 +11622,12 @@
             "type": "opened",
             "ts": "2026-11-19T15:31:57.681137+00:00",
             "price": 0.1543
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-19T15:33:10.723653+00:00",
+            "price": 0.15309999999999999,
+            "level": 1
           }
         ],
         "quality_tier": "experimental",
@@ -257778,6 +257790,16 @@
       "r": 0.0,
       "frac": 0.8,
       "at": "2026-11-18T19:00:54.596927+00:00"
+    },
+    {
+      "symbol": "ADA/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "SELL",
+      "type": "target_1",
+      "r": 1,
+      "frac": 0.2,
+      "at": "2026-11-19T15:33:11.301247+00:00"
     }
   ],
   "td_unsupported": {
