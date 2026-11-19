@@ -260437,7 +260437,7 @@
           "blocked": {
             "off_session": 1702,
             "no_pullback": 3601,
-            "daily_cap": 1833,
+            "daily_cap": 1834,
             "time_budget": 105,
             "already_open": 26,
             "stop_too_small": 1,
@@ -260464,7 +260464,7 @@
           "blocked": {
             "already_open": 1
           },
-          "opened": 13,
+          "opened": 14,
           "last_check": 1795080719
         },
         "TKS": {
@@ -260794,11 +260794,12 @@
         "FBR|AVAX/USD": 1794736851687,
         "RD10|SHIB/USD": 1795015044977,
         "RD12|ALGO/USD": 1795039341073,
-        "RD12|XMR/USD": 1795039341073
+        "RD12|XMR/USD": 1795039341073,
+        "FBR|LTC/USD": 1795080700263
       },
       "mx_day": {
         "day": "2026-11-19",
-        "FBR": 1
+        "FBR": 2
       },
       "hot_daily": {
         "day": "2026-11-19",
@@ -260879,7 +260880,7 @@
       },
       "daily": {
         "day": "2026-11-19",
-        "lowtf": 1,
+        "lowtf": 2,
         "rnd": 0
       },
       "outbox": [],
