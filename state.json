@@ -259599,6 +259599,55 @@
           "tier": "lowtf",
           "profile": "H3",
           "msg_id": 7677
+        },
+        "ALT-001026": {
+          "id": "ALT-001026",
+          "module": "RD11",
+          "symbol": "ATOM/USD",
+          "tf": "4h",
+          "side": "SELL",
+          "entry": 1.2794,
+          "sl0": 1.3602624530413554,
+          "sl": 1.3602624530413554,
+          "risk": 0.08086245304135531,
+          "targets": [
+            1.1581063204379671,
+            1.0368126408759342,
+            0.8750877347932235,
+            0.6325003756691576
+          ],
+          "levels": [
+            1.5,
+            3.0,
+            5.0,
+            8.0
+          ],
+          "weights": [
+            0.4,
+            0.25,
+            0.15,
+            0.1
+          ],
+          "trail": 2.0,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 1.2794,
+          "status": "open",
+          "opened_ms": 1795104400317,
+          "armed_ms": 1795104400317,
+          "last_ms": 1795104400317,
+          "bar_ms": 1795089600000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "lowtf",
+          "profile": "H3",
+          "msg_id": 7678
         }
       },
       "seen": [],
@@ -260829,7 +260878,7 @@
           "blocked": {
             "duplicate_signal": 5
           },
-          "opened": 1,
+          "opened": 2,
           "last_check": 1795104499
         },
         "RD6": {
@@ -261100,13 +261149,14 @@
         "RD12|XMR/USD": 1795039341073,
         "FBR|LTC/USD": 1795080700263,
         "RD12|ETC/USD": 1795090127148,
-        "RD4|LDO/USD": 1795104400317
+        "RD4|LDO/USD": 1795104400317,
+        "RD4|APT/USD": 1795104400317
       },
       "mx_day": {
         "day": "2026-11-19",
         "FBR": 3,
         "RD12": 1,
-        "RD4": 1
+        "RD4": 2
       },
       "hot_daily": {
         "day": "2026-11-19",
@@ -261188,7 +261238,7 @@
       "daily": {
         "day": "2026-11-19",
         "lowtf": 3,
-        "rnd": 2
+        "rnd": 3
       },
       "outbox": [],
       "published": [
@@ -261270,7 +261320,8 @@
         "RD12|ETC/USD|4h|SELL|1795075200000",
         "FBR|DOT/USD|15m|SELL|1795096800000",
         "RD4|LDO/USD|4h|SELL|1795089600000",
-        "RD4|APT/USD|4h|SELL|1795089600000"
+        "RD4|APT/USD|4h|SELL|1795089600000",
+        "RD11|ATOM/USD|4h|SELL|1795089600000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -261304,7 +261355,8 @@
         "ETC|4h|SELL|1795075200000": "RD12",
         "DOT|15m|SELL|1795096800000": "FBR",
         "LDO|4h|SELL|1795089600000": "RD4",
-        "APT|4h|SELL|1795089600000": "RD4"
+        "APT|4h|SELL|1795089600000": "RD4",
+        "ATOM|4h|SELL|1795089600000": "RD11"
       },
       "rd_report_ts": 1795083812
     }
