@@ -260529,7 +260529,7 @@
           "blocked": {
             "off_session": 1702,
             "no_pullback": 3601,
-            "daily_cap": 1877,
+            "daily_cap": 1878,
             "time_budget": 105,
             "already_open": 26,
             "stop_too_small": 1,
@@ -260556,7 +260556,7 @@
           "blocked": {
             "already_open": 3
           },
-          "opened": 14,
+          "opened": 15,
           "last_check": 1795098088
         },
         "TKS": {
@@ -260759,7 +260759,7 @@
         "CN15|LINK/USD": 1794460518059,
         "FBR|NEAR/USD": 1793096584292,
         "CN5M|ZEC/USD": 1794332807251,
-        "FBR|DOT/USD": 1792754423287,
+        "FBR|DOT/USD": 1795098069011,
         "CN1H|ICP/USD": 1792757416556,
         "CN1H|SEI/USD": 1793257490853,
         "CN1H|ADA/USD": 1793257490853,
@@ -260892,7 +260892,7 @@
       },
       "mx_day": {
         "day": "2026-11-19",
-        "FBR": 2,
+        "FBR": 3,
         "RD12": 1
       },
       "hot_daily": {
@@ -260974,7 +260974,7 @@
       },
       "daily": {
         "day": "2026-11-19",
-        "lowtf": 2,
+        "lowtf": 3,
         "rnd": 1
       },
       "outbox": [],
