@@ -260385,7 +260385,7 @@
           "blocked": {
             "off_session": 1702,
             "no_pullback": 3601,
-            "daily_cap": 1824,
+            "daily_cap": 1825,
             "time_budget": 105,
             "already_open": 26,
             "stop_too_small": 1,
@@ -260412,7 +260412,7 @@
           "blocked": {
             "already_open": 1
           },
-          "opened": 12,
+          "opened": 13,
           "last_check": 1795077231
         },
         "TKS": {
@@ -260673,7 +260673,7 @@
         "CN15|TIA/USD": 1794069383094,
         "CN1H|TRX/USD": 1793059506286,
         "TPB|LINK/USD": 1794048165469,
-        "FBR|LINK/USD": 1793175267937,
+        "FBR|LINK/USD": 1795077212939,
         "SWP|BCH/USD": 1793894856137,
         "MRA|LINK/USD": 1793189161410,
         "MRB|LINK/USD": 1793189161410,
@@ -260745,10 +260745,8 @@
         "RD12|XMR/USD": 1795039341073
       },
       "mx_day": {
-        "day": "2026-11-18",
-        "TPS": 1,
-        "RD10": 1,
-        "RD12": 2
+        "day": "2026-11-19",
+        "FBR": 1
       },
       "hot_daily": {
         "day": "2026-11-19",
@@ -260829,7 +260827,7 @@
       },
       "daily": {
         "day": "2026-11-19",
-        "lowtf": 0,
+        "lowtf": 1,
         "rnd": 0
       },
       "outbox": [],
