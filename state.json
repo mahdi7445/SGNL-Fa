@@ -257753,7 +257753,9 @@
     "MON/USD|1h": 1795133872.4640055,
     "ASTER/USD|15min": 1795133880.305959,
     "PUMP/USD|15min": 1795133888.1810455,
-    "MON/USD|15min": 1795133896.0703132
+    "MON/USD|15min": 1795133896.0703132,
+    "HYPE/USD|1h": 1795176397.0602698,
+    "LEO/USD|1h": 1795176427.6602223
   },
   "live_check_cursor": 1,
   "module_store": {
@@ -260477,7 +260479,7 @@
           "blocked": {
             "off_session": 1702,
             "no_pullback": 3601,
-            "daily_cap": 1857,
+            "daily_cap": 1858,
             "time_budget": 105,
             "already_open": 26,
             "stop_too_small": 1,
@@ -260575,7 +260577,7 @@
           "nodata": 0,
           "raw": 24,
           "blocked": {
-            "duplicate_signal": 15,
+            "duplicate_signal": 16,
             "target_unreachable": 1
           },
           "opened": 0,
@@ -260656,7 +260658,7 @@
             "duplicate_signal": 8,
             "strategy_cap": 4
           },
-          "opened": 2,
+          "opened": 3,
           "last_check": 1795090201
         },
         "RD9": {
@@ -260835,11 +260837,13 @@
         "RD10|SHIB/USD": 1795015044977,
         "RD12|ALGO/USD": 1795039341073,
         "RD12|XMR/USD": 1795039341073,
-        "FBR|LTC/USD": 1795080700263
+        "FBR|LTC/USD": 1795080700263,
+        "RD12|ETC/USD": 1795090127148
       },
       "mx_day": {
         "day": "2026-11-19",
-        "FBR": 2
+        "FBR": 2,
+        "RD12": 1
       },
       "hot_daily": {
         "day": "2026-11-19",
@@ -260921,7 +260925,7 @@
       "daily": {
         "day": "2026-11-19",
         "lowtf": 2,
-        "rnd": 0
+        "rnd": 1
       },
       "outbox": [],
       "published": [
