@@ -9682,9 +9682,9 @@
       "pending_signal": null
     },
     "XRP/USD|15m": {
-      "ema7": 0.9613815096553654,
-      "ema25": 0.964775429598712,
-      "atr": 0.005284846676054224,
+      "ema7": 0.961136132241524,
+      "ema25": 0.9644388580911188,
+      "atr": 0.005128786199193208,
       "tr_buffer": [
         0.006599999999999939,
         0.0032000000000000917,
@@ -9701,8 +9701,8 @@
         0.014899999999999913,
         0.02279999999999993
       ],
-      "plus_dm": 0.0009654227374948966,
-      "minus_dm": 0.001333370832626514,
+      "plus_dm": 0.0009036068276738318,
+      "minus_dm": 0.0012381300588674771,
       "dm_buffer": [
         [
           0.0,
@@ -9761,7 +9761,7 @@
           0.010499999999999954
         ]
       ],
-      "adx": 21.126619493727823,
+      "adx": 20.733235933590354,
       "dx_buffer": [
         77.07423580786028,
         77.07423580786029,
@@ -9779,16 +9779,6 @@
         26.08489174411308
       ],
       "hist": [
-        {
-          "o": 0.9642,
-          "h": 0.97,
-          "l": 0.9642,
-          "c": 0.9692,
-          "ema7": 0.9642229365430743,
-          "sma7": 0.9628571428571427,
-          "dt_ms": 1795059900000,
-          "v": null
-        },
         {
           "o": 0.9693,
           "h": 0.9753,
@@ -10578,6 +10568,16 @@
           "sma7": 0.9612714285714287,
           "dt_ms": 1795131000000,
           "v": null
+        },
+        {
+          "o": 0.9621,
+          "h": 0.9627,
+          "l": 0.9596,
+          "c": 0.9604,
+          "ema7": 0.961136132241524,
+          "sma7": 0.9618285714285715,
+          "dt_ms": 1795131900000,
+          "v": null
         }
       ],
       "trend_prev": "up",
@@ -10586,78 +10586,43 @@
       "last_bull_bar_index": 6367,
       "last_bear_bar_index": 5469,
       "last_signal_price": 0.9622,
-      "bar_index": 6368,
-      "last_open_time": 1795131000000,
+      "bar_index": 6369,
+      "last_open_time": 1795131900000,
       "open_trade": {
-        "signal_id": "ALT-001003",
+        "signal_id": "ALT-001036",
         "side": "BUY",
-        "entry": 0.9792,
-        "sl": 0.9767,
-        "r": 0.0024999999999999467,
-        "working_sl": 0.9792,
+        "entry": 0.9626,
+        "sl": 0.9588,
+        "r": 0.0038000000000000256,
+        "working_sl": 0.9588,
         "hit": {
-          "1": true,
+          "1": false,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 1.0,
+        "closed_frac": 0.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [
-          {
-            "target": 1,
-            "frac": 0.2,
-            "r": 1
-          },
-          {
-            "target": "stop",
-            "frac": 0.8,
-            "r": 0.0
-          }
-        ],
-        "closed": true,
-        "opened_at_ms": 1795026758528,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1795133081779,
         "events": [
           {
             "type": "opened",
-            "ts": "2026-11-18T18:32:38.528051+00:00",
-            "price": 0.9792
-          },
-          {
-            "type": "rr",
-            "ts": "2026-11-18T18:46:07.448951+00:00",
-            "price": 0.9816999999999999,
-            "level": 1
-          },
-          {
-            "type": "breakeven",
-            "ts": "2026-11-18T18:53:36.746649+00:00",
-            "price": 0.9792,
-            "r": 0.0
-          },
-          {
-            "type": "closed",
-            "ts": "2026-11-18T18:53:37.093004+00:00",
-            "close_type": "breakeven",
-            "final_r": 0.2
+            "ts": "2026-11-20T00:04:41.779810+00:00",
+            "price": 0.9626
           }
         ],
         "quality_tier": "experimental",
         "strategy": "pin+htf1d-v1",
         "htf_trend": -1,
         "htf_aligned": false,
-        "stop_pct": 0.2553,
-        "fee_r_est": 0.5875,
-        "entry_unsent": true,
-        "close_type": "breakeven"
+        "stop_pct": 0.3948,
+        "fee_r_est": 0.38,
+        "signal_message_id": 7694
       },
-      "pending_signal": {
-        "side": "BUY",
-        "trigger_price": 0.9626,
-        "sl": 0.9588,
-        "created_bar_index": 6367
-      }
+      "pending_signal": null
     },
     "ADA/USD|15m": {
       "ema7": 0.15171336779424266,
