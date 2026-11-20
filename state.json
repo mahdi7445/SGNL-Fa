@@ -80,7 +80,7 @@
     "date": "2026-11-20",
     "counts": {
       "XRP": 1,
-      "SOL": 2,
+      "SOL": 3,
       "ADA": 1
     }
   },
@@ -9662,17 +9662,35 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.0,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [],
-        "closed": false,
+        "fills": [
+          {
+            "target": "stop",
+            "frac": 1.0,
+            "r": -1.0
+          }
+        ],
+        "closed": true,
         "opened_at_ms": 1795216869811,
         "events": [
           {
             "type": "opened",
             "ts": "2026-11-20T23:21:09.811854+00:00",
             "price": 69.46
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-20T23:44:49.557104+00:00",
+            "price": 68.95,
+            "r": -1.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-20T23:44:49.928502+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "quality_tier": "experimental",
@@ -9681,7 +9699,8 @@
         "htf_aligned": false,
         "stop_pct": 0.7342,
         "fee_r_est": 0.2043,
-        "signal_message_id": 7752
+        "signal_message_id": 7752,
+        "close_type": "stop"
       },
       "pending_signal": null
     },
@@ -257757,6 +257776,49 @@
       "hot_move_pct": -6.48,
       "tier": "ماژول HOT",
       "runner_closed": false
+    },
+    {
+      "signal_id": "ALT-001053",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-20T23:21:09.811854+00:00",
+          "price": 69.46
+        },
+        {
+          "type": "stop",
+          "ts": "2026-11-20T23:44:49.557104+00:00",
+          "price": 68.95,
+          "r": -1.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-20T23:44:49.928502+00:00",
+          "close_type": "stop",
+          "final_r": -1.0
+        }
+      ],
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 69.46,
+      "sl": 68.95,
+      "final_r": -1.0,
+      "close_type": "stop",
+      "close_reason": "Stop hit before Target 1 (full loss)",
+      "targets_hit": [],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-20T23:21:09.811000+00:00",
+      "closed_at": "2026-11-20T23:44:49.928502+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": -1,
+      "htf_aligned": false,
+      "stop_pct": 0.7342,
+      "fee_r_est": 0.2043,
+      "net_r_est": -1.2043
     }
   ],
   "target_events": [
@@ -261639,6 +261701,16 @@
       "r": 1.0,
       "frac": 0.5,
       "at": "2026-11-20T17:59:35.095255+00:00"
+    },
+    {
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "stop",
+      "r": -1.0,
+      "frac": 1.0,
+      "at": "2026-11-20T23:44:49.928462+00:00"
     }
   ],
   "td_unsupported": {
