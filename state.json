@@ -166866,9 +166866,9 @@
       "pending_signal": null
     },
     "PIEVERSE/USD|1h": {
-      "ema7": 1.7723335292274638,
-      "ema25": 1.7295801221166105,
-      "atr": 0.08281872960859052,
+      "ema7": 1.764525146920598,
+      "ema25": 1.730466266569179,
+      "atr": 0.08552453463654834,
       "tr_buffer": [
         0.0022999999999999687,
         0.013599999999999834,
@@ -166885,8 +166885,8 @@
         0.0039000000000000146,
         0.011399999999999855
       ],
-      "plus_dm": 0.022402323144017643,
-      "minus_dm": 0.027614235062221434,
+      "plus_dm": 0.023980728633730665,
+      "minus_dm": 0.025641789700634188,
       "dm_buffer": [
         [
           0.0,
@@ -166945,7 +166945,7 @@
           0.01089999999999991
         ]
       ],
-      "adx": 33.76362530802591,
+      "adx": 31.59103733809651,
       "dx_buffer": [
         22.369584438549463,
         27.025126270698443,
@@ -166963,16 +166963,6 @@
         19.100068482629815
       ],
       "hist": [
-        {
-          "o": 1.7699,
-          "h": 1.7992,
-          "l": 1.709,
-          "c": 1.7118,
-          "ema7": 1.7656253582075077,
-          "sma7": 1.7685,
-          "dt_ms": 1794376800000,
-          "v": 654.29456
-        },
         {
           "o": 1.7168,
           "h": 1.7378,
@@ -167762,16 +167752,26 @@
           "sma7": 1.7698142857142858,
           "dt_ms": 1794661200000,
           "v": 19339.82542
+        },
+        {
+          "o": 1.7798,
+          "h": 1.8565,
+          "l": 1.7358,
+          "c": 1.7411,
+          "ema7": 1.764525146920598,
+          "sma7": 1.7723714285714283,
+          "dt_ms": 1794664800000,
+          "v": 32935.18822
         }
       ],
-      "trend_prev": "down",
+      "trend_prev": "up",
       "bull_used_this_trend": false,
       "bear_used_this_trend": false,
       "last_bull_bar_index": 100,
       "last_bear_bar_index": 328,
       "last_signal_price": 1.7499,
-      "bar_index": 410,
-      "last_open_time": 1794661200000,
+      "bar_index": 411,
+      "last_open_time": 1794664800000,
       "open_trade": {
         "signal_id": "ALT-000881",
         "side": "SELL",
@@ -167785,7 +167785,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -167793,9 +167793,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": -0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1794341401694,
         "events": [
           {
@@ -167808,6 +167813,18 @@
             "ts": "2026-11-20T00:19:13.108482+00:00",
             "price": 1.5397000000000003,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-20T00:19:18.204293+00:00",
+            "price": 1.8236,
+            "r": -0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-20T00:19:18.387154+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "quality_tier": "experimental",
@@ -167816,7 +167833,8 @@
         "htf_aligned": false,
         "stop_pct": 15.5681,
         "fee_r_est": 0.0096,
-        "signal_message_id": 7308
+        "signal_message_id": 7308,
+        "close_type": "breakeven"
       },
       "pending_signal": null
     },
@@ -254108,6 +254126,57 @@
       "stop_pct": 0.2518,
       "fee_r_est": 0.5956,
       "net_r_est": -1.5956
+    },
+    {
+      "signal_id": "ALT-000881",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-10T20:10:01.694455+00:00",
+          "price": 1.8236
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-20T00:19:13.108482+00:00",
+          "price": 1.5397000000000003,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-11-20T00:19:18.204293+00:00",
+          "price": 1.8236,
+          "r": -0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-20T00:19:18.387154+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "PIEVERSE/USD",
+      "tf": "1h",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "SELL",
+      "entry": 1.8236,
+      "sl": 2.1075,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-10T20:10:01.694000+00:00",
+      "closed_at": "2026-11-20T00:19:18.387154+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": 1,
+      "htf_aligned": false,
+      "stop_pct": 15.5681,
+      "fee_r_est": 0.0096,
+      "net_r_est": 0.1904
     }
   ],
   "target_events": [
@@ -257880,6 +257949,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-11-20T00:19:13.572600+00:00"
+    },
+    {
+      "symbol": "PIEVERSE/USD",
+      "tf": "1h",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "SELL",
+      "type": "breakeven",
+      "r": -0.0,
+      "frac": 0.8,
+      "at": "2026-11-20T00:19:18.387119+00:00"
     }
   ],
   "td_unsupported": {
