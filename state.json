@@ -264360,7 +264360,7 @@
           "nodata": 2182,
           "raw": 256,
           "blocked": {
-            "off_session": 1736,
+            "off_session": 1737,
             "no_pullback": 3601,
             "daily_cap": 1965,
             "time_budget": 105,
@@ -264464,7 +264464,7 @@
             "target_unreachable": 1,
             "strategy_cap": 3
           },
-          "opened": 3,
+          "opened": 4,
           "last_check": 1795147316
         },
         "RD1": {
@@ -264733,11 +264733,12 @@
         "RD6|HBAR/USD": 1795104400317,
         "RD6|ARB/USD": 1795104400317,
         "RD12|TIA/USD": 1795118743536,
-        "RD6|TAO/USD": 1795133330025
+        "RD6|TAO/USD": 1795133330025,
+        "RD6|OP/USD": 1795147241700
       },
       "mx_day": {
         "day": "2026-11-20",
-        "RD6": 1,
+        "RD6": 2,
         "SWP": 1
       },
       "hot_daily": {
@@ -264820,7 +264821,7 @@
       "daily": {
         "day": "2026-11-20",
         "lowtf": 0,
-        "rnd": 1
+        "rnd": 2
       },
       "outbox": [],
       "published": [
