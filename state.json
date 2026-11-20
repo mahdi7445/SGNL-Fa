@@ -264664,7 +264664,7 @@
           "nodata": 0,
           "raw": 1,
           "blocked": {},
-          "opened": 0,
+          "opened": 1,
           "last_check": 1795187860
         },
         "TPB": {
@@ -264733,7 +264733,7 @@
           "blocked": {
             "off_session": 1763,
             "no_pullback": 3601,
-            "daily_cap": 1985,
+            "daily_cap": 1986,
             "time_budget": 116,
             "already_open": 26,
             "stop_too_small": 1,
@@ -265116,12 +265116,14 @@
         "RD6|ARB/USD": 1795104400317,
         "RD12|TIA/USD": 1795118743536,
         "RD6|TAO/USD": 1795133330025,
-        "RD6|OP/USD": 1795147241700
+        "RD6|OP/USD": 1795147241700,
+        "SMS|DOT/USD": 1795187843007
       },
       "mx_day": {
         "day": "2026-11-20",
         "RD6": 2,
-        "SWP": 1
+        "SWP": 1,
+        "SMS": 1
       },
       "hot_daily": {
         "day": "2026-11-20",
@@ -265197,7 +265199,7 @@
       },
       "daily": {
         "day": "2026-11-20",
-        "lowtf": 0,
+        "lowtf": 1,
         "rnd": 2
       },
       "outbox": [],
