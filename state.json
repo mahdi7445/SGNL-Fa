@@ -264594,7 +264594,7 @@
             "off_session": 1763,
             "no_pullback": 3601,
             "daily_cap": 1965,
-            "time_budget": 114,
+            "time_budget": 115,
             "already_open": 26,
             "stop_too_small": 1,
             "no_hot_coins": 17,
@@ -264609,7 +264609,7 @@
             "loss_streak(5)": 61,
             "loss_streak(6)": 38
           },
-          "opened": 91,
+          "opened": 92,
           "last_check": 1795178933
         },
         "FBR": {
@@ -264984,7 +264984,7 @@
       },
       "hot_daily": {
         "day": "2026-11-20",
-        "n": 2
+        "n": 3
       },
       "hot_last": {
         "ts": 1795178905,
@@ -265050,7 +265050,7 @@
         "JUP/USD": 1794734726144,
         "ASTER/USD": 1794816374855,
         "MMT/USD": 1795077811631,
-        "PEARL/USD": 1795163717325,
+        "PEARL/USD": 1795182505627,
         "SKY/USD": 1795164127264
       },
       "daily": {
