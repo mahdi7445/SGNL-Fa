@@ -261180,7 +261180,7 @@
     "PIEVERSE/USD|15min": 1795220776.8510318,
     "SOON/USD|15min": 1795220784.7163217
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
