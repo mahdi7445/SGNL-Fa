@@ -270887,7 +270887,7 @@
             "off_session": 1825,
             "no_pullback": 3601,
             "daily_cap": 2063,
-            "time_budget": 117,
+            "time_budget": 118,
             "already_open": 28,
             "stop_too_small": 1,
             "no_hot_coins": 17,
@@ -270903,7 +270903,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 95,
+          "opened": 96,
           "last_check": 1795250068
         },
         "FBR": {
@@ -271285,7 +271285,7 @@
       },
       "hot_daily": {
         "day": "2026-11-21",
-        "n": 2
+        "n": 3
       },
       "hot_last": {
         "ts": 1795250042,
@@ -271333,7 +271333,7 @@
         "INJ/USD": 1794911096649,
         "Q/USD": 1793286714246,
         "TRX/USD": 1793375601454,
-        "CRV/USD": 1793378470984,
+        "CRV/USD": 1795253642873,
         "LIGHTER/USD": 1793899438742,
         "PUMP/USD": 1795079189193,
         "AAVE/USD": 1794735126493,
