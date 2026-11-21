@@ -270931,7 +270931,7 @@
           "blocked": {
             "off_session": 1825,
             "no_pullback": 3601,
-            "daily_cap": 2063,
+            "daily_cap": 2064,
             "time_budget": 118,
             "already_open": 48,
             "stop_too_small": 1,
@@ -270948,7 +270948,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 96,
+          "opened": 97,
           "last_check": 1795259983
         },
         "FBR": {
@@ -271330,7 +271330,7 @@
       },
       "hot_daily": {
         "day": "2026-11-21",
-        "n": 3
+        "n": 4
       },
       "hot_last": {
         "ts": 1795259955,
@@ -271396,7 +271396,7 @@
         "JUP/USD": 1794734726144,
         "ASTER/USD": 1794816374855,
         "MMT/USD": 1795077811631,
-        "PEARL/USD": 1795182505627,
+        "PEARL/USD": 1795263555055,
         "SKY/USD": 1795164127264,
         "USELESS/USD": 1795182927290
       },
