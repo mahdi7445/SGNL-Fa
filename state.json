@@ -270829,7 +270829,7 @@
         "HOT": {
           "since": 1792713520,
           "checks": 7071,
-          "nodata": 2401,
+          "nodata": 2407,
           "raw": 319,
           "blocked": {
             "off_session": 1825,
@@ -270851,7 +270851,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 94,
+          "opened": 95,
           "last_check": 1795246988
         },
         "FBR": {
@@ -271233,7 +271233,7 @@
       },
       "hot_daily": {
         "day": "2026-11-21",
-        "n": 1
+        "n": 2
       },
       "hot_last": {
         "ts": 1795246976,
@@ -271268,7 +271268,7 @@
         "pool": 39
       },
       "hot_cd": {
-        "AKE/USD": 1794818360061,
+        "AKE/USD": 1795250576332,
         "DOT/USD": 1792762357074,
         "QNT/USD": 1794473057264,
         "NEAR/USD": 1795075396436,
