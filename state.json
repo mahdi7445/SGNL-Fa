@@ -267177,7 +267177,7 @@
     "LIT/USD|1h": 1795306497.233546,
     "LIT/USD|15min": 1795306520.1561532
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
