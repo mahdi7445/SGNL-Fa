@@ -272648,6 +272648,57 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7791
+        },
+        "ALT-001064": {
+          "id": "ALT-001064",
+          "module": "HOT",
+          "symbol": "QNT/USD",
+          "tf": "15m",
+          "side": "SELL",
+          "entry": 138.87,
+          "sl0": 140.1347473974553,
+          "sl": 140.1347473974553,
+          "risk": 1.2647473974552952,
+          "targets": [
+            137.6052526025447,
+            136.3405052050894,
+            133.81101041017882,
+            131.28151561526823
+          ],
+          "levels": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.2,
+            0.3,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 138.87,
+          "status": "open",
+          "opened_ms": 1795338319369,
+          "armed_ms": 1795338319369,
+          "last_ms": 1795338319369,
+          "bar_ms": 1795337100000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "hot",
+          "profile": "CLASSIC",
+          "trigger": "MTS",
+          "hot_move_pct": -3.11,
+          "msg_id": 7792
         }
       },
       "seen": [],
@@ -273014,8 +273065,8 @@
         "FBR|ATOM/USD|5m": 1793263200000,
         "HOT|PEPE/USD|5m|BUY": 1794295500000,
         "HOT|PEPE/USD|15m|BUY": 1794294000000,
-        "HOT|QNT/USD|5m|SELL": 1795337400000,
-        "HOT|QNT/USD|15m|SELL": 1795336200000,
+        "HOT|QNT/USD|5m|SELL": 1795338000000,
+        "HOT|QNT/USD|15m|SELL": 1795337100000,
         "HOT|ENA/USD|5m|BUY": 1793967600000,
         "HOT|ENA/USD|15m|BUY": 1793966400000,
         "HOT|ZRO/USD|5m|BUY": 1793971200000,
@@ -273823,9 +273874,9 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 7176,
-          "nodata": 2741,
-          "raw": 344,
+          "checks": 7178,
+          "nodata": 2747,
+          "raw": 345,
           "blocked": {
             "off_session": 1886,
             "no_pullback": 3601,
@@ -273847,7 +273898,7 @@
             "target_unreachable": 2
           },
           "opened": 98,
-          "last_check": 1795337903
+          "last_check": 1795338383
         },
         "FBR": {
           "since": 1792740561,
@@ -273858,7 +273909,7 @@
             "already_open": 4,
             "loss_streak(5)": 1
           },
-          "opened": 15,
+          "opened": 16,
           "last_check": 1795338347
         },
         "TKS": {
@@ -274134,7 +274185,7 @@
         "CN15|TIA/USD": 1794069383094,
         "CN1H|TRX/USD": 1793059506286,
         "TPB|LINK/USD": 1794048165469,
-        "FBR|LINK/USD": 1795077212939,
+        "FBR|LINK/USD": 1795338319369,
         "SWP|BCH/USD": 1793894856137,
         "MRA|LINK/USD": 1793189161410,
         "MRB|LINK/USD": 1793189161410,
@@ -274220,18 +274271,15 @@
         "RD4|TRX/USD": 1795190650884
       },
       "mx_day": {
-        "day": "2026-11-20",
-        "RD6": 2,
-        "SWP": 1,
-        "SMS": 1,
-        "RD4": 1
+        "day": "2026-11-22",
+        "FBR": 1
       },
       "hot_daily": {
         "day": "2026-11-22",
         "n": 1
       },
       "hot_last": {
-        "ts": 1795337888,
+        "ts": 1795338319,
         "buy": [
           [
             "PUMPFUN/USD",
@@ -274292,9 +274340,11 @@
       },
       "daily": {
         "day": "2026-11-22",
-        "lowtf": 0,
+        "lowtf": 1,
         "rnd": 0,
-        "mod": {}
+        "mod": {
+          "FBR": 1
+        }
       },
       "outbox": [],
       "published": [
@@ -274399,7 +274449,8 @@
         "HOT|CRV/USD|5m|SELL|1795249500000",
         "HOT|PEARL/USD|5m|SELL|1795259400000",
         "HOT|QNT/USD|15m|SELL|1795330800000",
-        "FBR|LINK/USD|15m|SELL|1795337100000"
+        "FBR|LINK/USD|15m|SELL|1795337100000",
+        "HOT|QNT/USD|15m|SELL|1795337100000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -274456,7 +274507,8 @@
         "CRV|5m|SELL|1795249500000": "HOT",
         "PEARL|5m|SELL|1795259400000": "HOT",
         "QNT|15m|SELL|1795330800000": "HOT",
-        "LINK|15m|SELL|1795337100000": "FBR"
+        "LINK|15m|SELL|1795337100000": "FBR",
+        "QNT|15m|SELL|1795337100000": "HOT"
       },
       "rd_report_ts": 1795323955
     }
