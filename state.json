@@ -273941,7 +273941,7 @@
             "weekly_loss(-11.45R)": 4,
             "weekly_loss(-11.25R)": 4,
             "duplicate_signal": 2,
-            "cooldown": 471,
+            "cooldown": 472,
             "loss_streak(4)": 3,
             "loss_streak(7)": 16,
             "loss_streak(8)": 30,
@@ -273950,7 +273950,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 99,
+          "opened": 100,
           "last_check": 1795339190
         },
         "FBR": {
@@ -274329,7 +274329,7 @@
       },
       "hot_daily": {
         "day": "2026-11-22",
-        "n": 2
+        "n": 3
       },
       "hot_last": {
         "ts": 1795339167,
@@ -274381,7 +274381,7 @@
         "BCH/USD": 1793977390129,
         "KOR/USD": 1794047816960,
         "UAI/USD": 1794041811280,
-        "XMR/USD": 1794911866853,
+        "XMR/USD": 1795342767980,
         "UNI/USD": 1794674931055,
         "AVAX/USD": 1794388828632,
         "ARIA/USD": 1794474481268,
