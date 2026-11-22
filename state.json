@@ -270361,7 +270361,7 @@
     "PIEVERSE/USD|15min": 1795393112.6226144,
     "ZBCN/USD|15min": 1795393120.3741345
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
