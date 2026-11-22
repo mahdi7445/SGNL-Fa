@@ -273961,7 +273961,7 @@
           "blocked": {
             "off_session": 1886,
             "no_pullback": 3601,
-            "daily_cap": 2177,
+            "daily_cap": 2178,
             "time_budget": 120,
             "already_open": 48,
             "stop_too_small": 1,
@@ -273978,7 +273978,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 100,
+          "opened": 101,
           "last_check": 1795357186
         },
         "FBR": {
@@ -274357,7 +274357,7 @@
       },
       "hot_daily": {
         "day": "2026-11-22",
-        "n": 3
+        "n": 4
       },
       "hot_last": {
         "ts": 1795357165,
@@ -274419,7 +274419,7 @@
         "ARIA/USD": 1794474481268,
         "TON/USD": 1794475632121,
         "BARD/USD": 1794567606617,
-        "NIGHT/USD": 1795005922500,
+        "NIGHT/USD": 1795360765528,
         "JUP/USD": 1794734726144,
         "ASTER/USD": 1794816374855,
         "MMT/USD": 1795077811631,
