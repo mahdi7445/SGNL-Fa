@@ -275888,6 +275888,55 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7836
+        },
+        "ALT-001074": {
+          "id": "ALT-001074",
+          "module": "MRA",
+          "symbol": "LTC/USD",
+          "tf": "1h",
+          "side": "SELL",
+          "entry": 42.52,
+          "sl0": 44.17416109429674,
+          "sl": 44.17416109429674,
+          "risk": 1.6541610942967395,
+          "targets": [
+            39.211677811406524,
+            37.557516717109785,
+            35.903355622813045,
+            32.595033434219566
+          ],
+          "levels": [
+            2.0,
+            3.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.05,
+            0.1,
+            0.6,
+            0.15
+          ],
+          "trail": 2.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 42.52,
+          "status": "open",
+          "opened_ms": 1795453434789,
+          "armed_ms": 1795453434789,
+          "last_ms": 1795453434789,
+          "bar_ms": 1795449600000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "candidate",
+          "profile": "Y2",
+          "msg_id": 7837
         }
       },
       "seen": [],
@@ -277059,9 +277108,10 @@
           "raw": 10,
           "blocked": {
             "already_open": 3,
-            "loss_streak(7)": 1
+            "loss_streak(7)": 1,
+            "quota": 2
           },
-          "opened": 3,
+          "opened": 4,
           "last_check": 1795453463
         },
         "HOT": {
@@ -277380,7 +277430,7 @@
         "FBR|LINK/USD": 1795338319369,
         "SWP|BCH/USD": 1793894856137,
         "MRA|LINK/USD": 1793189161410,
-        "MRB|LINK/USD": 1793189161410,
+        "MRB|LINK/USD": 1795453434789,
         "CN15|ADA/USD": 1794243653840,
         "CN4H|LINK/USD": 1793189161410,
         "CN4H|SUI/USD": 1793189161410,
@@ -277463,8 +277513,8 @@
         "RD4|TRX/USD": 1795190650884
       },
       "mx_day": {
-        "day": "2026-11-22",
-        "FBR": 1
+        "day": "2026-11-23",
+        "MRB": 1
       },
       "hot_daily": {
         "day": "2026-11-23",
@@ -277545,9 +277595,11 @@
       },
       "daily": {
         "day": "2026-11-23",
-        "lowtf": 0,
+        "lowtf": 1,
         "rnd": 0,
-        "mod": {}
+        "mod": {
+          "MRB": 1
+        }
       },
       "outbox": [],
       "published": [
@@ -277660,7 +277712,8 @@
         "HOT|QNT/USD|15m|BUY|1795423500000",
         "HOT|DRV/USD|5m|SELL|1795428300000",
         "HOT|PEARL/USD|5m|BUY|1795439400000",
-        "MRB|LINK/USD|1h|SELL|1795449600000"
+        "MRB|LINK/USD|1h|SELL|1795449600000",
+        "MRA|LTC/USD|1h|SELL|1795449600000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -277725,7 +277778,8 @@
         "QNT|15m|BUY|1795423500000": "HOT",
         "DRV|5m|SELL|1795428300000": "HOT",
         "PEARL|5m|BUY|1795439400000": "HOT",
-        "LINK|1h|SELL|1795449600000": "MRB"
+        "LINK|1h|SELL|1795449600000": "MRB",
+        "LTC|1h|SELL|1795449600000": "MRA"
       },
       "rd_report_ts": 1795432735
     }
