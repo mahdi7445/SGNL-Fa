@@ -277098,7 +277098,7 @@
             "already_open": 2,
             "loss_streak(7)": 1
           },
-          "opened": 3,
+          "opened": 4,
           "last_check": 1795453463
         },
         "MRB": {
@@ -277122,7 +277122,7 @@
           "blocked": {
             "off_session": 1947,
             "no_pullback": 3601,
-            "daily_cap": 2300,
+            "daily_cap": 2301,
             "time_budget": 120,
             "already_open": 67,
             "stop_too_small": 2,
@@ -277510,11 +277510,13 @@
         "RD6|TAO/USD": 1795133330025,
         "RD6|OP/USD": 1795147241700,
         "SMS|DOT/USD": 1795187843007,
-        "RD4|TRX/USD": 1795190650884
+        "RD4|TRX/USD": 1795190650884,
+        "MRA|LTC/USD": 1795453434789
       },
       "mx_day": {
         "day": "2026-11-23",
-        "MRB": 1
+        "MRB": 1,
+        "MRA": 1
       },
       "hot_daily": {
         "day": "2026-11-23",
@@ -277595,10 +277597,11 @@
       },
       "daily": {
         "day": "2026-11-23",
-        "lowtf": 1,
+        "lowtf": 2,
         "rnd": 0,
         "mod": {
-          "MRB": 1
+          "MRB": 1,
+          "MRA": 1
         }
       },
       "outbox": [],
