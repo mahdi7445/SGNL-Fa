@@ -276788,7 +276788,7 @@
         "HOT": {
           "since": 1792713520,
           "checks": 7342,
-          "nodata": 3023,
+          "nodata": 3027,
           "raw": 387,
           "blocked": {
             "off_session": 1947,
@@ -276801,7 +276801,7 @@
             "weekly_loss(-11.45R)": 4,
             "weekly_loss(-11.25R)": 4,
             "duplicate_signal": 2,
-            "cooldown": 476,
+            "cooldown": 477,
             "loss_streak(4)": 3,
             "loss_streak(7)": 16,
             "loss_streak(8)": 30,
@@ -276810,7 +276810,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 101,
+          "opened": 102,
           "last_check": 1795418168
         },
         "FBR": {
@@ -277189,7 +277189,7 @@
       },
       "hot_daily": {
         "day": "2026-11-23",
-        "n": 0
+        "n": 1
       },
       "hot_last": {
         "ts": 1795418147,
@@ -277243,7 +277243,7 @@
         "ARIA/USD": 1794474481268,
         "TON/USD": 1794475632121,
         "BARD/USD": 1794567606617,
-        "NIGHT/USD": 1795360765528,
+        "NIGHT/USD": 1795421747016,
         "JUP/USD": 1794734726144,
         "ASTER/USD": 1794816374855,
         "MMT/USD": 1795077811631,
