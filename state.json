@@ -5830,9 +5830,9 @@
       "pending_signal": null
     },
     "SOL/USD|5m": {
-      "ema7": 70.49698629699624,
-      "ema25": 70.44535841257668,
-      "atr": 0.17061942933349913,
+      "ema7": 70.46773972274718,
+      "ema25": 70.44033084237847,
+      "atr": 0.16771804152396316,
       "tr_buffer": [
         0.4099999999999966,
         0.5,
@@ -5849,8 +5849,8 @@
         0.3500000000000085,
         0.4899999999999949
       ],
-      "plus_dm": 0.044479667653800445,
-      "minus_dm": 0.020283196102823836,
+      "plus_dm": 0.04130254853567184,
+      "minus_dm": 0.019548682095478626,
       "dm_buffer": [
         [
           0.0,
@@ -5909,7 +5909,7 @@
           0.2599999999999909
         ]
       ],
-      "adx": 39.189752199618844,
+      "adx": 38.94400296674637,
       "dx_buffer": [
         37.70491803278738,
         31.0531053105314,
@@ -5927,16 +5927,6 @@
         19.475291636980906
       ],
       "hist": [
-        {
-          "o": 70.37,
-          "h": 70.37,
-          "l": 70.11,
-          "c": 70.27,
-          "ema7": 70.32583886941853,
-          "sma7": 70.34571428571428,
-          "dt_ms": 1795370700000,
-          "v": 510.49626842
-        },
         {
           "o": 70.25,
           "h": 70.35,
@@ -6726,6 +6716,16 @@
           "sma7": 70.53714285714285,
           "dt_ms": 1795394400000,
           "v": 701.84136169
+        },
+        {
+          "o": 70.44,
+          "h": 70.5,
+          "l": 70.37,
+          "c": 70.38,
+          "ema7": 70.46773972274718,
+          "sma7": 70.49714285714286,
+          "dt_ms": 1795394700000,
+          "v": 119.06484952
         }
       ],
       "trend_prev": "down",
@@ -6734,78 +6734,43 @@
       "last_bull_bar_index": 18856,
       "last_bear_bar_index": 19379,
       "last_signal_price": 70.41,
-      "bar_index": 19380,
-      "last_open_time": 1795394400000,
+      "bar_index": 19381,
+      "last_open_time": 1795394700000,
       "open_trade": {
-        "signal_id": "ALT-001055",
-        "side": "BUY",
-        "entry": 65.97,
-        "sl": 65.67,
-        "r": 0.29999999999999716,
-        "working_sl": 65.97,
+        "signal_id": "ALT-001067",
+        "side": "SELL",
+        "entry": 70.38,
+        "sl": 70.6,
+        "r": 0.21999999999999886,
+        "working_sl": 70.6,
         "hit": {
-          "1": true,
+          "1": false,
           "2": false,
           "3": false,
           "4": false
         },
-        "closed_frac": 1.0,
+        "closed_frac": 0.0,
         "trailing_activated": false,
         "peak_price": null,
-        "fills": [
-          {
-            "target": 1,
-            "frac": 0.2,
-            "r": 1
-          },
-          {
-            "target": "stop",
-            "frac": 0.8,
-            "r": 0.0
-          }
-        ],
-        "closed": true,
-        "opened_at_ms": 1795238249522,
+        "fills": [],
+        "closed": false,
+        "opened_at_ms": 1795395205680,
         "events": [
           {
             "type": "opened",
-            "ts": "2026-11-21T05:17:29.522308+00:00",
-            "price": 65.97
-          },
-          {
-            "type": "rr",
-            "ts": "2026-11-21T05:24:26.609530+00:00",
-            "price": 66.27,
-            "level": 1
-          },
-          {
-            "type": "breakeven",
-            "ts": "2026-11-21T05:29:37.642808+00:00",
-            "price": 65.97,
-            "r": 0.0
-          },
-          {
-            "type": "closed",
-            "ts": "2026-11-21T05:29:38.023820+00:00",
-            "close_type": "breakeven",
-            "final_r": 0.2
+            "ts": "2026-11-23T00:53:25.680164+00:00",
+            "price": 70.38
           }
         ],
         "quality_tier": "experimental",
         "strategy": "pin+htf1d-v1",
         "htf_trend": -1,
-        "htf_aligned": false,
-        "stop_pct": 0.4548,
-        "fee_r_est": 0.3299,
-        "signal_message_id": 7768,
-        "close_type": "breakeven"
+        "htf_aligned": true,
+        "stop_pct": 0.3126,
+        "fee_r_est": 0.4799,
+        "signal_message_id": 7802
       },
-      "pending_signal": {
-        "side": "SELL",
-        "trigger_price": 70.38,
-        "sl": 70.6,
-        "created_bar_index": 19379
-      }
+      "pending_signal": null
     },
     "XRP/USD|5m": {
       "ema7": 0.9233395914317112,
