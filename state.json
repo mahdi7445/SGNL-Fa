@@ -272472,7 +272472,7 @@
     "NIGHT/USD|15min": 1795479607.8217626,
     "PUMP/USD|15min": 1795479615.6608384
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
