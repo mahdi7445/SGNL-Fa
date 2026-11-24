@@ -9586,7 +9586,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -9594,9 +9594,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": 0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1795483160466,
         "events": [
           {
@@ -9609,6 +9614,18 @@
             "ts": "2026-11-24T01:32:09.576079+00:00",
             "price": 72.62,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-24T01:46:22.495921+00:00",
+            "price": 72.25,
+            "r": 0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-24T01:46:22.996161+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "quality_tier": "experimental",
@@ -9617,7 +9634,8 @@
         "htf_aligned": false,
         "stop_pct": 0.5121,
         "fee_r_est": 0.2929,
-        "signal_message_id": 7845
+        "signal_message_id": 7845,
+        "close_type": "breakeven"
       },
       "pending_signal": null
     },
@@ -270577,6 +270595,57 @@
       "stop_pct": 0.3917,
       "fee_r_est": 0.383,
       "net_r_est": 0.917
+    },
+    {
+      "signal_id": "ALT-001078",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-24T01:19:20.467004+00:00",
+          "price": 72.25
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-24T01:32:09.576079+00:00",
+          "price": 72.62,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-11-24T01:46:22.495921+00:00",
+          "price": 72.25,
+          "r": 0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-24T01:46:22.996161+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "entry": 72.25,
+      "sl": 71.88,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-24T01:19:20.466000+00:00",
+      "closed_at": "2026-11-24T01:46:22.996161+00:00",
+      "quality_tier": "experimental",
+      "strategy": "pin+htf1d-v1",
+      "htf_trend": -1,
+      "htf_aligned": false,
+      "stop_pct": 0.5121,
+      "fee_r_est": 0.2929,
+      "net_r_est": -0.0929
     }
   ],
   "target_events": [
@@ -274569,6 +274638,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-11-24T01:32:10.124987+00:00"
+    },
+    {
+      "symbol": "SOL/USD",
+      "tf": "15m",
+      "tier": "واچ‌لیست اصلی",
+      "side": "BUY",
+      "type": "breakeven",
+      "r": 0.0,
+      "frac": 0.8,
+      "at": "2026-11-24T01:46:22.996128+00:00"
     }
   ],
   "td_unsupported": {
