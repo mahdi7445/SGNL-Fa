@@ -276302,6 +276302,57 @@
           "trigger": "RD3",
           "hot_move_pct": 3.26,
           "msg_id": 7851
+        },
+        "ALT-001083": {
+          "id": "ALT-001083",
+          "module": "HOT",
+          "symbol": "PEARL/USD",
+          "tf": "5m",
+          "side": "SELL",
+          "entry": 2.1705,
+          "sl0": 2.20260860294109,
+          "sl": 2.20260860294109,
+          "risk": 0.03210860294108997,
+          "targets": [
+            2.13839139705891,
+            2.10628279411782,
+            2.04206558823564,
+            1.9778483823534603
+          ],
+          "levels": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.2,
+            0.3,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 2.1705,
+          "status": "open",
+          "opened_ms": 1795504869578,
+          "armed_ms": 1795504869578,
+          "last_ms": 1795504869578,
+          "bar_ms": 1795504500000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "hot",
+          "profile": "CLASSIC",
+          "trigger": "RD12",
+          "hot_move_pct": -6.32,
+          "msg_id": 7852
         }
       },
       "seen": [],
@@ -277246,7 +277297,7 @@
         "RD9|ZEC/USD|4h": 1795478400000,
         "RD9|ALGO/USD|4h": 1795478400000,
         "RD9|TRX/USD|4h": 1795478400000,
-        "HOT|PEARL/USD|5m|SELL": 1795503900000,
+        "HOT|PEARL/USD|5m|SELL": 1795504500000,
         "HOT|PEARL/USD|15m|SELL": 1795502700000,
         "HOT|SKY/USD|5m|SELL": 1795174500000,
         "HOT|SKY/USD|15m|SELL": 1795173300000,
@@ -277482,9 +277533,9 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 7441,
-          "nodata": 3329,
-          "raw": 411,
+          "checks": 7442,
+          "nodata": 3333,
+          "raw": 412,
           "blocked": {
             "off_session": 2011,
             "no_pullback": 3601,
@@ -277505,8 +277556,8 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 106,
-          "last_check": 1795504892
+          "opened": 107,
+          "last_check": 1795504899
         },
         "FBR": {
           "since": 1792740561,
@@ -277890,7 +277941,7 @@
       },
       "hot_daily": {
         "day": "2026-11-24",
-        "n": 1
+        "n": 2
       },
       "hot_last": {
         "ts": 1795504869,
@@ -277952,7 +278003,7 @@
         "ARIA/USD": 1794474481268,
         "TON/USD": 1794475632121,
         "BARD/USD": 1794567606617,
-        "NIGHT/USD": 1795421747016,
+        "NIGHT/USD": 1795508469578,
         "JUP/USD": 1794734726144,
         "ASTER/USD": 1794816374855,
         "MMT/USD": 1795077811631,
@@ -278086,7 +278137,8 @@
         "HDV3|DOGE/USD|4h|SELL|1795478400000",
         "HDV3|BNB/USD|4h|SELL|1795478400000",
         "HOT|VVV/USD|15m|BUY|1795502700000",
-        "HOT|NIGHT/USD|15m|BUY|1795503600000"
+        "HOT|NIGHT/USD|15m|BUY|1795503600000",
+        "HOT|PEARL/USD|5m|SELL|1795504500000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -278157,7 +278209,8 @@
         "DOGE|4h|SELL|1795478400000": "HDV3",
         "BNB|4h|SELL|1795478400000": "HDV3",
         "VVV|15m|BUY|1795502700000": "HOT",
-        "NIGHT|15m|BUY|1795503600000": "HOT"
+        "NIGHT|15m|BUY|1795503600000": "HOT",
+        "PEARL|5m|SELL|1795504500000": "HOT"
       },
       "rd_report_ts": 1795498110
     }
