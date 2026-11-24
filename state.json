@@ -277194,7 +277194,7 @@
         "RD9|ZEC/USD|4h": 1795478400000,
         "RD9|ALGO/USD|4h": 1795478400000,
         "RD9|TRX/USD|4h": 1795478400000,
-        "HOT|PEARL/USD|5m|SELL": 1795259400000,
+        "HOT|PEARL/USD|5m|SELL": 1795503300000,
         "HOT|PEARL/USD|15m|SELL": 1795177800000,
         "HOT|SKY/USD|5m|SELL": 1795174500000,
         "HOT|SKY/USD|15m|SELL": 1795173300000,
@@ -277430,14 +277430,14 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 7429,
-          "nodata": 3317,
+          "checks": 7430,
+          "nodata": 3321,
           "raw": 410,
           "blocked": {
             "off_session": 2011,
             "no_pullback": 3601,
             "daily_cap": 2365,
-            "time_budget": 120,
+            "time_budget": 121,
             "already_open": 67,
             "stop_too_small": 2,
             "no_hot_coins": 17,
@@ -277453,8 +277453,8 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 105,
-          "last_check": 1795503667
+          "opened": 106,
+          "last_check": 1795503675
         },
         "FBR": {
           "since": 1792740561,
@@ -277838,7 +277838,7 @@
       },
       "hot_daily": {
         "day": "2026-11-24",
-        "n": 0
+        "n": 1
       },
       "hot_last": {
         "ts": 1795503605,
@@ -277870,7 +277870,7 @@
         "QNT/USD": 1795428209959,
         "NEAR/USD": 1795075396436,
         "PEPE/USD": 1794389295348,
-        "VVV/USD": 1795248367286,
+        "VVV/USD": 1795507205999,
         "ENA/USD": 1794988828206,
         "WLD/USD": 1793900313882,
         "CAP/USD": 1793104188816,
