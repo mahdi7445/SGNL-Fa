@@ -9619,7 +9619,8 @@
         "htf_aligned": true,
         "stop_pct": 1.1188,
         "fee_r_est": 0.1341,
-        "signal_message_id": 7863
+        "signal_message_id": 7863,
+        "_stop_pending_since": 1795541442.5621784
       },
       "pending_signal": null
     },
@@ -274908,7 +274909,7 @@
     "LEO/USD|1h": 1795565616.98884,
     "GRAM/USD|1h": 1795608889.4579756
   },
-  "live_check_cursor": 2,
+  "live_check_cursor": 0,
   "module_store": {
     "module_trades.json": {
       "trades": {
