@@ -276153,41 +276153,90 @@
           "tier": "verified",
           "profile": "H3",
           "msg_id": 7848
+        },
+        "ALT-001080": {
+          "id": "ALT-001080",
+          "module": "HDV3",
+          "symbol": "BNB/USD",
+          "tf": "4h",
+          "side": "SELL",
+          "entry": 552.15,
+          "sl0": 588.1034258816525,
+          "sl": 588.1034258816525,
+          "risk": 35.95342588165249,
+          "targets": [
+            498.21986117752124,
+            444.2897223550425,
+            372.3828705917375,
+            264.52259294678004
+          ],
+          "levels": [
+            1.5,
+            3.0,
+            5.0,
+            8.0
+          ],
+          "weights": [
+            0.4,
+            0.25,
+            0.15,
+            0.1
+          ],
+          "trail": 2.0,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 552.15,
+          "status": "open",
+          "opened_ms": 1795492808990,
+          "armed_ms": 1795492808990,
+          "last_ms": 1795492808990,
+          "bar_ms": 1795478400000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "verified",
+          "profile": "H3",
+          "msg_id": 7849
         }
       },
       "seen": [],
       "checked": {
         "HDV3|DOGE/USD|4h": 1795478400000,
-        "HDV3|LINK/USD|4h": 1795464000000,
-        "HDV3|SUI/USD|4h": 1795464000000,
-        "HDV3|LTC/USD|4h": 1795464000000,
-        "HDV3|AVAX/USD|4h": 1795464000000,
-        "HDV3|DOT/USD|4h": 1795464000000,
-        "HDV3|NEAR/USD|4h": 1795464000000,
-        "HDV3|ATOM/USD|4h": 1795464000000,
-        "HDV3|UNI/USD|4h": 1795464000000,
-        "HDV3|BCH/USD|4h": 1795464000000,
-        "HDV3|XLM/USD|4h": 1795464000000,
-        "HDV3|HBAR/USD|4h": 1795464000000,
-        "HDV3|ICP/USD|4h": 1795464000000,
-        "HDV3|APT/USD|4h": 1795464000000,
-        "HDV3|ARB/USD|4h": 1795464000000,
-        "HDV3|OP/USD|4h": 1795464000000,
-        "HDV3|INJ/USD|4h": 1795464000000,
-        "HDV3|AAVE/USD|4h": 1795464000000,
-        "HDV3|FIL/USD|4h": 1795464000000,
-        "HDV3|ETC/USD|4h": 1795464000000,
-        "HDV3|TAO/USD|4h": 1795464000000,
-        "HDV3|SEI/USD|4h": 1795464000000,
-        "HDV3|TIA/USD|4h": 1795464000000,
-        "HDV3|LDO/USD|4h": 1795464000000,
-        "HDV3|SHIB/USD|4h": 1795464000000,
-        "HDV3|PEPE/USD|4h": 1795464000000,
-        "HDV3|XMR/USD|4h": 1795464000000,
-        "HDV3|ZEC/USD|4h": 1795464000000,
-        "HDV3|ALGO/USD|4h": 1795464000000,
-        "HDV3|TRX/USD|4h": 1795464000000,
-        "HDV3|BNB/USD|4h": 1795464000000,
+        "HDV3|LINK/USD|4h": 1795478400000,
+        "HDV3|SUI/USD|4h": 1795478400000,
+        "HDV3|LTC/USD|4h": 1795478400000,
+        "HDV3|AVAX/USD|4h": 1795478400000,
+        "HDV3|DOT/USD|4h": 1795478400000,
+        "HDV3|NEAR/USD|4h": 1795478400000,
+        "HDV3|ATOM/USD|4h": 1795478400000,
+        "HDV3|UNI/USD|4h": 1795478400000,
+        "HDV3|BCH/USD|4h": 1795478400000,
+        "HDV3|XLM/USD|4h": 1795478400000,
+        "HDV3|HBAR/USD|4h": 1795478400000,
+        "HDV3|ICP/USD|4h": 1795478400000,
+        "HDV3|APT/USD|4h": 1795478400000,
+        "HDV3|ARB/USD|4h": 1795478400000,
+        "HDV3|OP/USD|4h": 1795478400000,
+        "HDV3|INJ/USD|4h": 1795478400000,
+        "HDV3|AAVE/USD|4h": 1795478400000,
+        "HDV3|FIL/USD|4h": 1795478400000,
+        "HDV3|ETC/USD|4h": 1795478400000,
+        "HDV3|TAO/USD|4h": 1795478400000,
+        "HDV3|SEI/USD|4h": 1795478400000,
+        "HDV3|TIA/USD|4h": 1795478400000,
+        "HDV3|LDO/USD|4h": 1795478400000,
+        "HDV3|SHIB/USD|4h": 1795478400000,
+        "HDV3|PEPE/USD|4h": 1795478400000,
+        "HDV3|XMR/USD|4h": 1795478400000,
+        "HDV3|ZEC/USD|4h": 1795478400000,
+        "HDV3|ALGO/USD|4h": 1795478400000,
+        "HDV3|TRX/USD|4h": 1795478400000,
+        "HDV3|BNB/USD|4h": 1795478400000,
         "HDV3|POL/USD|4h": 1795464000000,
         "HDV3|RENDER/USD|4h": 1795464000000,
         "HDV3|JUP/USD|4h": 1795464000000,
@@ -277140,18 +277189,18 @@
       "diag": {
         "HDV3": {
           "since": 1792713284,
-          "checks": 6698,
+          "checks": 6728,
           "nodata": 0,
-          "raw": 11,
+          "raw": 14,
           "blocked": {
             "target_unreachable": 2,
             "weekly_loss(-14.35R)": 1,
             "already_open": 1,
             "loss_streak(7)": 1,
-            "duplicate_signal": 1
+            "duplicate_signal": 3
           },
-          "opened": 4,
-          "last_check": 1795492809
+          "opened": 5,
+          "last_check": 1795492848
         },
         "SWP": {
           "since": 1792713327,
@@ -277730,11 +277779,13 @@
         "SMS|DOT/USD": 1795187843007,
         "RD4|TRX/USD": 1795190650884,
         "MRA|LTC/USD": 1795453434789,
-        "RD3|PEPE/USD": 1795478703679
+        "RD3|PEPE/USD": 1795478703679,
+        "HDV3|DOGE/USD": 1795492808990
       },
       "mx_day": {
         "day": "2026-11-24",
-        "RD3": 1
+        "RD3": 1,
+        "HDV3": 1
       },
       "hot_daily": {
         "day": "2026-11-24",
@@ -277935,7 +277986,8 @@
         "MRB|LINK/USD|1h|SELL|1795449600000",
         "MRA|LTC/USD|1h|SELL|1795449600000",
         "RD3|PEPE/USD|4h|SELL|1795464000000",
-        "HDV3|DOGE/USD|4h|SELL|1795478400000"
+        "HDV3|DOGE/USD|4h|SELL|1795478400000",
+        "HDV3|BNB/USD|4h|SELL|1795478400000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -278003,7 +278055,8 @@
         "LINK|1h|SELL|1795449600000": "MRB",
         "LTC|1h|SELL|1795449600000": "MRA",
         "PEPE|4h|SELL|1795464000000": "RD3",
-        "DOGE|4h|SELL|1795478400000": "HDV3"
+        "DOGE|4h|SELL|1795478400000": "HDV3",
+        "BNB|4h|SELL|1795478400000": "HDV3"
       },
       "rd_report_ts": 1795476494
     }
