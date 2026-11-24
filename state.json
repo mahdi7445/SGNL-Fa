@@ -274574,8 +274574,6 @@
     "CC/USD|1h": 1795478881.2610137,
     "GRAM/USD|1h": 1795479538.0349653,
     "PIEVERSE/USD|1h": 1795479599.987913,
-    "HYPE/USD|1h": 1795478796.3393233,
-    "LEO/USD|1h": 1795478827.0784204,
     "NIGHT/USD|1h": 1795479584.3142455,
     "PUMP/USD|1h": 1795479592.1508908,
     "NIGHT/USD|15min": 1795479607.8217626,
@@ -277209,7 +277207,7 @@
           "nodata": 3317,
           "raw": 409,
           "blocked": {
-            "off_session": 1947,
+            "off_session": 1948,
             "no_pullback": 3601,
             "daily_cap": 2365,
             "time_budget": 120,
@@ -277290,9 +277288,10 @@
           "raw": 39,
           "blocked": {
             "duplicate_signal": 30,
-            "strategy_cap": 1
+            "strategy_cap": 1,
+            "quota": 1
           },
-          "opened": 2,
+          "opened": 3,
           "last_check": 1795478812
         },
         "RD4": {
@@ -277600,16 +277599,16 @@
         "RD6|OP/USD": 1795147241700,
         "SMS|DOT/USD": 1795187843007,
         "RD4|TRX/USD": 1795190650884,
-        "MRA|LTC/USD": 1795453434789
+        "MRA|LTC/USD": 1795453434789,
+        "RD3|PEPE/USD": 1795478703679
       },
       "mx_day": {
-        "day": "2026-11-23",
-        "MRB": 1,
-        "MRA": 1
+        "day": "2026-11-24",
+        "RD3": 1
       },
       "hot_daily": {
-        "day": "2026-11-23",
-        "n": 4
+        "day": "2026-11-24",
+        "n": 0
       },
       "hot_last": {
         "ts": 1795439735,
@@ -277687,8 +277686,10 @@
       "daily": {
         "day": "2026-11-24",
         "lowtf": 0,
-        "rnd": 0,
-        "mod": {}
+        "rnd": 1,
+        "mod": {
+          "RD3": 1
+        }
       },
       "outbox": [],
       "published": [
