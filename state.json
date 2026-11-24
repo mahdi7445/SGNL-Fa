@@ -277547,7 +277547,7 @@
             "weekly_loss(-11.45R)": 4,
             "weekly_loss(-11.25R)": 4,
             "duplicate_signal": 2,
-            "cooldown": 510,
+            "cooldown": 511,
             "loss_streak(4)": 3,
             "loss_streak(7)": 16,
             "loss_streak(8)": 30,
@@ -277556,7 +277556,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 107,
+          "opened": 108,
           "last_check": 1795504899
         },
         "FBR": {
@@ -277941,7 +277941,7 @@
       },
       "hot_daily": {
         "day": "2026-11-24",
-        "n": 2
+        "n": 3
       },
       "hot_last": {
         "ts": 1795504869,
@@ -278007,7 +278007,7 @@
         "JUP/USD": 1794734726144,
         "ASTER/USD": 1794816374855,
         "MMT/USD": 1795077811631,
-        "PEARL/USD": 1795443335883,
+        "PEARL/USD": 1795508469578,
         "SKY/USD": 1795164127264,
         "USELESS/USD": 1795182927290,
         "DRV/USD": 1795432283714
