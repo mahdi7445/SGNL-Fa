@@ -274800,7 +274800,7 @@
     "HYPE/USD|1h": 1795565586.3106391,
     "LEO/USD|1h": 1795565616.98884
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
