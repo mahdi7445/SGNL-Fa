@@ -9607,8 +9607,7 @@
         "htf_aligned": false,
         "stop_pct": 0.5898,
         "fee_r_est": 0.2543,
-        "signal_message_id": 7869,
-        "_stop_pending_since": 1795547082.7114007
+        "signal_message_id": 7869
       },
       "pending_signal": null
     },
