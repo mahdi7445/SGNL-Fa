@@ -281238,7 +281238,7 @@
             "weekly_loss(-11.45R)": 4,
             "weekly_loss(-11.25R)": 4,
             "duplicate_signal": 2,
-            "cooldown": 539,
+            "cooldown": 540,
             "loss_streak(4)": 26,
             "loss_streak(7)": 16,
             "loss_streak(8)": 30,
@@ -281247,7 +281247,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 111,
+          "opened": 112,
           "last_check": 1795614253
         },
         "FBR": {
@@ -281634,7 +281634,7 @@
       },
       "hot_daily": {
         "day": "2026-11-25",
-        "n": 2
+        "n": 3
       },
       "hot_last": {
         "ts": 1795614237,
@@ -281678,7 +281678,7 @@
         "ENA/USD": 1794988828206,
         "WLD/USD": 1793900313882,
         "CAP/USD": 1793104188816,
-        "ZEC/USD": 1795005163338,
+        "ZEC/USD": 1795617837275,
         "INJ/USD": 1794911096649,
         "Q/USD": 1793286714246,
         "TRX/USD": 1793375601454,
