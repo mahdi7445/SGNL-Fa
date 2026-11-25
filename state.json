@@ -280158,6 +280158,55 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7900
+        },
+        "ALT-001103": {
+          "id": "ALT-001103",
+          "module": "SWP",
+          "symbol": "JUP/USD",
+          "tf": "4h",
+          "side": "BUY",
+          "entry": 0.21432,
+          "sl0": 0.1903998746568343,
+          "sl": 0.1903998746568343,
+          "risk": 0.023920125343165705,
+          "targets": [
+            0.23824012534316572,
+            0.2621602506863314,
+            0.31000050137266283,
+            0.35784075205899424
+          ],
+          "levels": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.2,
+            0.3,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 0.21432,
+          "status": "open",
+          "opened_ms": 1795622723333,
+          "armed_ms": 1795622723333,
+          "last_ms": 1795622723333,
+          "bar_ms": 1795608000000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "verified",
+          "profile": "CLASSIC",
+          "msg_id": 7901
         }
       },
       "seen": [],
@@ -280225,14 +280274,14 @@
         "SWP|LDO/USD|4h": 1795608000000,
         "SWP|SHIB/USD|4h": 1795608000000,
         "SWP|PEPE/USD|4h": 1795608000000,
-        "SWP|XMR/USD|4h": 1795593600000,
-        "SWP|ZEC/USD|4h": 1795593600000,
-        "SWP|ALGO/USD|4h": 1795593600000,
-        "SWP|TRX/USD|4h": 1795593600000,
-        "SWP|BNB/USD|4h": 1795593600000,
-        "SWP|POL/USD|4h": 1795593600000,
-        "SWP|RENDER/USD|4h": 1795593600000,
-        "SWP|JUP/USD|4h": 1795593600000,
+        "SWP|XMR/USD|4h": 1795608000000,
+        "SWP|ZEC/USD|4h": 1795608000000,
+        "SWP|ALGO/USD|4h": 1795608000000,
+        "SWP|TRX/USD|4h": 1795608000000,
+        "SWP|BNB/USD|4h": 1795608000000,
+        "SWP|POL/USD|4h": 1795608000000,
+        "SWP|RENDER/USD|4h": 1795608000000,
+        "SWP|JUP/USD|4h": 1795608000000,
         "SWP|SOL/USD|4h": 1795593600000,
         "SWP|XRP/USD|4h": 1795593600000,
         "SWP|ADA/USD|4h": 1795593600000,
@@ -281167,9 +281216,9 @@
         },
         "SWP": {
           "since": 1792713327,
-          "checks": 7056,
+          "checks": 7064,
           "nodata": 0,
-          "raw": 181,
+          "raw": 182,
           "blocked": {
             "already_open": 89,
             "target_unreachable": 1,
@@ -281182,8 +281231,8 @@
             "duplicate_signal": 2,
             "loss_streak(5)": 1
           },
-          "opened": 64,
-          "last_check": 1795622767
+          "opened": 65,
+          "last_check": 1795622772
         },
         "TS1": {
           "since": 1792713334,
@@ -281651,7 +281700,7 @@
         "CN1H|LDO/USD": 1793257490853,
         "CN15|HBAR/USD": 1794026026209,
         "CN15|SHIB/USD": 1793907215453,
-        "SWP|PEPE/USD": 1794226165838,
+        "SWP|PEPE/USD": 1795622723333,
         "CN15|DOGE/USD": 1794460518059,
         "CN15|SEI/USD": 1794496859173,
         "CN15|ALGO/USD": 1793929721038,
@@ -281752,7 +281801,7 @@
       },
       "mx_day": {
         "day": "2026-11-25",
-        "SWP": 3
+        "SWP": 4
       },
       "hot_daily": {
         "day": "2026-11-25",
@@ -281968,7 +282017,8 @@
         "HOT|QNT/USD|15m|SELL|1795598100000",
         "HOT|ZEC/USD|5m|SELL|1795613700000",
         "HOT|TAO/USD|15m|SELL|1795613400000",
-        "SWP|PEPE/USD|4h|BUY|1795608000000"
+        "SWP|PEPE/USD|4h|BUY|1795608000000",
+        "SWP|JUP/USD|4h|BUY|1795608000000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -282052,7 +282102,8 @@
         "QNT|15m|SELL|1795598100000": "HOT",
         "ZEC|5m|SELL|1795613700000": "HOT",
         "TAO|15m|SELL|1795613400000": "HOT",
-        "PEPE|4h|BUY|1795608000000": "SWP"
+        "PEPE|4h|BUY|1795608000000": "SWP",
+        "JUP|4h|BUY|1795608000000": "SWP"
       },
       "rd_report_ts": 1795607131
     }
