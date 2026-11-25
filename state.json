@@ -277974,7 +277974,7 @@
     "MON/USD|15min": 1795652209.453999,
     "PIEVERSE/USD|15min": 1795652217.0632195
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
