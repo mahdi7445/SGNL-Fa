@@ -280252,8 +280252,8 @@
         "FBR|ATOM/USD|5m": 1793263200000,
         "HOT|PEPE/USD|5m|BUY": 1795505100000,
         "HOT|PEPE/USD|15m|BUY": 1795503600000,
-        "HOT|QNT/USD|5m|SELL": 1795593300000,
-        "HOT|QNT/USD|15m|SELL": 1795591800000,
+        "HOT|QNT/USD|5m|SELL": 1795593900000,
+        "HOT|QNT/USD|15m|SELL": 1795592700000,
         "HOT|ENA/USD|5m|BUY": 1793967600000,
         "HOT|ENA/USD|15m|BUY": 1793966400000,
         "HOT|ZRO/USD|5m|BUY": 1793971200000,
@@ -281068,8 +281068,8 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 7466,
-          "nodata": 3397,
+          "checks": 7468,
+          "nodata": 3403,
           "raw": 414,
           "blocked": {
             "off_session": 2074,
@@ -281091,8 +281091,8 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 109,
-          "last_check": 1795594336
+          "opened": 110,
+          "last_check": 1795594345
         },
         "FBR": {
           "since": 1792740561,
@@ -281478,7 +281478,7 @@
       },
       "hot_daily": {
         "day": "2026-11-25",
-        "n": 0
+        "n": 1
       },
       "hot_last": {
         "ts": 1795594326,
@@ -281543,7 +281543,8 @@
         "PEARL/USD": 1795508469578,
         "SKY/USD": 1795164127264,
         "USELESS/USD": 1795182927290,
-        "DRV/USD": 1795432283714
+        "DRV/USD": 1795432283714,
+        "MON/USD": 1795597926703
       },
       "daily": {
         "day": "2026-11-24",
