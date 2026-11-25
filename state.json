@@ -276928,6 +276928,55 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7876
+        },
+        "ALT-001094": {
+          "id": "ALT-001094",
+          "module": "SWP",
+          "symbol": "TAO/USD",
+          "tf": "4h",
+          "side": "BUY",
+          "entry": 180.9075,
+          "sl0": 164.72853398281376,
+          "sl": 164.72853398281376,
+          "risk": 16.17896601718624,
+          "targets": [
+            197.08646601718624,
+            213.26543203437248,
+            245.62336406874496,
+            277.9812961031174
+          ],
+          "levels": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.2,
+            0.3,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 180.9075,
+          "status": "open",
+          "opened_ms": 1795565213612,
+          "armed_ms": 1795565213612,
+          "last_ms": 1795565213612,
+          "bar_ms": 1795550400000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "verified",
+          "profile": "CLASSIC",
+          "msg_id": 7877
         }
       },
       "seen": [],
@@ -276986,10 +277035,10 @@
         "SWP|ARB/USD|4h": 1795550400000,
         "SWP|OP/USD|4h": 1795550400000,
         "SWP|INJ/USD|4h": 1795550400000,
-        "SWP|AAVE/USD|4h": 1795536000000,
-        "SWP|FIL/USD|4h": 1795536000000,
-        "SWP|ETC/USD|4h": 1795536000000,
-        "SWP|TAO/USD|4h": 1795536000000,
+        "SWP|AAVE/USD|4h": 1795550400000,
+        "SWP|FIL/USD|4h": 1795550400000,
+        "SWP|ETC/USD|4h": 1795550400000,
+        "SWP|TAO/USD|4h": 1795550400000,
         "SWP|SEI/USD|4h": 1795536000000,
         "SWP|TIA/USD|4h": 1795536000000,
         "SWP|LDO/USD|4h": 1795536000000,
@@ -277930,9 +277979,9 @@
         },
         "SWP": {
           "since": 1792713327,
-          "checks": 6899,
+          "checks": 6903,
           "nodata": 0,
-          "raw": 172,
+          "raw": 173,
           "blocked": {
             "already_open": 86,
             "target_unreachable": 1,
@@ -277945,8 +277994,8 @@
             "duplicate_signal": 2,
             "loss_streak(5)": 1
           },
-          "opened": 61,
-          "last_check": 1795565257
+          "opened": 62,
+          "last_check": 1795565260
         },
         "TS1": {
           "since": 1792713334,
@@ -278334,7 +278383,7 @@
         "SWP|SOL/USD": 1793333246489,
         "SWP|ATOM/USD": 1795118743536,
         "SWP|ARB/USD": 1794340823466,
-        "SWP|INJ/USD": 1795147241700,
+        "SWP|INJ/USD": 1795565213612,
         "SWP|SEI/USD": 1792714069627,
         "SWP|ALGO/USD": 1794326443566,
         "CN5M|APT/USD": 1793922116193,
@@ -278513,11 +278562,8 @@
         "RD12|LDO/USD": 1795521943411
       },
       "mx_day": {
-        "day": "2026-11-24",
-        "RD3": 1,
-        "HDV3": 3,
-        "CN4H": 1,
-        "RD12": 1
+        "day": "2026-11-25",
+        "SWP": 1
       },
       "hot_daily": {
         "day": "2026-11-24",
@@ -278720,7 +278766,8 @@
         "CN4H|ZEC/USD|4h|SELL|1795507200000",
         "RD12|LDO/USD|4h|SELL|1795507200000",
         "HDV3|ALGO/USD|4h|SELL|1795521600000",
-        "SWP|INJ/USD|4h|BUY|1795550400000"
+        "SWP|INJ/USD|4h|BUY|1795550400000",
+        "SWP|TAO/USD|4h|BUY|1795550400000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -278797,7 +278844,8 @@
         "ZEC|4h|SELL|1795507200000": "CN4H",
         "LDO|4h|SELL|1795507200000": "RD12",
         "ALGO|4h|SELL|1795521600000": "HDV3",
-        "INJ|4h|BUY|1795550400000": "SWP"
+        "INJ|4h|BUY|1795550400000": "SWP",
+        "TAO|4h|BUY|1795550400000": "SWP"
       },
       "rd_report_ts": 1795563480
     }
