@@ -282080,7 +282080,7 @@
           "blocked": {
             "off_session": 2133,
             "no_pullback": 3601,
-            "daily_cap": 2638,
+            "daily_cap": 2639,
             "time_budget": 128,
             "already_open": 72,
             "stop_too_small": 3,
@@ -282264,7 +282264,7 @@
             "strategy_cap": 2,
             "already_open": 1
           },
-          "opened": 2,
+          "opened": 3,
           "last_check": 1795705624
         },
         "RD12": {
@@ -282479,13 +282479,15 @@
         "CN4H|ZEC/USD": 1795521943411,
         "RD12|LDO/USD": 1795521943411,
         "HDV3|ATOM/USD": 1795694738906,
-        "RD6|ZEC/USD": 1795705569880
+        "RD6|ZEC/USD": 1795705569880,
+        "RD11|XMR/USD": 1795705569880
       },
       "mx_day": {
         "day": "2026-11-26",
         "FBR": 1,
         "HDV3": 1,
-        "RD6": 1
+        "RD6": 1,
+        "RD11": 1
       },
       "hot_daily": {
         "day": "2026-11-26",
@@ -282572,10 +282574,11 @@
       "daily": {
         "day": "2026-11-26",
         "lowtf": 1,
-        "rnd": 1,
+        "rnd": 2,
         "mod": {
           "FBR": 1,
-          "RD6": 1
+          "RD6": 1,
+          "RD11": 1
         }
       },
       "outbox": [],
