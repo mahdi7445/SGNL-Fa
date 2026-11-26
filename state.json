@@ -280852,6 +280852,55 @@
           "tier": "verified",
           "profile": "CLASSIC",
           "msg_id": 7926
+        },
+        "ALT-001116": {
+          "id": "ALT-001116",
+          "module": "SWP",
+          "symbol": "ZEC/USD",
+          "tf": "4h",
+          "side": "BUY",
+          "entry": 701.02,
+          "sl0": 588.2615056709863,
+          "sl": 588.2615056709863,
+          "risk": 112.75849432901373,
+          "targets": [
+            813.7784943290137,
+            926.5369886580274,
+            1152.053977316055,
+            1377.5709659740824
+          ],
+          "levels": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.2,
+            0.3,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 701.02,
+          "status": "open",
+          "opened_ms": 1795709306804,
+          "armed_ms": 1795709306804,
+          "last_ms": 1795709306804,
+          "bar_ms": 1795694400000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "verified",
+          "profile": "CLASSIC",
+          "msg_id": 7927
         }
       },
       "seen": [],
@@ -280901,26 +280950,26 @@
         "SWP|DOT/USD|4h": 1795694400000,
         "SWP|NEAR/USD|4h": 1795694400000,
         "SWP|ATOM/USD|4h": 1795694400000,
-        "SWP|UNI/USD|4h": 1795680000000,
-        "SWP|BCH/USD|4h": 1795680000000,
-        "SWP|XLM/USD|4h": 1795680000000,
-        "SWP|HBAR/USD|4h": 1795680000000,
-        "SWP|ICP/USD|4h": 1795680000000,
-        "SWP|APT/USD|4h": 1795680000000,
-        "SWP|ARB/USD|4h": 1795680000000,
-        "SWP|OP/USD|4h": 1795680000000,
-        "SWP|INJ/USD|4h": 1795680000000,
-        "SWP|AAVE/USD|4h": 1795680000000,
-        "SWP|FIL/USD|4h": 1795680000000,
-        "SWP|ETC/USD|4h": 1795680000000,
-        "SWP|TAO/USD|4h": 1795680000000,
-        "SWP|SEI/USD|4h": 1795680000000,
-        "SWP|TIA/USD|4h": 1795680000000,
-        "SWP|LDO/USD|4h": 1795680000000,
-        "SWP|SHIB/USD|4h": 1795680000000,
-        "SWP|PEPE/USD|4h": 1795680000000,
-        "SWP|XMR/USD|4h": 1795680000000,
-        "SWP|ZEC/USD|4h": 1795680000000,
+        "SWP|UNI/USD|4h": 1795694400000,
+        "SWP|BCH/USD|4h": 1795694400000,
+        "SWP|XLM/USD|4h": 1795694400000,
+        "SWP|HBAR/USD|4h": 1795694400000,
+        "SWP|ICP/USD|4h": 1795694400000,
+        "SWP|APT/USD|4h": 1795694400000,
+        "SWP|ARB/USD|4h": 1795694400000,
+        "SWP|OP/USD|4h": 1795694400000,
+        "SWP|INJ/USD|4h": 1795694400000,
+        "SWP|AAVE/USD|4h": 1795694400000,
+        "SWP|FIL/USD|4h": 1795694400000,
+        "SWP|ETC/USD|4h": 1795694400000,
+        "SWP|TAO/USD|4h": 1795694400000,
+        "SWP|SEI/USD|4h": 1795694400000,
+        "SWP|TIA/USD|4h": 1795694400000,
+        "SWP|LDO/USD|4h": 1795694400000,
+        "SWP|SHIB/USD|4h": 1795694400000,
+        "SWP|PEPE/USD|4h": 1795694400000,
+        "SWP|XMR/USD|4h": 1795694400000,
+        "SWP|ZEC/USD|4h": 1795694400000,
         "SWP|ALGO/USD|4h": 1795680000000,
         "SWP|TRX/USD|4h": 1795680000000,
         "SWP|BNB/USD|4h": 1795680000000,
@@ -281940,9 +281989,9 @@
         },
         "SWP": {
           "since": 1792713327,
-          "checks": 7260,
+          "checks": 7280,
           "nodata": 0,
-          "raw": 188,
+          "raw": 189,
           "blocked": {
             "already_open": 91,
             "target_unreachable": 1,
@@ -281955,8 +282004,8 @@
             "duplicate_signal": 4,
             "loss_streak(5)": 1
           },
-          "opened": 67,
-          "last_check": 1795709350
+          "opened": 68,
+          "last_check": 1795709355
         },
         "TS1": {
           "since": 1792713334,
@@ -282344,7 +282393,7 @@
         "SWP|TIA/USD": 1795579693161,
         "SWP|LDO/USD": 1793923595262,
         "SWP|SOL/USD": 1795622723333,
-        "SWP|ATOM/USD": 1795118743536,
+        "SWP|ATOM/USD": 1795709306804,
         "SWP|ARB/USD": 1794340823466,
         "SWP|INJ/USD": 1795565213612,
         "SWP|SEI/USD": 1792714069627,
@@ -282532,7 +282581,8 @@
         "FBR": 1,
         "HDV3": 1,
         "RD6": 1,
-        "RD11": 1
+        "RD11": 1,
+        "SWP": 1
       },
       "hot_daily": {
         "day": "2026-11-26",
@@ -282767,7 +282817,8 @@
         "HDV3|ATOM/USD|4h|SELL|1795680000000",
         "RD6|ZEC/USD|1h|SELL|1795701600000",
         "RD11|XMR/USD|1h|SELL|1795701600000",
-        "SWP|ATOM/USD|4h|BUY|1795694400000"
+        "SWP|ATOM/USD|4h|BUY|1795694400000",
+        "SWP|ZEC/USD|4h|BUY|1795694400000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -282862,7 +282913,8 @@
         "ATOM|4h|SELL|1795680000000": "HDV3",
         "ZEC|1h|SELL|1795701600000": "RD6",
         "XMR|1h|SELL|1795701600000": "RD11",
-        "ATOM|4h|BUY|1795694400000": "SWP"
+        "ATOM|4h|BUY|1795694400000": "SWP",
+        "ZEC|4h|BUY|1795694400000": "SWP"
       },
       "rd_report_ts": 1795694738
     }
