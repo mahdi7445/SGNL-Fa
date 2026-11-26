@@ -280611,6 +280611,57 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7916
+        },
+        "ALT-001111": {
+          "id": "ALT-001111",
+          "module": "HOT",
+          "symbol": "NEAR/USD",
+          "tf": "5m",
+          "side": "BUY",
+          "entry": 3.083,
+          "sl0": 3.0535746772820502,
+          "sl": 3.0535746772820502,
+          "risk": 0.029425322717949953,
+          "targets": [
+            3.11242532271795,
+            3.1418506454359,
+            3.2007012908718,
+            3.2595519363077
+          ],
+          "levels": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "weights": [
+            0.2,
+            0.3,
+            0.15,
+            0.1
+          ],
+          "trail": 1.5,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 3.083,
+          "status": "open",
+          "opened_ms": 1795689274665,
+          "armed_ms": 1795689274665,
+          "last_ms": 1795689274665,
+          "bar_ms": 1795688700000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "hot",
+          "profile": "CLASSIC",
+          "trigger": "TPS",
+          "hot_move_pct": 8.97,
+          "msg_id": 7917
         }
       },
       "seen": [],
@@ -280979,8 +281030,8 @@
         "HOT|PEPE/USD|15m|BUY": 1795503600000,
         "HOT|QNT/USD|5m|SELL": 1795614300000,
         "HOT|QNT/USD|15m|SELL": 1795613400000,
-        "HOT|ENA/USD|5m|BUY": 1795688400000,
-        "HOT|ENA/USD|15m|BUY": 1795687200000,
+        "HOT|ENA/USD|5m|BUY": 1795688700000,
+        "HOT|ENA/USD|15m|BUY": 1795688100000,
         "HOT|ZRO/USD|5m|BUY": 1793971200000,
         "HOT|ZRO/USD|15m|BUY": 1793970000000,
         "HOT|WLD/USD|5m|SELL": 1793896200000,
@@ -281003,7 +281054,7 @@
         "HOT|CAP/USD|15m|BUY": 1793098800000,
         "HOT|SUI/USD|5m|SELL": 1793895000000,
         "HOT|SUI/USD|15m|SELL": 1793894400000,
-        "HOT|NEAR/USD|5m|BUY": 1795688400000,
+        "HOT|NEAR/USD|5m|BUY": 1795688700000,
         "HOT|NEAR/USD|15m|BUY": 1795687200000,
         "HOT|XCN/USD|5m|BUY": 1792955100000,
         "HOT|XCN/USD|15m|BUY": 1792953900000,
@@ -281129,8 +281180,8 @@
         "BZ4H|ATOM/USD|4h": 1794124800000,
         "HOT|XRP/USD|5m|SELL": 1794222300000,
         "HOT|XRP/USD|15m|SELL": 1794221100000,
-        "HOT|NEO/USD|5m|BUY": 1795688400000,
-        "HOT|NEO/USD|15m|BUY": 1795687200000,
+        "HOT|NEO/USD|5m|BUY": 1795688700000,
+        "HOT|NEO/USD|15m|BUY": 1795688100000,
         "HOT|AAVE/USD|5m|SELL": 1794297900000,
         "HOT|ARIA/USD|5m|SELL": 1794470400000,
         "HOT|ARIA/USD|15m|SELL": 1794468600000,
@@ -281674,8 +281725,8 @@
         "RD4|ZEC/USD|1h": 1795683600000,
         "RD4|ALGO/USD|1h": 1795683600000,
         "RD4|TRX/USD|1h": 1795683600000,
-        "HOT|SSV/USD|5m|BUY": 1795688400000,
-        "HOT|SSV/USD|15m|BUY": 1795687200000,
+        "HOT|SSV/USD|5m|BUY": 1795688700000,
+        "HOT|SSV/USD|15m|BUY": 1795688100000,
         "HOT|MNT/USD|5m|BUY": 1795676400000,
         "HOT|MNT/USD|15m|BUY": 1795675500000,
         "HOT|HBAR/USD|5m|BUY": 1795682700000
@@ -281878,9 +281929,9 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 7831,
-          "nodata": 3883,
-          "raw": 448,
+          "checks": 7838,
+          "nodata": 3885,
+          "raw": 449,
           "blocked": {
             "off_session": 2133,
             "no_pullback": 3601,
@@ -281902,7 +281953,7 @@
             "target_unreachable": 2
           },
           "opened": 116,
-          "last_check": 1795688913
+          "last_check": 1795689287
         },
         "FBR": {
           "since": 1792740561,
@@ -281913,7 +281964,7 @@
             "already_open": 4,
             "loss_streak(5)": 1
           },
-          "opened": 16,
+          "opened": 17,
           "last_check": 1795689280
         },
         "TKS": {
@@ -282191,7 +282242,7 @@
         "CN15|TIA/USD": 1794069383094,
         "CN1H|TRX/USD": 1793059506286,
         "TPB|LINK/USD": 1794048165469,
-        "FBR|LINK/USD": 1795338319369,
+        "FBR|LINK/USD": 1795689274665,
         "SWP|BCH/USD": 1793894856137,
         "MRA|LINK/USD": 1793189161410,
         "MRB|LINK/USD": 1795453434789,
@@ -282283,15 +282334,15 @@
         "RD12|LDO/USD": 1795521943411
       },
       "mx_day": {
-        "day": "2026-11-25",
-        "SWP": 6
+        "day": "2026-11-26",
+        "FBR": 1
       },
       "hot_daily": {
         "day": "2026-11-26",
         "n": 3
       },
       "hot_last": {
-        "ts": 1795688909,
+        "ts": 1795689274,
         "buy": [
           [
             "SSV/USD",
@@ -282370,9 +282421,11 @@
       },
       "daily": {
         "day": "2026-11-26",
-        "lowtf": 0,
+        "lowtf": 1,
         "rnd": 0,
-        "mod": {}
+        "mod": {
+          "FBR": 1
+        }
       },
       "outbox": [],
       "published": [
@@ -282510,7 +282563,8 @@
         "HOT|SSV/USD|15m|BUY|1795677300000",
         "HOT|LTC/USD|15m|BUY|1795678200000",
         "HOT|HBAR/USD|5m|BUY|1795682700000",
-        "FBR|LINK/USD|15m|SELL|1795688100000"
+        "FBR|LINK/USD|15m|SELL|1795688100000",
+        "HOT|NEAR/USD|5m|BUY|1795688700000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -282600,7 +282654,8 @@
         "SSV|15m|BUY|1795677300000": "HOT",
         "LTC|15m|BUY|1795678200000": "HOT",
         "HBAR|5m|BUY|1795682700000": "HOT",
-        "LINK|15m|SELL|1795688100000": "FBR"
+        "LINK|15m|SELL|1795688100000": "FBR",
+        "NEAR|5m|BUY|1795688700000": "HOT"
       },
       "rd_report_ts": 1795672560
     }
