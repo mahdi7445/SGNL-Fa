@@ -281935,7 +281935,7 @@
           "blocked": {
             "off_session": 2133,
             "no_pullback": 3601,
-            "daily_cap": 2597,
+            "daily_cap": 2598,
             "time_budget": 128,
             "already_open": 72,
             "stop_too_small": 3,
@@ -281952,7 +281952,7 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 116,
+          "opened": 117,
           "last_check": 1795689287
         },
         "FBR": {
@@ -282339,7 +282339,7 @@
       },
       "hot_daily": {
         "day": "2026-11-26",
-        "n": 3
+        "n": 4
       },
       "hot_last": {
         "ts": 1795689274,
@@ -282381,7 +282381,7 @@
         "AKE/USD": 1795250576332,
         "DOT/USD": 1792762357074,
         "QNT/USD": 1795602698529,
-        "NEAR/USD": 1795075396436,
+        "NEAR/USD": 1795692874665,
         "PEPE/USD": 1795509262237,
         "VVV/USD": 1795507205999,
         "ENA/USD": 1794988828206,
