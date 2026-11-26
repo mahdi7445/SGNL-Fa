@@ -280901,8 +280901,8 @@
         "HOT|CAP/USD|15m|BUY": 1793098800000,
         "HOT|SUI/USD|5m|SELL": 1793895000000,
         "HOT|SUI/USD|15m|SELL": 1793894400000,
-        "HOT|NEAR/USD|5m|BUY": 1795678500000,
-        "HOT|NEAR/USD|15m|BUY": 1795677300000,
+        "HOT|NEAR/USD|5m|BUY": 1795679100000,
+        "HOT|NEAR/USD|15m|BUY": 1795678200000,
         "HOT|XCN/USD|5m|BUY": 1792955100000,
         "HOT|XCN/USD|15m|BUY": 1792953900000,
         "HOT|USELESS/USD|5m|SELL": 1795179000000,
@@ -281775,8 +281775,8 @@
         },
         "HOT": {
           "since": 1792713520,
-          "checks": 7700,
-          "nodata": 3723,
+          "checks": 7702,
+          "nodata": 3727,
           "raw": 443,
           "blocked": {
             "off_session": 2133,
@@ -281798,8 +281798,8 @@
             "loss_streak(6)": 38,
             "target_unreachable": 2
           },
-          "opened": 114,
-          "last_check": 1795679438
+          "opened": 115,
+          "last_check": 1795679442
         },
         "FBR": {
           "since": 1792740561,
@@ -282185,7 +282185,7 @@
       },
       "hot_daily": {
         "day": "2026-11-26",
-        "n": 1
+        "n": 2
       },
       "hot_last": {
         "ts": 1795679431,
@@ -282261,7 +282261,8 @@
         "DRV/USD": 1795432283714,
         "MON/USD": 1795597926703,
         "TAO/USD": 1795618247537,
-        "SSV/USD": 1795681970077
+        "SSV/USD": 1795681970077,
+        "LTC/USD": 1795683031730
       },
       "daily": {
         "day": "2026-11-24",
