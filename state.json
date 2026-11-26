@@ -280758,6 +280758,55 @@
           "tier": "candidate",
           "profile": "Q3",
           "msg_id": 7921
+        },
+        "ALT-001114": {
+          "id": "ALT-001114",
+          "module": "RD11",
+          "symbol": "XMR/USD",
+          "tf": "1h",
+          "side": "SELL",
+          "entry": 445.63,
+          "sl0": 478.39762169855544,
+          "sl": 478.39762169855544,
+          "risk": 32.767621698555445,
+          "targets": [
+            380.0947566028891,
+            314.5595132057782,
+            249.02426980866733,
+            150.721404713001
+          ],
+          "levels": [
+            2.0,
+            4.0,
+            6.0,
+            9.0
+          ],
+          "weights": [
+            0.35,
+            0.25,
+            0.15,
+            0.1
+          ],
+          "trail": 2.0,
+          "hit": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "runner_on": false,
+          "best": 445.63,
+          "status": "open",
+          "opened_ms": 1795705569880,
+          "armed_ms": 1795705569880,
+          "last_ms": 1795705569880,
+          "bar_ms": 1795701600000,
+          "mfe_r": 0.0,
+          "mae_r": 0.0,
+          "events": [],
+          "tier": "candidate",
+          "profile": "Q3",
+          "msg_id": 7922
         }
       },
       "seen": [],
@@ -282123,7 +282172,7 @@
           "nodata": 0,
           "raw": 43,
           "blocked": {
-            "duplicate_signal": 31,
+            "duplicate_signal": 32,
             "loss_streak(5)": 2,
             "already_open": 2,
             "quota": 2,
@@ -282141,9 +282190,10 @@
             "duplicate_signal": 28,
             "target_unreachable": 1,
             "strategy_cap": 3,
-            "loss_streak(4)": 2
+            "loss_streak(4)": 2,
+            "quota": 1
           },
-          "opened": 4,
+          "opened": 5,
           "last_check": 1795705624
         },
         "RD1": {
@@ -282209,7 +282259,7 @@
           "nodata": 0,
           "raw": 13,
           "blocked": {
-            "duplicate_signal": 5,
+            "duplicate_signal": 6,
             "target_unreachable": 1,
             "strategy_cap": 2,
             "already_open": 1
@@ -282428,12 +282478,14 @@
         "HDV3|BNB/USD": 1795492808990,
         "CN4H|ZEC/USD": 1795521943411,
         "RD12|LDO/USD": 1795521943411,
-        "HDV3|ATOM/USD": 1795694738906
+        "HDV3|ATOM/USD": 1795694738906,
+        "RD6|ZEC/USD": 1795705569880
       },
       "mx_day": {
         "day": "2026-11-26",
         "FBR": 1,
-        "HDV3": 1
+        "HDV3": 1,
+        "RD6": 1
       },
       "hot_daily": {
         "day": "2026-11-26",
@@ -282520,9 +282572,10 @@
       "daily": {
         "day": "2026-11-26",
         "lowtf": 1,
-        "rnd": 0,
+        "rnd": 1,
         "mod": {
-          "FBR": 1
+          "FBR": 1,
+          "RD6": 1
         }
       },
       "outbox": [],
@@ -282664,7 +282717,8 @@
         "FBR|LINK/USD|15m|SELL|1795688100000",
         "HOT|NEAR/USD|5m|BUY|1795688700000",
         "HDV3|ATOM/USD|4h|SELL|1795680000000",
-        "RD6|ZEC/USD|1h|SELL|1795701600000"
+        "RD6|ZEC/USD|1h|SELL|1795701600000",
+        "RD11|XMR/USD|1h|SELL|1795701600000"
       ],
       "published_bars": {
         "VVV|5m|BUY|1794726300000": "HOT",
@@ -282757,7 +282811,8 @@
         "LINK|15m|SELL|1795688100000": "FBR",
         "NEAR|5m|BUY|1795688700000": "HOT",
         "ATOM|4h|SELL|1795680000000": "HDV3",
-        "ZEC|1h|SELL|1795701600000": "RD6"
+        "ZEC|1h|SELL|1795701600000": "RD6",
+        "XMR|1h|SELL|1795701600000": "RD11"
       },
       "rd_report_ts": 1795694738
     }
