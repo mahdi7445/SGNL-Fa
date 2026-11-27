@@ -278704,7 +278704,7 @@
     "PIEVERSE/USD|5min": 1795802787.952098,
     "GRAM/USD|1h": 1795824417.1053412
   },
-  "live_check_cursor": 1,
+  "live_check_cursor": 2,
   "module_store": {
     "module_trades.json": {
       "trades": {
