@@ -230897,9 +230897,9 @@
       "pending_signal": null
     },
     "WLFI/USD|1m": {
-      "ema7": 0.019136131317482333,
-      "ema25": 0.019134571279012656,
-      "atr": 0.00011295599906590297,
+      "ema7": 0.01918209848811175,
+      "ema25": 0.019148835026780914,
+      "atr": 0.00011845914198976699,
       "tr_buffer": [
         0.0,
         7.000000000000062e-05,
@@ -230916,8 +230916,8 @@
         0.00012999999999999817,
         9.999999999999593e-05
       ],
-      "plus_dm": 3.916224173888969e-05,
-      "minus_dm": 2.6994731885809637e-05,
+      "plus_dm": 4.422208161468322e-05,
+      "minus_dm": 2.5066536751108946e-05,
       "dm_buffer": [
         [
           0.0,
@@ -230976,7 +230976,7 @@
           2.9999999999995308e-05
         ]
       ],
-      "adx": 24.09236630496525,
+      "adx": 24.346198667677324,
       "dx_buffer": [
         53.53535353535322,
         42.67148014440394,
@@ -230994,16 +230994,6 @@
         2.381023032405333
       ],
       "hist": [
-        {
-          "o": 0.0198,
-          "h": 0.01996,
-          "l": 0.01976,
-          "c": 0.01996,
-          "ema7": 0.020067741176897302,
-          "sma7": 0.02011571428571429,
-          "dt_ms": 1795859280000,
-          "v": 99110.7
-        },
         {
           "o": 0.01994,
           "h": 0.01994,
@@ -231793,6 +231783,16 @@
           "sma7": 0.019144285714285714,
           "dt_ms": 1795864020000,
           "v": 129514.6
+        },
+        {
+          "o": 0.01924,
+          "h": 0.01943,
+          "l": 0.01924,
+          "c": 0.01932,
+          "ema7": 0.01918209848811175,
+          "sma7": 0.019165714285714286,
+          "dt_ms": 1795864080000,
+          "v": 362938.90000000014
         }
       ],
       "trend_prev": "up",
@@ -231801,8 +231801,8 @@
       "last_bull_bar_index": 550,
       "last_bear_bar_index": 538,
       "last_signal_price": 0.01942,
-      "bar_index": 591,
-      "last_open_time": 1795864020000,
+      "bar_index": 592,
+      "last_open_time": 1795864080000,
       "open_trade": {
         "signal_id": "ALT-001122",
         "side": "SELL",
@@ -231816,7 +231816,7 @@
           "3": false,
           "4": false
         },
-        "closed_frac": 0.2,
+        "closed_frac": 1.0,
         "trailing_activated": false,
         "peak_price": null,
         "fills": [
@@ -231824,9 +231824,14 @@
             "target": 1,
             "frac": 0.2,
             "r": 1
+          },
+          {
+            "target": "stop",
+            "frac": 0.8,
+            "r": -0.0
           }
         ],
-        "closed": false,
+        "closed": true,
         "opened_at_ms": 1795861028209,
         "events": [
           {
@@ -231839,10 +231844,22 @@
             "ts": "2026-11-28T10:49:48.830461+00:00",
             "price": 0.018999999999999996,
             "level": 1
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-28T11:09:01.040498+00:00",
+            "price": 0.01936,
+            "r": -0.0
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-28T11:09:01.630576+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 7944,
-        "_stop_pending_since": 1795864128.6400335
+        "close_type": "breakeven"
       },
       "pending_signal": null
     }
@@ -277529,6 +277546,57 @@
       "stop_pct": null,
       "fee_r_est": null,
       "net_r_est": null
+    },
+    {
+      "signal_id": "ALT-001122",
+      "events": [
+        {
+          "type": "opened",
+          "ts": "2026-11-28T10:17:08.209842+00:00",
+          "price": 0.01936
+        },
+        {
+          "type": "rr",
+          "ts": "2026-11-28T10:49:48.830461+00:00",
+          "price": 0.018999999999999996,
+          "level": 1
+        },
+        {
+          "type": "breakeven",
+          "ts": "2026-11-28T11:09:01.040498+00:00",
+          "price": 0.01936,
+          "r": -0.0
+        },
+        {
+          "type": "closed",
+          "ts": "2026-11-28T11:09:01.630576+00:00",
+          "close_type": "breakeven",
+          "final_r": 0.2
+        }
+      ],
+      "symbol": "WLFI/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "SELL",
+      "entry": 0.01936,
+      "sl": 0.01972,
+      "final_r": 0.2,
+      "close_type": "breakeven",
+      "close_reason": "Stopped at breakeven after Target 1 (20% banked at +1R)",
+      "targets_hit": [
+        1
+      ],
+      "runner_closed": false,
+      "runner_r": null,
+      "opened_at": "2026-11-28T10:17:08.209000+00:00",
+      "closed_at": "2026-11-28T11:09:01.630576+00:00",
+      "quality_tier": null,
+      "strategy": null,
+      "htf_trend": null,
+      "htf_aligned": null,
+      "stop_pct": null,
+      "fee_r_est": null,
+      "net_r_est": null
     }
   ],
   "target_events": [
@@ -281751,6 +281819,16 @@
       "r": 1,
       "frac": 0.2,
       "at": "2026-11-28T10:49:49.324298+00:00"
+    },
+    {
+      "symbol": "WLFI/USD",
+      "tf": "1m",
+      "tier": "ارز همسو با روند (بازنده نسبت به BTC (بازار نزولی))",
+      "side": "SELL",
+      "type": "breakeven",
+      "r": -0.0,
+      "frac": 0.8,
+      "at": "2026-11-28T11:09:01.630553+00:00"
     }
   ],
   "td_unsupported": {
