@@ -280729,7 +280729,7 @@
     "WLFI/USD|5min": 1795912385.590025,
     "FF/USD|5min": 1795912400.6765904
   },
-  "live_check_cursor": 0,
+  "live_check_cursor": 1,
   "module_store": {
     "module_trades.json": {
       "trades": {
